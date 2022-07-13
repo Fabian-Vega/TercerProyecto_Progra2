@@ -1,0 +1,47 @@
+# Case of Use Play
+
+1. Player> Chooses to start the game.
+2. System> Shows the menu with two options: 1. Play, 0. Exit.
+3. Player> Chooses an option from the menu.
+4. System> If the player chooses the option 1 go to the course of events Play. If the player chooses the option 0 go to the course of events Exit.
+
+## Course of events Exit
+1. System> Shows the message "Thank you for playing FightMon, please come back soon!".
+2. System> Closes the program.
+
+## Course of events Play
+1. System> Reads the available FightMons from the FightMons.txt.
+2. System> Show the player the available FightMons for they to pick one.
+3. Player> Chooses a FightMon.
+4. System> Appears the oponent´s Fightmon.
+5. System> Set stats for the two FightMons.
+6. System> Go to the course of events Battle
+
+## Course of events Battle
+1. System> Shows the player´s FightMon´s moves.
+2. Player> Chooses a move.
+3. Oponent´s FightMon> Chooses a move.
+4. System> Determines which FightMon attacks first based on their speeds. 
+5. System> If the player´s FightMon attacks first go to course of events Player Attacks. If the oponent attacks first go to the course of events Oponent Attacks.
+6. System> If the player´s FightMon attacks first go to course of events Oponent Attacks. If the oponent attacks first go to the course of events Player Attacks.
+7. System> If it reaches this point repear course of events Battle.
+
+## Course of events Player Attacks
+1. Player´s FightMon> Uses the chosen move.
+2. Oponent´s FightMon> Receives the effect, if any.
+3. System> Checks if the Oponent´s FightMon is still alive.
+4. System> If the Oponent´s FightMon is not alive go to course of events Win. If the Oponent´s FightMon is stil alive, continue.
+
+## Course of events Oponent Attacks
+1. Oponent´s FightMon> Uses the chosen move.
+2. Player´s FightMon> Receives the effect, if any.
+3. System> Checks if the Player´s FightMon is still alive.
+4. System> If the Player´s FightMon is not alive go to course of events Loose. If the Player´s FightMon is stil alive, continue.
+
+## Course of events Win
+1. System> Shows the message "Congratulations, you have won the battle! Hurray!".
+2. System> Go to the course of events Exit
+
+## Course of events Loose
+1. System> Shows the message "Oh you lost, im so sorry, better luck next time!".
+2. System> Go to the course of events Exit
