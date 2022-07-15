@@ -1,0 +1,25 @@
+# Moveset Formulas 
+
+## DamageMove
+- OutDamage: 20 + Monster.attack 
+
+## Damage taken from DamageMove
+- remainingHealth: Monster.health - (OutDamage - Monster.defense)
+
+## DefenseMove
+- This move has speed priority, regardless of players speed. 
+
+## BuffMove
+- BuffAttack: Monster.attack + (Monster.attack * (0.5))
+- BuffSpeed: Monster.speed + (Monster.speed * (0.5))
+- BuffDefense: Monster.defense + (Monster.defense * (0.5))
+
+## BuffMove
+- DeBuffAttack: OpponentMonster.attack - (Monster.attack * (0.5))
+- DeBuffSpeed: OpponentMonster.speed - (Monster.speed * (0.5))
+- DeBuffDefense: OpponentMonster.defense - (Monster.defense * (0.5))
+
+## AttackOrder
+- The move that is run first, depends on which Monster has teh higher speed.
+- Monster with the highest speed, moves first. 
+- DefenseMove has speed priority.
