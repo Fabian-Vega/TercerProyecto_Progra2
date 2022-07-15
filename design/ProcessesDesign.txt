@@ -1,0 +1,62 @@
+# Processes(algorithms)
+
+## Game run()
+- Function that will start the Gamescreen and its processes. 
+
+## Gamescreen showMenu()
+- This function will show the menu screen to the players. 
+
+## Gamescreen showMoveset()
+- This function will show the moveset screen to the players. 
+
+## Gamescreen states
+1. Menu screen with buttons for Play , Instructions or Exit. 
+2. Screen showing the three monsters to choose from. 
+3. Battle screen showing both monsters, their health bars and movesets. 
+4. Exit screen when one of the players wins. SHows congratulating message and option to play again.
+
+## Gamescreen chooseMove()
+- Function that determines the moves that the player's Monster will make.
+
+## Monster isAlive()
+- Function that will check if this monsters health is higher tha 0.
+- Returns true if the Monster is alive, and false otherwise. 
+
+## Monster doMove()
+- Polymorphic function that is different in each type of Move.
+
+## Monster setStats()
+- Polymorphic function that will be able to set the stats of a monster.
+
+## TankMonster setStats()
+- Sets this monsters stats to:
+health  = 110
+attack  = 15
+defense = 30
+speed   = 5
+
+## WarriorMonster setStats()
+- Sets this monsters stats to:
+health  = 90
+attack  = 30
+defense = 10
+speed   = 10
+
+## SpeedsterMonster setStats()
+- Sets this monsters stats to:
+health  = 250
+attack  = 10
+defense = 10
+speed   = 30
+
+## DamageMove doMove()
+- Will do the damage to the opponent
+
+## DefenseMove doMove()
+- Will prevent this Monster from receiving damage this turn
+
+## BuffMove doMove()
+- Will raise a stat from this Monster by a set percentage.
+
+## DeBuffMove doMove()
+- Will decrease a stat from the other Monster by a set percentage.
