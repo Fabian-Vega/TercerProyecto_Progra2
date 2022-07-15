@@ -1,0 +1,20 @@
+# Moveset Formulas 
+
+## DamageMove
+- OutDamage: 20 + FightMon.attack 
+
+## Damage taken from DamageMove
+- remainingHealth: FightMon.health - (OutDamage - FightMon.defense)
+
+## DefenseMove
+- This move has speed priority, regardless of players speed. 
+
+## BuffMove
+- BuffAttack: FightMon.attack + (FightMon.attack * (0.5))
+- BuffSpeed: FightMon.speed + (FightMon.speed * (0.5))
+- BuffDefense: FightMon.defense + (FightMon.defense * (0.5))
+
+## BuffMove
+- DeBuffAttack: OpponentFightMon.attack - (FightMon.attack * (0.5))
+- DeBuffSpeed: OpponentFightMon.speed - (FightMon.speed * (0.5))
+- DeBuffDefense: OpponentFightMon.defense - (FightMon.defense * (0.5))
