@@ -1,4 +1,4 @@
-# Moveset Formulas 
+# Formulas 
 
 ## DamageMove
 - OutDamage: 20 + Monster.attack 
@@ -8,11 +8,12 @@
 
 ## DefenseMove
 - This move has speed priority, regardless of players speed. 
+- This Monster cannot receive damage this turn.
 
 ## BuffMove
-- BuffAttack: Monster.attack + (Monster.attack * (0.5))
-- BuffSpeed: Monster.speed + (Monster.speed * (0.5))
-- BuffDefense: Monster.defense + (Monster.defense * (0.5))
+- BuffAttack: Monster.attack *(1.5)
+- BuffSpeed: Monster.speed *(1.5)
+- BuffDefense: Monster.defense *(1.5)
 
 ## BuffMove
 - DeBuffAttack: OpponentMonster.attack - (Monster.attack * (0.5))
@@ -20,6 +21,6 @@
 - DeBuffDefense: OpponentMonster.defense - (Monster.defense * (0.5))
 
 ## AttackOrder
-- The move that is run first, depends on which Monster has teh higher speed.
+- The move that is run first, depends on which Monster has the higher speed.
 - Monster with the highest speed, moves first. 
 - DefenseMove has speed priority.
