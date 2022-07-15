@@ -3,45 +3,46 @@
 1. Players> Choose to start the game.
 2. System> Shows the menu with two options: 1. Play, 0. Exit.
 3. Players> Choose an option from the menu.
-4. System> If the players choose the option 1 go to the course of events Play. If the players choose the option 0 go to the course of events Exit.
+4. System> If the Players choose the option 1 go to the course of events Play. If the Players choose the option 0 go to the course of events Exit.
 
 ## Course of events Exit
 1. System> Shows the message "Thank you for playing FightMon, please come back soon!".
 2. System> Closes the program.
 
 ## Course of events Play
-1. System> Show the available Monsters for the player 1
+1. System> Show the available Monsters for the Player 1
 2. Player 1> Chooses a Monster
-3. System> Show the available Monsters for the player 2
+3. System> Show the available Monsters for the Player 2
 4. Player 2> Chooses a Monster
 5. System> Set stats for the two Monsters.
 6. System> Go to the course of events Battle
 
 ## Course of events Battle
-1. System> Shows the player 1´s Monster´s moves.
-2. Player> Chooses a move.
-3. Oponent´s Monster> Chooses a move.
-4. System> Determines which Monster attacks first based on their speeds. 
-5. System> If the player´s Monster attacks first go to course of events Player Attacks. If the oponent attacks first go to the course of events Oponent Attacks.
-6. System> If the player´s Monster attacks first go to course of events Oponent Attacks. If the oponent attacks first go to the course of events Player Attacks.
-7. System> If it reaches this point repear course of events Battle.
+1. System> Shows the moves of the Monster from the Player 1
+2. Player 1> Chooses a move.
+1. System> Shows the moves of the Monster from the Player 2
+2. Player 2> Chooses a move.
+4. System> Determines which Player attacks first based on their monster speeds. 
+5. System> If the the Player 1 attacks first go to course of events Player 1 Attacks. If the Player 2 attacks first go to the course of events Player 2 Attacks.
+6. System> If the Player 1 attacked first go to course of events Player 2 Attacks. If the Player 2 attacked first go to the course of events Player 1 Attacks.
+7. System> If it reaches this point repeat course of events Battle.
 
-## Course of events Player Attacks
-1. Player´s Monster> Uses the chosen move.
-2. Oponent´s Monster> Receives the effect, if any.
-3. System> Checks if the Oponent´s Monster is still alive.
-4. System> If the Oponent´s Monster is not alive go to course of events Win. If the Oponent´s Monster is stil alive, continue.
+## Course of events Player 1 Attacks
+1. Player 1 Monster> Uses the chosen move.
+2. Player 2 Monster> Receives the effect, if any.
+3. System> Checks if the Player 2 Monster is still alive.
+4. System> If the Player 2 Monster is not alive go to course of events Player 1 Win. If the Player 2 Monster is stil alive, continue.
 
 ## Course of events Oponent Attacks
-1. Oponent´s Monster> Uses the chosen move.
-2. Player´s Monster> Receives the effect, if any.
-3. System> Checks if the Player´s Monster is still alive.
-4. System> If the Player´s Monster is not alive go to course of events Loose. If the Player´s Monster is stil alive, continue.
+1. Player 2 Monster> Uses the chosen move.
+2. Player 1 Monster> Receives the effect, if any.
+3. System> Checks if the Player 1 Monster is still alive.
+4. System> If the Player 1 Monster is not alive go to course of events Player 2 Win. If the Player 1 Monster is stil alive, continue.
 
-## Course of events Win
-1. System> Shows the message "Congratulations, you have won the battle! Hurray!".
+## Course of events Player 1 Win
+1. System> Shows the message "Congratulations, player 1 have won the battle! Hurray!".
 2. System> Go to the course of events Exit
 
-## Course of events Loose
-1. System> Shows the message "Oh you lost, im so sorry, better luck next time!".
+## Course of events Player 2 Win
+1. System> Shows the message "Congratulations, player 2 have won the battle! Hurray!".
 2. System> Go to the course of events Exit
