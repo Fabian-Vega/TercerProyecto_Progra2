@@ -1,2 +1,21 @@
 # Processes(algorithms)
 
+## Game run()
+- Function that will start the Gamescreen and its processes. 
+
+## Gamescreen 
+- This class will have functions to be determined, that change from the several states of Gamescreen. 
+
+## Gamescreen states
+1. Menu screen with buttons for Play or Exit. 
+2. Screen showing the three monsters to choose from. 
+3. Battle screen showing both monsters, their health bars and movesets. 
+4. Exit screen when one of the players wins. SHows congratulating message and option to play again.
+
+## Monster isAlive()
+- Function that will check if this monsters health is higher tha 0.
+- Returns true if the Monster is alive, and false otherwise. 
+
+## Monster doMove()
+- Function that will check if this monsters health is higher tha 0.
+- Returns true if the Monster is alive, and false otherwise. 
