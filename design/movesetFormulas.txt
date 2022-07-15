@@ -1,7 +1,15 @@
 # Formulas 
 
+## Elemental weaknesses
+- Fire is strong to Grass and weak to Water
+- Grass is strong to Water and weak to Fire
+- Water is strong to Fire and weak to Grass
+
 ## DamageMove
-- OutDamage: 20 + Monster.attack 
+- OutDamage: 20 + (Monster.attack * X) 
+- If the OpponentMonster's element is weaker to this monster X = 1.5 
+- If the OpponentMonster's element is stronger to this monster X = 0.5 
+- If the OpponentMonster's element is the same to this monster X = 1 
 
 ## Damage taken from DamageMove
 - remainingHealth: Monster.health - (OutDamage - Monster.defense)
