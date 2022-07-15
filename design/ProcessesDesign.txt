@@ -3,36 +3,60 @@
 ## Game run()
 - Function that will start the Gamescreen and its processes. 
 
-## Gamescreen 
-- This class will have functions to be determined, that change from the several states of Gamescreen. 
+## Gamescreen showMenu()
+- This function will show the menu screen to the players. 
+
+## Gamescreen showMoveset()
+- This function will show the moveset screen to the players. 
 
 ## Gamescreen states
-1. Menu screen with buttons for Play or Exit. 
+1. Menu screen with buttons for Play , Instructions or Exit. 
 2. Screen showing the three monsters to choose from. 
 3. Battle screen showing both monsters, their health bars and movesets. 
 4. Exit screen when one of the players wins. SHows congratulating message and option to play again.
 
 ## Gamescreen chooseMove()
-- Function that determines the moves that both players will make, and calls them.
+- Function that determines the moves that the player's Monster will make.
 
 ## Monster isAlive()
 - Function that will check if this monsters health is higher tha 0.
 - Returns true if the Monster is alive, and false otherwise. 
 
 ## Monster doMove()
-- polymorphic function that is different in each type of Move.
+- Polymorphic function that is different in each type of Move.
 
 ## Monster setStats()
-- Will be able to  set the stats of a monster.
+- Polymorphic function that will be able to set the stats of a monster.
+
+## TankMonster setStats()
+- Sets this monsters stats to:
+health  = 110
+attack  = 15
+defense = 30
+speed   = 5
+
+## WarriorMonster setStats()
+- Sets this monsters stats to:
+health  = 90
+attack  = 30
+defense = 10
+speed   = 10
+
+## SpeedsterMonster setStats()
+- Sets this monsters stats to:
+health  = 250
+attack  = 10
+defense = 10
+speed   = 30
 
 ## DamageMove doMove()
 - Will do the damage to the opponent
 
 ## DefenseMove doMove()
-- Will make that this Monster does not receive damage this turn
+- Will prevent this Monster from receiving damage this turn
 
 ## BuffMove doMove()
-- Will make that this Monsters stat get augmented by a set percentage.
+- Will raise a stat from this Monster by a set percentage.
 
 ## DeBuffMove doMove()
-- Will make that this Monsters stat get decreased by a set percentage.
+- Will decrease a stat from the other Monster by a set percentage.
