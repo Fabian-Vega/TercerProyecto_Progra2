@@ -6,7 +6,7 @@
 - Water is strong to Fire and weak to Grass
 
 ## DamageMove
-- OutDamage: 20 + (Monster.attack * X) 
+- OutDamage: (20*X) + Monster.attack 
 - If the OpponentMonster's element is weaker to this monster X = 1.5 
 - If the OpponentMonster's element is stronger to this monster X = 0.5 
 - If the OpponentMonster's element is the same to this monster X = 1 

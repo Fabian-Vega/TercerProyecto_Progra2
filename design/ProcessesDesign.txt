@@ -22,7 +22,7 @@
 - Function that will check if this monsters health is higher tha 0.
 - Returns true if the Monster is alive, and false otherwise. 
 
-## Monster doMove()
+## Monster useMove()
 - Polymorphic function that is different in each type of Move.
 
 ## Monster setStats()
