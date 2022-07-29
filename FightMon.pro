@@ -7,12 +7,19 @@ SOURCES += \
   src/Game.cpp \
   src/GameScreen.cpp \
   src/MenuScene.cpp \
+  src/SelectionScreen.cpp \
   src/main.cpp \
 
 HEADERS += \
   src/Game.hpp \
   src/GameScreen.hpp \
+<<<<<<< Updated upstream
   src/MenuScene.hpp
+=======
+  src/InstructionsScene.hpp \
+  src/MenuScene.hpp \
+  src/SelectionScreen.hpp
+>>>>>>> Stashed changes
 
 RESOURCES += \
   assets/assets.qrc
