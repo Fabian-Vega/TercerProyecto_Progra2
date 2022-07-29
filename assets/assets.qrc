@@ -1,5 +1,5 @@
 <RCC>
-    <qresource prefix="/Backgrounds">
-        <file>Background.svg</file>
+    <qresource prefix="/assets">
+        <file>assets.svg</file>
     </qresource>
 </RCC>

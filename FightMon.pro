@@ -16,3 +16,5 @@ HEADERS += \
 
 RESOURCES += \
   assets/assets.qrc
+
+FORMS +=

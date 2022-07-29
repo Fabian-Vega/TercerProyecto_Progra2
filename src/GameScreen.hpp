@@ -3,16 +3,20 @@
 
 #include <QGraphicsView>
 
-#include "MenuScene.hpp"
+// Forward declarations
+class MenuScene;
+class QSvgRenderer;
 
 class GameScreen : public QGraphicsView {
   Q_OBJECT
 
  protected:
-  MenuScene menu;
+  QSvgRenderer* renderer;
+  MenuScene* menu;
 
  public:
   explicit GameScreen(QWidget *parent = nullptr);
+  ~GameScreen();
 };
 
 #endif // GAMESCREEN_HPP
