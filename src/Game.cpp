@@ -2,7 +2,7 @@
 #include "GameScreen.hpp"
 
 Game::Game(int& argc, char** argv)
-  : QApplication{argc, argv},
+  : QApplication(argc, argv),
     screen(nullptr) {
 }
 
