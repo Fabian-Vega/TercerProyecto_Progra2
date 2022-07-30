@@ -10,6 +10,7 @@ SOURCES += \
   src/GameScreen.cpp \
   src/InstructionsScene.cpp \
   src/MenuScene.cpp \
+  src/SelectionPlate.cpp \
   src/SelectionScreen.cpp \
   src/main.cpp \
 
@@ -20,6 +21,7 @@ HEADERS += \
   src/GameScreen.hpp \
   src/InstructionsScene.hpp \
   src/MenuScene.hpp \
+  src/SelectionPlate.hpp \
   src/SelectionScreen.hpp
 
 RESOURCES += \

@@ -8,7 +8,6 @@ class InstructionsScene : public GameScene {
   Q_DISABLE_COPY_MOVE(InstructionsScene)
 
  protected:
-  QGraphicsSvgItem* instrucctions;
   GameButton* goBackButton;
 
  public:
