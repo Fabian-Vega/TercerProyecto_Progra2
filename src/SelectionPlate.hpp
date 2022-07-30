@@ -1,14 +1,15 @@
 #ifndef SELECTIONPLATE_HPP
 #define SELECTIONPLATE_HPP
-/*
+
 #include <QGraphicsItemGroup>
+#include <QGraphicsObject>
 
 // Forward declaration
-class QSvgRenderer;
-class QGraphicsSvgItem;
 class GameButton;
+class QGraphicsSvgItem;
+class QSvgRenderer;
 
-class SelectionPlate : public QGraphicsItemGroup {
+class SelectionPlate : public QGraphicsObject, public QGraphicsItemGroup {
   Q_OBJECT
 
  private:
@@ -19,41 +20,69 @@ class SelectionPlate : public QGraphicsItemGroup {
   GameButton* fireButton;
   GameButton* waterButton;
   GameButton* plantButton;
+  GameButton* shieldButton;
+  GameButton* bootButton;
+  GameButton* swordButton;
+
+  bool elementSelected = false;
+  bool typeSelected = false;
 
  public:
   SelectionPlate(QSvgRenderer* renderer,
-                 QString baseIdentifier,
-                 QString elementHeaderIdentifier,
-                 QString typeHeaderIdentifier,
-                 QString fireButtonIdentifier,
-                 QString waterButtonIdentifier,
-                 QString plantButtonIdentifier,
                  QGraphicsItem* parentItem = nullptr);
 
  public:
-  void setGroup(QString baseIdentifier,
-              QString elementHeaderIdentifier,
-              QString typeHeaderIdentifier,
-              QString fireButtonIdentifier,
-              QString waterButtonIdentifier,
-              QString plantButtonIdentifier);
+  inline QGraphicsSvgItem* getBase() {
+    return this->base;
+  }
+
+  inline QGraphicsSvgItem* getElementHeader() {
+    return this->elementHeader;
+  }
+
+  inline QGraphicsSvgItem* getTypeHeader() {
+    return this->typeHeader;
+  }
+
+  inline GameButton* getFireButton() {
+    return this->fireButton;
+  }
+
+  inline GameButton* getWaterButton() {
+    return this->waterButton;
+  }
+
+  inline GameButton* getPlantButton() {
+    return this->plantButton;
+  }
+
+  inline GameButton* getShieldButton() {
+    return this->shieldButton;
+  }
+
+  inline GameButton* getBootButton() {
+    return this->bootButton;
+  }
+
+  inline GameButton* getSwordButton() {
+    return this->swordButton;
+  }
+
+ public:
+  void setGroup(QString baseIdentifier);
+  void setGroupPos(const double xPos,
+                   const double yPos);
+  QRectF boundingRect() const override;
+  void paint(QPainter *painter,
+             const QStyleOptionGraphicsItem *option,
+             QWidget *widget = nullptr) override;
 
  protected:
-  /// This template must never be used with a type
-  /// other than QGraphicsSvgItem or classes that
-  /// inherit from it, otherwise, behavior is
-  /// undefined
-  template <typename ObjectType = QGraphicsSvgItem>
-  ObjectType* setObject(ObjectType* object,
-                        QString identifier,
-                        double xPos, double yPos) {
-    Q_ASSERT(object);
-    object->setSharedRenderer(this->renderer);
-    object->setElementId(identifier);
-    object->setPos(xPos, yPos);
-    this->addToGroup(object);
-    return object;
-  }
+  QGraphicsSvgItem* setObject(QGraphicsSvgItem* object,
+                              QString identifier);
+
+  GameButton* setObject(GameButton* object,
+                              QString identifier);
 };
-*/
+
 #endif // SELECTIONPLATE_HPP

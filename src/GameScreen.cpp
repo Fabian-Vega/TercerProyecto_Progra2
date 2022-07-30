@@ -4,14 +4,15 @@
 #include "GameScreen.hpp"
 #include "InstructionsScene.hpp"
 #include "MenuScene.hpp"
+#include "SelectionScene.hpp"
 
 GameScreen::GameScreen(QWidget *parent)
   : QGraphicsView(parent),
     renderer(new QSvgRenderer(QString(":/assets/assets.svg"), this)),
     menu(new MenuScene(this->renderer)),
-    instructions(new InstructionsScene(this->renderer)) {
-  Q_ASSERT(this->menu);
-  this->setScene(this->menu);
+    instructions(new InstructionsScene(this->renderer)),
+    selection(new SelectionScene(this->renderer)) {
+  this->showMenu();
   this->connect(this->menu, &MenuScene::playPressed,
                 this, &GameScreen::startGame);
   this->connect(this->menu, &MenuScene::instructionsPressed,
@@ -19,7 +20,6 @@ GameScreen::GameScreen(QWidget *parent)
   this->connect(this->instructions, &InstructionsScene::goBackPressed,
                 this, &GameScreen::showMenu);
   #if !defined(Q_OS_ANDROID) && !defined(Q_OS_IOS)
-    this->resize(this->menu->width(), this->menu->height());
     this->setWindowFlags(
         Qt::CustomizeWindowHint | Qt::WindowCloseButtonHint);
   #endif
@@ -51,5 +51,9 @@ void GameScreen::showMenu() {
 }
 
 void GameScreen::startGame() {
-
+  Q_ASSERT(this->selection);
+  this->setScene(this->selection);
+  #if !defined(Q_OS_ANDROID) && !defined(Q_OS_IOS)
+   this->resize(this->selection->width(), this->selection->height());
+  #endif
 }

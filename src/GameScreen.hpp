@@ -7,6 +7,7 @@
 class InstructionsScene;
 class MenuScene;
 class QSvgRenderer;
+class SelectionScene;
 
 class GameScreen : public QGraphicsView {
   Q_OBJECT
@@ -15,6 +16,7 @@ class GameScreen : public QGraphicsView {
   QSvgRenderer* renderer;
   MenuScene* menu;
   InstructionsScene* instructions;
+  SelectionScene* selection;
 
  public:
   explicit GameScreen(QWidget* parent = nullptr);

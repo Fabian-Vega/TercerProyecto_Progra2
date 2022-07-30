@@ -7,6 +7,9 @@
 
 #include "GameButton.hpp"
 
+// Forward delcaration
+class SelectionPlate;
+
 class GameScene : public QGraphicsScene {
   Q_OBJECT
   Q_DISABLE_COPY_MOVE(GameScene)
@@ -28,6 +31,12 @@ class GameScene : public QGraphicsScene {
                  const QString identifier,
                  const double xPos,
                  const double yPos);
+  SelectionPlate* setObject(SelectionPlate* object,
+                 const QString identifier,
+                 const double xPos,
+                 const double yPos);
+  virtual void addGroup(SelectionPlate* item);
+
  public:
   inline qreal height() const {
     return this->getBackground()->boundingRect().height();

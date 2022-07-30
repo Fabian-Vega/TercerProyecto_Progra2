@@ -11,7 +11,7 @@ SOURCES += \
   src/InstructionsScene.cpp \
   src/MenuScene.cpp \
   src/SelectionPlate.cpp \
-  src/SelectionScreen.cpp \
+  src/SelectionScene.cpp \
   src/main.cpp \
 
 HEADERS += \
@@ -22,7 +22,7 @@ HEADERS += \
   src/InstructionsScene.hpp \
   src/MenuScene.hpp \
   src/SelectionPlate.hpp \
-  src/SelectionScreen.hpp
+  src/SelectionScene.hpp
 
 RESOURCES += \
   assets/assets.qrc
