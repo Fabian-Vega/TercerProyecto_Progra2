@@ -1,20 +1,18 @@
 #ifndef SELECTIONPLATE_HPP
 #define SELECTIONPLATE_HPP
 
-#include <QGraphicsItemGroup>
-#include <QGraphicsObject>
+#include <QGraphicsSvgItem>
 
 // Forward declaration
 class GameButton;
 class QGraphicsSvgItem;
 class QSvgRenderer;
 
-class SelectionPlate : public QGraphicsObject, public QGraphicsItemGroup {
+class SelectionPlate : public QGraphicsSvgItem {
   Q_OBJECT
 
  private:
   QSvgRenderer* renderer;
-  QGraphicsSvgItem* base;
   QGraphicsSvgItem* elementHeader;
   QGraphicsSvgItem* typeHeader;
   GameButton* fireButton;
@@ -24,16 +22,23 @@ class SelectionPlate : public QGraphicsObject, public QGraphicsItemGroup {
   GameButton* bootButton;
   GameButton* swordButton;
 
-  bool elementSelected = false;
-  bool typeSelected = false;
+  short elementSelected = 0;
+  short typeSelected = 0;
 
  public:
   SelectionPlate(QSvgRenderer* renderer,
                  QGraphicsItem* parentItem = nullptr);
 
+ signals:
+  void selectionDone();
+
+ protected slots:
+  void selectElement(short buttonNumber);
+  void selectType(short buttonNumber);
+
  public:
   inline QGraphicsSvgItem* getBase() {
-    return this->base;
+    return this;
   }
 
   inline QGraphicsSvgItem* getElementHeader() {
@@ -68,21 +73,27 @@ class SelectionPlate : public QGraphicsObject, public QGraphicsItemGroup {
     return this->swordButton;
   }
 
+  inline short getElementSelected() {
+    return this->elementSelected;
+  }
+
+  inline short getTypeSelected() {
+    return this->typeSelected;
+  }
+
  public:
   void setGroup(QString baseIdentifier);
   void setGroupPos(const double xPos,
                    const double yPos);
-  QRectF boundingRect() const override;
-  void paint(QPainter *painter,
-             const QStyleOptionGraphicsItem *option,
-             QWidget *widget = nullptr) override;
 
  protected:
-  QGraphicsSvgItem* setObject(QGraphicsSvgItem* object,
+  QGraphicsSvgItem* setItem(QGraphicsSvgItem* item,
                               QString identifier);
 
-  GameButton* setObject(GameButton* object,
-                              QString identifier);
+  GameButton* setButton(GameButton* button,
+                        short buttonNumber,
+                        QString identifier,
+                        short category);
 };
 
 #endif // SELECTIONPLATE_HPP

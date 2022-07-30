@@ -9,7 +9,7 @@
 
 namespace FightMon {
 
-static const std::string types[3] = {"Fire", "Water", "Grass"};
+static const std::string types[3] = {"Fire", "Water", "PLant"};
 
 class Monster {
  protected: // Attributes

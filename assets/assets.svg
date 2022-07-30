@@ -22,9 +22,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
      showgrid="true"
-     inkscape:zoom="0.5020458"
-     inkscape:cx="1376.3685"
-     inkscape:cy="89.633257"
+     inkscape:zoom="1.0040916"
+     inkscape:cx="1051.6969"
+     inkscape:cy="745.94788"
      inkscape:window-width="1600"
      inkscape:window-height="877"
      inkscape:window-x="-8"
@@ -441,7 +441,7 @@
   </g>
   <g
      id="waterButtonOff"
-     transform="matrix(4.375,0,0,4.375,886.62113,156.0902)"
+     transform="matrix(4.5,0,0,4.5,886.62113,156.1527)"
      inkscape:label="waterButtonOff">
     <title
        id="title1940">waterButtonOff</title>
@@ -675,7 +675,7 @@
   </g>
   <g
      id="playButton"
-     transform="matrix(3.6,0,0,3.6,886.51533,280.30307)"
+     transform="matrix(3.5,0,0,3.5,886.51533,280.25307)"
      inkscape:label="playButton">
     <title
        id="title1942">playButton</title>
@@ -1127,7 +1127,7 @@
   </g>
   <g
      id="backButton"
-     transform="matrix(3.6,0,0,3.6,987.31301,278.02251)"
+     transform="matrix(3.5,0,0,3.5,987.31301,277.97251)"
      inkscape:label="backButton">
     <title
        id="title1944">backButton</title>
@@ -1284,5 +1284,67 @@
        stroke="#fd7d12"
        d="m 21,33 h 1 m 21,0 h 1 m -22,1 h 21"
        id="path30" />
+  </g>
+  <g
+     id="continueButtonOn"
+     transform="matrix(3.3181818,0,0,5.5536729,597.97858,547.8201)"
+     inkscape:label="continueButtonOn">
+    <title
+       id="title1258">continueButtonOn</title>
+    <path
+       stroke="#080000"
+       d="m 12,7 h 29 m 5,0 h 4 M 11,8 h 1 m 38,0 h 1 M 10,9 h 1 m 3,0 h 3 m 2,0 h 2 m 2,0 h 1 m 2,0 h 1 m 1,0 h 3 m 1,0 h 1 m 1,0 h 1 m 2,0 h 1 m 1,0 h 1 m 2,0 h 1 m 1,0 h 3 m 4,0 h 1 M 9,10 h 1 m 3,0 h 1 m 4,0 h 1 m 2,0 h 1 m 1,0 h 2 m 1,0 h 1 m 2,0 h 1 m 2,0 h 1 m 1,0 h 2 m 1,0 h 1 m 1,0 h 1 m 2,0 h 1 m 1,0 h 1 m 7,0 h 1 M 9,11 h 1 m 3,0 h 1 m 4,0 h 1 m 2,0 h 1 m 1,0 h 1 m 1,0 h 2 m 2,0 h 1 m 2,0 h 1 m 1,0 h 1 m 1,0 h 2 m 1,0 h 1 m 2,0 h 1 m 1,0 h 3 m 5,0 h 1 M 9,12 h 1 m 3,0 h 1 m 4,0 h 1 m 2,0 h 1 m 1,0 h 1 m 2,0 h 1 m 2,0 h 1 m 2,0 h 1 m 1,0 h 1 m 2,0 h 1 m 1,0 h 1 m 2,0 h 1 m 1,0 h 1 m 7,0 h 1 m -43,1 h 1 m 3,0 h 3 m 2,0 h 2 m 2,0 h 1 m 2,0 h 1 m 2,0 h 1 m 2,0 h 1 m 1,0 h 1 m 2,0 h 1 m 2,0 h 2 m 2,0 h 3 m 4,0 h 1 m -41,1 h 1 m 38,0 h 1 m -39,1 h 28 m 6,0 h 3"
+       id="path326-5" />
+    <path
+       stroke="#000000"
+       d="m 41,7 h 5 m -6,8 h 6 m 3,0 h 1"
+       id="path328" />
+    <path
+       stroke="#fffbfa"
+       d="m 12,8 h 2 m -3,1 h 2"
+       id="path330" />
+    <path
+       stroke="#c7d47d"
+       d="M 14,8 H 50 M 13,9 h 1 m 36,0 h 1"
+       id="path332-1" />
+    <path
+       stroke="#bdde00"
+       d="m 17,9 h 2 m 2,0 h 2 m 1,0 h 2 m 1,0 h 1 m 3,0 h 1 m 1,0 h 1 m 1,0 h 2 m 1,0 h 1 m 1,0 h 2 m 1,0 h 1 m 3,0 h 3 m -40,1 h 3 m 1,0 h 4 m 1,0 h 2 m 1,0 h 1 m 2,0 h 1 m 1,0 h 2 m 1,0 h 2 m 1,0 h 1 m 2,0 h 1 m 1,0 h 1 m 1,0 h 2 m 1,0 h 1 m 1,0 h 7 m -42,1 h 3 m 1,0 h 4 m 1,0 h 2 m 1,0 h 1 m 1,0 h 1 m 2,0 h 2 m 1,0 h 2 m 1,0 h 1 m 1,0 h 1 m 2,0 h 1 m 1,0 h 2 m 1,0 h 1 m 3,0 h 5 m -40,1 h 1 m 1,0 h 4 m 1,0 h 2 m 1,0 h 1 m 1,0 h 2 m 1,0 h 2 m 1,0 h 2 m 1,0 h 1 m 1,0 h 2 m 1,0 h 1 m 1,0 h 2 m 1,0 h 1 m 1,0 h 4 m -37,1 h 2 m 3,0 h 2 m 2,0 h 2 m 1,0 h 2 m 1,0 h 2 m 1,0 h 2 m 1,0 h 1 m 1,0 h 2 m 1,0 h 2 m 2,0 h 2 m 3,0 h 2"
+       id="path334" />
+    <path
+       stroke="#829900"
+       d="m 10,12 h 2 m 37,0 h 3 m -41,1 h 1 m 37,0 h 2 m -39,1 h 38"
+       id="path336" />
+  </g>
+  <g
+     id="continueButtonOff"
+     transform="matrix(3.3181818,0,0,5.47692,597.50274,609.53341)"
+     inkscape:label="continueButtonOff">
+    <title
+       id="title1260">continueButtonOff</title>
+    <path
+       stroke="#080000"
+       d="m 12,7 h 29 m 5,0 h 4 M 11,8 h 1 m 38,0 h 1 M 10,9 h 1 m 3,0 h 3 m 2,0 h 2 m 2,0 h 1 m 2,0 h 1 m 1,0 h 3 m 1,0 h 1 m 1,0 h 1 m 2,0 h 1 m 1,0 h 1 m 2,0 h 1 m 1,0 h 3 m 4,0 h 1 M 9,10 h 1 m 3,0 h 1 m 4,0 h 1 m 2,0 h 1 m 1,0 h 2 m 1,0 h 1 m 2,0 h 1 m 2,0 h 1 m 1,0 h 2 m 1,0 h 1 m 1,0 h 1 m 2,0 h 1 m 1,0 h 1 m 7,0 h 1 M 9,11 h 1 m 3,0 h 1 m 4,0 h 1 m 2,0 h 1 m 1,0 h 1 m 1,0 h 2 m 2,0 h 1 m 2,0 h 1 m 1,0 h 1 m 1,0 h 2 m 1,0 h 1 m 2,0 h 1 m 1,0 h 3 m 5,0 h 1 M 9,12 h 1 m 3,0 h 1 m 4,0 h 1 m 2,0 h 1 m 1,0 h 1 m 2,0 h 1 m 2,0 h 1 m 2,0 h 1 m 1,0 h 1 m 2,0 h 1 m 1,0 h 1 m 2,0 h 1 m 1,0 h 1 m 7,0 h 1 m -43,1 h 1 m 3,0 h 3 m 2,0 h 2 m 2,0 h 1 m 2,0 h 1 m 2,0 h 1 m 2,0 h 1 m 1,0 h 1 m 2,0 h 1 m 2,0 h 2 m 2,0 h 3 m 4,0 h 1 m -41,1 h 1 m 38,0 h 1 m -39,1 h 28 m 6,0 h 3"
+       id="path346" />
+    <path
+       stroke="#000000"
+       d="m 41,7 h 5 m -6,8 h 6 m 3,0 h 1"
+       id="path348" />
+    <path
+       stroke="#fffbfa"
+       d="m 12,8 h 2 m -3,1 h 2"
+       id="path350-6" />
+    <path
+       stroke="#c2c2c2"
+       d="M 14,8 H 50 M 13,9 h 1 m 36,0 h 1"
+       id="path352" />
+    <path
+       stroke="#7d7d7d"
+       d="m 17,9 h 2 m 2,0 h 2 m 1,0 h 2 m 1,0 h 1 m 3,0 h 1 m 1,0 h 1 m 1,0 h 2 m 1,0 h 1 m 1,0 h 2 m 1,0 h 1 m 3,0 h 3 m -40,1 h 3 m 1,0 h 4 m 1,0 h 2 m 1,0 h 1 m 2,0 h 1 m 1,0 h 2 m 1,0 h 2 m 1,0 h 1 m 2,0 h 1 m 1,0 h 1 m 1,0 h 2 m 1,0 h 1 m 1,0 h 7 m -42,1 h 3 m 1,0 h 4 m 1,0 h 2 m 1,0 h 1 m 1,0 h 1 m 2,0 h 2 m 1,0 h 2 m 1,0 h 1 m 1,0 h 1 m 2,0 h 1 m 1,0 h 2 m 1,0 h 1 m 3,0 h 5 m -40,1 h 1 m 1,0 h 4 m 1,0 h 2 m 1,0 h 1 m 1,0 h 2 m 1,0 h 2 m 1,0 h 2 m 1,0 h 1 m 1,0 h 2 m 1,0 h 1 m 1,0 h 2 m 1,0 h 1 m 1,0 h 4 m -37,1 h 2 m 3,0 h 2 m 2,0 h 2 m 1,0 h 2 m 1,0 h 2 m 1,0 h 2 m 1,0 h 1 m 1,0 h 2 m 1,0 h 2 m 2,0 h 2 m 3,0 h 2"
+       id="path354" />
+    <path
+       stroke="#616161"
+       d="m 10,12 h 2 m 37,0 h 3 m -41,1 h 1 m 37,0 h 2 m -39,1 h 38"
+       id="path356-7" />
   </g>
 </svg>

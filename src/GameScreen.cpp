@@ -31,13 +31,14 @@ GameScreen::GameScreen(QWidget *parent)
 GameScreen::~GameScreen() {
   delete this->menu;
   delete this->instructions;
+  delete this->selection;
 }
 
 void GameScreen::showInstructions() {
   Q_ASSERT(this->instructions);
   this->setScene(this->instructions);
   #if !defined(Q_OS_ANDROID) && !defined(Q_OS_IOS)
-    this->resize(this->instructions->width(),
+    this->setFixedSize(this->instructions->width(),
                  this->instructions->height());
   #endif
 }
@@ -46,7 +47,7 @@ void GameScreen::showMenu() {
   Q_ASSERT(this->menu);
   this->setScene(this->menu);
   #if !defined(Q_OS_ANDROID) && !defined(Q_OS_IOS)
-   this->resize(this->menu->width(), this->menu->height());
+   this->setFixedSize(this->menu->width(), this->menu->height());
   #endif
 }
 
@@ -54,6 +55,6 @@ void GameScreen::startGame() {
   Q_ASSERT(this->selection);
   this->setScene(this->selection);
   #if !defined(Q_OS_ANDROID) && !defined(Q_OS_IOS)
-   this->resize(this->selection->width(), this->selection->height());
+   this->setFixedSize(this->selection->width(), this->selection->height());
   #endif
 }

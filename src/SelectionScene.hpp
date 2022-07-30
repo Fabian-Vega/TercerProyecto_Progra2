@@ -14,15 +14,31 @@ class SelectionScene : public GameScene {
   SelectionPlate* secondPlayerPlate;
   GameButton* continueButton;
 
+  bool firstSelectionDone;
+  bool secondSelectionDone;
+
  public:
   explicit SelectionScene(QSvgRenderer* renderer,
                            QObject *parent = nullptr);
+  ~SelectionScene();
+
  signals:
   void continuePressed();
 
+ protected slots:
+  void finishFirstSelection();
+  void finishSecondSelection();
+
+ public:
+  short getPlayerChoice (short player, short category);
+
  protected:
-  void addGroup(SelectionPlate* group) override;
   void setSelection();
+  SelectionPlate* setObject(SelectionPlate* object,
+                 const QString identifier,
+                 const double xPos,
+                 const double yPos);
+  void addGroup(SelectionPlate* group);
 };
 
 #endif // SELECTIONSCENE_H

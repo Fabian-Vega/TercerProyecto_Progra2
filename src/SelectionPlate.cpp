@@ -1,4 +1,3 @@
-#include <QGraphicsSvgItem>
 #include <QSvgRenderer>
 
 #include "SelectionPlate.hpp"
@@ -6,10 +5,8 @@
 
 SelectionPlate::SelectionPlate(QSvgRenderer* renderer,
                                QGraphicsItem* parentItem)
-  : QGraphicsObject(parentItem),
-    QGraphicsItemGroup(parentItem),
+  : QGraphicsSvgItem(parentItem),
     renderer(renderer),
-    base(nullptr),
     elementHeader(nullptr),
     typeHeader(nullptr),
     fireButton(nullptr),
@@ -20,54 +17,88 @@ SelectionPlate::SelectionPlate(QSvgRenderer* renderer,
     swordButton(nullptr) {
 }
 
-QGraphicsSvgItem* SelectionPlate::setObject(
-                            QGraphicsSvgItem* object,
-                            QString identifier) {
-  Q_ASSERT(object == nullptr);
-  object = new QGraphicsSvgItem();
-  Q_ASSERT(object);
-  object->setSharedRenderer(this->renderer);
-  object->setElementId(identifier);
-  this->addToGroup(object);
-  return object;
+void SelectionPlate::selectElement(short buttonNumber) {
+  switch(buttonNumber) {
+    case 1:
+      this->fireButton->setElementId(QString("fireButtonOn"));
+      this->waterButton->setElementId(QString("waterButtonOff"));
+      this->plantButton->setElementId(QString("plantButtonOff"));
+    break;
+
+    case 2:
+      this->fireButton->setElementId(QString("fireButtonOff"));
+      this->waterButton->setElementId(QString("waterButtonOn"));
+      this->plantButton->setElementId(QString("plantButtonOff"));
+    break;
+
+    case 3:
+      this->fireButton->setElementId(QString("fireButtonOff"));
+      this->waterButton->setElementId(QString("waterButtonOff"));
+      this->plantButton->setElementId(QString("plantButtonOn"));
+    break;
+  }
+  this->elementSelected = buttonNumber;
+  if (typeSelected) {
+    emit this->selectionDone();
+  }
 }
 
-GameButton* SelectionPlate::setObject(
-                            GameButton* object,
-                            QString identifier) {
-  Q_ASSERT(object == nullptr);
-  object = new GameButton();
-  Q_ASSERT(object);
-  object->setSharedRenderer(this->renderer);
-  object->setElementId(identifier);
-  this->addToGroup(object);
-  return object;
+void SelectionPlate::selectType(short buttonNumber) {
+  switch(buttonNumber) {
+    case 1:
+      this->shieldButton->setElementId(QString("shieldButtonOn"));
+      this->bootButton->setElementId(QString("bootButtonOff"));
+      this->swordButton->setElementId(QString("swordButtonOff"));
+    break;
+
+    case 2:
+      this->shieldButton->setElementId(QString("shieldButtonOff"));
+      this->bootButton->setElementId(QString("bootButtonOn"));
+      this->swordButton->setElementId(QString("swordButtonOff"));
+    break;
+
+    case 3:
+      this->shieldButton->setElementId(QString("shieldButtonOff"));
+      this->bootButton->setElementId(QString("bootButtonOff"));
+      this->swordButton->setElementId(QString("swordButtonOn"));
+    break;
+  }
+  this->typeSelected = buttonNumber;
+  if (elementSelected) {
+    emit this->selectionDone();
+  }
 }
 
 void SelectionPlate::setGroup(
     QString baseIdentifier) {
-  this->base = setObject(this->base, baseIdentifier);
-  this->elementHeader = setObject(this->elementHeader,
+  setItem(this, baseIdentifier);
+  this->elementHeader = this->setItem(this->elementHeader,
                               QString("elementHeader"));
-  this->typeHeader = setObject(this->typeHeader,
+  this->typeHeader = this->setItem(this->typeHeader,
                               QString("typeHeader"));
-  this->fireButton = setObject(this->fireButton,
-                              QString("fireButtonOn"));
-  this->waterButton = setObject(this->waterButton,
-                              QString("waterButtonOn"));
-  this->plantButton = setObject(this->plantButton,
-                                QString("plantButtonOn"));
-  this->shieldButton = setObject(this->shieldButton,
-                                QString("shieldButtonOn"));
-  this->bootButton = setObject(this->bootButton,
-                                QString("bootButtonOn"));
-  this->swordButton = setObject(this->swordButton,
-                                QString("swordButtonOn"));
+
+  this->fireButton = this->setButton(this->fireButton, 1,
+                             QString("fireButtonOn"), 0);
+
+  this->waterButton = this->setButton(this->waterButton, 2,
+                              QString("waterButtonOn"), 0);
+
+  this->plantButton = this->setButton(this->plantButton, 3,
+                              QString("plantButtonOn"), 0);
+
+  this->shieldButton = this->setButton(this->shieldButton, 1,
+                               QString("shieldButtonOn"), 1);
+
+  this->bootButton = this->setButton(this->bootButton, 2,
+                              QString("bootButtonOn"), 1);
+
+  this->swordButton = this->setButton(this->swordButton, 3,
+                              QString("swordButtonOn"), 1);
 }
 
 void SelectionPlate::setGroupPos(const double xPos,
                                  const double yPos) {
-  this->base->setPos(xPos, yPos);
+  this->setPos(xPos, yPos);
   this->elementHeader->setPos(xPos+80.5, yPos+67);
   this->typeHeader->setPos(xPos+95, yPos+202);
   this->fireButton->setPos(xPos+10.5, yPos+97);
@@ -78,21 +109,34 @@ void SelectionPlate::setGroupPos(const double xPos,
   this->swordButton->setPos(xPos+169.5, yPos+237);
 }
 
-QRectF SelectionPlate::boundingRect() const {
-  return this->base->boundingRect();
+QGraphicsSvgItem* SelectionPlate::setItem(
+                            QGraphicsSvgItem* item,
+                            QString identifier) {
+  if (item == nullptr) {
+    item = new QGraphicsSvgItem();
+  }
+  Q_ASSERT(item);
+  item->setSharedRenderer(this->renderer);
+  item->setElementId(identifier);
+  return item;
 }
 
-void SelectionPlate::paint(QPainter* painter,
-                           const QStyleOptionGraphicsItem* option,
-                           QWidget* widget) {
-  this->base->paint(painter, option, widget);
-  this->elementHeader->paint(painter, option, widget);
-  this->typeHeader->paint(painter, option, widget);
-  this->fireButton->paint(painter, option, widget);
-  this->waterButton->paint(painter, option, widget);
-  this->plantButton->paint(painter, option, widget);
-  this->shieldButton->paint(painter, option, widget);
-  this->bootButton->paint(painter, option, widget);
-  this->swordButton->paint(painter, option, widget);
+GameButton* SelectionPlate::setButton(
+                            GameButton* button,
+                            short buttonNumber,
+                            QString identifier,
+                            short category) {
+  Q_ASSERT(button == nullptr);
+  button = new GameButton(buttonNumber);
+  Q_ASSERT(button);
+  button->setSharedRenderer(this->renderer);
+  button->setElementId(identifier);
+  if (category == 0) {
+    this->connect(button, &GameButton::pressed,
+                  this, &SelectionPlate::selectElement);
+  } else {
+    this->connect(button, &GameButton::pressed,
+                  this, &SelectionPlate::selectType);
+  }
+  return button;
 }
-

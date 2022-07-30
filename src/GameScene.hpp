@@ -8,6 +8,7 @@
 #include "GameButton.hpp"
 
 // Forward delcaration
+class MovesetLayout;
 class SelectionPlate;
 
 class GameScene : public QGraphicsScene {
@@ -22,21 +23,6 @@ class GameScene : public QGraphicsScene {
   explicit GameScene(QSvgRenderer* renderer,
                      QObject* parent = nullptr);
 
- protected:
-  QGraphicsSvgItem* setObject(QGraphicsSvgItem* object,
-                 const QString identifier,
-                 const double xPos,
-                 const double yPos);
-  GameButton* setObject(GameButton* object,
-                 const QString identifier,
-                 const double xPos,
-                 const double yPos);
-  SelectionPlate* setObject(SelectionPlate* object,
-                 const QString identifier,
-                 const double xPos,
-                 const double yPos);
-  virtual void addGroup(SelectionPlate* item);
-
  public:
   inline qreal height() const {
     return this->getBackground()->boundingRect().height();
@@ -50,6 +36,16 @@ class GameScene : public QGraphicsScene {
   inline QGraphicsSvgItem* getBackground() const {
     return this->background;
   }
+
+ protected:
+  QGraphicsSvgItem* setObject(QGraphicsSvgItem* object,
+                 const QString identifier,
+                 const double xPos,
+                 const double yPos);
+  GameButton* setObject(GameButton* object,
+                 const QString identifier,
+                 const double xPos,
+                 const double yPos);
 };
 
 #endif  // GAMESCENE_HPP

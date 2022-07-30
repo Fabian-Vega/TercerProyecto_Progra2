@@ -4,13 +4,17 @@
 #include <QGraphicsSvgItem>
 
 class GameButton : public QGraphicsSvgItem {
-  Q_OBJECT
+ Q_OBJECT
+
+ private:
+  short buttonIdentifier;
 
  public:
-  explicit GameButton(QGraphicsItem* parentItem = nullptr);
+  explicit GameButton(short buttonIdentifier = 0,
+                      QGraphicsItem* parentItem = nullptr);
 
  signals:
-  void pressed();
+  void pressed(short buttonIdentifier);
 
  protected:
   void mousePressEvent(QGraphicsSceneMouseEvent* event) override;
