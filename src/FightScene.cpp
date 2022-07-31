@@ -120,7 +120,7 @@ void FightScene::resolveAttack(Monster* attacker,
     this->showMessage(receiverNum+1, 2);
     if (receiver->useMove(2, receiver) &&
         this->movesChosen[attackerNum] == 1) {
-      this->showMessage(attackerNum+1, 2);
+      this->showMessage(attackerNum+1, 1);
       this->showMessage(attackerNum+1, 5);
       return;
     }
