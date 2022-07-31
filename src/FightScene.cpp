@@ -92,8 +92,8 @@ void FightScene::addMoves(MovesetLayout* moves) {
 }
 
 void FightScene::addHealthBar(HealthBar* healthbar) {
-  this->addItem(healthbar->getBar());
   this->addItem(healthbar->getFrame());
+  this->addItem(healthbar->getBar());
 }
 
 void FightScene::resolveAttack(Monster* attacker,
