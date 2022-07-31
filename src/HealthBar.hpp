@@ -21,6 +21,14 @@ class HealthBar : public QGraphicsSvgItem {
                      Monster* monster,
                      QGraphicsSvgItem *parentItem = nullptr);
 
+ public:
+  inline QGraphicsSvgItem* getFrame() {
+    return this;
+  }
+  inline QGraphicsSvgItem* getBar() {
+    return this->currentHealth;
+  }
+
  protected:
   void setHealthBar();
 

@@ -27,6 +27,7 @@ Monster::~Monster() {
 
 // Monster Initializer method
 void Monster::initializeMonster() {
+  this->setSharedRenderer(this->renderer);
   this->setStats();
   this->setMoveset();
 }
@@ -43,7 +44,7 @@ void Monster::setMoveset() {
 
   srand(time(NULL));
   this->debuffStat = 1 + rand() % 4;
-  this->moveset[2] = new BuffMove(this->debuffStat, 0.5);
+  this->moveset[3] = new BuffMove(this->debuffStat, 0.5);
 }
 
 /// General functions

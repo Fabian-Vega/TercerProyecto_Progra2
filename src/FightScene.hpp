@@ -28,9 +28,10 @@ class FightScene : public GameScene {
               QObject *parent = nullptr);
 
  protected:
-   void setFight();
    void swapFight();
-   void addGroup(MovesetLayout* group);
+   void setFight();
+   void addMoves(MovesetLayout* moves);
+   void addHealthBar(HealthBar* healthbar);
 };
 
 #endif // FIGHTSCENE_HPP

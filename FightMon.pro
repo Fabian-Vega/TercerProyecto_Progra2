@@ -20,6 +20,9 @@ SOURCES += \
   src/MovesetLayout.cpp \
   src/SelectionPlate.cpp \
   src/SelectionScene.cpp \
+  src/SpeedsterMonster.cpp \
+  src/TankMonster.cpp \
+  src/WarriorMonster.cpp \
   src/main.cpp \
 
 HEADERS += \
@@ -40,6 +43,9 @@ HEADERS += \
   src/MovesetLayout.hpp \
   src/SelectionPlate.hpp \
   src/SelectionScene.hpp \
+  src/SpeedsterMonster.hpp \
+  src/TankMonster.hpp \
+  src/WarriorMonster.hpp
 
 RESOURCES += \
   assets/assets.qrc

@@ -18,5 +18,5 @@ void HealthBar::setHealthBar() {
   this->currentHealth = new QGraphicsSvgItem;
   Q_ASSERT(this->currentHealth);
   this->currentHealth->setSharedRenderer(this->renderer);
-  this->setElementId(QString("HealthGreen"));
+  this->setElementId(QString("GreenBar"));
 }
