@@ -60,6 +60,14 @@ void FightScene::fight(short move) {
 
 }
 
+void FightScene::player1Won() {
+  emit this->playerWon(1);
+}
+
+void FightScene::player2Won() {
+  emit this->playerWon(2);
+}
+
 void FightScene::setFight() {
   this->background = this->setObject(
                      this->background, QString("fightBackground"),
@@ -71,9 +79,13 @@ void FightScene::setFight() {
   this->addItem(this->player2);
   this->player1HealthBar->setHealthPos(20, 20);
   this->addHealthBar(this->player1HealthBar);
+  this->connect(this->player1HealthBar, &HealthBar::monsterDied,
+                this, &FightScene::player1Won);
   this->player2HealthBar->flip(false);
   this->player2HealthBar->setHealthPos(670, 20);
   this->addHealthBar(this->player2HealthBar);
+  this->connect(this->player2HealthBar, &HealthBar::monsterDied,
+                this, &FightScene::player2Won);
   this->player1Moveset->setLayoutPos(20, 280);
   this->addMoves(this->player1Moveset);
   this->connect(this->player1Moveset, &MovesetLayout::moveSelected,
@@ -105,18 +117,18 @@ void FightScene::resolveAttack(Monster* attacker,
                               short attackerNum){
   short receiverNum = 2-(attackerNum--);
   if (this->movesChosen[receiverNum] == 2) {
-    this->showMessage(receiverNum, 2);
+    this->showMessage(receiverNum+1, 2);
     if (receiver->useMove(2, receiver) &&
         this->movesChosen[attackerNum] == 1) {
       return;
     }
-    this->showMessage(receiverNum, 5);
+    this->showMessage(receiverNum+1, 5);
   }
-  if  (this->movesChosen[attackerNum] != 2) {
+  if (this->movesChosen[attackerNum] != 2) {
     attacker->useMove(this->movesChosen[attackerNum],
         this->movesChosen[attackerNum] == 3?
           attacker : receiver);
-    showMessage(attackerNum,
+    showMessage(attackerNum+1,
                 (this->movesChosen[attackerNum] == 3?
                    (attacker->getBuffStat() == 1?
                       6:this->movesChosen[attackerNum])

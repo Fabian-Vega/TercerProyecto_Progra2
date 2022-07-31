@@ -23,26 +23,31 @@ class FightScene : public GameScene {
    short movesChosen[2] = {0, 0};
 
  public:
-   FightScene(QSvgRenderer* renderer,
-              Monster* player1,
-              Monster* player2,
-              QObject *parent = nullptr);
+  FightScene(QSvgRenderer* renderer,
+             Monster* player1,
+             Monster* player2,
+             QObject *parent = nullptr);
+
+ signals:
+  void playerWon(short player);
 
  protected slots:
-   void swapFight(short move);
-   void fight(short move);
+  void swapFight(short move);
+  void fight(short move);
+  void player1Won();
+  void player2Won();
 
  protected:
-   void setFight();
-   void addMoves(MovesetLayout* moves);
-   void addHealthBar(HealthBar* healthbar);
+  void setFight();
+  void addMoves(MovesetLayout* moves);
+  void addHealthBar(HealthBar* healthbar);
 
  protected:
-   void resolveAttack(Monster* attacker,
+  void resolveAttack(Monster* attacker,
                      Monster* receiver,
                      short attackerNum);
-   void showMessage(const short player,
-                    const short action);
+  void showMessage(const short player,
+                   const short action);
 };
 
 #endif // FIGHTSCENE_HPP
