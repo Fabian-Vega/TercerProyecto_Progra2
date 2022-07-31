@@ -13,13 +13,13 @@ class FightScene : public GameScene {
   Q_DISABLE_COPY_MOVE(FightScene)
 
   protected:
-   Monster* attacker;
-   Monster* opponent;
-   HealthBar* attackerHealthBar;
-   HealthBar* opponentHealthBar;
-   MovesetLayout* attackerMoveset;
-   MovesetLayout* opponentMoveset;
-   short attacksChose[2] = {0, 0};
+   Monster* player1;
+   Monster* player2;
+   HealthBar* player1HealthBar;
+   HealthBar* player2HealthBar;
+   MovesetLayout* player1Moveset;
+   MovesetLayout* player2Moveset;
+   short movesChosen[2] = {0, 0};
 
  public:
    FightScene(QSvgRenderer* renderer,
@@ -27,11 +27,19 @@ class FightScene : public GameScene {
               Monster* player2,
               QObject *parent = nullptr);
 
+ protected slots:
+   void swapFight(short move);
+   void fight(short move);
+
  protected:
-   void swapFight();
    void setFight();
    void addMoves(MovesetLayout* moves);
    void addHealthBar(HealthBar* healthbar);
+
+ protected:
+   void resolveAttack(Monster* attacker,
+                     Monster* receiver,
+                     short attackerNum);
 };
 
 #endif // FIGHTSCENE_HPP

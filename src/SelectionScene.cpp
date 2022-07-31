@@ -37,12 +37,12 @@ void SelectionScene::finishSecondSelection() {
 
 short SelectionScene::getPlayerChoice(
     short player, short category) {
-  if (player == 0) {
-    return (category == 0?
+  if (player == 1) {
+    return (category == 1?
             this->firstPlayerPlate->getElementSelected():
             this->firstPlayerPlate->getTypeSelected());
   } else {
-    return (category == 0?
+    return (category == 1?
             this->secondPlayerPlate->getElementSelected():
             this->secondPlayerPlate->getTypeSelected());
   }

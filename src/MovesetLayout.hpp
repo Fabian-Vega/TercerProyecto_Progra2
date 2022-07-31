@@ -23,7 +23,7 @@ class MovesetLayout : public QGraphicsSvgItem {
                 Monster* monster,
                 QGraphicsItem* parentItem = nullptr);
  signals:
-  void moveSelected(short attack);
+  void moveSelected(short move);
 
  protected slots:
   void selectMove(short buttonNumber);

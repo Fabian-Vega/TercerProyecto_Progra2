@@ -3,6 +3,7 @@
 
 #include <QGraphicsSvgItem>
 #include <string>
+#include <vector>
 
 #include "Move.hpp"
 
@@ -26,21 +27,23 @@ class Monster : public QGraphicsSvgItem {
   int defense;
   int speed;
   short elementalType;
-  Move** moveset;
+  std::vector<Move*> moveset;
 
   short buffStat = 0;
   short debuffStat = 0;
 
  public: // Constructor and destructor
   explicit Monster(QSvgRenderer* renderer,
-                   short type = 0,
+                   short element = 0,
                    QGraphicsSvgItem *parent = nullptr);
   ~Monster();
 
  protected: // Initializers
   void initializeMonster();
+  virtual void loadMonster() = 0;
   virtual void setStats() = 0;
   virtual void setMoveset();
+  virtual void changeOrientation(bool orientation) = 0;
 
  public: // Accesors (general purpose)
   /// Returns true if the monsters current health is above 0.0
@@ -65,10 +68,12 @@ class Monster : public QGraphicsSvgItem {
   inline double getMaxHealth() const {
     return this->health.maxHealth;
   }
+
   /// Returns the current value of the monsters health
   inline double getCurrentHealth() const {
     return this->health.currentHealth;
   }
+
   /// Sets the current health to a value below or equal
   /// to the maxHealth
   inline void setHealth(
@@ -122,7 +127,7 @@ class Monster : public QGraphicsSvgItem {
   /// @remark behavior having an elementalTyoe < 0 or > 2 is
   /// undefined
   inline std::string getTypeName() const {
-    return types[this->elementalType];
+    return types[this->elementalType-1];
   }
 
   /// General methods
@@ -137,6 +142,7 @@ class Monster : public QGraphicsSvgItem {
   }
 
  public: // General functions
+  void flip(bool orientation);
   static double typeRelation(const short firstType,
   const short secondType);
 };

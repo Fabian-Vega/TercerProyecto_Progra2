@@ -8,6 +8,13 @@ WarriorMonster::WarriorMonster(
     short type,
     QGraphicsSvgItem* parent)
   : Monster(renderer, type, parent) {
+  this->initializeMonster();
+}
+
+void WarriorMonster::loadMonster() {
+  this->setSharedRenderer(this->renderer);
+  this->setElementId(
+        QString("MonsterRight_%1_3").arg(this->elementalType));
 }
 
 void WarriorMonster::setStats() {
@@ -16,4 +23,11 @@ void WarriorMonster::setStats() {
   this->attack = 30;
   this->defense = 10;
   this->speed = 10;
+}
+
+void WarriorMonster::changeOrientation(bool orientation) {
+  this->setElementId(
+        QString("Monster%1_%2_3").arg(
+          (orientation? QString("Right"):QString("Left"))).arg(
+          this->elementalType));
 }

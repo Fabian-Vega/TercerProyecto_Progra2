@@ -1,10 +1,15 @@
 #include <QGraphicsSvgItem>
 #include <QSvgRenderer>
 
+#include "FightScene.hpp"
 #include "GameScreen.hpp"
 #include "InstructionsScene.hpp"
 #include "MenuScene.hpp"
+#include "Monster.hpp"
 #include "SelectionScene.hpp"
+#include "SpeedsterMonster.hpp"
+#include "TankMonster.hpp"
+#include "WarriorMonster.hpp"
 
 GameScreen::GameScreen(QWidget *parent)
   : QGraphicsView(parent),
@@ -19,6 +24,9 @@ GameScreen::GameScreen(QWidget *parent)
                 this, &GameScreen::showInstructions);
   this->connect(this->instructions, &InstructionsScene::goBackPressed,
                 this, &GameScreen::showMenu);
+  this->connect(this->selection, &SelectionScene::continuePressed,
+                this, &GameScreen::startFight);
+
   #if !defined(Q_OS_ANDROID) && !defined(Q_OS_IOS)
     this->setWindowFlags(
         Qt::CustomizeWindowHint | Qt::WindowCloseButtonHint);
@@ -57,4 +65,39 @@ void GameScreen::startGame() {
   #if !defined(Q_OS_ANDROID) && !defined(Q_OS_IOS)
    this->setFixedSize(this->selection->width(), this->selection->height());
   #endif
+}
+
+void GameScreen::startFight() {
+  Monster* player1 = this->monsterFactory(
+                       this->selection->getPlayerChoice(1, 1),
+                       this->selection->getPlayerChoice(1, 2));
+  Monster* player2 = this->monsterFactory(
+                       this->selection->getPlayerChoice(2, 1),
+                       this->selection->getPlayerChoice(2, 2));
+  this->fight = new FightScene(this->renderer,
+                               player1,
+                               player2);
+  Q_ASSERT(this->fight);
+  this->setScene(this->fight);
+  #if !defined(Q_OS_ANDROID) && !defined(Q_OS_IOS)
+   this->setFixedSize(this->fight->width(), this->fight->height());
+  #endif
+}
+
+Monster* GameScreen::monsterFactory(
+    short element, short type) const {
+  switch(type) {
+    case 1:
+      return new TankMonster(this->renderer, element);
+    break;
+    case 2:
+      return new SpeedsterMonster(this->renderer, element);
+    break;
+    case 3:
+      return new WarriorMonster(this->renderer, element);
+    break;
+    default:
+      return nullptr;
+    break;
+  }
 }

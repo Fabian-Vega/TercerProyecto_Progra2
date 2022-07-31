@@ -16,7 +16,9 @@ class SpeedsterMonster : public Monster {
    ~SpeedsterMonster() = default;
 
   protected: // Iniatializer
+   void loadMonster() override;
    void setStats() override;
+   void changeOrientation(bool orientation) override;
 };
 
 #endif // SPEEDSTERMONSTER_HPP

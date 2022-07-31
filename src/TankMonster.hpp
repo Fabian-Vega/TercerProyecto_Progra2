@@ -16,7 +16,9 @@ class TankMonster : public Monster {
    ~TankMonster() = default;
 
   protected: // Iniatializer
+   void loadMonster() override;
    void setStats() override;
+   void changeOrientation(bool orientation) override;
 };
 
 #endif // TANKMONSTER_HPP

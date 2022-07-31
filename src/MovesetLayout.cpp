@@ -24,10 +24,10 @@ void MovesetLayout::setLayoutPos(
     const double xPos,
     const double yPos){
   this->setPos(xPos, yPos);
-  this->damageMove->setPos(xPos, yPos);
-  this->defenseMove->setPos(xPos, yPos);
-  this->buffMove->setPos(xPos, yPos);
-  this->debuffMove->setPos(xPos, yPos);
+  this->damageMove->setPos(xPos+20, yPos+10);
+  this->defenseMove->setPos(xPos+180, yPos+10);
+  this->buffMove->setPos(xPos+350, yPos+10);
+  this->debuffMove->setPos(xPos+510, yPos+10);
 }
 
 GameButton* MovesetLayout::setButton(
@@ -46,21 +46,21 @@ GameButton* MovesetLayout::setButton(
 
 void MovesetLayout::setMovesetLayout(Monster* monster) {
   this->setSharedRenderer(this->renderer);
-  this->setElementId(QString("MovesetBackground"));
+  this->setElementId(QString("movesetLayout"));
 
   this->damageMove = this->setButton(this->damageMove, 1,
-                                   QString("damageMove"));
+                                   QString("attackButton"));
 
   this->defenseMove = this->setButton(this->defenseMove, 2,
-                                   QString("defenseMove"));
+                                   QString("defenseButton"));
 
   this->buffMove = this->setButton(
                      this->buffMove, 3,
-                     QString("buffMove0%1").arg(
+                     QString("buffButton_%1").arg(
                        monster->getBuffStat()));
 
   this->debuffMove = this->setButton(
                      this->debuffMove, 4,
-                     QString("debuffMove0%1").arg(
+                     QString("debuffButton_%1").arg(
                        monster->getBuffStat()));
 }

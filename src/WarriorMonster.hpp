@@ -16,7 +16,9 @@ class WarriorMonster : public Monster {
    ~WarriorMonster() = default;
 
   protected: // Iniatializer
+   void loadMonster() override;
    void setStats() override;
+   void changeOrientation(bool orientation) override;
 };
 
 #endif // WARRIORMONSTER_HPP
