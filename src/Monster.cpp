@@ -42,11 +42,11 @@ void Monster::setMoveset() {
   this->moveset[1] = new DefenseMove();
 
   srand(time(NULL));
-  this->buffStat = QRandomGenerator::global()->bounded(1, 4);
+  this->buffStat = QRandomGenerator::global()->bounded(1, 5);
   this->moveset[2] = new BuffMove(this->buffStat, 1.5);
 
   srand(time(NULL));
-  this->debuffStat = QRandomGenerator::global()->bounded(2, 4);
+  this->debuffStat = QRandomGenerator::global()->bounded(2, 5);
   this->moveset[3] = new BuffMove(this->debuffStat, 0.5);
 }
 
