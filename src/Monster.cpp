@@ -1,6 +1,6 @@
-#include <QRandomGenerator>
 #include <QSvgRenderer>
 
+#include "Common.hpp"
 #include "BuffMove.hpp"
 #include "DamageMove.hpp"
 #include "DefenseMove.hpp"
@@ -42,11 +42,11 @@ void Monster::setMoveset() {
   this->moveset[1] = new DefenseMove();
 
   srand(time(NULL));
-  this->buffStat = QRandomGenerator::global()->bounded(1, 5);
+  this->buffStat = random(1, 4);
   this->moveset[2] = new BuffMove(this->buffStat, 1.5);
 
   srand(time(NULL));
-  this->debuffStat = QRandomGenerator::global()->bounded(2, 5);
+  this->debuffStat = random(2, 4);
   this->moveset[3] = new BuffMove(this->debuffStat, 0.5);
 }
 

@@ -19,6 +19,7 @@ class FightScene : public GameScene {
    HealthBar* player2HealthBar;
    MovesetLayout* player1Moveset;
    MovesetLayout* player2Moveset;
+   QGraphicsSvgItem* message;
    short movesChosen[2] = {0, 0};
 
  public:
@@ -40,6 +41,8 @@ class FightScene : public GameScene {
    void resolveAttack(Monster* attacker,
                      Monster* receiver,
                      short attackerNum);
+   void showMessage(const short player,
+                    const short action);
 };
 
 #endif // FIGHTSCENE_HPP

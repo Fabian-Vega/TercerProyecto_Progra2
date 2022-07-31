@@ -5,6 +5,7 @@ CONFIG += c++17
 
 SOURCES += \
   src/BuffMove.cpp \
+  src/Common.cpp \
   src/DamageMove.cpp \
   src/DefenseMove.cpp \
   src/FightScene.cpp \
