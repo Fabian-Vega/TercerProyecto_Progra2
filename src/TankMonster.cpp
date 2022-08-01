@@ -18,11 +18,11 @@ void TankMonster::loadMonster() {
 }
 
 void TankMonster::setStats() {
-  this->health.maxHealth = 50;
-  this->health.currentHealth = 50;
-  this->attack = 63;
-  this->defense = 152;
-  this->speed = 35;
+  this->health.maxHealth = 95;
+  this->health.currentHealth = 95;
+  this->attack = 60;
+  this->defense = 105;
+  this->speed = 40;
 }
 
 void TankMonster::changeOrientation(bool orientation) {
