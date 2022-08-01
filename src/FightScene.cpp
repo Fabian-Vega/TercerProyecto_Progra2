@@ -1,3 +1,5 @@
+#include <iostream>
+
 #include "Common.hpp"
 #include "FightScene.hpp"
 #include "HealthBar.hpp"
@@ -58,6 +60,8 @@ void FightScene::fight(short move) {
     this->player1HealthBar->updateHealthBar(
           this->player1->getCurrentHealth());
   }
+  std::cout << "Player 1 health: " << this->player1->getCurrentHealth() << " / " << this->player1->getMaxHealth() << std::endl;
+  std::cout << "Player 2 health: " << this->player2->getCurrentHealth() << " / " << this->player2->getMaxHealth() << std::endl;
   this->player1->flip(true);
   this->player1HealthBar->flip(true);
   this->player2->flip(false);
