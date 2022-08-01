@@ -22,6 +22,7 @@ SOURCES += \
   src/MovesetLayout.cpp \
   src/SelectionPlate.cpp \
   src/SelectionScene.cpp \
+  src/Sound.cpp \
   src/SpeedsterMonster.cpp \
   src/TankMonster.cpp \
   src/WarriorMonster.cpp \
@@ -46,6 +47,7 @@ HEADERS += \
   src/MovesetLayout.hpp \
   src/SelectionPlate.hpp \
   src/SelectionScene.hpp \
+  src/Sound.hpp \
   src/SpeedsterMonster.hpp \
   src/TankMonster.hpp \
   src/WarriorMonster.hpp
