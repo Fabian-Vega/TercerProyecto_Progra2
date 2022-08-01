@@ -67,7 +67,7 @@ void GameScreen::showMenu() {
   this->mainSong.play(true);
   this->setScene(this->menu);
   #if !defined(Q_OS_ANDROID) && !defined(Q_OS_IOS)
-   this->setFixedSize(this->menu->width(), this->menu->height());
+    this->setFixedSize(this->menu->width(), this->menu->height());
   #endif
 
 }
@@ -76,7 +76,7 @@ void GameScreen::startGame() {
   Q_ASSERT(this->selection);
   this->setScene(this->selection);
   #if !defined(Q_OS_ANDROID) && !defined(Q_OS_IOS)
-   this->setFixedSize(this->selection->width(), this->selection->height());
+    this->setFixedSize(this->selection->width(), this->selection->height());
   #endif
 }
 
@@ -97,7 +97,7 @@ void GameScreen::startFight() {
   this->connect(this->fight, &FightScene::playerWon,
                 this, &GameScreen::showEndScreen);
   #if !defined(Q_OS_ANDROID) && !defined(Q_OS_IOS)
-   this->setFixedSize(this->fight->width(), this->fight->height());
+    this->setFixedSize(this->fight->width(), this->fight->height());
   #endif
 }
 
@@ -110,7 +110,7 @@ void GameScreen::showEndScreen(size_t winner) {
     this->setScene(this->end);
     this->connect(this->end, &EndScene::backToMenu,
                   this, &GameScreen::showMenu);
-    // Should free fight here
+    delete this->fight;
   }
 }
 
