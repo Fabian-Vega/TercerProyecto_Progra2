@@ -137,8 +137,8 @@ class Monster : public QGraphicsSvgItem {
   /// @remark behavior with an index > 3 is
   /// undefined
   inline bool useMove(
-    const short moveIndex, Monster* target) {
-    return this->moveset[moveIndex]->use(this, target);
+    const short move, Monster* target) {
+    return this->moveset[move-1]->use(this, target);
   }
 
  public: // General functions
