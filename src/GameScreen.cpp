@@ -110,7 +110,6 @@ void GameScreen::showEndScreen(size_t winner) {
     this->setScene(this->end);
     this->connect(this->end, &EndScene::backToMenu,
                   this, &GameScreen::showMenu);
-    delete this->fight;
   }
 }
 
