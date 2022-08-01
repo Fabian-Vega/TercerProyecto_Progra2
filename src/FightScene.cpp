@@ -60,8 +60,20 @@ void FightScene::fight(short move) {
     this->player1HealthBar->updateHealthBar(
           this->player1->getCurrentHealth());
   }
-  std::cout << "Player 1 health: " << this->player1->getCurrentHealth() << " / " << this->player1->getMaxHealth() << std::endl;
-  std::cout << "Player 2 health: " << this->player2->getCurrentHealth() << " / " << this->player2->getMaxHealth() << std::endl;
+  std::cout << "Player 1 stats: " << std::endl
+  << "Health: " << player1->getCurrentHealth() << "/" << player1->getMaxHealth() << std::endl
+  << "Attack: " << player1->getAttack() << std::endl
+  << "Defense: " << player1->getDefense() << std::endl
+  << "Speed: " << player1->getSpeed() << std::endl
+  << "Type: " << player1->getTypeName() << std::endl << std::endl;
+
+  std::cout << "Player 2 stats: " << std::endl
+  << "Health: " << player2->getCurrentHealth() << "/" << player2->getMaxHealth() << std::endl
+  << "Attack: " << player2->getAttack() << std::endl
+  << "Defense: " << player2->getDefense() << std::endl
+  << "Speed: " << player2->getSpeed() << std::endl
+  << "Type: " << player2->getTypeName() << std::endl << std::endl;
+
   this->player1->flip(true);
   this->player1HealthBar->flip(true);
   this->player2->flip(false);
@@ -160,6 +172,6 @@ void FightScene::showMessage(const short player,
           QString("player_%1_%2").arg(player).arg(action));
   }
   this->message->setPos(20, 280);
-  wait(2);
+  wait(1);
   this->message->setPos(outOfScreenX, outOfScreenY);
 }

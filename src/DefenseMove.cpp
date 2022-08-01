@@ -12,6 +12,5 @@ bool DefenseMove::use(Monster* user,
   Q_UNUSED(user);
   Q_UNUSED(target);
 
-  time_t seconds = time(nullptr);
-  return seconds % 2 == 0? true:false;
+  return random(1, 100) % 2 == 0? true:false;
 }

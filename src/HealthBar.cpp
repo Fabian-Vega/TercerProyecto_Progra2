@@ -52,7 +52,7 @@ void HealthBar::healHealthBar(const double newHealth) {
 
   QPropertyAnimation* movingRight =
       new QPropertyAnimation(this->bar, "y");
-  movingRight->setDuration(10000);
+  movingRight->setDuration(1000);
   movingRight->setStartValue(this->bar->y());
   movingRight->setEndValue(this->bar->y()+movingDistance);
   movingRight->start();
@@ -72,7 +72,7 @@ void HealthBar::reduceHealthBar(const double newHealth) {
 
   QPropertyAnimation* movingLeft =
       new QPropertyAnimation(this->bar, "y");
-  movingLeft->setDuration(10000);
+  movingLeft->setDuration(1000);
   movingLeft->setStartValue(this->bar->y());
   movingLeft->setEndValue(this->bar->y()-movingDistance);
   movingLeft->start();
