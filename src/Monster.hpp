@@ -10,7 +10,7 @@
 // Forward declaration
 class QSvgRenderer;
 
-static const std::string types[3] = {"Fire", "Water", "PLant"};
+static const std::string types[3] = {"Fire", "Water", "Plant"};
 
 class Monster : public QGraphicsSvgItem {
   Q_OBJECT
