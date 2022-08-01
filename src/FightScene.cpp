@@ -14,7 +14,7 @@ FightScene::FightScene(QSvgRenderer* renderer,
     player1(player1),
     player2(player2),
     player1HealthBar(new HealthBar(renderer, player1)),
-    player2HealthBar(new HealthBar(renderer, player1)),
+    player2HealthBar(new HealthBar(renderer, player2)),
     player1Moveset(new MovesetLayout(renderer, player1)),
     player2Moveset(new MovesetLayout(renderer, player2)),
     message(nullptr) {
@@ -57,14 +57,14 @@ void FightScene::fight(size_t move) {
     this->player2HealthBar->updateHealthBar(
           this->player2->getCurrentHealth());
   }
-  std::cout << "Player 1 stats: " << std::endl
+  std::cerr << "Player 1 stats: " << std::endl
   << "Health: " << player1->getCurrentHealth() << "/" << player1->getMaxHealth() << std::endl
   << "Attack: " << player1->getAttack() << std::endl
   << "Defense: " << player1->getDefense() << std::endl
   << "Speed: " << player1->getSpeed() << std::endl
   << "Type: " << player1->getTypeName() << std::endl << std::endl;
 
-  std::cout << "Player 2 stats: " << std::endl
+  std::cerr << "Player 2 stats: " << std::endl
   << "Health: " << player2->getCurrentHealth() << "/" << player2->getMaxHealth() << std::endl
   << "Attack: " << player2->getAttack() << std::endl
   << "Defense: " << player2->getDefense() << std::endl

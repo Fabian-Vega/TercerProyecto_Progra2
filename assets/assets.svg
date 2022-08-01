@@ -22,13 +22,13 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
      showgrid="true"
-     inkscape:zoom="0.34513888"
-     inkscape:cx="1852.8773"
-     inkscape:cy="1903.5816"
+     inkscape:zoom="0.97620017"
+     inkscape:cx="309.36278"
+     inkscape:cy="2094.8572"
      inkscape:window-width="1350"
      inkscape:window-height="861"
-     inkscape:window-x="78"
-     inkscape:window-y="0"
+     inkscape:window-x="120"
+     inkscape:window-y="67"
      inkscape:window-maximized="0"
      inkscape:current-layer="svg458"
      showguides="true">
@@ -2870,86 +2870,6 @@
        id="path922" />
   </g>
   <g
-     id="RedBar"
-     transform="matrix(0,-2.03125,1.0556446,0,583.06038,654.86645)"
-     inkscape:label="RedBar">
-    <title
-       id="title6063">RedBar</title>
-    <g
-       style="shape-rendering:crispEdges"
-       id="g232"
-       transform="translate(0.74545491,10.536364)">
-      <path
-         stroke="#d22a32"
-         d="m 20,19 h 1 m 92,0 h 1 m -94,8 h 1 m 92,0 h 1"
-         id="path220-0" />
-      <path
-         stroke="#d82432"
-         d="m 21,19 h 92 m -94,1 h 96 m -96,1 h 96 m -96,1 h 96 m -96,1 h 96 m -96,1 h 96 m -96,1 h 96 m -96,1 h 96 m -94,1 h 92"
-         id="path222-7" />
-    </g>
-  </g>
-  <g
-     id="YellowBar"
-     transform="matrix(0,-2.03125,1.0557654,0,646.21553,631.92438)"
-     inkscape:label="YellowBar">
-    <title
-       id="title6061">YellowBar</title>
-    <g
-       style="shape-rendering:crispEdges"
-       id="g369"
-       transform="translate(-17.254545,3.9909088)">
-      <path
-         stroke="#dbc955"
-         d="m 20,19 h 2 m 90,0 h 2 m -94,8 h 2 m 90,0 h 2"
-         id="path327" />
-      <path
-         stroke="#dcc956"
-         d="m 22,19 h 2 m 86,0 h 2 m -90,8 h 2 m 86,0 h 2"
-         id="path329-0" />
-      <path
-         stroke="#ddc956"
-         d="m 24,19 h 1 m 84,0 h 1 m -91,1 h 1 m 94,0 h 1 m -96,6 h 1 m 94,0 h 1 m -91,1 h 1 m 84,0 h 1"
-         id="path331" />
-      <path
-         stroke="#dec956"
-         d="m 25,19 h 3 m 78,0 h 3 m -84,8 h 3 m 78,0 h 3"
-         id="path333" />
-      <path
-         stroke="#dfc956"
-         d="m 28,19 h 1 m 76,0 h 1 m -78,8 h 1 m 76,0 h 1"
-         id="path335-6" />
-      <path
-         stroke="#dfc957"
-         d="m 29,19 h 2 m 72,0 h 2 m -76,8 h 2 m 72,0 h 2"
-         id="path337" />
-      <path
-         stroke="#e0c957"
-         d="m 31,19 h 1 m 70,0 h 1 m -72,8 h 1 m 70,0 h 1"
-         id="path339" />
-      <path
-         stroke="#e0ca57"
-         d="m 32,19 h 1 m 68,0 h 1 m -70,8 h 1 m 68,0 h 1"
-         id="path341-3" />
-      <path
-         stroke="#e1ca57"
-         d="m 33,19 h 4 m 60,0 h 4 m -68,8 h 4 m 60,0 h 4"
-         id="path343" />
-      <path
-         stroke="#e2ca57"
-         d="m 37,19 h 2 m 56,0 h 2 m -60,8 h 2 m 56,0 h 2"
-         id="path345" />
-      <path
-         stroke="#e2ca58"
-         d="m 39,19 h 5 m 46,0 h 5 m -76,2 h 1 m 94,0 h 1 m -96,4 h 1 m 94,0 h 1 m -76,2 h 5 m 46,0 h 5"
-         id="path347-3" />
-      <path
-         stroke="#e3ca58"
-         d="m 44,19 h 46 m -70,1 h 94 m -94,1 h 94 m -95,1 h 96 m -96,1 h 96 m -96,1 h 96 m -95,1 h 94 m -94,1 h 94 m -70,1 h 46"
-         id="path349" />
-    </g>
-  </g>
-  <g
      id="HealthFrameUp"
      transform="matrix(0,-0.99940207,1.0000959,0,-817.20541,1139.9882)"
      inkscape:label="HealthFrameUp">
@@ -3186,38 +3106,6 @@
        stroke="rgba(255,255,255,0.5607843137254902)"
        d="m 502,253 h 1 m 110,0 h 1 m -7,12 h 1 m 5,0 h 1 m 71,50 h 1 m -174,3 h 1 m 172,3 h 1 m -280,12 h 1 m 202,0 h 1"
        id="path104416" />
-  </g>
-  <g
-     id="GreenBar"
-     transform="matrix(0,-2.03125,1.0558254,0,603.19226,624.20437)"
-     inkscape:label="GreenBar">
-    <title
-       id="title6059">GreenBar</title>
-    <g
-       style="shape-rendering:crispEdges"
-       id="g427"
-       transform="translate(-17.254546,17.48338)">
-      <path
-         stroke="#57af26"
-         d="m 20,19 h 8 m 78,0 h 8 m -95,1 h 1 m 94,0 h 1 m -96,6 h 1 m 94,0 h 1 m -95,1 h 8 m 78,0 h 8"
-         id="path406-1" />
-      <path
-         stroke="#57b026"
-         d="m 28,19 h 11 m 56,0 h 11 m -78,8 h 11 m 56,0 h 11"
-         id="path408-4" />
-      <path
-         stroke="#57b126"
-         d="m 39,19 h 5 m 46,0 h 5 m -76,2 h 1 m 94,0 h 1 m -96,4 h 1 m 94,0 h 1 m -76,2 h 5 m 46,0 h 5"
-         id="path410-7" />
-      <path
-         stroke="#58b126"
-         d="m 44,19 h 8 m 30,0 h 8 m -46,8 h 8 m 30,0 h 8"
-         id="path412-6" />
-      <path
-         stroke="#58b226"
-         d="m 52,19 h 30 m -62,1 h 94 m -94,1 h 94 m -95,1 h 96 m -96,1 h 96 m -96,1 h 96 m -95,1 h 94 m -94,1 h 94 m -62,1 h 30"
-         id="path414-7" />
-    </g>
   </g>
   <g
      id="MonsterLeft_3_3"
@@ -30037,5 +29925,173 @@
        stroke="#3db3d4"
        d="m 110,67 h 1 m 1,0 h 14 m 7,0 h 4 m 3,0 h 14 m 3,0 h 2 m -46,1 h 15 m 1,0 h 10 m 3,0 h 11 m 1,0 h 9 m -51,1 h 14 m 3,0 h 12 m 1,0 h 23 m -49,1 h 9 m 2,0 h 41 m -50,1 h 7 m 1,0 h 26 m 1,0 h 19 M 2,72 h 4 m 112,0 h 7 m 1,0 h 26 m 1,0 h 22 M 0,73 h 6 m 113,0 h 6 m 1,0 h 52 M 0,74 h 6 m 113,0 h 61 M 0,75 h 6 m 113,0 h 60 M 0,76 h 7 m 112,0 h 57 M 0,77 h 7 m 97,0 h 3 m 11,0 h 56 M 0,78 h 7 m 96,0 h 5 m 9,0 h 45 m 3,0 h 8 M 0,79 h 7 m 96,0 h 7 m 5,0 h 42 m 10,0 h 4 M 0,80 h 7 m 96,0 h 53 M 0,81 h 7 m 96,0 h 44 M 0,82 h 6 m 1,0 h 2 m 1,0 h 2 m 90,0 h 39 M 0,83 h 9 m 1,0 h 1 m 79,0 h 5 m 5,0 h 40 M 0,84 h 8 m 82,0 h 49 M 0,85 h 8 m 2,0 h 1 m 78,0 h 49 M 0,86 h 11 m 3,0 h 1 m 73,0 h 49 M 0,87 h 11 m 3,0 h 1 m 72,0 h 49 M 0,88 h 10 m 2,0 h 2 m 72,0 h 49 M 0,89 h 8 m 3,0 h 3 m 71,0 h 50"
        id="path35610" />
+  </g>
+  <g
+     id="bar_100"
+     transform="matrix(0,-1.0102564,0.99937313,0,66.75709,1547.7237)"
+     inkscape:label="bar_100">
+    <title
+       id="title7894">bar_100</title>
+    <g
+       id="g215"
+       transform="translate(-0.70967742,-0.35483871)">
+      <g
+         style="shape-rendering:crispEdges"
+         id="g30"
+         transform="matrix(2.03125,0,0,1.0555888,-29.648589,-10.14182)">
+        <path
+           stroke="#12c900"
+           d="m 20,19 h 94 m -95,1 h 96 m -96,1 h 96 m -96,1 h 96 m -96,1 h 96 m -96,1 h 96 m -96,1 h 96 m -96,1 h 96 m -95,1 h 94"
+           id="path21" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="bar_90"
+     transform="matrix(0,1,-1.0000037,0,135.5566,1343.9388)"
+     inkscape:label="bar_90">
+    <title
+       id="title7896">bar_90</title>
+    <g
+       id="g219"
+       transform="matrix(0.93599998,0,0,1.0000098,0.54360873,0.33743103)">
+      <g
+         style="shape-rendering:crispEdges"
+         id="g211-2"
+         transform="matrix(2.1802326,0,0,1.0555592,-32.930536,3.6993121)">
+        <path
+           stroke="#6dc900"
+           d="m 20,19 h 85 m -86,1 h 86 m -86,1 h 86 m -86,1 h 86 m -86,1 h 86 m -86,1 h 86 m -86,1 h 86 m -86,1 h 86 m -85,1 h 85"
+           id="path202-8" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="bar_80"
+     transform="matrix(0,0.99680514,-0.99998947,0,177.33447,1358.833)"
+     inkscape:label="bar_80">
+    <title
+       id="title7898">bar_80</title>
+    <g
+       style="shape-rendering:crispEdges"
+       id="g242"
+       transform="matrix(2.0592105,0,0,1.0555846,-30.727553,19.641412)">
+      <path
+         stroke="#a9c900"
+         d="M 20,19 H 95 M 19,20 H 95 M 19,21 H 95 M 19,22 H 95 M 19,23 H 95 M 19,24 H 95 M 19,25 H 95 M 19,26 H 95 M 20,27 H 95"
+         id="path233-1" />
+    </g>
+  </g>
+  <g
+     id="bar_70"
+     transform="matrix(0,1,-0.99996949,0,216.06788,1376.9299)"
+     inkscape:label="bar_70">
+    <title
+       id="title7900">bar_70</title>
+    <g
+       style="shape-rendering:crispEdges"
+       id="g265"
+       transform="matrix(2.0681818,0,0,1.0556032,-30.994446,33.826252)">
+      <path
+         stroke="#c9c300"
+         d="M 20,19 H 85 M 19,20 H 85 M 19,21 H 85 M 19,22 H 85 M 19,23 H 85 M 19,24 H 85 M 19,25 H 85 M 19,26 H 85 M 20,27 H 85"
+         id="path256-1" />
+    </g>
+  </g>
+  <g
+     id="bar_60"
+     transform="matrix(0,1,-1.0000208,0,254.09942,1395.4665)"
+     inkscape:label="bar_60">
+    <title
+       id="title7902">bar_60</title>
+    <g
+       style="shape-rendering:crispEdges"
+       id="g288"
+       transform="matrix(2.0892857,0,0,1.0555515,-31.137018,50.14178)">
+      <path
+         stroke="#c9ab00"
+         d="M 20,19 H 75 M 19,20 H 75 M 19,21 H 75 M 19,22 H 75 M 19,23 H 75 M 19,24 H 75 M 19,25 H 75 M 19,26 H 75 M 20,27 H 75"
+         id="path279" />
+    </g>
+  </g>
+  <g
+     id="bar_50"
+     transform="matrix(0,1,-1.0000221,0,294.49323,1418.5582)"
+     inkscape:label="bar_50">
+    <title
+       id="title7904">bar_50</title>
+    <g
+       style="shape-rendering:crispEdges"
+       id="g311"
+       transform="matrix(2.1195652,0,0,1.0555502,-32.163607,65.748161)">
+      <path
+         stroke="#c98900"
+         d="M 20,19 H 65 M 19,20 H 65 M 19,21 H 65 M 19,22 H 65 M 19,23 H 65 M 19,24 H 65 M 19,25 H 65 M 19,26 H 65 M 20,27 H 65"
+         id="path302-1" />
+    </g>
+  </g>
+  <g
+     id="bar_40"
+     transform="matrix(0,0.99999999,-1.0124986,0,333.49325,1442.9972)"
+     inkscape:label="bar_40">
+    <title
+       id="title7906">bar_40</title>
+    <g
+       style="shape-rendering:crispEdges"
+       id="g334"
+       transform="matrix(2.1666667,0,0,1.0555485,-32.800133,81.711602)">
+      <path
+         stroke="#c96000"
+         d="M 20,19 H 55 M 19,20 H 55 M 19,21 H 55 M 19,22 H 55 M 19,23 H 55 M 19,24 H 55 M 19,25 H 55 M 19,26 H 55 M 20,27 H 55"
+         id="path325" />
+    </g>
+  </g>
+  <g
+     id="bar_30"
+     transform="matrix(0,2.8346457,-2.8346457,0,423.8992,1448.9962)"
+     inkscape:label="bar_30">
+    <title
+       id="title7908">bar_30</title>
+    <g
+       style="shape-rendering:crispEdges"
+       id="g357"
+       transform="matrix(0.79375,0,0,0.37238286,-5.0369645,53.797237)">
+      <path
+         stroke="#c93500"
+         d="M 20,19 H 45 M 19,20 H 45 M 19,21 H 45 M 19,22 H 45 M 19,23 H 45 M 19,24 H 45 M 19,25 H 45 M 19,26 H 45 M 20,27 H 45"
+         id="path348-1" />
+    </g>
+  </g>
+  <g
+     id="bar_20"
+     transform="matrix(0,1,-1.0000282,0,404.65936,1497.2641)"
+     inkscape:label="bar_20">
+    <title
+       id="title7910">bar_20</title>
+    <g
+       style="shape-rendering:crispEdges"
+       id="g403"
+       transform="matrix(2.4375,0,0,1.0555437,-38.49368,113.3133)">
+      <path
+         stroke="#c90100"
+         d="M 20,19 H 35 M 19,20 H 35 M 19,21 H 35 M 19,22 H 35 M 19,23 H 35 M 19,24 H 35 M 19,25 H 35 M 19,26 H 35 M 20,27 H 35"
+         id="path394-9" />
+    </g>
+  </g>
+  <g
+     id="bar_10"
+     transform="matrix(0,2.8346457,-2.8346457,0,507.71459,1496.9281)"
+     inkscape:label="bar_10">
+    <title
+       id="title7912">bar_10</title>
+    <g
+       style="shape-rendering:crispEdges"
+       id="g426"
+       transform="matrix(0.9827381,0,0,0.37238286,-8.2432157,67.364281)">
+      <path
+         stroke="#ae0832"
+         d="m 20,19 h 6 m -7,1 h 7 m -7,1 h 7 m -7,1 h 7 m -7,1 h 7 m -7,1 h 7 m -7,1 h 7 m -7,1 h 7 m -6,1 h 6"
+         id="path417" />
+    </g>
   </g>
 </svg>

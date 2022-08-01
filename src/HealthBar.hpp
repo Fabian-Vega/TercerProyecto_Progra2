@@ -7,9 +7,6 @@
 class QSvgRenderer;
 class Monster;
 
-static const double barHeight = 185.0;
-static const double barWidth = 9.5;
-
 class HealthBar : public QGraphicsSvgItem {
   Q_OBJECT
 
@@ -42,8 +39,6 @@ class HealthBar : public QGraphicsSvgItem {
 
  protected:
   void setHealthBar();
-  void healHealthBar(const double newHealth);
-  void reduceHealthBar(const double newHealth);
 };
 
 #endif // HEALTHBAR_HPP

@@ -38,14 +38,14 @@ void Monster::initializeMonster() {
 /// Move initializer method
 /// Acts as a pseudo factory
 void Monster::setMoveset() {
-  this->moveset[0] = new DamageMove(60);
+  this->moveset[0] = new DamageMove(30);
   this->moveset[1] = new DefenseMove();
 
   this->buffStat = random(1, 4);
-  this->moveset[2] = new BuffMove(this->buffStat, 1.5);
+  this->moveset[2] = new BuffMove(this->buffStat, 1.3);
 
   this->debuffStat = random(2, 4);
-  this->moveset[3] = new BuffMove(this->debuffStat, 0.5);
+  this->moveset[3] = new BuffMove(this->debuffStat, 0.7);
 }
 
 void Monster::flip(bool orientation) {

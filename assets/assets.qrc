@@ -2,4 +2,8 @@
     <qresource prefix="/assets">
         <file>assets.svg</file>
     </qresource>
+    <qresource prefix="/sounds">
+        <file>click.wav</file>
+        <file>move.wav</file>
+    </qresource>
 </RCC>

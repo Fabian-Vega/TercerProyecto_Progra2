@@ -1,8 +1,16 @@
 #ifndef COMMON_HPP
 #define COMMON_HPP
 
+#include <QUrl>
+
 static const double outOfScreenX = 1690;
 static const double outOfScreenY = 1690;
+
+static const QUrl clickTrack("qrc:/sounds/click.wav");
+static const QUrl moveTrack("qrc:/sounds/move.wav");
+static const QUrl menuSong("qrc:/sounds/click.wav");
+static const QUrl fightSong("qrc:/sounds/click.wav");
+static const float generalVolume = 0.98f;
 
 #define DECLARE_RULE4(Class, action) \
   Class(const Class& other) = action; \

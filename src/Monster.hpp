@@ -80,7 +80,8 @@ class Monster : public QGraphicsSvgItem {
     const double health) {
     this->health.currentHealth =
         (health > this->health.maxHealth ?
-           this->health.maxHealth : health);
+           this->health.maxHealth :
+           health <= 0? 0 : health);
   }
 
   /// Returns the current value of the monsters attack

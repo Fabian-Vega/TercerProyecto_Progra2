@@ -13,7 +13,9 @@ bool DamageMove::use(Monster* user,
                target->getTypeNum()) *
    this->baseDamage) + user->getAttack();
 
-  target->setHealth(target->getCurrentHealth() -
-                   (outDamage-target->getDefense()));
+  double damageTaken = outDamage-target->getDefense();
+  damageTaken = damageTaken <= 0? 10: damageTaken;
+
+  target->setHealth(target->getCurrentHealth() - damageTaken);
   return true;
 }
