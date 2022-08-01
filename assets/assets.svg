@@ -23,13 +23,13 @@
      inkscape:document-units="px"
      showgrid="true"
      inkscape:zoom="0.34513888"
-     inkscape:cx="1063.3401"
-     inkscape:cy="1552.998"
-     inkscape:window-width="1600"
-     inkscape:window-height="877"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
+     inkscape:cx="1852.8773"
+     inkscape:cy="1903.5816"
+     inkscape:window-width="1350"
+     inkscape:window-height="861"
+     inkscape:window-x="78"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
      inkscape:current-layer="svg458"
      showguides="true">
     <inkscape:grid
@@ -3308,7 +3308,7 @@
   </g>
   <g
      id="attackButton"
-     transform="matrix(3.3333333,0,0,3.5714209,1371.3892,-28.940672)"
+     transform="matrix(3.3333333,0,0,3.5714209,1380.0814,-15.902442)"
      inkscape:label="attackButton">
     <title
        id="title44413">attackButton</title>
@@ -3327,7 +3327,7 @@
   </g>
   <g
      id="defenseButton"
-     transform="matrix(3.3333333,0,0,3.5714209,1530.6934,-249.49364)"
+     transform="matrix(3.3333333,0,0,3.5714209,1539.3856,-236.45541)"
      inkscape:label="defenseButton">
     <title
        id="title44415">defenseButton</title>
@@ -3375,7 +3375,7 @@
   </g>
   <g
      id="buffButton_2"
-     transform="matrix(2.8346457,0,0,2.8346457,1401.527,81.333599)"
+     transform="matrix(2.8346457,0,0,2.8346457,1410.2192,94.371829)"
      inkscape:label="buffButton 2">
     <title
        id="title57509">buffButton 2</title>
@@ -3406,7 +3406,7 @@
   </g>
   <g
      id="debuffButton_2"
-     transform="matrix(2.8346457,0,0,2.8346457,1227.6839,27.007641)"
+     transform="matrix(2.8346457,0,0,2.8346457,1236.3761,40.045871)"
      inkscape:label="debuffButton 2">
     <title
        id="title57511">debuffButton 2</title>
@@ -3434,7 +3434,7 @@
   </g>
   <g
      id="buffButton_4"
-     transform="matrix(2.8346457,0,0,2.8346457,1554.5883,-1.6411011)"
+     transform="matrix(2.8346457,0,0,2.8346457,1563.2805,11.397129)"
      inkscape:label="buffButton 4">
     <title
        id="title57515">buffButton 4</title>
@@ -3462,7 +3462,7 @@
   </g>
   <g
      id="debuffButton_4"
-     transform="matrix(2.8346457,0,0,2.8346457,1378.5722,-55.96706)"
+     transform="matrix(2.8346457,0,0,2.8346457,1387.2644,-42.92883)"
      inkscape:label="debuffButton 4">
     <title
        id="title57513">debuffButton 4</title>
