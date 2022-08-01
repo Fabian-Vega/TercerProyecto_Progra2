@@ -19,6 +19,15 @@ FightScene::FightScene(QSvgRenderer* renderer,
   this->setFight();
 }
 
+FightScene::~FightScene() {
+  delete this->player1;
+  delete this->player2;
+  delete this->player1HealthBar;
+  delete this->player2HealthBar;
+  delete this->player1Moveset;
+  delete this->player2Moveset;
+}
+
 void FightScene::swapFight(short move) {
   this->movesChosen[0] = move;
   this->player1->flip(false);

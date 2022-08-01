@@ -21,7 +21,7 @@ Monster::Monster(QSvgRenderer* renderer,
 
 /// Destructor
 Monster::~Monster() {
-  for (size_t move = 0; move < 4; ++move) {
+  for (size_t move = 0; move < moveset.size(); ++move) {
     delete this->moveset[move];
     this->moveset[move] = nullptr;
   }
@@ -41,11 +41,9 @@ void Monster::setMoveset() {
   this->moveset[0] = new DamageMove(20);
   this->moveset[1] = new DefenseMove();
 
-  srand(time(NULL));
   this->buffStat = random(1, 4);
   this->moveset[2] = new BuffMove(this->buffStat, 1.5);
 
-  srand(time(NULL));
   this->debuffStat = random(2, 4);
   this->moveset[3] = new BuffMove(this->debuffStat, 0.5);
 }

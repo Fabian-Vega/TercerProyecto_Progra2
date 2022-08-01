@@ -27,6 +27,7 @@ class FightScene : public GameScene {
              Monster* player1,
              Monster* player2,
              QObject *parent = nullptr);
+  ~FightScene();
 
  signals:
   void playerWon(short player);

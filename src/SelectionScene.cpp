@@ -15,6 +15,7 @@ SelectionScene::SelectionScene(QSvgRenderer* renderer,
 SelectionScene::~SelectionScene() {
   delete this->firstPlayerPlate;
   delete this->secondPlayerPlate;
+  delete this->continueButton;
 }
 
 void SelectionScene::finishFirstSelection() {

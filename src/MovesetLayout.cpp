@@ -16,6 +16,13 @@ MovesetLayout::MovesetLayout(QSvgRenderer* renderer,
   this->setMovesetLayout(monster);
 }
 
+MovesetLayout::~MovesetLayout() {
+  delete this->damageMove;
+  delete this->defenseMove;
+  delete this->buffMove;
+  delete this->debuffMove;
+}
+
 void MovesetLayout::selectMove(short buttonNumber) {
   emit this->moveSelected(buttonNumber);
 }
@@ -62,5 +69,5 @@ void MovesetLayout::setMovesetLayout(Monster* monster) {
   this->debuffMove = this->setButton(
                      this->debuffMove, 4,
                      QString("debuffButton_%1").arg(
-                       monster->getBuffStat()));
+                       monster->getDebuffStat()));
 }

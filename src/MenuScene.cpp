@@ -5,7 +5,12 @@ MenuScene::MenuScene(QSvgRenderer* renderer, QObject *parent)
     tittle(nullptr),
     playButton(nullptr),
     instrucctionsButton(nullptr) {
-    this->setMenu();
+  this->setMenu();
+}
+
+MenuScene::~MenuScene() {
+  delete this->playButton;
+  delete this->instrucctionsButton;
 }
 
 void MenuScene::setMenu() {

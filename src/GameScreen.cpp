@@ -37,9 +37,11 @@ GameScreen::GameScreen(QWidget *parent)
 }
 
 GameScreen::~GameScreen() {
+  delete this->renderer;
   delete this->menu;
   delete this->instructions;
   delete this->selection;
+  delete this->fight;
 }
 
 void GameScreen::showInstructions() {

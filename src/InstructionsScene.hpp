@@ -13,6 +13,8 @@ class InstructionsScene : public GameScene {
  public:
   explicit InstructionsScene(QSvgRenderer* renderer,
                              QObject *parent = nullptr);
+  ~InstructionsScene();
+
  signals:
   void goBackPressed();
 

@@ -7,6 +7,10 @@ InstructionsScene::InstructionsScene(QSvgRenderer* renderer,
   this->setInstructions();
 }
 
+InstructionsScene::~InstructionsScene() {
+  delete goBackButton;
+}
+
 void InstructionsScene::setInstructions() {
   this->background = this->setObject(
                      this->background, QString("instructionBackground"),

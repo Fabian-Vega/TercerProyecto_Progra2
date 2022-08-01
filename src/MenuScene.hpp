@@ -15,6 +15,7 @@ class MenuScene : public GameScene {
  public:
   explicit MenuScene(QSvgRenderer* renderer,
                      QObject *parent = nullptr);
+  ~MenuScene();
 
  signals:
   void playPressed();
