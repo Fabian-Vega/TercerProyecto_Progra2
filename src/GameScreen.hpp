@@ -33,6 +33,7 @@ class GameScreen : public QGraphicsView {
 
  protected:
   Monster* monsterFactory(short element, short type) const;
+  void wheelEvent(QWheelEvent *event) override;
 };
 
 #endif // GAMESCREEN_HPP

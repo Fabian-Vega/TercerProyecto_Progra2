@@ -13,7 +13,7 @@ bool DamageMove::use(Monster* user,
     user->getTypeNum(), target->getTypeNum())
   * this->baseDamage + user->getAttack();
 
-  target->setHealth(target->getMaxHealth()-(
+  target->setHealth(target->getCurrentHealth()-(
     outDamage-target->getDefense()));
   return true;
 }

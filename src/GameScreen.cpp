@@ -103,3 +103,12 @@ Monster* GameScreen::monsterFactory(
     break;
   }
 }
+
+void GameScreen::wheelEvent(QWheelEvent* event) {
+  Q_UNUSED(event);
+}
+
+
+
+
+
