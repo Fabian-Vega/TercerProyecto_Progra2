@@ -9,6 +9,7 @@ class FightScene;
 class InstructionsScene;
 class MenuScene;
 class Monster;
+class QSoundEffect;
 class QSvgRenderer;
 class SelectionScene;
 

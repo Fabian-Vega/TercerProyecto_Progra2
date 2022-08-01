@@ -1,3 +1,4 @@
+#include <QSoundEffect>
 #include <QGraphicsSvgItem>
 #include <QSvgRenderer>
 

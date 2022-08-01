@@ -3,15 +3,14 @@
 
 #include <QGraphicsSvgItem>
 
-// Forwrd declaration
-class QSoundEffect;
+#include "Sound.hpp"
 
 class GameButton : public QGraphicsSvgItem {
  Q_OBJECT
 
  private:
   size_t buttonIdentifier;
-  QSoundEffect* clickSound;
+  Sound click;
 
  public:
   explicit GameButton(size_t buttonIdentifier = 0,
@@ -21,7 +20,6 @@ class GameButton : public QGraphicsSvgItem {
   void pressed(size_t buttonIdentifier);
 
  protected:
-  void setSound();
   void mousePressEvent(QGraphicsSceneMouseEvent* event) override;
 };
 
