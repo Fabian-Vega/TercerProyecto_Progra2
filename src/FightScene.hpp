@@ -13,13 +13,18 @@ class FightScene : public GameScene {
   Q_DISABLE_COPY_MOVE(FightScene)
 
   protected:
+   Sound attack;
+   Sound defend;
+   Sound buff;
+   Sound debuff;
+   Sound message;
    Monster* player1;
    Monster* player2;
    HealthBar* player1HealthBar;
    HealthBar* player2HealthBar;
    MovesetLayout* player1Moveset;
    MovesetLayout* player2Moveset;
-   QGraphicsSvgItem* message;
+   QGraphicsSvgItem* messageBox;
    size_t movesChosen[2] = {0, 0};
 
  public:
@@ -69,6 +74,7 @@ class FightScene : public GameScene {
                      HealthBar* secondHealthBar,
                      MovesetLayout* firstMoveset,
                      MovesetLayout* secondMoveset);
+  void chooseSound(size_t action);
 };
 
 #endif // FIGHTSCENE_HPP

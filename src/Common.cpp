@@ -4,7 +4,7 @@
 
 #include "Common.hpp"
 
-void wait(int seconds) {
+void wait(double seconds) {
     QTime stoppingTime = QTime::currentTime().addSecs(seconds);
     while (QTime::currentTime() < stoppingTime) {
         QCoreApplication::processEvents(QEventLoop::AllEvents, 100);

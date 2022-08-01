@@ -18,6 +18,7 @@ GameScreen::GameScreen(QWidget *parent)
     renderer(new QSvgRenderer(QString(":/images/assets.svg"), this)),
     mainSong(menuSong, this),
     fightSong(battleSong, this),
+    endingSong(endSong, this),
     menu(new MenuScene(this->renderer)),
     instructions(new InstructionsScene(this->renderer)),
     selection(new SelectionScene(this->renderer)),
@@ -61,15 +62,14 @@ void GameScreen::showInstructions() {
 }
 
 void GameScreen::showMenu() {
-  this->fightSong.stop();
+  this->endingSong.pause();
   Q_ASSERT(this->menu);
   this->mainSong.play(true);
   this->setScene(this->menu);
   #if !defined(Q_OS_ANDROID) && !defined(Q_OS_IOS)
    this->setFixedSize(this->menu->width(), this->menu->height());
   #endif
-  delete this->end;
-  this->end = nullptr;
+
 }
 
 void GameScreen::startGame() {
@@ -81,7 +81,7 @@ void GameScreen::startGame() {
 }
 
 void GameScreen::startFight() {
-  this->mainSong.stop();
+  this->mainSong.pause();
   Monster* player1 = this->monsterFactory(
                        this->selection->getPlayerChoice(1, 1),
                        this->selection->getPlayerChoice(1, 2));
@@ -103,8 +103,10 @@ void GameScreen::startFight() {
 
 void GameScreen::showEndScreen(size_t winner) {
   if (end == nullptr) {
+    this->fightSong.pause();
     this->end = new EndScene(this->renderer, winner);
     Q_ASSERT(this->end);
+    this->endingSong.play(true);
     this->setScene(this->end);
     this->connect(this->end, &EndScene::backToMenu,
                   this, &GameScreen::showMenu);

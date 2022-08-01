@@ -11,13 +11,18 @@ FightScene::FightScene(QSvgRenderer* renderer,
                        Monster* player2,
                        QObject *parent)
   : GameScene(renderer, parent),
+    attack(attackSound, this),
+    defend(defendSound, this),
+    buff(buffSound, this),
+    debuff(debuffSound, this),
+    message(messageSound, this),
     player1(player1),
     player2(player2),
     player1HealthBar(new HealthBar(renderer, player1)),
     player2HealthBar(new HealthBar(renderer, player2)),
     player1Moveset(new MovesetLayout(renderer, player1)),
     player2Moveset(new MovesetLayout(renderer, player2)),
-    message(nullptr) {
+    messageBox(nullptr) {
   this->setFight();
 }
 
@@ -32,6 +37,7 @@ FightScene::~FightScene() {
 
 void FightScene::changeTurn(size_t move) {
   this->movesChosen[0] = move;
+  this->showMessage(2, 0);
   this->swapPositions(this->player1, this->player2,
                       this->player1HealthBar,
                       this->player2HealthBar,
@@ -71,6 +77,8 @@ void FightScene::fight(size_t move) {
   << "Speed: " << player2->getSpeed() << std::endl
   << "Type: " << player2->getTypeName() << std::endl << std::endl;
 
+  wait(0.5);
+  this->showMessage(1, 0);
   this->swapPositions(this->player2, this->player1,
                       this->player2HealthBar,
                       this->player1HealthBar,
@@ -101,8 +109,8 @@ void FightScene::setFight() {
   this->setMoves(this->player1Moveset, 1, 20, 280);
   this->setMoves(this->player2Moveset, 2, outOfScreenX, outOfScreenY);
 
-  this->message = this->setObject(
-                  this->message, QString(""),
+  this->messageBox = this->setObject(
+                  this->messageBox, QString(""),
                   outOfScreenX, outOfScreenY);
 }
 
@@ -124,9 +132,11 @@ void FightScene::resolveAttack(Monster* attacker,
                               size_t attackerNum){
   size_t receiverNum = 2-(attackerNum--);
   if (this->movesChosen[receiverNum] == 2) {
+    this->defend.play(false);
     this->showMessage(receiverNum+1, 2);
     if (receiver->useMove(2, receiver) &&
         this->movesChosen[attackerNum] == 1) {
+      this->attack.play(false);
       this->showMessage(attackerNum+1, 1);
       this->showMessage(attackerNum+1, 5);
       return;
@@ -145,20 +155,22 @@ void FightScene::resolveAttack(Monster* attacker,
       showMessage(attackerNum+1,
                   this->movesChosen[attackerNum]);
     }
+    this->chooseSound(movesChosen[attackerNum]);
   }
 }
 
 void FightScene::showMessage(const size_t player,
                              const size_t action) {
   if (action == 5) {
-    this->message->setElementId(QString("failed"));
+    this->messageBox->setElementId(QString("failed"));
   } else {
-    this->message->setElementId(
+    this->messageBox->setElementId(
           QString("player_%1_%2").arg(player).arg(action));
   }
-  this->message->setPos(20, 280);
+  this->message.play(false);
+  this->messageBox->setPos(20, 280);
   wait(1);
-  this->message->setPos(outOfScreenX, outOfScreenY);
+  this->messageBox->setPos(outOfScreenX, outOfScreenY);
 }
 
 void FightScene::swapPositions(Monster* first, Monster* second,
@@ -205,4 +217,20 @@ void FightScene::setMoves(MovesetLayout* moves,
                 this, (player == 1?
                   &FightScene::changeTurn :
                   &FightScene::fight));
+}
+
+void FightScene::chooseSound(size_t action) {
+  switch(action) {
+    case 1:
+      this->attack.play(false);
+    break;
+    case 3:
+      this->buff.play(false);
+    break;
+    case 4:
+      this->debuff.play(false);
+    break;
+    default:
+    break;
+  }
 }

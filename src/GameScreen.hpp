@@ -22,6 +22,7 @@ class GameScreen : public QGraphicsView {
   QSvgRenderer* renderer;
   Sound mainSong;
   Sound fightSong;
+  Sound endingSong;
   MenuScene* menu;
   InstructionsScene* instructions;
   SelectionScene* selection;
