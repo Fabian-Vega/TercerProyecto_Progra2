@@ -6,20 +6,20 @@
 class EndScene : public GameScene {
  Q_OBJECT
 
- protected:
+ protected: // Attributes
   QGraphicsSvgItem* message;
   GameButton* back;
 
- public:
+ public: // Constructor and Destructor
   explicit EndScene(QSvgRenderer* renderer,
                     size_t winner,
                     QObject *parent = nullptr);
   ~EndScene();
 
- signals:
+ signals: // Signals
   void backToMenu();
 
- public slots:
+ public slots: // Initializer
   void setEndScene(size_t winner);
 };
 

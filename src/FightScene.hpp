@@ -12,7 +12,7 @@ class FightScene : public GameScene {
   Q_OBJECT
   Q_DISABLE_COPY_MOVE(FightScene)
 
-  protected:
+  protected: // Attributes
    Sound attack;
    Sound defend;
    Sound buff;
@@ -27,23 +27,23 @@ class FightScene : public GameScene {
    QGraphicsSvgItem* messageBox;
    size_t movesChosen[2] = {0, 0};
 
- public:
+ public: // Constructor and Destructor
   FightScene(QSvgRenderer* renderer,
              Monster* player1,
              Monster* player2,
              QObject *parent = nullptr);
   ~FightScene();
 
- signals:
+ signals: // Signals
   void playerWon(size_t player);
 
- protected slots:
+ protected slots: // General Functions
   void changeTurn(size_t move);
   void fight(size_t move);
   void player1Won();
   void player2Won();
 
- protected:
+ protected: //
   void setFight();
   void addMoves(MovesetLayout* moves);
   void addHealthBar(HealthBar* healthbar);
