@@ -30,16 +30,13 @@ FightScene::~FightScene() {
   delete this->player2Moveset;
 }
 
-void FightScene::swapFight(size_t move) {
+void FightScene::changeTurn(size_t move) {
   this->movesChosen[0] = move;
-  this->player1->flip(false);
-  this->player1HealthBar->flip(false);
-  this->player2->flip(true);
-  this->player2HealthBar->flip(true);
-  this->player1->setPos(470, 26);
-  this->player2->setPos(140, 120);
-  this->player1Moveset->setLayoutPos(outOfScreenX, outOfScreenX);
-  this->player2Moveset->setLayoutPos(20, 280);
+  this->swapPositions(this->player1, this->player2,
+                      this->player1HealthBar,
+                      this->player2HealthBar,
+                      this->player1Moveset,
+                      this->player2Moveset);
 }
 
 void FightScene::fight(size_t move) {
@@ -47,18 +44,18 @@ void FightScene::fight(size_t move) {
 
   if (this->player1->getSpeed() >= this->player2->getSpeed()) {
     this->resolveAttack(this->player1, this->player2, 1);
-    this->player1HealthBar->updateHealthBar(
-          this->player1->getCurrentHealth());
-    this->resolveAttack(this->player2, this->player1, 2);
     this->player2HealthBar->updateHealthBar(
           this->player2->getCurrentHealth());
+    this->resolveAttack(this->player2, this->player1, 2);
+    this->player1HealthBar->updateHealthBar(
+          this->player1->getCurrentHealth());
   } else {
     this->resolveAttack(this->player2, this->player1, 2);
-    this->player2HealthBar->updateHealthBar(
-          this->player2->getCurrentHealth());
-    this->resolveAttack(this->player1, this->player2, 1);
     this->player1HealthBar->updateHealthBar(
           this->player1->getCurrentHealth());
+    this->resolveAttack(this->player1, this->player2, 1);
+    this->player2HealthBar->updateHealthBar(
+          this->player2->getCurrentHealth());
   }
   std::cout << "Player 1 stats: " << std::endl
   << "Health: " << player1->getCurrentHealth() << "/" << player1->getMaxHealth() << std::endl
@@ -74,15 +71,11 @@ void FightScene::fight(size_t move) {
   << "Speed: " << player2->getSpeed() << std::endl
   << "Type: " << player2->getTypeName() << std::endl << std::endl;
 
-  this->player1->flip(true);
-  this->player1HealthBar->flip(true);
-  this->player2->flip(false);
-  this->player2HealthBar->flip(false);
-  this->player1->setPos(140, 120);
-  this->player2->setPos(470, 26);
-  this->player1Moveset->setLayoutPos(20, 280);
-  this->player2Moveset->setLayoutPos(outOfScreenX, outOfScreenX);
-
+  this->swapPositions(this->player2, this->player1,
+                      this->player2HealthBar,
+                      this->player1HealthBar,
+                      this->player2Moveset,
+                      this->player1Moveset);
 }
 
 void FightScene::player1Won() {
@@ -97,28 +90,17 @@ void FightScene::setFight() {
   this->background = this->setObject(
                      this->background, QString("fightBackground"),
                      0, 0);
-  this->player1->setPos(140, 120);
-  this->addItem(this->player1);
+  this->setMonster(this->player1, 140, 120);
   this->player2->flip(false);
-  this->player2->setPos(470, 26);
-  this->addItem(this->player2);
-  this->player1HealthBar->setHealthPos(20, 20);
-  this->addHealthBar(this->player1HealthBar);
-  this->connect(this->player1HealthBar, &HealthBar::monsterDied,
-                this, &FightScene::player1Won);
+  this->setMonster(this->player2, 470, 26);
+
+  this->setHealthBar(this->player1HealthBar, 1, 20, 20);
   this->player2HealthBar->flip(false);
-  this->player2HealthBar->setHealthPos(670, 20);
-  this->addHealthBar(this->player2HealthBar);
-  this->connect(this->player2HealthBar, &HealthBar::monsterDied,
-                this, &FightScene::player2Won);
-  this->player1Moveset->setLayoutPos(20, 280);
-  this->addMoves(this->player1Moveset);
-  this->connect(this->player1Moveset, &MovesetLayout::moveSelected,
-                this, &FightScene::swapFight);
-  this->player2Moveset->setLayoutPos(outOfScreenX, outOfScreenY);
-  this->addMoves(this->player2Moveset);
-  this->connect(this->player2Moveset, &MovesetLayout::moveSelected,
-                this, &FightScene::fight);
+  this->setHealthBar(this->player2HealthBar, 2, 670, 20);
+
+  this->setMoves(this->player1Moveset, 1, 20, 280);
+  this->setMoves(this->player2Moveset, 2, outOfScreenX, outOfScreenY);
+
   this->message = this->setObject(
                   this->message, QString(""),
                   outOfScreenX, outOfScreenY);
@@ -155,11 +137,14 @@ void FightScene::resolveAttack(Monster* attacker,
     attacker->useMove(this->movesChosen[attackerNum],
         this->movesChosen[attackerNum] == 3?
           attacker : receiver);
-    showMessage(attackerNum+1,
-                (this->movesChosen[attackerNum] == 3?
+    if (this->movesChosen[attackerNum] == 3) {
+      showMessage(attackerNum+1,
                    (attacker->getBuffStat() == 1?
-                      6:this->movesChosen[attackerNum])
-                 :this->movesChosen[attackerNum]));
+                      6 : this->movesChosen[attackerNum]));
+    } else {
+      showMessage(attackerNum+1,
+                  this->movesChosen[attackerNum]);
+    }
   }
 }
 
@@ -174,4 +159,50 @@ void FightScene::showMessage(const size_t player,
   this->message->setPos(20, 280);
   wait(1);
   this->message->setPos(outOfScreenX, outOfScreenY);
+}
+
+void FightScene::swapPositions(Monster* first, Monster* second,
+                               HealthBar* firstHealthBar,
+                               HealthBar* secondHealthBar,
+                               MovesetLayout* firstMoveset,
+                               MovesetLayout* secondMoveset) {
+  first->flip(false);
+  firstHealthBar->flip(false);
+  second->flip(true);
+  secondHealthBar->flip(true);
+  first->setPos(470, 26);
+  second->setPos(140, 120);
+  firstMoveset->setLayoutPos(outOfScreenX, outOfScreenX);
+  secondMoveset->setLayoutPos(20, 280);
+}
+
+void FightScene::setMonster(Monster* monster,
+                           const double xPos,
+                           const double yPos) {
+  monster->setPos(xPos, yPos);
+  this->addItem(monster);
+}
+
+void FightScene::setHealthBar(HealthBar* healthBar,
+                           const size_t player,
+                           const double xPos,
+                           const double yPos) {
+  healthBar->setHealthPos(xPos, yPos);
+  this->addHealthBar(healthBar);
+  this->connect(healthBar, &HealthBar::monsterDied,
+                this, (player == 1?
+                      &FightScene::player2Won :
+                      &FightScene::player1Won));
+}
+
+void FightScene::setMoves(MovesetLayout* moves,
+                           const size_t player,
+                           const double xPos,
+                           const double yPos) {
+  moves->setLayoutPos(xPos, yPos);
+  this->addMoves(moves);
+  this->connect(moves, &MovesetLayout::moveSelected,
+                this, (player == 1?
+                  &FightScene::changeTurn :
+                  &FightScene::fight));
 }

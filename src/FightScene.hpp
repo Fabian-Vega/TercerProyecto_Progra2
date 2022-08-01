@@ -33,7 +33,7 @@ class FightScene : public GameScene {
   void playerWon(size_t player);
 
  protected slots:
-  void swapFight(size_t move);
+  void changeTurn(size_t move);
   void fight(size_t move);
   void player1Won();
   void player2Won();
@@ -42,13 +42,33 @@ class FightScene : public GameScene {
   void setFight();
   void addMoves(MovesetLayout* moves);
   void addHealthBar(HealthBar* healthbar);
+  void setMonster(Monster* monster,
+                 const double xPos,
+                 const double yPos);
+
+  void setHealthBar(HealthBar* healthBar,
+                 const size_t player,
+                 const double xPos,
+                 const double yPos);
+
+  void setMoves(MovesetLayout* moves,
+                 const size_t player,
+                 const double xPos,
+                 const double yPos);
 
  protected:
   void resolveAttack(Monster* attacker,
                      Monster* receiver,
                      size_t attackerNum);
+
   void showMessage(const size_t player,
                    const size_t action);
+
+  void swapPositions(Monster* first, Monster* second,
+                     HealthBar* firstHealthBar,
+                     HealthBar* secondHealthBar,
+                     MovesetLayout* firstMoveset,
+                     MovesetLayout* secondMoveset);
 };
 
 #endif // FIGHTSCENE_HPP

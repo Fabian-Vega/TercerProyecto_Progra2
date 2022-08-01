@@ -50,12 +50,7 @@ void HealthBar::healHealthBar(const double newHealth) {
       - this->currentHealth/this->maxHealth;
   movingDistance *= 100;
 
-  QPropertyAnimation* movingRight =
-      new QPropertyAnimation(this->bar, "y");
-  movingRight->setDuration(1000);
-  movingRight->setStartValue(this->bar->y());
-  movingRight->setEndValue(this->bar->y()+movingDistance);
-  movingRight->start();
+
   this->currentHealth = newHealth;
   if (this->currentHealth/this->maxHealth > 0.2) {
     this->bar->setElementId("YellowBar");
@@ -70,12 +65,7 @@ void HealthBar::reduceHealthBar(const double newHealth) {
       - newHealth/this->maxHealth;
    movingDistance *= 100;
 
-  QPropertyAnimation* movingLeft =
-      new QPropertyAnimation(this->bar, "y");
-  movingLeft->setDuration(1000);
-  movingLeft->setStartValue(this->bar->y());
-  movingLeft->setEndValue(this->bar->y()-movingDistance);
-  movingLeft->start();
+
   this->currentHealth = newHealth;
   if (this->currentHealth/this->maxHealth < 0.5) {
     this->bar->setElementId("YellowBar");
@@ -84,7 +74,7 @@ void HealthBar::reduceHealthBar(const double newHealth) {
     this->bar->setElementId("RedBar");
   }
 
-  if (currentHealth <= 0) {
+  if (this->currentHealth <= 0) {
     emit this->monsterDied();
   }
 }

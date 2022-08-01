@@ -1,6 +1,7 @@
 #include <QGraphicsSvgItem>
 #include <QSvgRenderer>
 
+#include "EndScene.hpp"
 #include "FightScene.hpp"
 #include "GameScreen.hpp"
 #include "InstructionsScene.hpp"
@@ -16,7 +17,9 @@ GameScreen::GameScreen(QWidget *parent)
     renderer(new QSvgRenderer(QString(":/assets/assets.svg"), this)),
     menu(new MenuScene(this->renderer)),
     instructions(new InstructionsScene(this->renderer)),
-    selection(new SelectionScene(this->renderer)) {
+    selection(new SelectionScene(this->renderer)),
+    fight(nullptr),
+    end(nullptr) {
   this->showMenu();
   this->connect(this->menu, &MenuScene::playPressed,
                 this, &GameScreen::startGame);
@@ -42,6 +45,7 @@ GameScreen::~GameScreen() {
   delete this->instructions;
   delete this->selection;
   delete this->fight;
+  delete this->end;
 }
 
 void GameScreen::showInstructions() {
@@ -59,6 +63,8 @@ void GameScreen::showMenu() {
   #if !defined(Q_OS_ANDROID) && !defined(Q_OS_IOS)
    this->setFixedSize(this->menu->width(), this->menu->height());
   #endif
+  delete this->end;
+  this->end = nullptr;
 }
 
 void GameScreen::startGame() {
@@ -85,11 +91,18 @@ void GameScreen::startFight() {
                 this, &GameScreen::showEndScreen);
   #if !defined(Q_OS_ANDROID) && !defined(Q_OS_IOS)
    this->setFixedSize(this->fight->width(), this->fight->height());
-#endif
+  #endif
 }
 
 void GameScreen::showEndScreen(size_t winner) {
-
+  if (end == nullptr) {
+    this->end = new EndScene(this->renderer, winner);
+    Q_ASSERT(this->end);
+    this->setScene(this->end);
+    this->connect(this->end, &EndScene::backToMenu,
+                  this, &GameScreen::showMenu);
+    // Should free fight here
+  }
 }
 
 Monster* GameScreen::monsterFactory(

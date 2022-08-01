@@ -11,8 +11,9 @@ QGraphicsSvgItem* GameScene::setObject(
     const QString identifier,
     const double xPos,
     const double yPos){
-  Q_ASSERT(object == nullptr);
-  object = new QGraphicsSvgItem();
+  if (object == nullptr) {
+    object = new QGraphicsSvgItem();
+  }
   Q_ASSERT(object);
   object->setSharedRenderer(this->renderer);
   object->setElementId(identifier);

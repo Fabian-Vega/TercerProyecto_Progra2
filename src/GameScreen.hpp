@@ -4,7 +4,7 @@
 #include <QGraphicsView>
 
 // Forward declarations
-class EndScreen;
+class EndScene;
 class FightScene;
 class InstructionsScene;
 class MenuScene;
@@ -20,8 +20,8 @@ class GameScreen : public QGraphicsView {
   MenuScene* menu;
   InstructionsScene* instructions;
   SelectionScene* selection;
-  FightScene* fight = nullptr;
-  EndScreen* end;
+  FightScene* fight;
+  EndScene* end;
 
  public:
   explicit GameScreen(QWidget* parent = nullptr);
