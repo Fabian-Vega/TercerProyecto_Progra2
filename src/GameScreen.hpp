@@ -3,6 +3,8 @@
 
 #include <QGraphicsView>
 
+#include "Sound.hpp"
+
 // Forward declarations
 class EndScene;
 class FightScene;
@@ -18,6 +20,8 @@ class GameScreen : public QGraphicsView {
 
  protected:
   QSvgRenderer* renderer;
+  Sound mainSong;
+  Sound fightSong;
   MenuScene* menu;
   InstructionsScene* instructions;
   SelectionScene* selection;

@@ -1,8 +1,10 @@
 <RCC>
-    <qresource prefix="/assets">
+    <qresource prefix="/images">
         <file>assets.svg</file>
     </qresource>
     <qresource prefix="/sounds">
-        <file>click.wav</file>
+        <file>BattleLoopStart.wav</file>
+        <file>MenuSongLoop.wav</file>
+        <file>Click.wav</file>
     </qresource>
 </RCC>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   width="2400"
+   width="2800"
    height="2400"
    version="1.1"
-   viewBox="0 0 1800 1800"
+   viewBox="0 0 2100 1800"
    id="svg458"
    sodipodi:docname="assets.svg"
    inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
@@ -22,9 +22,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
      showgrid="true"
-     inkscape:zoom="0.97620017"
-     inkscape:cx="309.36278"
-     inkscape:cy="2094.8572"
+     inkscape:zoom="0.34513888"
+     inkscape:cx="819.95978"
+     inkscape:cy="1112.5956"
      inkscape:window-width="1350"
      inkscape:window-height="861"
      inkscape:window-x="120"
@@ -675,7 +675,7 @@
   </g>
   <g
      id="playButton"
-     transform="matrix(3.5,0,0,3.5,772.97987,198.08925)"
+     transform="matrix(3.5,0,0,3.5,1270.6056,26.419225)"
      inkscape:label="playButton">
     <title
        id="title1942">playButton</title>
@@ -952,7 +952,7 @@
   </g>
   <g
      id="helpButton"
-     transform="matrix(3.5,0,0,3.5,947.97813,202.78424)"
+     transform="matrix(3.5,0,0,3.5,1276.1069,114.77619)"
      inkscape:label="helpButton">
     <title
        id="title3207">helpButton</title>
@@ -975,7 +975,7 @@
   </g>
   <g
      id="backButton"
-     transform="matrix(3.5,0,0,3.5,861.82645,198.79647)"
+     transform="matrix(3.5,0,0,3.5,1347.5005,26.039926)"
      inkscape:label="backButton">
     <title
        id="title1944">backButton</title>
@@ -998,7 +998,7 @@
   </g>
   <g
      id="player2Base"
-     transform="matrix(4.8076923,0,0,4.3947374,762.01667,249.30934)"
+     transform="matrix(4.8076923,0,0,4.3947374,1061.896,167.8204)"
      inkscape:label="player2Base">
     <title
        id="title5914">player2Base</title>
@@ -1037,7 +1037,7 @@
   </g>
   <g
      id="player1Base"
-     transform="matrix(4.8076923,0,0,4.3947377,14.663664,495.90875)"
+     transform="matrix(4.8076923,0,0,4.3947377,770.88098,166.43389)"
      inkscape:label="player1Base">
     <title
        id="title5912">player1Base</title>
@@ -1076,7 +1076,7 @@
   </g>
   <g
      id="elementHeader"
-     transform="matrix(0.75093748,0,0,0.75000332,1318.1767,-11.094299)"
+     transform="matrix(0.75093748,0,0,0.75000332,1922.2815,10.636084)"
      inkscape:label="elementHeader">
     <title
        id="title5908">elementHeader</title>
@@ -1108,7 +1108,7 @@
   </g>
   <g
      id="typeHeader"
-     transform="matrix(2.2222222,0,0,2.2222222,1205.1763,-56.669089)"
+     transform="matrix(2.2222222,0,0,2.2222222,1987.4702,-32.611743)"
      inkscape:label="typeHeader">
     <title
        id="title5910">typeHeader</title>
@@ -1135,7 +1135,7 @@
   </g>
   <g
      id="continueButtonOn"
-     transform="matrix(3.3181818,0,0,5.5536729,1238.8553,-6.1410269)"
+     transform="matrix(3.3181818,0,0,5.5536729,1902.7185,31.887143)"
      inkscape:label="continueButtonOn">
     <title
        id="title1258">continueButtonOn</title>
@@ -1166,7 +1166,7 @@
   </g>
   <g
      id="continueButtonOff"
-     transform="matrix(3.3181818,0,0,5.47692,1242.7254,50.410246)"
+     transform="matrix(3.3181818,0,0,5.47692,1901.156,94.957531)"
      inkscape:label="continueButtonOff">
     <title
        id="title1260">continueButtonOff</title>
@@ -1197,7 +1197,7 @@
   </g>
   <g
      id="endBackground"
-     transform="matrix(4,0,0,4.0255627,1058.5153,572.28548)"
+     transform="matrix(4,0,0,4.0255627,1351.628,578.80459)"
      inkscape:label="endBackground">
     <title
        id="title6303">endBackground</title>
@@ -1224,7 +1224,7 @@
   </g>
   <g
      id="MonsterRight_2_2"
-     transform="matrix(2.9166667,0,0,2.9166667,352.79706,998.7699)"
+     transform="matrix(2.9166667,0,0,2.9166667,348.45098,946.61698)"
      inkscape:label="MonsterRight 2 2">
     <title
        id="title6021">MonsterRight 2 2</title>
@@ -1267,7 +1267,7 @@
   </g>
   <g
      id="MonsterLeft_2_2"
-     transform="matrix(2.9166667,0,0,2.9166667,520.57546,1007.3912)"
+     transform="matrix(2.9166667,0,0,2.9166667,516.22938,955.23828)"
      inkscape:label="MonsterLeft 2 2">
     <title
        id="title6027">MonsterLeft 2 2</title>
@@ -1310,7 +1310,7 @@
   </g>
   <g
      id="MonsterRight_3_2"
-     transform="matrix(3.4146341,0,0,2.4999994,334.91539,1174.1167)"
+     transform="matrix(3.4146341,0,0,2.4999994,330.56931,1121.9638)"
      inkscape:label="MonsterRight 3 2">
     <title
        id="title6023">MonsterRight 3 2</title>
@@ -1373,7 +1373,7 @@
   </g>
   <g
      id="MonsterLeft_3_2"
-     transform="matrix(3.4146341,0,0,2.4999994,493.00734,1169.4749)"
+     transform="matrix(3.4146341,0,0,2.4999994,488.66126,1117.322)"
      inkscape:label="MonsterLeft 3 2">
     <title
        id="title6029">MonsterLeft 3 2</title>
@@ -1436,7 +1436,7 @@
   </g>
   <g
      id="MonsterLeft_1_3"
-     transform="matrix(2.5454546,0,0,2.5925885,841.32015,872.67121)"
+     transform="matrix(2.5454546,0,0,2.5925885,836.97407,820.51829)"
      inkscape:label="MonsterLeft 1 3">
     <title
        id="title6051">MonsterLeft 1 3</title>
@@ -1535,7 +1535,7 @@
   </g>
   <g
      id="MonsterRight_1_3"
-     transform="matrix(2.5454546,0,0,2.5925925,706.53395,871.46861)"
+     transform="matrix(2.5454546,0,0,2.5925925,702.18787,819.31569)"
      inkscape:label="MonsterRight 1 3">
     <title
        id="title6045">MonsterRight 1 3</title>
@@ -1634,7 +1634,7 @@
   </g>
   <g
      id="MonsterRight_3_3"
-     transform="matrix(2.5,0,0,2.5,693.52969,1189.987)"
+     transform="matrix(2.5,0,0,2.5,689.18361,1137.8341)"
      inkscape:label="MonsterRight 3 3">
     <title
        id="title6049">MonsterRight 3 3</title>
@@ -1721,7 +1721,7 @@
   </g>
   <g
      id="MonsterLeft_2_3"
-     transform="matrix(2.6923077,0,0,2.857143,840.79074,1018.5691)"
+     transform="matrix(2.6923077,0,0,2.857143,836.44466,966.41618)"
      inkscape:label="MonsterLeft 2 3">
     <title
        id="title6053">MonsterLeft 2 3</title>
@@ -1808,7 +1808,7 @@
   </g>
   <g
      id="MonsterRight_2_3"
-     transform="matrix(2.6923077,0,0,2.857143,695.16188,1019.0059)"
+     transform="matrix(2.6923077,0,0,2.857143,690.8158,966.85298)"
      inkscape:label="MonsterRight 2 3">
     <title
        id="title6047">MonsterRight 2 3</title>
@@ -1895,7 +1895,7 @@
   </g>
   <g
      id="MonsterLeft_1_1"
-     transform="matrix(2.9787234,0,0,2.2950816,180.4195,861.41951)"
+     transform="matrix(2.9787234,0,0,2.2950816,176.07342,809.26659)"
      inkscape:label="MonsterLeft 1 1">
     <title
        id="title6039">MonsterLeft 1 1</title>
@@ -2014,7 +2014,7 @@
   </g>
   <g
      id="MonsterRight_1_1"
-     transform="matrix(2.9787234,0,0,2.2950816,35.31993,865.08151)"
+     transform="matrix(2.9787234,0,0,2.2950816,30.973853,812.92859)"
      inkscape:label="MonsterRight 1 1">
     <title
        id="title6033">MonsterRight 1 1</title>
@@ -2133,7 +2133,7 @@
   </g>
   <g
      id="MonsterLeft_3_1"
-     transform="matrix(2.8,0,0,2.4561401,171.19627,1163.5678)"
+     transform="matrix(2.8,0,0,2.4561401,166.85019,1111.4149)"
      inkscape:label="MonsterLeft 3 1">
     <title
        id="title6043">MonsterLeft 3 1</title>
@@ -2244,7 +2244,7 @@
   </g>
   <g
      id="MonsterRight_3_1"
-     transform="matrix(2.8,0,0,2.4561401,42.329169,1171.803)"
+     transform="matrix(2.8,0,0,2.4561401,37.983092,1119.6501)"
      inkscape:label="MonsterRight 3 1">
     <title
        id="title6037">MonsterRight 3 1</title>
@@ -2355,7 +2355,7 @@
   </g>
   <g
      id="MonsterLeft_2_1"
-     transform="matrix(3.0434783,0,0,2.4999996,183.22571,996.2697)"
+     transform="matrix(3.0434783,0,0,2.4999996,178.87963,944.11678)"
      inkscape:label="MonsterLeft 2 1">
     <title
        id="title6041">MonsterLeft 2 1</title>
@@ -2494,7 +2494,7 @@
   </g>
   <g
      id="MonsterRight_2_1"
-     transform="matrix(3.0434783,0,0,2.4999996,37.337149,997.0356)"
+     transform="matrix(3.0434783,0,0,2.4999996,32.991072,944.88268)"
      inkscape:label="MonsterRight 2 1">
     <title
        id="title6035">MonsterRight 2 1</title>
@@ -2633,7 +2633,7 @@
   </g>
   <g
      id="MonsterLeft_1_2"
-     transform="matrix(3.1111112,0,0,2.4999996,508.08339,860.38251)"
+     transform="matrix(3.1111112,0,0,2.4999996,503.73731,808.22959)"
      inkscape:label="MonsterLeft 1 2">
     <title
        id="title6031">MonsterLeft 1 2</title>
@@ -2752,7 +2752,7 @@
   </g>
   <g
      id="MonsterRight_1_2"
-     transform="matrix(3.1111112,0,0,2.4999996,352.86398,856.14441)"
+     transform="matrix(3.1111112,0,0,2.4999996,348.5179,803.99149)"
      inkscape:label="MonsterRight 1 2">
     <title
        id="title6025">MonsterRight 1 2</title>
@@ -2871,7 +2871,7 @@
   </g>
   <g
      id="HealthFrameUp"
-     transform="matrix(0,-0.99940207,1.0000959,0,-817.20541,1139.9882)"
+     transform="matrix(0,-0.99940207,1.0000959,0,-874.79093,1122.6039)"
      inkscape:label="HealthFrameUp">
     <title
        id="title6057">HealthFrameUp</title>
@@ -2923,7 +2923,7 @@
   </g>
   <g
      id="HealthFrameDown"
-     transform="matrix(0,0.99940207,-1.0000959,0,2268.7416,-90.93818)"
+     transform="matrix(0,0.99940207,-1.0000959,0,2211.1561,-108.32248)"
      inkscape:label="HealthFrameDown">
     <title
        id="title6057-6">HealthFrameDown</title>
@@ -2975,7 +2975,7 @@
   </g>
   <g
      id="player2win"
-     transform="matrix(0.75,0,0,0.75,296.85614,599.24187)"
+     transform="matrix(0.75,0,0,0.75,-57.349101,480.81128)"
      inkscape:label="player2win">
     <title
        id="title6301">player2win</title>
@@ -3042,7 +3042,7 @@
   </g>
   <g
      id="player1win"
-     transform="matrix(0.75,0,0,0.75,285.27701,480.92597)"
+     transform="matrix(0.75,0,0,0.75,-68.928231,362.49538)"
      inkscape:label="player1win">
     <title
        id="title6299">player1win</title>
@@ -3109,7 +3109,7 @@
   </g>
   <g
      id="MonsterLeft_3_3"
-     transform="matrix(2.5,0,0,2.5,836.04127,1189.8717)"
+     transform="matrix(2.5,0,0,2.5,831.69519,1137.7188)"
      inkscape:label="MonsterLeft 3 3">
     <title
        id="title6055">MonsterLeft 3 3</title>
@@ -3196,7 +3196,7 @@
   </g>
   <g
      id="attackButton"
-     transform="matrix(3.3333333,0,0,3.5714209,1380.0814,-15.902442)"
+     transform="matrix(3.3333333,0,0,3.5714209,1710.3832,103.61466)"
      inkscape:label="attackButton">
     <title
        id="title44413">attackButton</title>
@@ -3239,7 +3239,7 @@
   </g>
   <g
      id="buffButton_1"
-     transform="matrix(3.3333333,0,0,3.5714209,1018.0406,-109.81409)"
+     transform="matrix(3.3333333,0,0,3.5714209,1178.951,-230.41771)"
      inkscape:label="buffButton 1">
     <title
        id="title44417">buffButton 1</title>
@@ -3263,7 +3263,7 @@
   </g>
   <g
      id="buffButton_2"
-     transform="matrix(2.8346457,0,0,2.8346457,1410.2192,94.371829)"
+     transform="matrix(2.8346457,0,0,2.8346457,1411.3057,97.631386)"
      inkscape:label="buffButton 2">
     <title
        id="title57509">buffButton 2</title>
@@ -3294,7 +3294,7 @@
   </g>
   <g
      id="debuffButton_2"
-     transform="matrix(2.8346457,0,0,2.8346457,1236.3761,40.045871)"
+     transform="matrix(2.8346457,0,0,2.8346457,1237.4626,43.305428)"
      inkscape:label="debuffButton 2">
     <title
        id="title57511">debuffButton 2</title>
@@ -3350,7 +3350,7 @@
   </g>
   <g
      id="debuffButton_4"
-     transform="matrix(2.8346457,0,0,2.8346457,1387.2644,-42.92883)"
+     transform="matrix(2.8346457,0,0,2.8346457,1395.9566,-42.92883)"
      inkscape:label="debuffButton 4">
     <title
        id="title57513">debuffButton 4</title>
@@ -3381,7 +3381,7 @@
   </g>
   <g
      id="buffButton_3"
-     transform="matrix(2.8346457,0,0,2.8346457,307.26427,393.85188)"
+     transform="matrix(2.8346457,0,0,2.8346457,1732.7774,-114.63908)"
      inkscape:label="buffButton 3">
     <title
        id="title57519">buffButton 3</title>
@@ -3413,7 +3413,7 @@
   </g>
   <g
      id="debuffButton_3"
-     transform="matrix(2.8346457,0,0,2.8346457,126.90209,335.17983)"
+     transform="matrix(2.8346457,0,0,2.8346457,1554.5882,-171.13809)"
      inkscape:label="debuffButton 3">
     <title
        id="title57517">debuffButton 3</title>
@@ -3441,7 +3441,7 @@
   </g>
   <g
      id="movesetLayout"
-     transform="matrix(3.2125984,0,0,2.8346275,385.9127,1331.1524)"
+     transform="matrix(3.2125984,0,0,2.8346275,674.9268,1335.4984)"
      inkscape:label="movesetLayout">
     <title
        id="title3850">movesetLayout</title>
@@ -3749,7 +3749,7 @@
   </g>
   <g
      id="instructionBackground"
-     transform="matrix(0.47587574,0,0,0.47042662,1041.6098,198.4057)"
+     transform="matrix(0.47587574,0,0,0.47042662,1354.6811,201.92481)"
      inkscape:label="instructionBackground">
     <title
        id="title39499">instructionBackground</title>
@@ -21784,7 +21784,7 @@
   </g>
   <g
      id="player_1_2"
-     transform="matrix(0.74972437,0,0,0.54687572,1082.7033,1398.3262)"
+     transform="matrix(0.74972437,0,0,0.54687572,1369.5444,1411.3644)"
      inkscape:label="player_1_2">
     <title
        id="title64522">player_1_2</title>
@@ -22515,7 +22515,7 @@
   </g>
   <g
      id="player_2_1"
-     transform="matrix(0.74972437,0,0,0.54687788,1082.9477,1322.0918)"
+     transform="matrix(0.74972437,0,0,0.54687788,1369.7888,1335.13)"
      inkscape:label="player_2_1">
     <title
        id="title64520">player_2_1</title>
@@ -23246,7 +23246,7 @@
   </g>
   <g
      id="player_1_1"
-     transform="matrix(0.74972437,0,0,0.54614262,1082.2174,1247.7482)"
+     transform="matrix(0.74972437,0,0,0.54614262,1369.0585,1260.7864)"
      inkscape:label="player_1_1">
     <title
        id="title64518">player_1_1</title>
@@ -23977,7 +23977,7 @@
   </g>
   <g
      id="failed"
-     transform="matrix(0.74972437,0,0,0.54687788,395.99533,1329.2912)"
+     transform="matrix(0.74972437,0,0,0.54687788,682.83639,1342.3294)"
      inkscape:label="failed">
     <title
        id="title64530">failed</title>
@@ -24708,7 +24708,7 @@
   </g>
   <g
      id="player_2_2"
-     transform="matrix(0.74972437,0,0,0.54687786,1080.5597,1473.3023)"
+     transform="matrix(0.74972437,0,0,0.54687786,1367.4008,1486.3405)"
      inkscape:label="player_2_2">
     <title
        id="title64524">player_2_2</title>
@@ -25439,7 +25439,7 @@
   </g>
   <g
      id="player_1_6"
-     transform="matrix(0.74972437,0,0,0.54687788,1083.0087,1549.4119)"
+     transform="matrix(0.74972437,0,0,0.54687788,1369.8498,1562.4501)"
      inkscape:label="player_1_6">
     <title
        id="title64526">player_1_6</title>
@@ -26170,7 +26170,7 @@
   </g>
   <g
      id="player_2_6"
-     transform="matrix(0.74972437,0,0,0.54687788,1084.0749,1631.2303)"
+     transform="matrix(0.74972437,0,0,0.54687788,1370.916,1644.2685)"
      inkscape:label="player_2_6">
     <title
        id="title64528">player_2_6</title>
@@ -26901,7 +26901,7 @@
   </g>
   <g
      id="player_2_4"
-     transform="matrix(0.74972437,0,0,0.54687788,402.01708,1403.7836)"
+     transform="matrix(0.74972437,0,0,0.54687788,688.85814,1416.8218)"
      inkscape:label="player_2_4">
     <title
        id="title85412">player_2_4</title>
@@ -27632,7 +27632,7 @@
   </g>
   <g
      id="player_1_4"
-     transform="matrix(0.74972437,0,0,0.54687788,391.76767,1629.3892)"
+     transform="matrix(0.74972437,0,0,0.54687788,678.60873,1642.4274)"
      inkscape:label="player_1_4">
     <title
        id="title77905">player_1_4</title>
@@ -28363,7 +28363,7 @@
   </g>
   <g
      id="player_2_3"
-     transform="matrix(0.74972437,0,0,0.54687866,396.66847,1547.7082)"
+     transform="matrix(0.74972437,0,0,0.54687866,683.50953,1560.7464)"
      inkscape:label="player_2_3">
     <title
        id="title77903">player_2_3</title>
@@ -29094,7 +29094,7 @@
   </g>
   <g
      id="player_1_3"
-     transform="matrix(0.74972437,0,0,0.54687788,398.8415,1476.7068)"
+     transform="matrix(0.74972437,0,0,0.54687788,685.68256,1489.745)"
      inkscape:label="player_1_3">
     <title
        id="title77901">player_1_3</title>
@@ -29825,7 +29825,7 @@
   </g>
   <g
      id="fightBackground"
-     transform="matrix(4,0,0,4.0000008,1054.6479,949.80686)"
+     transform="matrix(4,0,0,4.0000008,1346.7797,962.84509)"
      inkscape:label="fightBackground">
     <title
        id="title93091">fightBackground</title>
@@ -29928,170 +29928,1578 @@
   </g>
   <g
      id="bar_100"
-     transform="matrix(0,-1.0102564,0.99937313,0,66.75709,1547.7237)"
+     transform="matrix(0,1.1656804,-1.1875115,0,1146.8012,562.11633)"
      inkscape:label="bar_100">
     <title
-       id="title7894">bar_100</title>
-    <g
-       id="g215"
-       transform="translate(-0.70967742,-0.35483871)">
-      <g
-         style="shape-rendering:crispEdges"
-         id="g30"
-         transform="matrix(2.03125,0,0,1.0555888,-29.648589,-10.14182)">
-        <path
-           stroke="#12c900"
-           d="m 20,19 h 94 m -95,1 h 96 m -96,1 h 96 m -96,1 h 96 m -96,1 h 96 m -96,1 h 96 m -96,1 h 96 m -96,1 h 96 m -95,1 h 94"
-           id="path21" />
-      </g>
-    </g>
-  </g>
-  <g
-     id="bar_90"
-     transform="matrix(0,1,-1.0000037,0,135.5566,1343.9388)"
-     inkscape:label="bar_90">
-    <title
-       id="title7896">bar_90</title>
-    <g
-       id="g219"
-       transform="matrix(0.93599998,0,0,1.0000098,0.54360873,0.33743103)">
-      <g
-         style="shape-rendering:crispEdges"
-         id="g211-2"
-         transform="matrix(2.1802326,0,0,1.0555592,-32.930536,3.6993121)">
-        <path
-           stroke="#6dc900"
-           d="m 20,19 h 85 m -86,1 h 86 m -86,1 h 86 m -86,1 h 86 m -86,1 h 86 m -86,1 h 86 m -86,1 h 86 m -86,1 h 86 m -85,1 h 85"
-           id="path202-8" />
-      </g>
-    </g>
+       id="title76391">bar_100</title>
+    <path
+       stroke="#12c900"
+       d="M 5,2 H 170 M 3,3 H 172 M 3,4 H 172 M 3,5 H 172 M 3,6 H 172 M 3,7 H 172 M 3,8 H 172 M 5,9 h 165"
+       id="path2664-9" />
   </g>
   <g
      id="bar_80"
-     transform="matrix(0,0.99680514,-0.99998947,0,177.33447,1358.833)"
+     transform="matrix(0,-1.2170542,1.1875127,0,1133.1991,745.82683)"
      inkscape:label="bar_80">
     <title
-       id="title7898">bar_80</title>
-    <g
-       style="shape-rendering:crispEdges"
-       id="g242"
-       transform="matrix(2.0592105,0,0,1.0555846,-30.727553,19.641412)">
-      <path
-         stroke="#a9c900"
-         d="M 20,19 H 95 M 19,20 H 95 M 19,21 H 95 M 19,22 H 95 M 19,23 H 95 M 19,24 H 95 M 19,25 H 95 M 19,26 H 95 M 20,27 H 95"
-         id="path233-1" />
-    </g>
+       id="title76395">bar_80</title>
+    <path
+       stroke="#a9c900"
+       d="M 5,30 H 130 M 3,31 H 132 M 3,32 H 132 M 3,33 H 132 M 3,34 H 132 M 3,35 H 132 M 3,36 H 132 M 5,37 h 125"
+       id="path2668-6" />
   </g>
   <g
      id="bar_70"
-     transform="matrix(0,1,-0.99996949,0,216.06788,1376.9299)"
+     transform="matrix(0,-1.2454546,1.1875134,0,1133.4474,737.49823)"
      inkscape:label="bar_70">
     <title
-       id="title7900">bar_70</title>
-    <g
-       style="shape-rendering:crispEdges"
-       id="g265"
-       transform="matrix(2.0681818,0,0,1.0556032,-30.994446,33.826252)">
-      <path
-         stroke="#c9c300"
-         d="M 20,19 H 85 M 19,20 H 85 M 19,21 H 85 M 19,22 H 85 M 19,23 H 85 M 19,24 H 85 M 19,25 H 85 M 19,26 H 85 M 20,27 H 85"
-         id="path256-1" />
-    </g>
+       id="title76397">bar_70</title>
+    <path
+       stroke="#c9c300"
+       d="M 5,43 H 111 M 3,44 H 113 M 3,45 H 113 M 3,46 H 113 M 3,47 H 113 M 3,48 H 113 M 3,49 H 113 M 5,50 h 106"
+       id="path2670-0" />
   </g>
   <g
      id="bar_60"
-     transform="matrix(0,1,-1.0000208,0,254.09942,1395.4665)"
+     transform="matrix(0,-1.2580645,1.1875137,0,1137.5487,728.83573)"
      inkscape:label="bar_60">
     <title
-       id="title7902">bar_60</title>
+       id="title76399">bar_60</title>
+    <path
+       stroke="#c9ab00"
+       d="M 5,53 H 94 M 3,54 H 96 M 3,55 H 96 M 3,56 H 96 M 3,57 H 96 M 3,58 H 96 M 3,59 H 96 M 5,60 h 89"
+       id="path2674-5" />
+  </g>
+  <g
+     id="bar_20"
+     transform="matrix(0,-1.1935483,0.75001381,0,1209.7522,822.77903)"
+     inkscape:label="bar_20">
+    <title
+       id="title76407">bar_20</title>
     <g
-       style="shape-rendering:crispEdges"
-       id="g288"
-       transform="matrix(2.0892857,0,0,1.0555515,-31.137018,50.14178)">
+       id="g2718"
+       transform="matrix(1,0,0,1.5833204,0,-39.879803)">
       <path
-         stroke="#c9ab00"
-         d="M 20,19 H 75 M 19,20 H 75 M 19,21 H 75 M 19,22 H 75 M 19,23 H 75 M 19,24 H 75 M 19,25 H 75 M 19,26 H 75 M 20,27 H 75"
-         id="path279" />
+         stroke="#c90100"
+         d="m 114.0936,68.584185 h 27 m -29,1 h 31 m -31,1 h 31 m -31,1 h 31 m -31,1 h 31 m -31,1 h 31 m -31,1 h 31 m -29,1 h 27"
+         id="path2676-3" />
     </g>
   </g>
   <g
      id="bar_50"
-     transform="matrix(0,1,-1.0000221,0,294.49323,1418.5582)"
+     transform="matrix(0,-1.2763158,1.1875141,0,1139.8394,722.67723)"
      inkscape:label="bar_50">
     <title
-       id="title7904">bar_50</title>
-    <g
-       style="shape-rendering:crispEdges"
-       id="g311"
-       transform="matrix(2.1195652,0,0,1.0555502,-32.163607,65.748161)">
-      <path
-         stroke="#c98900"
-         d="M 20,19 H 65 M 19,20 H 65 M 19,21 H 65 M 19,22 H 65 M 19,23 H 65 M 19,24 H 65 M 19,25 H 65 M 19,26 H 65 M 20,27 H 65"
-         id="path302-1" />
-    </g>
-  </g>
-  <g
-     id="bar_40"
-     transform="matrix(0,0.99999999,-1.0124986,0,333.49325,1442.9972)"
-     inkscape:label="bar_40">
-    <title
-       id="title7906">bar_40</title>
-    <g
-       style="shape-rendering:crispEdges"
-       id="g334"
-       transform="matrix(2.1666667,0,0,1.0555485,-32.800133,81.711602)">
-      <path
-         stroke="#c96000"
-         d="M 20,19 H 55 M 19,20 H 55 M 19,21 H 55 M 19,22 H 55 M 19,23 H 55 M 19,24 H 55 M 19,25 H 55 M 19,26 H 55 M 20,27 H 55"
-         id="path325" />
-    </g>
-  </g>
-  <g
-     id="bar_30"
-     transform="matrix(0,2.8346457,-2.8346457,0,423.8992,1448.9962)"
-     inkscape:label="bar_30">
-    <title
-       id="title7908">bar_30</title>
-    <g
-       style="shape-rendering:crispEdges"
-       id="g357"
-       transform="matrix(0.79375,0,0,0.37238286,-5.0369645,53.797237)">
-      <path
-         stroke="#c93500"
-         d="M 20,19 H 45 M 19,20 H 45 M 19,21 H 45 M 19,22 H 45 M 19,23 H 45 M 19,24 H 45 M 19,25 H 45 M 19,26 H 45 M 20,27 H 45"
-         id="path348-1" />
-    </g>
-  </g>
-  <g
-     id="bar_20"
-     transform="matrix(0,1,-1.0000282,0,404.65936,1497.2641)"
-     inkscape:label="bar_20">
-    <title
-       id="title7910">bar_20</title>
-    <g
-       style="shape-rendering:crispEdges"
-       id="g403"
-       transform="matrix(2.4375,0,0,1.0555437,-38.49368,113.3133)">
-      <path
-         stroke="#c90100"
-         d="M 20,19 H 35 M 19,20 H 35 M 19,21 H 35 M 19,22 H 35 M 19,23 H 35 M 19,24 H 35 M 19,25 H 35 M 19,26 H 35 M 20,27 H 35"
-         id="path394-9" />
-    </g>
+       id="title76401">bar_50</title>
+    <path
+       stroke="#c98900"
+       d="M 5,64 H 77 M 3,65 H 79 M 3,66 H 79 M 3,67 H 79 M 3,68 H 79 M 3,69 H 79 M 3,70 H 79 M 5,71 h 72"
+       id="path2678-9" />
   </g>
   <g
      id="bar_10"
-     transform="matrix(0,2.8346457,-2.8346457,0,507.71459,1496.9281)"
+     transform="matrix(0,-1.2142857,1.1875127,0,1159.8831,921.18093)"
      inkscape:label="bar_10">
     <title
-       id="title7912">bar_10</title>
-    <g
-       style="shape-rendering:crispEdges"
-       id="g426"
-       transform="matrix(0.9827381,0,0,0.37238286,-8.2432157,67.364281)">
-      <path
-         stroke="#ae0832"
-         d="m 20,19 h 6 m -7,1 h 7 m -7,1 h 7 m -7,1 h 7 m -7,1 h 7 m -7,1 h 7 m -7,1 h 7 m -7,1 h 7 m -6,1 h 6"
-         id="path417" />
-    </g>
+       id="title76409">bar_10</title>
+    <path
+       stroke="#ae0832"
+       d="m 203.07692,100.01452 h 10 m -12,1 h 14 m -14,1 h 14 m -14,1 h 14 m -14,1 h 14 m -14,1 h 14 m -14,1 h 14 m -12,1 h 10"
+       id="path2680-4" />
+  </g>
+  <g
+     id="bar_40"
+     transform="matrix(0,-1.2622951,1.1875138,0,1142.4042,710.73933)"
+     inkscape:label="bar_40">
+    <title
+       id="title76403">bar_40</title>
+    <path
+       stroke="#c96000"
+       d="M 5,74 H 62 M 3,75 H 64 M 3,76 H 64 M 3,77 H 64 M 3,78 H 64 M 3,79 H 64 M 3,80 H 64 M 5,81 h 57"
+       id="path2682-0" />
+  </g>
+  <g
+     id="bar_90"
+     transform="matrix(0,-1.1959459,1.1875122,0,1135.4405,753.65413)"
+     inkscape:label="bar_90">
+    <title
+       id="title76393">bar_90</title>
+    <path
+       stroke="#6dc900"
+       d="M 5,15 H 149 M 3,16 H 151 M 3,17 H 151 M 3,18 H 151 M 3,19 H 151 M 3,20 H 151 M 3,21 H 151 M 5,22 h 144"
+       id="path2666-8" />
+  </g>
+  <g
+     id="bar_30"
+     transform="matrix(0,-1.2666667,-1.1875139,0,1314.0405,846.98473)"
+     inkscape:label="bar_30">
+    <title
+       id="title76405">bar_30</title>
+    <path
+       stroke="#c93500"
+       d="m 120,51 h 41 m -43,1 h 45 m -45,1 h 45 m -45,1 h 45 m -45,1 h 45 m -45,1 h 45 m -45,1 h 45 m -43,1 h 40"
+       id="path2672-8" />
+  </g>
+  <g
+     id="player_1_0"
+     transform="matrix(0.74972437,0,0,0.54687788,-15.436108,1552.1947)"
+     inkscape:label="player_1_0">
+    <title
+       id="title85772">player_1_0</title>
+    <path
+       stroke="#000000"
+       d="m 53,144 h 875 m -875,1 h 875 m -875,1 h 875 m -875,1 h 875 m -875,1 h 1 m -6,2 h 4 m 877,0 h 4 m -885,1 h 4 m 877,0 h 4 m -885,1 h 4 m 877,0 h 4 m -885,1 h 1 m 2,0 h 1 m -9,2 h 4 m 887,0 h 4 m -895,1 h 4 m 887,0 h 4 m -895,1 h 4 m 887,0 h 4 m -895,1 h 4 m 887,0 h 4 m -901,2 h 5 m 897,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 893,0 h 5 m 1,0 h 4 m -907,1 h 4 m 893,0 h 10 m -907,1 h 4 m 893,0 h 10 m -907,1 h 5 m 892,0 h 10 m -10,1 h 5 m -896,1 h 4 m 882,0 h 5 m 1,0 h 3 m -895,1 h 4 m 882,0 h 9 m -895,1 h 4 m 882,0 h 9 m -895,1 h 4 m 882,0 h 9 m -9,1 h 4 m -4,1 h 4 m -885,1 h 4 m 871,0 h 10 m -885,1 h 4 m 871,0 h 10 m -885,1 h 4 m 871,0 h 10 m -885,1 h 4 m 871,0 h 10 m -10,1 h 5 m -875,1 h 875 m -875,1 h 875 m -875,1 h 875 m -875,1 h 875 m -869,1 h 864 m -864,1 h 863 m -863,1 h 863 m -863,1 h 863 m -863,1 h 863"
+       id="path4-8" />
+    <path
+       stroke="#868686"
+       d="m 928,144 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1"
+       id="path6-4" />
+    <path
+       stroke="#0b0a0a"
+       d="M 54,148 H 926"
+       id="path8-5" />
+    <path
+       stroke="#0b0a09"
+       d="m 926,148 h 1"
+       id="path10-17" />
+    <path
+       stroke="#070605"
+       d="m 927,148 h 1"
+       id="path12-6" />
+    <path
+       stroke="#838383"
+       d="m 928,148 h 1 M 95,271 h 1"
+       id="path14-05" />
+    <path
+       stroke="#707070"
+       d="m 47,149 h 1 m 557,122 h 1"
+       id="path16-4" />
+    <path
+       stroke="#141414"
+       d="m 48,149 h 1"
+       id="path18-2" />
+    <path
+       stroke="#1f1f1f"
+       d="m 49,149 h 2 m 879,0 h 3"
+       id="path20-9" />
+    <path
+       stroke="#19191a"
+       d="m 51,149 h 1"
+       id="path22-34" />
+    <path
+       stroke="#373534"
+       d="m 52,149 h 1"
+       id="path24-3" />
+    <path
+       stroke="#e4d5c9"
+       d="m 53,149 h 1"
+       id="path26-7" />
+    <path
+       stroke="#d1c4b9"
+       d="M 54,149 H 927"
+       id="path28-87" />
+    <path
+       stroke="#d5c7bc"
+       d="m 927,149 h 1 M 42,160 h 1"
+       id="path30-4" />
+    <path
+       stroke="#54504c"
+       d="m 928,149 h 1"
+       id="path32-7" />
+    <path
+       stroke="#1e1e1e"
+       d="m 929,149 h 1"
+       id="path34-5" />
+    <path
+       stroke="#5f5f5f"
+       d="m 933,149 h 1"
+       id="path36-48" />
+    <path
+       stroke="#616161"
+       d="m 47,150 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1"
+       id="path38-9" />
+    <path
+       stroke="#22201e"
+       d="m 52,150 h 1 m -1,1 h 1 m -1,1 h 1 m -1,104 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1"
+       id="path40-5" />
+    <path
+       stroke="#fffff3"
+       d="m 53,150 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -11,7 h 4 m 888,0 h 2 M 53,256 h 1 m -1,1 h 1 m -1,1 h 1"
+       id="path42-8" />
+    <path
+       stroke="#f9e9dc"
+       d="m 54,150 h 873 m -873,1 h 873 m -873,1 h 873 m -873,1 h 873 m -873,1 h 873 m -873,1 h 874 m -879,1 h 884 m -884,1 h 884 m -884,1 h 884 m -884,1 h 884 m -884,1 h 884 m -890,1 h 894 m -894,1 h 894 m -894,1 h 894 m -894,1 h 894 m -894,1 h 894 m -894,1 h 894 m -894,1 h 894 m -894,1 h 894 m -894,1 h 894 m -894,1 h 894 m -894,1 h 894 m -894,1 h 894 m -894,1 h 894 m -894,1 h 894 m -894,1 h 894 m -894,1 h 894 m -894,1 h 894 m -894,1 h 894 m -894,1 h 49 m 28,0 h 9 m 8,0 h 150 m 8,0 h 61 m 8,0 h 573 m -894,1 h 49 m 28,0 h 9 m 8,0 h 150 m 8,0 h 61 m 8,0 h 573 m -894,1 h 49 m 28,0 h 9 m 8,0 h 150 m 8,0 h 61 m 8,0 h 573 m -894,1 h 49 m 28,0 h 9 m 8,0 h 150 m 8,0 h 61 m 8,0 h 573 m -894,1 h 49 m 28,0 h 9 m 8,0 h 150 m 8,0 h 61 m 8,0 h 573 m -894,1 h 49 m 28,0 h 9 m 8,0 h 150 m 8,0 h 61 m 8,0 h 573 m -894,1 h 49 m 28,0 h 9 m 8,0 h 150 m 8,0 h 61 m 8,0 h 573 m -894,1 h 49 m 35,0 h 2 m 8,0 h 144 m 14,0 h 61 m 8,0 h 92 m 18,0 h 463 m -894,1 h 49 m 7,0 h 20 m 8,0 h 2 m 8,0 h 144 m 14,0 h 61 m 8,0 h 92 m 18,0 h 463 m -894,1 h 49 m 7,0 h 20 m 8,0 h 2 m 8,0 h 144 m 14,0 h 61 m 8,0 h 92 m 18,0 h 463 m -894,1 h 49 m 7,0 h 20 m 8,0 h 2 m 8,0 h 144 m 14,0 h 61 m 8,0 h 92 m 18,0 h 463 m -894,1 h 49 m 7,0 h 20 m 8,0 h 2 m 8,0 h 3 m 24,0 h 10 m 8,0 h 13 m 7,0 h 10 m 21,0 h 3 m 8,0 h 2 m 11,0 h 24 m 14,0 h 34 m 18,0 h 9 m 8,0 h 30 m 15,0 h 16 m 15,0 h 16 m 18,0 h 9 m 22,0 h 20 m 7,0 h 13 m 8,0 h 9 m 15,0 h 10 m 7,0 h 13 m 8,0 h 2 m 8,0 h 3 m 11,0 h 23 m 22,0 h 6 m 14,0 h 16 m 15,0 h 54 m 22,0 h 126 m -894,1 h 49 m 7,0 h 20 m 8,0 h 2 m 8,0 h 3 m 24,0 h 10 m 8,0 h 13 m 7,0 h 10 m 21,0 h 3 m 8,0 h 2 m 11,0 h 24 m 14,0 h 34 m 18,0 h 9 m 8,0 h 30 m 15,0 h 16 m 15,0 h 16 m 18,0 h 9 m 22,0 h 20 m 7,0 h 13 m 8,0 h 9 m 15,0 h 10 m 7,0 h 13 m 8,0 h 2 m 8,0 h 3 m 11,0 h 23 m 22,0 h 6 m 14,0 h 16 m 15,0 h 54 m 22,0 h 126 m -894,1 h 49 m 7,0 h 20 m 8,0 h 2 m 8,0 h 3 m 24,0 h 10 m 8,0 h 13 m 7,0 h 10 m 21,0 h 3 m 8,0 h 2 m 11,0 h 24 m 14,0 h 34 m 18,0 h 9 m 8,0 h 30 m 15,0 h 16 m 15,0 h 16 m 18,0 h 9 m 22,0 h 20 m 7,0 h 13 m 8,0 h 9 m 15,0 h 10 m 7,0 h 13 m 8,0 h 2 m 8,0 h 3 m 11,0 h 23 m 22,0 h 6 m 14,0 h 16 m 15,0 h 54 m 22,0 h 126 m -894,1 h 49 m 35,0 h 2 m 8,0 h 3 m 24,0 h 10 m 8,0 h 13 m 7,0 h 10 m 21,0 h 3 m 25,0 h 20 m 14,0 h 34 m 18,0 h 9 m 8,0 h 6 m 8,0 h 16 m 15,0 h 16 m 15,0 h 9 m 25,0 h 9 m 22,0 h 20 m 7,0 h 13 m 8,0 h 9 m 15,0 h 10 m 7,0 h 13 m 8,0 h 2 m 25,0 h 20 m 22,0 h 6 m 14,0 h 16 m 15,0 h 54 m 22,0 h 126 m -894,1 h 49 m 28,0 h 9 m 8,0 h 3 m 24,0 h 10 m 8,0 h 13 m 7,0 h 10 m 21,0 h 3 m 25,0 h 26 m 8,0 h 34 m 18,0 h 9 m 8,0 h 6 m 8,0 h 16 m 15,0 h 16 m 15,0 h 9 m 8,0 h 26 m 22,0 h 20 m 7,0 h 13 m 8,0 h 9 m 15,0 h 10 m 7,0 h 13 m 8,0 h 2 m 25,0 h 20 m 22,0 h 6 m 14,0 h 16 m 15,0 h 54 m 22,0 h 126 m -894,1 h 49 m 28,0 h 9 m 8,0 h 3 m 24,0 h 10 m 8,0 h 13 m 7,0 h 10 m 21,0 h 3 m 25,0 h 26 m 8,0 h 34 m 18,0 h 9 m 8,0 h 6 m 8,0 h 16 m 15,0 h 16 m 15,0 h 9 m 8,0 h 26 m 22,0 h 20 m 7,0 h 13 m 8,0 h 9 m 15,0 h 10 m 7,0 h 13 m 8,0 h 2 m 25,0 h 20 m 22,0 h 6 m 14,0 h 16 m 15,0 h 54 m 22,0 h 126 m -894,1 h 49 m 28,0 h 9 m 8,0 h 3 m 24,0 h 10 m 8,0 h 13 m 7,0 h 10 m 21,0 h 3 m 25,0 h 26 m 8,0 h 34 m 18,0 h 9 m 8,0 h 6 m 8,0 h 16 m 15,0 h 16 m 15,0 h 9 m 8,0 h 26 m 22,0 h 20 m 7,0 h 13 m 8,0 h 9 m 15,0 h 10 m 7,0 h 13 m 8,0 h 2 m 25,0 h 20 m 22,0 h 6 m 14,0 h 16 m 15,0 h 54 m 22,0 h 126 m -894,1 h 49 m 28,0 h 9 m 8,0 h 27 m 7,0 h 3 m 8,0 h 13 m 7,0 h 3 m 8,0 h 12 m 8,0 h 3 m 11,0 h 9 m 5,0 h 26 m 8,0 h 27 m 8,0 h 16 m 8,0 h 2 m 8,0 h 6 m 8,0 h 9 m 8,0 h 13 m 7,0 h 3 m 8,0 h 13 m 7,0 h 3 m 8,0 h 20 m 7,0 h 13 m 8,0 h 20 m 7,0 h 13 m 8,0 h 3 m 7,0 h 13 m 8,0 h 3 m 7,0 h 13 m 8,0 h 2 m 11,0 h 10 m 4,0 h 20 m 8,0 h 13 m 7,0 h 13 m 8,0 h 3 m 7,0 h 13 m 8,0 h 3 m 7,0 h 20 m 8,0 h 2 m 8,0 h 13 m 8,0 h 126 m -894,1 h 49 m 28,0 h 9 m 8,0 h 27 m 7,0 h 3 m 8,0 h 13 m 7,0 h 3 m 8,0 h 12 m 8,0 h 3 m 11,0 h 9 m 5,0 h 26 m 8,0 h 27 m 8,0 h 16 m 8,0 h 2 m 8,0 h 6 m 8,0 h 9 m 8,0 h 13 m 7,0 h 3 m 8,0 h 13 m 7,0 h 3 m 8,0 h 20 m 7,0 h 13 m 8,0 h 20 m 7,0 h 13 m 8,0 h 3 m 7,0 h 13 m 8,0 h 3 m 7,0 h 13 m 8,0 h 2 m 11,0 h 10 m 4,0 h 20 m 8,0 h 13 m 7,0 h 13 m 8,0 h 3 m 7,0 h 13 m 8,0 h 3 m 7,0 h 20 m 8,0 h 2 m 8,0 h 13 m 8,0 h 126 m -894,1 h 49 m 28,0 h 9 m 8,0 h 27 m 7,0 h 3 m 8,0 h 13 m 7,0 h 3 m 8,0 h 12 m 8,0 h 3 m 11,0 h 9 m 5,0 h 26 m 8,0 h 27 m 8,0 h 16 m 8,0 h 2 m 8,0 h 6 m 8,0 h 9 m 8,0 h 13 m 7,0 h 3 m 8,0 h 13 m 7,0 h 3 m 8,0 h 20 m 7,0 h 13 m 8,0 h 20 m 7,0 h 13 m 8,0 h 3 m 7,0 h 13 m 8,0 h 3 m 7,0 h 13 m 8,0 h 2 m 11,0 h 10 m 4,0 h 20 m 8,0 h 13 m 7,0 h 13 m 8,0 h 3 m 7,0 h 13 m 8,0 h 3 m 7,0 h 20 m 8,0 h 2 m 8,0 h 13 m 8,0 h 126 m -894,1 h 49 m 28,0 h 9 m 8,0 h 9 m 25,0 h 3 m 8,0 h 13 m 7,0 h 3 m 28,0 h 3 m 11,0 h 9 m 5,0 h 26 m 8,0 h 27 m 8,0 h 16 m 8,0 h 2 m 28,0 h 3 m 8,0 h 13 m 7,0 h 3 m 8,0 h 13 m 7,0 h 3 m 18,0 h 10 m 28,0 h 20 m 7,0 h 13 m 8,0 h 3 m 7,0 h 13 m 8,0 h 3 m 7,0 h 13 m 8,0 h 2 m 11,0 h 10 m 4,0 h 20 m 8,0 h 13 m 7,0 h 13 m 8,0 h 3 m 7,0 h 13 m 8,0 h 3 m 7,0 h 20 m 8,0 h 2 m 29,0 h 126 m -894,1 h 49 m 7,0 h 30 m 8,0 h 9 m 25,0 h 3 m 8,0 h 13 m 7,0 h 3 m 28,0 h 3 m 8,0 h 43 m 8,0 h 27 m 8,0 h 16 m 8,0 h 2 m 15,0 h 6 m 7,0 h 3 m 8,0 h 13 m 7,0 h 3 m 8,0 h 13 m 7,0 h 10 m 11,0 h 10 m 28,0 h 20 m 7,0 h 13 m 8,0 h 3 m 7,0 h 13 m 8,0 h 3 m 7,0 h 13 m 8,0 h 2 m 8,0 h 37 m 8,0 h 13 m 7,0 h 13 m 8,0 h 3 m 7,0 h 13 m 8,0 h 3 m 7,0 h 20 m 8,0 h 2 m 29,0 h 126 m -894,1 h 49 m 7,0 h 30 m 8,0 h 9 m 25,0 h 3 m 8,0 h 13 m 7,0 h 3 m 28,0 h 3 m 8,0 h 43 m 8,0 h 27 m 8,0 h 16 m 8,0 h 2 m 15,0 h 6 m 7,0 h 3 m 8,0 h 13 m 7,0 h 3 m 8,0 h 13 m 7,0 h 10 m 11,0 h 10 m 28,0 h 20 m 7,0 h 13 m 8,0 h 3 m 7,0 h 13 m 8,0 h 3 m 7,0 h 13 m 8,0 h 2 m 8,0 h 37 m 8,0 h 13 m 7,0 h 13 m 8,0 h 3 m 7,0 h 13 m 8,0 h 3 m 7,0 h 20 m 8,0 h 2 m 29,0 h 126 m -894,1 h 49 m 7,0 h 30 m 8,0 h 9 m 25,0 h 3 m 8,0 h 13 m 7,0 h 3 m 28,0 h 3 m 8,0 h 43 m 8,0 h 27 m 8,0 h 16 m 8,0 h 2 m 15,0 h 6 m 7,0 h 3 m 8,0 h 13 m 7,0 h 3 m 8,0 h 13 m 7,0 h 10 m 11,0 h 10 m 28,0 h 20 m 7,0 h 13 m 8,0 h 3 m 7,0 h 13 m 8,0 h 3 m 7,0 h 13 m 8,0 h 2 m 8,0 h 37 m 8,0 h 13 m 7,0 h 13 m 8,0 h 3 m 7,0 h 13 m 8,0 h 3 m 7,0 h 20 m 8,0 h 2 m 29,0 h 126 m -894,1 h 49 m 7,0 h 30 m 8,0 h 9 m 25,0 h 3 m 8,0 h 13 m 7,0 h 3 m 21,0 h 10 m 8,0 h 43 m 8,0 h 27 m 8,0 h 26 m 15,0 h 6 m 7,0 h 3 m 8,0 h 13 m 7,0 h 3 m 8,0 h 13 m 7,0 h 10 m 11,0 h 10 m 21,0 h 27 m 7,0 h 13 m 8,0 h 3 m 7,0 h 13 m 8,0 h 3 m 7,0 h 13 m 8,0 h 2 m 8,0 h 37 m 8,0 h 13 m 7,0 h 13 m 8,0 h 3 m 7,0 h 13 m 8,0 h 3 m 7,0 h 20 m 8,0 h 2 m 22,0 h 133 m -894,1 h 49 m 7,0 h 30 m 8,0 h 9 m 25,0 h 3 m 8,0 h 13 m 7,0 h 3 m 21,0 h 10 m 8,0 h 43 m 8,0 h 27 m 8,0 h 26 m 15,0 h 6 m 7,0 h 3 m 8,0 h 13 m 7,0 h 3 m 8,0 h 13 m 7,0 h 10 m 11,0 h 10 m 21,0 h 27 m 7,0 h 13 m 8,0 h 3 m 7,0 h 13 m 8,0 h 3 m 7,0 h 13 m 8,0 h 2 m 8,0 h 37 m 8,0 h 13 m 7,0 h 13 m 8,0 h 3 m 7,0 h 13 m 8,0 h 3 m 7,0 h 20 m 8,0 h 2 m 22,0 h 133 m -894,1 h 49 m 7,0 h 30 m 8,0 h 9 m 25,0 h 3 m 8,0 h 13 m 7,0 h 3 m 21,0 h 10 m 8,0 h 43 m 8,0 h 27 m 8,0 h 26 m 15,0 h 6 m 7,0 h 3 m 8,0 h 13 m 7,0 h 3 m 8,0 h 13 m 7,0 h 10 m 11,0 h 10 m 21,0 h 27 m 7,0 h 13 m 8,0 h 3 m 7,0 h 13 m 8,0 h 3 m 7,0 h 13 m 8,0 h 2 m 8,0 h 37 m 8,0 h 13 m 7,0 h 13 m 8,0 h 3 m 7,0 h 13 m 8,0 h 3 m 7,0 h 20 m 8,0 h 2 m 22,0 h 133 m -894,1 h 49 m 7,0 h 30 m 8,0 h 3 m 31,0 h 3 m 28,0 h 3 m 21,0 h 10 m 8,0 h 43 m 8,0 h 27 m 8,0 h 16 m 8,0 h 2 m 15,0 h 6 m 7,0 h 3 m 8,0 h 13 m 7,0 h 3 m 8,0 h 13 m 7,0 h 10 m 18,0 h 3 m 21,0 h 27 m 28,0 h 3 m 7,0 h 13 m 8,0 h 3 m 7,0 h 13 m 8,0 h 2 m 8,0 h 37 m 8,0 h 13 m 7,0 h 13 m 8,0 h 3 m 7,0 h 13 m 8,0 h 3 m 14,0 h 6 m 15,0 h 2 m 22,0 h 133 m -894,1 h 49 m 7,0 h 30 m 8,0 h 3 m 7,0 h 17 m 7,0 h 10 m 21,0 h 3 m 8,0 h 23 m 8,0 h 43 m 8,0 h 27 m 8,0 h 16 m 8,0 h 2 m 8,0 h 13 m 7,0 h 3 m 8,0 h 13 m 7,0 h 3 m 8,0 h 13 m 7,0 h 20 m 8,0 h 3 m 7,0 h 47 m 22,0 h 3 m 7,0 h 13 m 8,0 h 3 m 7,0 h 13 m 8,0 h 2 m 8,0 h 37 m 8,0 h 13 m 7,0 h 13 m 8,0 h 3 m 7,0 h 13 m 8,0 h 9 m 8,0 h 6 m 8,0 h 9 m 8,0 h 147 m -894,1 h 49 m 7,0 h 30 m 8,0 h 3 m 7,0 h 17 m 7,0 h 10 m 21,0 h 3 m 8,0 h 23 m 8,0 h 43 m 8,0 h 27 m 8,0 h 16 m 8,0 h 2 m 8,0 h 13 m 7,0 h 3 m 8,0 h 13 m 7,0 h 3 m 8,0 h 13 m 7,0 h 20 m 8,0 h 3 m 7,0 h 47 m 22,0 h 3 m 7,0 h 13 m 8,0 h 3 m 7,0 h 13 m 8,0 h 2 m 8,0 h 37 m 8,0 h 13 m 7,0 h 13 m 8,0 h 3 m 7,0 h 13 m 8,0 h 9 m 8,0 h 6 m 8,0 h 9 m 8,0 h 147 m -894,1 h 49 m 7,0 h 30 m 8,0 h 3 m 7,0 h 17 m 7,0 h 10 m 21,0 h 3 m 8,0 h 12 m 8,0 h 3 m 8,0 h 43 m 8,0 h 27 m 8,0 h 16 m 8,0 h 2 m 8,0 h 13 m 7,0 h 3 m 8,0 h 13 m 7,0 h 3 m 8,0 h 13 m 7,0 h 20 m 8,0 h 3 m 7,0 h 13 m 8,0 h 26 m 22,0 h 3 m 7,0 h 13 m 8,0 h 3 m 7,0 h 13 m 8,0 h 2 m 8,0 h 37 m 8,0 h 13 m 7,0 h 13 m 8,0 h 3 m 7,0 h 13 m 8,0 h 9 m 8,0 h 6 m 8,0 h 9 m 8,0 h 13 m 8,0 h 126 m -894,1 h 49 m 7,0 h 30 m 8,0 h 3 m 7,0 h 17 m 7,0 h 10 m 21,0 h 3 m 8,0 h 12 m 8,0 h 3 m 8,0 h 43 m 8,0 h 27 m 8,0 h 16 m 8,0 h 2 m 8,0 h 13 m 7,0 h 3 m 8,0 h 13 m 7,0 h 3 m 8,0 h 13 m 7,0 h 20 m 8,0 h 3 m 7,0 h 13 m 8,0 h 26 m 22,0 h 3 m 7,0 h 13 m 8,0 h 3 m 7,0 h 13 m 8,0 h 2 m 8,0 h 37 m 8,0 h 13 m 7,0 h 13 m 8,0 h 3 m 7,0 h 13 m 8,0 h 9 m 8,0 h 6 m 8,0 h 9 m 8,0 h 13 m 8,0 h 126 m -894,1 h 49 m 7,0 h 30 m 8,0 h 3 m 7,0 h 17 m 7,0 h 10 m 21,0 h 3 m 8,0 h 12 m 8,0 h 3 m 8,0 h 43 m 8,0 h 27 m 8,0 h 16 m 8,0 h 2 m 8,0 h 13 m 7,0 h 3 m 8,0 h 13 m 7,0 h 3 m 8,0 h 13 m 7,0 h 20 m 8,0 h 3 m 7,0 h 13 m 8,0 h 26 m 22,0 h 3 m 7,0 h 13 m 8,0 h 3 m 7,0 h 13 m 8,0 h 2 m 8,0 h 37 m 8,0 h 13 m 7,0 h 13 m 8,0 h 3 m 7,0 h 13 m 8,0 h 9 m 8,0 h 6 m 8,0 h 9 m 8,0 h 13 m 8,0 h 126 m -894,1 h 49 m 7,0 h 30 m 8,0 h 3 m 7,0 h 17 m 7,0 h 10 m 21,0 h 3 m 8,0 h 12 m 8,0 h 3 m 8,0 h 43 m 8,0 h 27 m 8,0 h 16 m 8,0 h 2 m 8,0 h 13 m 7,0 h 3 m 8,0 h 13 m 7,0 h 3 m 8,0 h 13 m 7,0 h 20 m 8,0 h 3 m 7,0 h 13 m 8,0 h 26 m 22,0 h 3 m 7,0 h 13 m 8,0 h 3 m 7,0 h 13 m 8,0 h 2 m 8,0 h 37 m 8,0 h 13 m 7,0 h 13 m 8,0 h 3 m 7,0 h 13 m 8,0 h 9 m 8,0 h 6 m 8,0 h 9 m 8,0 h 13 m 8,0 h 126 m -894,1 h 49 m 7,0 h 30 m 8,0 h 3 m 31,0 h 10 m 21,0 h 3 m 28,0 h 3 m 8,0 h 37 m 21,0 h 20 m 32,0 h 2 m 8,0 h 13 m 7,0 h 3 m 28,0 h 3 m 28,0 h 3 m 25,0 h 3 m 28,0 h 26 m 22,0 h 3 m 28,0 h 3 m 28,0 h 2 m 8,0 h 37 m 8,0 h 13 m 7,0 h 13 m 8,0 h 3 m 28,0 h 9 m 22,0 h 9 m 29,0 h 2 m 8,0 h 3 m 7,0 h 3 m 8,0 h 95 m -894,1 h 49 m 7,0 h 30 m 8,0 h 9 m 25,0 h 24 m 7,0 h 10 m 21,0 h 3 m 8,0 h 37 m 21,0 h 27 m 18,0 h 9 m 8,0 h 13 m 7,0 h 10 m 15,0 h 16 m 15,0 h 9 m 18,0 h 16 m 22,0 h 40 m 8,0 h 9 m 15,0 h 16 m 22,0 h 2 m 8,0 h 37 m 8,0 h 13 m 7,0 h 13 m 8,0 h 9 m 15,0 h 23 m 8,0 h 23 m 22,0 h 2 m 8,0 h 3 m 7,0 h 3 m 8,0 h 95 m -894,1 h 49 m 7,0 h 30 m 8,0 h 9 m 25,0 h 24 m 7,0 h 10 m 21,0 h 3 m 8,0 h 37 m 21,0 h 27 m 18,0 h 9 m 8,0 h 13 m 7,0 h 10 m 15,0 h 16 m 15,0 h 9 m 18,0 h 16 m 22,0 h 40 m 8,0 h 9 m 15,0 h 16 m 22,0 h 2 m 8,0 h 37 m 8,0 h 13 m 7,0 h 13 m 8,0 h 9 m 15,0 h 23 m 8,0 h 23 m 22,0 h 2 m 8,0 h 3 m 7,0 h 3 m 8,0 h 95 m -894,1 h 49 m 7,0 h 30 m 8,0 h 9 m 25,0 h 24 m 7,0 h 10 m 21,0 h 3 m 8,0 h 37 m 21,0 h 27 m 18,0 h 9 m 8,0 h 13 m 7,0 h 10 m 15,0 h 16 m 15,0 h 9 m 18,0 h 16 m 22,0 h 40 m 8,0 h 9 m 15,0 h 16 m 22,0 h 2 m 8,0 h 37 m 8,0 h 13 m 7,0 h 13 m 8,0 h 9 m 15,0 h 23 m 8,0 h 23 m 22,0 h 2 m 8,0 h 3 m 7,0 h 3 m 8,0 h 95 m -894,1 h 49 m 7,0 h 30 m 8,0 h 9 m 25,0 h 24 m 7,0 h 10 m 21,0 h 3 m 8,0 h 37 m 21,0 h 27 m 18,0 h 9 m 8,0 h 13 m 7,0 h 10 m 15,0 h 16 m 15,0 h 9 m 18,0 h 16 m 22,0 h 40 m 8,0 h 9 m 15,0 h 16 m 22,0 h 2 m 8,0 h 37 m 8,0 h 13 m 7,0 h 13 m 8,0 h 9 m 15,0 h 23 m 8,0 h 23 m 22,0 h 2 m 8,0 h 3 m 7,0 h 3 m 8,0 h 95 m -894,1 h 49 m 7,0 h 30 m 8,0 h 9 m 25,0 h 24 m 7,0 h 10 m 21,0 h 3 m 8,0 h 37 m 21,0 h 27 m 18,0 h 9 m 8,0 h 13 m 7,0 h 10 m 15,0 h 16 m 15,0 h 9 m 18,0 h 16 m 22,0 h 40 m 8,0 h 9 m 15,0 h 16 m 22,0 h 2 m 8,0 h 37 m 8,0 h 13 m 7,0 h 13 m 8,0 h 9 m 15,0 h 23 m 8,0 h 23 m 22,0 h 2 m 8,0 h 3 m 7,0 h 3 m 8,0 h 95 m -894,1 h 49 m 7,0 h 30 m 8,0 h 9 m 25,0 h 24 m 7,0 h 10 m 21,0 h 3 m 8,0 h 37 m 21,0 h 27 m 18,0 h 9 m 8,0 h 13 m 7,0 h 10 m 15,0 h 16 m 15,0 h 9 m 18,0 h 16 m 22,0 h 40 m 8,0 h 9 m 15,0 h 16 m 22,0 h 2 m 8,0 h 37 m 8,0 h 13 m 7,0 h 13 m 8,0 h 9 m 15,0 h 23 m 8,0 h 23 m 22,0 h 2 m 8,0 h 3 m 7,0 h 3 m 8,0 h 95 m -894,1 h 131 m 22,0 h 329 m 21,0 h 391 m -894,1 h 131 m 22,0 h 329 m 21,0 h 391 m -894,1 h 131 m 22,0 h 329 m 21,0 h 391 m -894,1 h 131 m 22,0 h 329 m 21,0 h 391 m -894,1 h 131 m 22,0 h 329 m 21,0 h 391 m -894,1 h 131 m 22,0 h 329 m 21,0 h 391 m -894,1 h 131 m 22,0 h 329 m 21,0 h 391 m -894,1 h 894 m -894,1 h 894 m -894,1 h 894 m -894,1 h 894 m -894,1 h 894 m -894,1 h 894 m -894,1 h 894 m -894,1 h 894 m -894,1 h 894 m -894,1 h 894 m -894,1 h 894 m -894,1 h 894 m -894,1 h 894 m -894,1 h 894 m -894,1 h 894 m -894,1 h 890 m -890,1 h 890 m -890,1 h 890 m -890,1 h 890 m -890,1 h 890 m -884,1 h 879 m -879,1 h 878 m -878,1 h 878 m -878,1 h 878 m -878,1 h 878 m -878,1 h 877 m -872,1 h 869 m -869,1 h 867 m -867,1 h 867 m -867,1 h 867 m -867,1 h 867 m -867,1 h 867"
+       id="path44-9" />
+    <path
+       stroke="#ffeee1"
+       d="m 927,150 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,98 h 1 m -1,1 h 1"
+       id="path46-5" />
+    <path
+       stroke="#4b4541"
+       d="m 928,150 h 1 m -1,1 h 1 m -1,1 h 1 m -1,99 h 1 m -1,1 h 1 m -1,1 h 1"
+       id="path48-9" />
+    <path
+       stroke="#4d4d4d"
+       d="m 933,150 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,103 h 1 m -1,1 h 1 m -1,1 h 1"
+       id="path50-4" />
+    <path
+       stroke="#030202"
+       d="m 49,153 h 2 m 879,0 h 2"
+       id="path52-1" />
+    <path
+       stroke="#242220"
+       d="m 52,153 h 1"
+       id="path54-9" />
+    <path
+       stroke="#4d4743"
+       d="m 928,153 h 1"
+       id="path56-6" />
+    <path
+       stroke="#020202"
+       d="m 929,153 h 1"
+       id="path58-3" />
+    <path
+       stroke="#030302"
+       d="m 932,153 h 1"
+       id="path60-5" />
+    <path
+       stroke="#676767"
+       d="m 42,154 h 1"
+       id="path62-7" />
+    <path
+       stroke="#505050"
+       d="m 43,154 h 4 m 888,0 h 2"
+       id="path64-8" />
+    <path
+       stroke="#706b67"
+       d="m 47,154 h 1"
+       id="path66-3" />
+    <path
+       stroke="#958b83"
+       d="m 48,154 h 1 m 884,2 h 1 m -1,1 h 1 m -1,89 h 1 m -1,1 h 1"
+       id="path68-05" />
+    <path
+       stroke="#918780"
+       d="m 49,154 h 2 m 879,0 h 3"
+       id="path70-39" />
+    <path
+       stroke="#8d847d"
+       d="m 51,154 h 1"
+       id="path72-5" />
+    <path
+       stroke="#9f948c"
+       d="m 52,154 h 1"
+       id="path74-9" />
+    <path
+       stroke="#fff3e6"
+       d="m 53,154 h 1"
+       id="path76-9" />
+    <path
+       stroke="#fbebde"
+       d="m 927,154 h 1 M 48,249 h 1"
+       id="path78-9" />
+    <path
+       stroke="#b0a59b"
+       d="m 928,154 h 1"
+       id="path80-9" />
+    <path
+       stroke="#90867f"
+       d="m 929,154 h 1"
+       id="path82-0" />
+    <path
+       stroke="#76716c"
+       d="m 933,154 h 1"
+       id="path84-6" />
+    <path
+       stroke="#4d4e4e"
+       d="m 934,154 h 1"
+       id="path86-2" />
+    <path
+       stroke="#4e4e4e"
+       d="m 937,154 h 1"
+       id="path88-9" />
+    <path
+       stroke="#585858"
+       d="m 938,154 h 1"
+       id="path90-0" />
+    <path
+       stroke="#202020"
+       d="m 42,155 h 1"
+       id="path92-0" />
+    <path
+       stroke="#7c746d"
+       d="m 47,155 h 1"
+       id="path94-1" />
+    <path
+       stroke="#fffff7"
+       d="m 48,155 h 1"
+       id="path96-8" />
+    <path
+       stroke="#fff5e7"
+       d="m 49,155 h 3 m 877,0 h 3 m -884,4 h 1"
+       id="path98-8" />
+    <path
+       stroke="#fff3e5"
+       d="m 52,155 h 1 m 880,5 h 1"
+       id="path100-3" />
+    <path
+       stroke="#f8e8db"
+       d="m 53,155 h 1"
+       id="path102-2" />
+    <path
+       stroke="#fff1e4"
+       d="m 928,155 h 1"
+       id="path104-9" />
+    <path
+       stroke="#fff4e7"
+       d="m 932,155 h 1 m 4,88 h 1"
+       id="path106-5" />
+    <path
+       stroke="#998f86"
+       d="m 933,155 h 1"
+       id="path108-9" />
+    <path
+       stroke="#040404"
+       d="m 938,155 h 1"
+       id="path110-7" />
+    <path
+       stroke="#282828"
+       d="m 42,156 h 1 m -1,1 h 1"
+       id="path112-1" />
+    <path
+       stroke="#7b736c"
+       d="m 47,156 h 1 m -1,1 h 1 m -1,94 h 1 m -1,1 h 1 m -1,1 h 1"
+       id="path114-7" />
+    <path
+       stroke="#fff9eb"
+       d="m 48,156 h 1 m -1,1 h 1 m -1,94 h 1 m -1,1 h 1 m -1,1 h 1"
+       id="path116-2" />
+    <path
+       stroke="#0d0d0d"
+       d="m 938,156 h 1 m -1,1 h 1 m -17,113 h 1"
+       id="path118-3" />
+    <path
+       stroke="#222222"
+       d="m 42,158 h 1 m -1,96 h 1"
+       id="path120-5" />
+    <path
+       stroke="#766e68"
+       d="m 47,158 h 1"
+       id="path122-8" />
+    <path
+       stroke="#fff9ec"
+       d="m 48,158 h 1"
+       id="path124-7" />
+    <path
+       stroke="#91887f"
+       d="m 933,158 h 1"
+       id="path126-6" />
+    <path
+       stroke="#040505"
+       d="m 938,158 h 1"
+       id="path128-8" />
+    <path
+       stroke="#4e4b49"
+       d="m 42,159 h 1"
+       id="path130-2" />
+    <path
+       stroke="#3d3836"
+       d="m 43,159 h 3 m 889,0 h 2"
+       id="path132-4" />
+    <path
+       stroke="#3c3835"
+       d="m 46,159 h 1"
+       id="path134-6" />
+    <path
+       stroke="#998f88"
+       d="m 47,159 h 1"
+       id="path136-6" />
+    <path
+       stroke="#ada298"
+       d="m 933,159 h 1"
+       id="path138-8" />
+    <path
+       stroke="#363230"
+       d="m 934,159 h 1"
+       id="path140-5" />
+    <path
+       stroke="#3b3734"
+       d="m 937,159 h 1"
+       id="path142-5" />
+    <path
+       stroke="#423f3c"
+       d="m 938,159 h 1"
+       id="path144-4" />
+    <path
+       stroke="#fff6e8"
+       d="m 47,160 h 1"
+       id="path146-5" />
+    <path
+       stroke="#f7e7da"
+       d="m 48,160 h 1"
+       id="path148-7" />
+    <path
+       stroke="#fffff4"
+       d="m 934,160 h 1 M 53,259 h 1"
+       id="path150-7" />
+    <path
+       stroke="#fffff8"
+       d="m 937,160 h 1"
+       id="path152-4" />
+    <path
+       stroke="#ffeee0"
+       d="m 938,160 h 1"
+       id="path154-0" />
+    <path
+       stroke="#030303"
+       d="m 41,161 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m 891,7 h 1 m -12,12 h 1 m -1,1 h 1 m -1,1 h 1"
+       id="path156-8" />
+    <path
+       stroke="#c5b8ae"
+       d="m 42,161 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1"
+       id="path158-1" />
+    <path
+       stroke="#feede0"
+       d="m 937,161 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1"
+       id="path160-9" />
+    <path
+       stroke="#e8d9cc"
+       d="m 938,161 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1"
+       id="path162-8" />
+    <path
+       stroke="#e1c8b9"
+       d="m 92,179 h 27 m 11,0 h 6 m 152,0 h 6 m 63,0 h 6 m -234,1 h 1 m 157,0 h 1 m -159,1 h 1 m 157,0 h 1 m -159,1 h 1 m 157,0 h 1 m -159,1 h 1 m 157,0 h 1 m -159,1 h 1 m 157,0 h 1 m -159,1 h 1 m 157,0 h 1 m -162,1 h 1 m 2,0 h 1 m 343,0 h 1 m -345,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m 113,0 h 1 m 102,0 h 1 m 61,0 h 1 m 30,0 h 1 m 43,0 h 1 m 78,0 h 1 m 54,0 h 1 m 65,0 h 1 m 36,0 h 1 m 89,0 h 1 m -682,1 h 1 m 113,0 h 1 m 102,0 h 1 m 61,0 h 1 m 30,0 h 1 m 43,0 h 1 m 78,0 h 1 m 54,0 h 1 m 65,0 h 1 m 36,0 h 1 m 89,0 h 1 m -682,1 h 1 m 113,0 h 1 m 102,0 h 1 m 61,0 h 1 m 30,0 h 1 m 43,0 h 1 m 78,0 h 1 m 54,0 h 1 m 65,0 h 1 m 36,0 h 1 m 89,0 h 1 m -685,1 h 1 m 2,0 h 1 m 216,0 h 1 m 61,0 h 1 m 30,0 h 1 m 9,0 h 1 m 23,0 h 1 m 9,0 h 1 m 78,0 h 1 m 54,0 h 1 m 65,0 h 1 m 36,0 h 1 m 89,0 h 1 m -682,1 h 1 m 130,0 h 1 m 26,0 h 1 m 58,0 h 1 m 30,0 h 1 m 30,0 h 1 m 30,0 h 1 m 43,0 h 1 m 78,0 h 1 m 54,0 h 1 m 65,0 h 1 m 36,0 h 1 m 89,0 h 1 m -682,1 h 1 m 130,0 h 1 m 26,0 h 1 m 58,0 h 1 m 30,0 h 1 m 30,0 h 1 m 30,0 h 1 m 43,0 h 1 m 78,0 h 1 m 54,0 h 1 m 65,0 h 1 m 36,0 h 1 m 89,0 h 1 m -682,1 h 1 m 130,0 h 1 m 26,0 h 1 m 58,0 h 1 m 30,0 h 1 m 30,0 h 1 m 30,0 h 1 m 43,0 h 1 m 78,0 h 1 m 54,0 h 1 m 65,0 h 1 m 36,0 h 1 m 89,0 h 1 m -682,1 h 1 m 82,0 h 1 m 12,0 h 1 m 30,0 h 1 m 3,0 h 1 m 26,0 h 1 m 41,0 h 1 m 23,0 h 1 m 23,0 h 1 m 239,0 h 1 m 85,0 h 1 m 78,0 h 1 m 27,0 h 1 m -682,1 h 1 m 82,0 h 1 m 12,0 h 1 m 30,0 h 1 m 3,0 h 1 m 26,0 h 1 m 41,0 h 1 m 23,0 h 1 m 23,0 h 1 m 239,0 h 1 m 85,0 h 1 m 78,0 h 1 m 27,0 h 1 m -682,1 h 1 m 82,0 h 1 m 12,0 h 1 m 30,0 h 1 m 3,0 h 1 m 26,0 h 1 m 41,0 h 1 m 23,0 h 1 m 23,0 h 1 m 239,0 h 1 m 85,0 h 1 m 78,0 h 1 m 27,0 h 1 m -692,1 h 1 m 9,0 h 1 m 116,0 h 1 m 40,0 h 1 m 41,0 h 1 m 23,0 h 1 m 95,0 h 1 m 167,0 h 1 m 85,0 h 1 m 78,0 h 1 m 27,0 h 1 m -682,1 h 1 m 16,0 h 1 m 96,0 h 1 m 43,0 h 1 m 41,0 h 1 m 23,0 h 1 m 16,0 h 1 m 246,0 h 1 m 85,0 h 1 m 78,0 h 1 m 27,0 h 1 m -682,1 h 1 m 16,0 h 1 m 96,0 h 1 m 43,0 h 1 m 41,0 h 1 m 23,0 h 1 m 16,0 h 1 m 246,0 h 1 m 85,0 h 1 m 78,0 h 1 m 27,0 h 1 m -682,1 h 1 m 16,0 h 1 m 96,0 h 1 m 43,0 h 1 m 41,0 h 1 m 40,0 h 1 m 246,0 h 1 m 85,0 h 1 m 78,0 h 1 m -654,1 h 1 m 16,0 h 1 m 96,0 h 1 m 43,0 h 1 m 41,0 h 1 m 40,0 h 1 m 246,0 h 1 m 85,0 h 1 m 78,0 h 1 m -654,1 h 1 m 16,0 h 1 m 96,0 h 1 m 43,0 h 1 m 41,0 h 1 m 40,0 h 1 m 246,0 h 1 m 85,0 h 1 m 78,0 h 1 m -654,1 h 1 m 16,0 h 1 m 96,0 h 1 m 43,0 h 1 m 41,0 h 1 m 40,0 h 1 m 246,0 h 1 m 85,0 h 1 m 78,0 h 1 m -654,1 h 1 m 17,0 h 17 m 11,0 h 6 m 32,0 h 13 m 17,0 h 1 m 43,0 h 1 m 41,0 h 1 m 34,0 h 6 m 87,0 h 9 m 18,0 h 13 m 28,0 h 6 m 86,0 h 1 m 85,0 h 1 m 41,0 h 6 m 22,0 h 6 m 3,0 h 1 m 7,0 h 13 m -674,1 h 1 m 82,0 h 1 m 30,0 h 1 m 43,0 h 1 m 41,0 h 1 m 23,0 h 1 m 112,0 h 1 m 64,0 h 1 m 85,0 h 1 m 85,0 h 1 m 47,0 h 1 m 30,0 h 1 m -654,1 h 1 m 82,0 h 1 m 30,0 h 1 m 43,0 h 1 m 41,0 h 1 m 23,0 h 1 m 112,0 h 1 m 64,0 h 1 m 85,0 h 1 m 85,0 h 1 m 47,0 h 1 m 30,0 h 1 m -654,1 h 1 m 82,0 h 1 m 13,0 h 6 m 11,0 h 1 m 43,0 h 1 m 41,0 h 1 m 23,0 h 1 m 112,0 h 1 m 31,0 h 6 m 27,0 h 1 m 85,0 h 1 m 85,0 h 1 m 47,0 h 1 m 30,0 h 1 m 21,0 h 6 m -681,1 h 1 m 82,0 h 1 m 12,0 h 1 m 17,0 h 1 m 43,0 h 1 m 41,0 h 1 m 23,0 h 1 m 112,0 h 1 m 64,0 h 1 m 85,0 h 1 m 85,0 h 1 m 47,0 h 1 m 30,0 h 1 m 27,0 h 1 m -682,1 h 1 m 82,0 h 1 m 12,0 h 1 m 17,0 h 1 m 43,0 h 1 m 41,0 h 1 m 23,0 h 1 m 112,0 h 1 m 64,0 h 1 m 85,0 h 1 m 85,0 h 1 m 47,0 h 1 m 30,0 h 1 m 27,0 h 1 m -682,1 h 1 m 82,0 h 1 m 12,0 h 1 m 17,0 h 1 m 43,0 h 1 m 41,0 h 1 m 23,0 h 1 m 112,0 h 1 m 64,0 h 1 m 85,0 h 1 m 85,0 h 1 m 47,0 h 1 m 30,0 h 1 m 27,0 h 1 m -682,1 h 1 m 10,0 h 6 m 36,0 h 13 m 11,0 h 6 m 31,0 h 1 m 79,0 h 6 m 18,0 h 6 m 35,0 h 6 m 15,0 h 6 m 4,0 h 6 m 15,0 h 6 m 21,0 h 6 m 4,0 h 6 m 49,0 h 13 m 11,0 h 6 m 15,0 h 6 m 4,0 h 6 m 24,0 h 1 m 85,0 h 1 m 10,0 h 6 m 15,0 h 6 m 11,0 h 6 m 8,0 h 6 m 11,0 h 6 m 21,0 h 1 m 2,0 h 1 m -685,1 h 1 m 16,0 h 1 m 96,0 h 1 m 102,0 h 1 m 61,0 h 1 m 30,0 h 1 m 43,0 h 1 m 78,0 h 1 m 30,0 h 1 m 23,0 h 1 m 85,0 h 1 m 16,0 h 1 m 37,0 h 1 m 51,0 h 1 m 2,0 h 1 m -685,1 h 1 m 16,0 h 1 m 96,0 h 1 m 102,0 h 1 m 61,0 h 1 m 30,0 h 1 m 43,0 h 1 m 78,0 h 1 m 30,0 h 1 m 23,0 h 1 m 85,0 h 1 m 16,0 h 1 m 37,0 h 1 m 51,0 h 1 m 2,0 h 1 m -685,1 h 1 m 16,0 h 1 m 96,0 h 1 m 102,0 h 1 m 61,0 h 1 m 30,0 h 1 m 43,0 h 1 m 78,0 h 1 m 30,0 h 1 m 23,0 h 1 m 85,0 h 1 m 16,0 h 1 m 37,0 h 1 m 51,0 h 1 m 2,0 h 1 m -685,1 h 1 m 16,0 h 1 m 96,0 h 1 m 102,0 h 1 m 61,0 h 1 m 30,0 h 1 m 43,0 h 1 m 78,0 h 1 m 30,0 h 1 m 23,0 h 1 m 85,0 h 1 m 16,0 h 1 m 37,0 h 1 m 51,0 h 1 m 2,0 h 1 m -685,1 h 1 m 16,0 h 1 m 96,0 h 1 m 102,0 h 1 m 61,0 h 1 m 30,0 h 1 m 43,0 h 1 m 78,0 h 1 m 30,0 h 1 m 23,0 h 1 m 85,0 h 1 m 16,0 h 1 m 37,0 h 1 m 51,0 h 1 m 2,0 h 1 m -685,1 h 1 m 16,0 h 1 m 96,0 h 1 m 102,0 h 1 m 61,0 h 1 m 30,0 h 1 m 43,0 h 1 m 78,0 h 1 m 30,0 h 1 m 23,0 h 1 m 85,0 h 1 m 16,0 h 1 m 37,0 h 1 m 51,0 h 1 m 2,0 h 1 m -619,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1"
+       id="path164-2" />
+    <path
+       stroke="#edd9cb"
+       d="m 119,179 h 1 m 236,0 h 1 m 6,0 h 1 m -104,14 h 1 m 116,0 h 1 m -122,7 h 1 m 3,0 h 1 m -87,7 h 1 m 604,0 h 1 m 23,0 h 1 m -307,3 h 1 m 6,0 h 1 m -118,4 h 1 m 30,0 h 1 m 54,0 h 1 m 109,0 h 1 m 157,0 h 1 m 30,0 h 1"
+       id="path166-5" />
+    <path
+       stroke="#f3e1d4"
+       d="m 129,179 h 1 m 157,0 h 1 m 82,28 h 1 m -146,3 h 1 m 584,0 h 1 m -458,4 h 1 m 177,0 h 1 m 219,0 h 1 m 30,0 h 1"
+       id="path168-4" />
+    <path
+       stroke="#e7d0c2"
+       d="m 136,179 h 1 m 157,0 h 1 m -149,21 h 1 m 206,3 h 1 m 456,0 h 1 m -458,4 h 1 m 102,0 h 1 m 40,0 h 1 m -266,3 h 1 m 570,0 h 1 m -623,4 h 1 m 23,0 h 1 m 116,0 h 1"
+       id="path170-9" />
+    <path
+       stroke="#98644e"
+       d="m 92,180 h 27 m 11,0 h 6 m 152,0 h 6 m 63,0 h 6 m -271,1 h 27 m 11,0 h 6 m 152,0 h 6 m 63,0 h 6 m -271,1 h 27 m 11,0 h 6 m 152,0 h 6 m 63,0 h 6 m -271,1 h 27 m 11,0 h 6 m 152,0 h 6 m 63,0 h 6 m -271,1 h 27 m 11,0 h 6 m 152,0 h 6 m 63,0 h 6 m -271,1 h 27 m 11,0 h 6 m 152,0 h 6 m 63,0 h 6 m -271,1 h 7 m 31,0 h 6 m 152,0 h 6 m 63,0 h 6 m -271,1 h 7 m 21,0 h 6 m 4,0 h 6 m 145,0 h 13 m 63,0 h 6 m 94,0 h 16 m -381,1 h 7 m 21,0 h 6 m 4,0 h 6 m 145,0 h 13 m 63,0 h 6 m 94,0 h 16 m -381,1 h 7 m 21,0 h 6 m 4,0 h 6 m 145,0 h 13 m 63,0 h 6 m 94,0 h 16 m -381,1 h 7 m 21,0 h 6 m 4,0 h 6 m 4,0 h 24 m 11,0 h 6 m 14,0 h 7 m 10,0 h 20 m 5,0 h 6 m 4,0 h 10 m 24,0 h 13 m 35,0 h 17 m 11,0 h 6 m 32,0 h 13 m 18,0 h 13 m 18,0 h 16 m 11,0 h 20 m 21,0 h 7 m 14,0 h 6 m 11,0 h 13 m 11,0 h 7 m 14,0 h 6 m 4,0 h 6 m 4,0 h 10 m 25,0 h 20 m 7,0 h 13 m 18,0 h 13 m 56,0 h 20 m -718,1 h 7 m 21,0 h 6 m 4,0 h 6 m 4,0 h 24 m 11,0 h 6 m 14,0 h 7 m 10,0 h 20 m 5,0 h 6 m 4,0 h 10 m 24,0 h 13 m 35,0 h 17 m 11,0 h 6 m 32,0 h 13 m 18,0 h 13 m 18,0 h 16 m 11,0 h 20 m 21,0 h 7 m 14,0 h 6 m 11,0 h 13 m 11,0 h 7 m 14,0 h 6 m 4,0 h 6 m 4,0 h 10 m 25,0 h 20 m 7,0 h 13 m 18,0 h 13 m 56,0 h 20 m -718,1 h 7 m 21,0 h 6 m 4,0 h 6 m 4,0 h 24 m 11,0 h 6 m 14,0 h 7 m 10,0 h 20 m 5,0 h 6 m 4,0 h 10 m 24,0 h 13 m 35,0 h 17 m 11,0 h 6 m 32,0 h 13 m 18,0 h 13 m 18,0 h 16 m 11,0 h 20 m 21,0 h 7 m 14,0 h 6 m 11,0 h 13 m 11,0 h 7 m 14,0 h 6 m 4,0 h 6 m 4,0 h 10 m 25,0 h 20 m 7,0 h 13 m 18,0 h 13 m 56,0 h 20 m -718,1 h 7 m 31,0 h 6 m 4,0 h 24 m 11,0 h 6 m 14,0 h 7 m 10,0 h 20 m 5,0 h 6 m 4,0 h 10 m 31,0 h 6 m 35,0 h 17 m 11,0 h 6 m 32,0 h 13 m 18,0 h 13 m 45,0 h 20 m 21,0 h 7 m 14,0 h 6 m 11,0 h 13 m 11,0 h 7 m 14,0 h 6 m 4,0 h 6 m 4,0 h 10 m 25,0 h 20 m 7,0 h 13 m 18,0 h 13 m 56,0 h 20 m -718,1 h 27 m 11,0 h 6 m 4,0 h 24 m 11,0 h 6 m 14,0 h 7 m 10,0 h 20 m 5,0 h 23 m 28,0 h 6 m 35,0 h 17 m 11,0 h 6 m 8,0 h 6 m 18,0 h 13 m 18,0 h 13 m 11,0 h 6 m 28,0 h 20 m 21,0 h 7 m 14,0 h 6 m 11,0 h 13 m 11,0 h 7 m 14,0 h 6 m 4,0 h 23 m 22,0 h 20 m 7,0 h 13 m 18,0 h 13 m 56,0 h 20 m -718,1 h 27 m 11,0 h 6 m 4,0 h 24 m 11,0 h 6 m 14,0 h 7 m 10,0 h 20 m 5,0 h 23 m 28,0 h 6 m 35,0 h 17 m 11,0 h 6 m 8,0 h 6 m 18,0 h 13 m 18,0 h 13 m 11,0 h 6 m 28,0 h 20 m 21,0 h 7 m 14,0 h 6 m 11,0 h 13 m 11,0 h 7 m 14,0 h 6 m 4,0 h 23 m 22,0 h 20 m 7,0 h 13 m 18,0 h 13 m 56,0 h 20 m -718,1 h 27 m 11,0 h 6 m 4,0 h 24 m 11,0 h 6 m 14,0 h 7 m 10,0 h 20 m 5,0 h 23 m 28,0 h 6 m 35,0 h 17 m 11,0 h 6 m 8,0 h 6 m 18,0 h 13 m 18,0 h 13 m 11,0 h 6 m 28,0 h 20 m 21,0 h 7 m 14,0 h 6 m 11,0 h 13 m 11,0 h 7 m 14,0 h 6 m 4,0 h 23 m 22,0 h 20 m 7,0 h 13 m 18,0 h 13 m 56,0 h 20 m -718,1 h 27 m 11,0 h 6 m 28,0 h 7 m 4,0 h 6 m 14,0 h 7 m 4,0 h 6 m 14,0 h 6 m 5,0 h 9 m 11,0 h 3 m 28,0 h 6 m 29,0 h 6 m 18,0 h 6 m 4,0 h 6 m 8,0 h 6 m 11,0 h 6 m 14,0 h 7 m 4,0 h 6 m 14,0 h 7 m 4,0 h 6 m 21,0 h 7 m 14,0 h 6 m 21,0 h 7 m 14,0 h 6 m 4,0 h 7 m 14,0 h 6 m 4,0 h 7 m 14,0 h 6 m 4,0 h 10 m 11,0 h 2 m 22,0 h 6 m 14,0 h 7 m 14,0 h 6 m 4,0 h 7 m 14,0 h 6 m 4,0 h 7 m 21,0 h 6 m 4,0 h 6 m 15,0 h 6 m -718,1 h 27 m 11,0 h 6 m 28,0 h 7 m 4,0 h 6 m 14,0 h 7 m 4,0 h 6 m 14,0 h 6 m 5,0 h 9 m 11,0 h 3 m 28,0 h 6 m 29,0 h 6 m 18,0 h 6 m 4,0 h 6 m 8,0 h 6 m 11,0 h 6 m 14,0 h 7 m 4,0 h 6 m 14,0 h 7 m 4,0 h 6 m 21,0 h 7 m 14,0 h 6 m 21,0 h 7 m 14,0 h 6 m 4,0 h 7 m 14,0 h 6 m 4,0 h 7 m 14,0 h 6 m 4,0 h 10 m 11,0 h 2 m 22,0 h 6 m 14,0 h 7 m 14,0 h 6 m 4,0 h 7 m 14,0 h 6 m 4,0 h 7 m 21,0 h 6 m 4,0 h 6 m 15,0 h 6 m -718,1 h 27 m 11,0 h 6 m 28,0 h 7 m 4,0 h 6 m 14,0 h 7 m 4,0 h 6 m 14,0 h 6 m 5,0 h 9 m 11,0 h 3 m 28,0 h 6 m 29,0 h 6 m 18,0 h 6 m 4,0 h 6 m 8,0 h 6 m 11,0 h 6 m 14,0 h 7 m 4,0 h 6 m 14,0 h 7 m 4,0 h 6 m 21,0 h 7 m 14,0 h 6 m 21,0 h 7 m 14,0 h 6 m 4,0 h 7 m 14,0 h 6 m 4,0 h 7 m 14,0 h 6 m 4,0 h 10 m 11,0 h 2 m 22,0 h 6 m 14,0 h 7 m 14,0 h 6 m 4,0 h 7 m 14,0 h 6 m 4,0 h 7 m 21,0 h 6 m 4,0 h 6 m 15,0 h 6 m -718,1 h 7 m 31,0 h 6 m 28,0 h 7 m 4,0 h 6 m 14,0 h 7 m 4,0 h 6 m 14,0 h 6 m 5,0 h 6 m 45,0 h 6 m 29,0 h 6 m 18,0 h 6 m 4,0 h 6 m 25,0 h 6 m 14,0 h 7 m 4,0 h 6 m 14,0 h 7 m 31,0 h 7 m 14,0 h 6 m 21,0 h 7 m 14,0 h 6 m 4,0 h 7 m 14,0 h 6 m 4,0 h 7 m 14,0 h 6 m 4,0 h 6 m 39,0 h 6 m 14,0 h 7 m 14,0 h 6 m 4,0 h 7 m 14,0 h 6 m 4,0 h 7 m 21,0 h 6 m 4,0 h 6 m 15,0 h 6 m -718,1 h 7 m 31,0 h 6 m 11,0 h 24 m 4,0 h 6 m 14,0 h 7 m 4,0 h 26 m 5,0 h 6 m 45,0 h 6 m 29,0 h 6 m 18,0 h 6 m 4,0 h 13 m 7,0 h 7 m 4,0 h 6 m 14,0 h 7 m 4,0 h 6 m 14,0 h 7 m 11,0 h 9 m 11,0 h 27 m 21,0 h 7 m 14,0 h 6 m 4,0 h 7 m 14,0 h 6 m 4,0 h 7 m 14,0 h 6 m 4,0 h 6 m 39,0 h 6 m 14,0 h 7 m 14,0 h 6 m 4,0 h 7 m 14,0 h 6 m 4,0 h 7 m 21,0 h 6 m 4,0 h 27 m -718,1 h 7 m 31,0 h 6 m 11,0 h 24 m 4,0 h 6 m 14,0 h 7 m 4,0 h 26 m 5,0 h 6 m 45,0 h 6 m 29,0 h 6 m 18,0 h 6 m 4,0 h 13 m 7,0 h 7 m 4,0 h 6 m 14,0 h 7 m 4,0 h 6 m 14,0 h 7 m 11,0 h 9 m 11,0 h 27 m 21,0 h 7 m 14,0 h 6 m 4,0 h 7 m 14,0 h 6 m 4,0 h 7 m 14,0 h 6 m 4,0 h 6 m 39,0 h 6 m 14,0 h 7 m 14,0 h 6 m 4,0 h 7 m 14,0 h 6 m 4,0 h 7 m 21,0 h 6 m 4,0 h 27 m -718,1 h 7 m 31,0 h 6 m 11,0 h 24 m 4,0 h 6 m 14,0 h 7 m 4,0 h 20 m 11,0 h 6 m 45,0 h 6 m 29,0 h 6 m 28,0 h 13 m 7,0 h 7 m 4,0 h 6 m 14,0 h 7 m 4,0 h 6 m 14,0 h 7 m 11,0 h 9 m 11,0 h 20 m 28,0 h 7 m 14,0 h 6 m 4,0 h 7 m 14,0 h 6 m 4,0 h 7 m 14,0 h 6 m 4,0 h 6 m 39,0 h 6 m 14,0 h 7 m 14,0 h 6 m 4,0 h 7 m 14,0 h 6 m 4,0 h 7 m 21,0 h 6 m 4,0 h 20 m -711,1 h 7 m 31,0 h 6 m 11,0 h 24 m 4,0 h 6 m 14,0 h 7 m 4,0 h 20 m 11,0 h 6 m 45,0 h 6 m 29,0 h 6 m 28,0 h 13 m 7,0 h 7 m 4,0 h 6 m 14,0 h 7 m 4,0 h 6 m 14,0 h 7 m 11,0 h 9 m 11,0 h 20 m 28,0 h 7 m 14,0 h 6 m 4,0 h 7 m 14,0 h 6 m 4,0 h 7 m 14,0 h 6 m 4,0 h 6 m 39,0 h 6 m 14,0 h 7 m 14,0 h 6 m 4,0 h 7 m 14,0 h 6 m 4,0 h 7 m 21,0 h 6 m 4,0 h 20 m -711,1 h 7 m 31,0 h 6 m 11,0 h 24 m 4,0 h 6 m 14,0 h 7 m 4,0 h 20 m 11,0 h 6 m 45,0 h 6 m 29,0 h 6 m 28,0 h 13 m 7,0 h 7 m 4,0 h 6 m 14,0 h 7 m 4,0 h 6 m 14,0 h 7 m 11,0 h 9 m 11,0 h 20 m 28,0 h 7 m 14,0 h 6 m 4,0 h 7 m 14,0 h 6 m 4,0 h 7 m 14,0 h 6 m 4,0 h 6 m 39,0 h 6 m 14,0 h 7 m 14,0 h 6 m 4,0 h 7 m 14,0 h 6 m 4,0 h 7 m 21,0 h 6 m 4,0 h 20 m -711,1 h 7 m 31,0 h 6 m 11,0 h 24 m 4,0 h 6 m 14,0 h 7 m 4,0 h 20 m 11,0 h 6 m 45,0 h 6 m 29,0 h 6 m 28,0 h 13 m 7,0 h 7 m 4,0 h 6 m 14,0 h 7 m 4,0 h 6 m 14,0 h 7 m 11,0 h 9 m 11,0 h 20 m 28,0 h 7 m 14,0 h 6 m 4,0 h 7 m 14,0 h 6 m 4,0 h 7 m 14,0 h 6 m 4,0 h 6 m 39,0 h 6 m 14,0 h 7 m 14,0 h 6 m 4,0 h 7 m 14,0 h 6 m 4,0 h 7 m 21,0 h 6 m 4,0 h 20 m -711,1 h 7 m 31,0 h 6 m 28,0 h 7 m 24,0 h 7 m 4,0 h 6 m 25,0 h 6 m 45,0 h 6 m 29,0 h 6 m 28,0 h 6 m 14,0 h 7 m 4,0 h 6 m 14,0 h 7 m 4,0 h 6 m 14,0 h 7 m 31,0 h 7 m 62,0 h 6 m 4,0 h 7 m 14,0 h 6 m 4,0 h 7 m 14,0 h 6 m 4,0 h 6 m 39,0 h 6 m 14,0 h 7 m 14,0 h 6 m 4,0 h 7 m 14,0 h 6 m 42,0 h 6 m -697,1 h 7 m 31,0 h 6 m 4,0 h 7 m 17,0 h 7 m 11,0 h 20 m 4,0 h 6 m 25,0 h 6 m 45,0 h 6 m 29,0 h 6 m 18,0 h 6 m 4,0 h 6 m 14,0 h 7 m 4,0 h 6 m 14,0 h 7 m 4,0 h 6 m 14,0 h 7 m 21,0 h 6 m 4,0 h 7 m 48,0 h 20 m 4,0 h 7 m 14,0 h 6 m 4,0 h 7 m 14,0 h 6 m 4,0 h 6 m 39,0 h 6 m 14,0 h 7 m 14,0 h 6 m 4,0 h 7 m 14,0 h 6 m 11,0 h 6 m 8,0 h 6 m 11,0 h 6 m -697,1 h 7 m 31,0 h 6 m 4,0 h 7 m 17,0 h 7 m 11,0 h 20 m 4,0 h 6 m 25,0 h 6 m 45,0 h 6 m 29,0 h 6 m 18,0 h 6 m 4,0 h 6 m 14,0 h 7 m 4,0 h 6 m 14,0 h 7 m 4,0 h 6 m 14,0 h 7 m 21,0 h 6 m 4,0 h 7 m 48,0 h 20 m 4,0 h 7 m 14,0 h 6 m 4,0 h 7 m 14,0 h 6 m 4,0 h 6 m 39,0 h 6 m 14,0 h 7 m 14,0 h 6 m 4,0 h 7 m 14,0 h 6 m 11,0 h 6 m 8,0 h 6 m 11,0 h 6 m -697,1 h 7 m 31,0 h 6 m 4,0 h 7 m 17,0 h 7 m 11,0 h 20 m 4,0 h 6 m 25,0 h 6 m 45,0 h 6 m 29,0 h 6 m 18,0 h 6 m 4,0 h 6 m 14,0 h 7 m 4,0 h 6 m 14,0 h 7 m 4,0 h 6 m 14,0 h 7 m 21,0 h 6 m 4,0 h 7 m 48,0 h 20 m 4,0 h 7 m 14,0 h 6 m 4,0 h 7 m 14,0 h 6 m 4,0 h 6 m 39,0 h 6 m 14,0 h 7 m 14,0 h 6 m 4,0 h 7 m 14,0 h 6 m 11,0 h 6 m 8,0 h 6 m 11,0 h 6 m -697,1 h 7 m 31,0 h 6 m 4,0 h 7 m 17,0 h 7 m 11,0 h 20 m 4,0 h 6 m 14,0 h 6 m 5,0 h 6 m 45,0 h 6 m 29,0 h 6 m 18,0 h 6 m 4,0 h 6 m 14,0 h 7 m 4,0 h 6 m 14,0 h 7 m 4,0 h 6 m 14,0 h 7 m 21,0 h 6 m 4,0 h 7 m 14,0 h 6 m 28,0 h 20 m 4,0 h 7 m 14,0 h 6 m 4,0 h 7 m 14,0 h 6 m 4,0 h 6 m 39,0 h 6 m 14,0 h 7 m 14,0 h 6 m 4,0 h 7 m 14,0 h 6 m 11,0 h 6 m 8,0 h 6 m 11,0 h 6 m 15,0 h 6 m -718,1 h 7 m 31,0 h 6 m 4,0 h 7 m 17,0 h 7 m 11,0 h 20 m 4,0 h 6 m 14,0 h 6 m 5,0 h 6 m 45,0 h 6 m 29,0 h 6 m 18,0 h 6 m 4,0 h 6 m 14,0 h 7 m 4,0 h 6 m 14,0 h 7 m 4,0 h 6 m 14,0 h 7 m 21,0 h 6 m 4,0 h 7 m 14,0 h 6 m 28,0 h 20 m 4,0 h 7 m 14,0 h 6 m 4,0 h 7 m 14,0 h 6 m 4,0 h 6 m 39,0 h 6 m 14,0 h 7 m 14,0 h 6 m 4,0 h 7 m 14,0 h 6 m 11,0 h 6 m 8,0 h 6 m 11,0 h 6 m 15,0 h 6 m -718,1 h 7 m 31,0 h 6 m 4,0 h 7 m 17,0 h 7 m 11,0 h 20 m 4,0 h 6 m 14,0 h 6 m 5,0 h 6 m 45,0 h 6 m 29,0 h 6 m 18,0 h 6 m 4,0 h 6 m 14,0 h 7 m 4,0 h 6 m 14,0 h 7 m 4,0 h 6 m 14,0 h 7 m 21,0 h 6 m 4,0 h 7 m 14,0 h 6 m 28,0 h 20 m 4,0 h 7 m 14,0 h 6 m 4,0 h 7 m 14,0 h 6 m 4,0 h 6 m 39,0 h 6 m 14,0 h 7 m 14,0 h 6 m 4,0 h 7 m 14,0 h 6 m 11,0 h 6 m 8,0 h 6 m 11,0 h 6 m 15,0 h 6 m -718,1 h 7 m 31,0 h 6 m 11,0 h 24 m 24,0 h 7 m 10,0 h 20 m 5,0 h 6 m 38,0 h 20 m 28,0 h 17 m 11,0 h 6 m 14,0 h 7 m 11,0 h 13 m 18,0 h 13 m 11,0 h 16 m 18,0 h 20 m 42,0 h 6 m 11,0 h 13 m 18,0 h 20 m 4,0 h 6 m 39,0 h 6 m 14,0 h 7 m 14,0 h 6 m 11,0 h 13 m 25,0 h 6 m 25,0 h 20 m 4,0 h 6 m 4,0 h 7 m 4,0 h 6 m -749,1 h 7 m 31,0 h 6 m 11,0 h 24 m 24,0 h 7 m 10,0 h 20 m 5,0 h 6 m 38,0 h 20 m 28,0 h 17 m 11,0 h 6 m 14,0 h 7 m 11,0 h 13 m 18,0 h 13 m 11,0 h 16 m 18,0 h 20 m 42,0 h 6 m 11,0 h 13 m 18,0 h 20 m 4,0 h 6 m 39,0 h 6 m 14,0 h 7 m 14,0 h 6 m 11,0 h 13 m 25,0 h 6 m 25,0 h 20 m 4,0 h 6 m 4,0 h 7 m 4,0 h 6 m -749,1 h 7 m 31,0 h 6 m 11,0 h 24 m 24,0 h 7 m 10,0 h 20 m 5,0 h 6 m 38,0 h 20 m 28,0 h 17 m 11,0 h 6 m 14,0 h 7 m 11,0 h 13 m 18,0 h 13 m 11,0 h 16 m 18,0 h 20 m 42,0 h 6 m 11,0 h 13 m 18,0 h 20 m 4,0 h 6 m 39,0 h 6 m 14,0 h 7 m 14,0 h 6 m 11,0 h 13 m 25,0 h 6 m 25,0 h 20 m 4,0 h 6 m 4,0 h 7 m 4,0 h 6 m -749,1 h 7 m 31,0 h 6 m 11,0 h 24 m 24,0 h 7 m 10,0 h 20 m 5,0 h 6 m 38,0 h 20 m 28,0 h 17 m 11,0 h 6 m 14,0 h 7 m 11,0 h 13 m 18,0 h 13 m 11,0 h 16 m 18,0 h 20 m 42,0 h 6 m 11,0 h 13 m 18,0 h 20 m 4,0 h 6 m 39,0 h 6 m 14,0 h 7 m 14,0 h 6 m 11,0 h 13 m 25,0 h 6 m 25,0 h 20 m 4,0 h 6 m 4,0 h 7 m 4,0 h 6 m -749,1 h 7 m 31,0 h 6 m 11,0 h 24 m 24,0 h 7 m 10,0 h 20 m 5,0 h 6 m 38,0 h 20 m 28,0 h 17 m 11,0 h 6 m 14,0 h 7 m 11,0 h 13 m 18,0 h 13 m 11,0 h 16 m 18,0 h 20 m 42,0 h 6 m 11,0 h 13 m 18,0 h 20 m 4,0 h 6 m 39,0 h 6 m 14,0 h 7 m 14,0 h 6 m 11,0 h 13 m 25,0 h 6 m 25,0 h 20 m 4,0 h 6 m 4,0 h 7 m 4,0 h 6 m -749,1 h 7 m 31,0 h 6 m 11,0 h 24 m 24,0 h 7 m 10,0 h 20 m 5,0 h 6 m 38,0 h 20 m 28,0 h 17 m 11,0 h 6 m 14,0 h 7 m 11,0 h 13 m 18,0 h 13 m 11,0 h 16 m 18,0 h 20 m 42,0 h 6 m 11,0 h 13 m 18,0 h 20 m 4,0 h 6 m 39,0 h 6 m 14,0 h 7 m 14,0 h 6 m 11,0 h 13 m 25,0 h 6 m 25,0 h 20 m 4,0 h 6 m 4,0 h 7 m 4,0 h 6 m -749,1 h 7 m 31,0 h 6 m 11,0 h 24 m 24,0 h 7 m 10,0 h 20 m 5,0 h 6 m 38,0 h 20 m 28,0 h 17 m 11,0 h 6 m 14,0 h 7 m 11,0 h 13 m 18,0 h 13 m 11,0 h 16 m 18,0 h 20 m 42,0 h 6 m 11,0 h 13 m 18,0 h 20 m 4,0 h 6 m 39,0 h 6 m 14,0 h 7 m 14,0 h 6 m 11,0 h 13 m 25,0 h 6 m 25,0 h 20 m 4,0 h 6 m 4,0 h 7 m 4,0 h 6 m -666,1 h 20 m 330,0 h 20 m -370,1 h 20 m 330,0 h 20 m -370,1 h 20 m 330,0 h 20 m -370,1 h 20 m 330,0 h 20 m -370,1 h 20 m 330,0 h 20 m -370,1 h 20 m 330,0 h 20 m -370,1 h 20 m 330,0 h 20"
+       id="path172-4" />
+    <path
+       stroke="#c9a795"
+       d="m 119,180 h 1 m 236,0 h 1 m 6,0 h 1 m -245,1 h 1 m 236,0 h 1 m 6,0 h 1 m -245,1 h 1 m 236,0 h 1 m 6,0 h 1 m -245,1 h 1 m 236,0 h 1 m 6,0 h 1 m -245,1 h 1 m 236,0 h 1 m 6,0 h 1 m -245,1 h 1 m 236,0 h 1 m 6,0 h 1 m -244,1 h 6 m 155,0 h 6 m 69,0 h 1 m 6,0 h 1 m 93,0 h 16 m -354,1 h 1 m 6,0 h 1 m 229,0 h 1 m 6,0 h 1 m 109,0 h 1 m -355,1 h 1 m 6,0 h 1 m 229,0 h 1 m 6,0 h 1 m 109,0 h 1 m -355,1 h 1 m 6,0 h 1 m 229,0 h 1 m 6,0 h 1 m 109,0 h 1 m -355,1 h 1 m 6,0 h 1 m 47,0 h 1 m 6,0 h 1 m 64,0 h 1 m 109,0 h 1 m 6,0 h 1 m 109,0 h 1 m 30,0 h 1 m 40,0 h 1 m 6,0 h 1 m 54,0 h 1 m 6,0 h 1 m 23,0 h 1 m 23,0 h 1 m 126,0 h 1 m -671,1 h 1 m 6,0 h 1 m 47,0 h 1 m 6,0 h 1 m 64,0 h 1 m 109,0 h 1 m 6,0 h 1 m 109,0 h 1 m 30,0 h 1 m 40,0 h 1 m 6,0 h 1 m 54,0 h 1 m 6,0 h 1 m 23,0 h 1 m 23,0 h 1 m 126,0 h 1 m -671,1 h 1 m 6,0 h 1 m 47,0 h 1 m 6,0 h 1 m 64,0 h 1 m 109,0 h 1 m 6,0 h 1 m 109,0 h 1 m 30,0 h 1 m 40,0 h 1 m 6,0 h 1 m 54,0 h 1 m 6,0 h 1 m 23,0 h 1 m 23,0 h 1 m 126,0 h 1 m -691,1 h 27 m 48,0 h 1 m 6,0 h 1 m 62,0 h 2 m 11,0 h 3 m 21,0 h 6 m 69,0 h 1 m 6,0 h 1 m 7,0 h 6 m 73,0 h 6 m 1,0 h 16 m 31,0 h 1 m 40,0 h 1 m 6,0 h 1 m 54,0 h 1 m 6,0 h 1 m 10,0 h 3 m 11,0 h 2 m 21,0 h 1 m 126,0 h 1 m -671,1 h 1 m 54,0 h 1 m 6,0 h 1 m 174,0 h 1 m 6,0 h 1 m 85,0 h 1 m 6,0 h 1 m 47,0 h 1 m 40,0 h 1 m 6,0 h 1 m 54,0 h 1 m 6,0 h 1 m 47,0 h 1 m 126,0 h 1 m -671,1 h 1 m 54,0 h 1 m 6,0 h 1 m 174,0 h 1 m 6,0 h 1 m 85,0 h 1 m 6,0 h 1 m 47,0 h 1 m 40,0 h 1 m 6,0 h 1 m 54,0 h 1 m 6,0 h 1 m 47,0 h 1 m 126,0 h 1 m -671,1 h 1 m 54,0 h 1 m 6,0 h 1 m 174,0 h 1 m 6,0 h 1 m 85,0 h 1 m 6,0 h 1 m 47,0 h 1 m 40,0 h 1 m 6,0 h 1 m 54,0 h 1 m 6,0 h 1 m 47,0 h 1 m 126,0 h 1 m -671,1 h 1 m 54,0 h 1 m 6,0 h 1 m 64,0 h 1 m 109,0 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m 40,0 h 1 m 6,0 h 1 m 40,0 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m 47,0 h 1 m 6,0 h 1 m 64,0 h 1 m 6,0 h 1 m 30,0 h 1 m 6,0 h 1 m -661,1 h 1 m 54,0 h 1 m 6,0 h 1 m 64,0 h 1 m 109,0 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m 40,0 h 1 m 6,0 h 1 m 40,0 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m 47,0 h 1 m 6,0 h 1 m 64,0 h 1 m 6,0 h 1 m 30,0 h 1 m 6,0 h 1 m -661,1 h 1 m 54,0 h 1 m 6,0 h 1 m 64,0 h 1 m 109,0 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m 40,0 h 1 m 6,0 h 1 m 40,0 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m 47,0 h 1 m 6,0 h 1 m 64,0 h 1 m 6,0 h 1 m 30,0 h 1 m 6,0 h 1 m -681,1 h 20 m 55,0 h 1 m 6,0 h 1 m 62,0 h 2 m 11,0 h 3 m 96,0 h 1 m 14,0 h 6 m 10,0 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m 24,0 h 6 m 48,0 h 1 m 40,0 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m 10,0 h 3 m 11,0 h 2 m 21,0 h 1 m 6,0 h 1 m 64,0 h 1 m 6,0 h 1 m 30,0 h 1 m 6,0 h 1 m -606,1 h 1 m 6,0 h 1 m 174,0 h 1 m 30,0 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m 78,0 h 1 m 40,0 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m 47,0 h 1 m 6,0 h 1 m 64,0 h 1 m 6,0 h 1 m 30,0 h 1 m 6,0 h 1 m -606,1 h 1 m 6,0 h 1 m 174,0 h 1 m 30,0 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m 78,0 h 1 m 40,0 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m 47,0 h 1 m 6,0 h 1 m 64,0 h 1 m 6,0 h 1 m 30,0 h 1 m 6,0 h 1 m -606,1 h 1 m 6,0 h 1 m 174,0 h 1 m 30,0 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m 119,0 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m 47,0 h 1 m 6,0 h 1 m 64,0 h 1 m 6,0 h 1 m 30,0 h 1 m 6,0 h 1 m -606,1 h 1 m 6,0 h 1 m 174,0 h 1 m 30,0 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m 119,0 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m 47,0 h 1 m 6,0 h 1 m 64,0 h 1 m 6,0 h 1 m 30,0 h 1 m 6,0 h 1 m 23,0 h 1 m -630,1 h 1 m 6,0 h 1 m 174,0 h 1 m 30,0 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m 119,0 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m 47,0 h 1 m 6,0 h 1 m 64,0 h 1 m 6,0 h 1 m 30,0 h 1 m 6,0 h 1 m 23,0 h 1 m -630,1 h 1 m 6,0 h 1 m 174,0 h 1 m 30,0 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m 119,0 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m 47,0 h 1 m 6,0 h 1 m 64,0 h 1 m 6,0 h 1 m 30,0 h 1 m 6,0 h 1 m 23,0 h 1 m -448,1 h 1 m 30,0 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m 126,0 h 1 m 23,0 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m 47,0 h 1 m 6,0 h 1 m 64,0 h 1 m 6,0 h 1 m 30,0 h 1 m -417,1 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m 47,0 h 1 m 78,0 h 1 m 23,0 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m 47,0 h 1 m 6,0 h 1 m 64,0 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m -417,1 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m 47,0 h 1 m 78,0 h 1 m 23,0 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m 47,0 h 1 m 6,0 h 1 m 64,0 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m -417,1 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m 47,0 h 1 m 78,0 h 1 m 23,0 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m 47,0 h 1 m 6,0 h 1 m 64,0 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m -417,1 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m 47,0 h 1 m 23,0 h 1 m 6,0 h 1 m 47,0 h 1 m 23,0 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m 47,0 h 1 m 6,0 h 1 m 64,0 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m -417,1 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m 47,0 h 1 m 23,0 h 1 m 6,0 h 1 m 47,0 h 1 m 23,0 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m 47,0 h 1 m 6,0 h 1 m 64,0 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m -417,1 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m 47,0 h 1 m 23,0 h 1 m 6,0 h 1 m 47,0 h 1 m 23,0 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m 47,0 h 1 m 6,0 h 1 m 64,0 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m -417,1 h 1 m 6,0 h 1 m 85,0 h 1 m 54,0 h 1 m 47,0 h 1 m 61,0 h 1 m 47,0 h 1 m 6,0 h 1 m 164,0 h 1 m 6,0 h 1 m -486,1 h 1 m 6,0 h 1 m 85,0 h 1 m 54,0 h 1 m 40,0 h 1 m 6,0 h 1 m 61,0 h 1 m 47,0 h 1 m 6,0 h 1 m 119,0 h 1 m 44,0 h 1 m 6,0 h 1 m -486,1 h 1 m 6,0 h 1 m 85,0 h 1 m 54,0 h 1 m 40,0 h 1 m 6,0 h 1 m 61,0 h 1 m 47,0 h 1 m 6,0 h 1 m 119,0 h 1 m 44,0 h 1 m 6,0 h 1 m -486,1 h 1 m 6,0 h 1 m 85,0 h 1 m 54,0 h 1 m 40,0 h 1 m 6,0 h 1 m 61,0 h 1 m 47,0 h 1 m 6,0 h 1 m 119,0 h 1 m 44,0 h 1 m 6,0 h 1 m -486,1 h 1 m 6,0 h 1 m 85,0 h 1 m 54,0 h 1 m 40,0 h 1 m 6,0 h 1 m 61,0 h 1 m 47,0 h 1 m 6,0 h 1 m 119,0 h 1 m 44,0 h 1 m 6,0 h 1 m -486,1 h 1 m 6,0 h 1 m 85,0 h 1 m 54,0 h 1 m 40,0 h 1 m 6,0 h 1 m 61,0 h 1 m 47,0 h 1 m 6,0 h 1 m 119,0 h 1 m 44,0 h 1 m 6,0 h 1 m -486,1 h 1 m 6,0 h 1 m 85,0 h 1 m 54,0 h 1 m 40,0 h 1 m 6,0 h 1 m 61,0 h 1 m 47,0 h 1 m 6,0 h 1 m 119,0 h 1 m 44,0 h 1 m 6,0 h 1 m -668,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1"
+       id="path174-1" />
+    <path
+       stroke="#b08572"
+       d="m 136,180 h 1 m 157,0 h 1 m -159,1 h 1 m 157,0 h 1 m -159,1 h 1 m 157,0 h 1 m -159,1 h 1 m 157,0 h 1 m -159,1 h 1 m 157,0 h 1 m -159,1 h 1 m 157,0 h 1 m -196,1 h 20 m 17,0 h 1 m 157,0 h 1 m -159,1 h 1 m 157,0 h 1 m 161,0 h 1 m -321,1 h 1 m 157,0 h 1 m 161,0 h 1 m -321,1 h 1 m 157,0 h 1 m 161,0 h 1 m -321,1 h 1 m 95,0 h 1 m 3,0 h 1 m 57,0 h 1 m 99,0 h 1 m 30,0 h 1 m 30,0 h 1 m 119,0 h 1 m 47,0 h 1 m 78,0 h 1 m 30,0 h 1 m -599,1 h 1 m 95,0 h 1 m 3,0 h 1 m 57,0 h 1 m 99,0 h 1 m 30,0 h 1 m 30,0 h 1 m 119,0 h 1 m 47,0 h 1 m 78,0 h 1 m 30,0 h 1 m -599,1 h 1 m 95,0 h 1 m 3,0 h 1 m 57,0 h 1 m 99,0 h 1 m 30,0 h 1 m 30,0 h 1 m 119,0 h 1 m 47,0 h 1 m 78,0 h 1 m 30,0 h 1 m -599,1 h 1 m 95,0 h 1 m 3,0 h 1 m 9,0 h 1 m 47,0 h 1 m 99,0 h 1 m 30,0 h 1 m 150,0 h 1 m 61,0 h 1 m 64,0 h 1 m 30,0 h 1 m -599,1 h 1 m 95,0 h 1 m 3,0 h 1 m 57,0 h 1 m 75,0 h 1 m 23,0 h 1 m 30,0 h 1 m 150,0 h 1 m 64,0 h 1 m 61,0 h 1 m 30,0 h 1 m -599,1 h 1 m 95,0 h 1 m 3,0 h 1 m 57,0 h 1 m 75,0 h 1 m 23,0 h 1 m 30,0 h 1 m 150,0 h 1 m 64,0 h 1 m 61,0 h 1 m 30,0 h 1 m -599,1 h 1 m 95,0 h 1 m 3,0 h 1 m 57,0 h 1 m 75,0 h 1 m 23,0 h 1 m 30,0 h 1 m 150,0 h 1 m 64,0 h 1 m 61,0 h 1 m 30,0 h 1 m -599,1 h 1 m 68,0 h 1 m 26,0 h 1 m 3,0 h 1 m 57,0 h 1 m 27,0 h 1 m 23,0 h 1 m 23,0 h 1 m 267,0 h 1 m 2,0 h 1 m 68,0 h 1 m 78,0 h 1 m 13,0 h 1 m -668,1 h 1 m 68,0 h 1 m 26,0 h 1 m 3,0 h 1 m 57,0 h 1 m 27,0 h 1 m 23,0 h 1 m 23,0 h 1 m 267,0 h 1 m 2,0 h 1 m 68,0 h 1 m 78,0 h 1 m 13,0 h 1 m -668,1 h 1 m 68,0 h 1 m 26,0 h 1 m 3,0 h 1 m 57,0 h 1 m 27,0 h 1 m 23,0 h 1 m 23,0 h 1 m 267,0 h 1 m 2,0 h 1 m 68,0 h 1 m 78,0 h 1 m 13,0 h 1 m -668,1 h 1 m 10,0 h 17 m 41,0 h 1 m 7,0 h 12 m 7,0 h 1 m 3,0 h 1 m 57,0 h 1 m 27,0 h 1 m 23,0 h 1 m 17,0 h 6 m 8,0 h 6 m 72,0 h 10 m 18,0 h 13 m 213,0 h 1 m 79,0 h 13 m -667,1 h 1 m 68,0 h 1 m 26,0 h 1 m 3,0 h 1 m 57,0 h 1 m 27,0 h 1 m 23,0 h 1 m 109,0 h 1 m 9,0 h 1 m 157,0 h 1 m 85,0 h 1 m -575,1 h 1 m 68,0 h 1 m 26,0 h 1 m 3,0 h 1 m 57,0 h 1 m 27,0 h 1 m 23,0 h 1 m 109,0 h 1 m 9,0 h 1 m 157,0 h 1 m 85,0 h 1 m -575,1 h 1 m 68,0 h 1 m 20,0 h 6 m 4,0 h 1 m 57,0 h 1 m 27,0 h 1 m 24,0 h 6 m 103,0 h 1 m 9,0 h 1 m 31,0 h 6 m 120,0 h 1 m 85,0 h 1 m 93,0 h 6 m -674,1 h 1 m 68,0 h 1 m 30,0 h 1 m 57,0 h 1 m 27,0 h 1 m 133,0 h 1 m 9,0 h 1 m 30,0 h 1 m 126,0 h 1 m 85,0 h 1 m -575,1 h 1 m 68,0 h 1 m 30,0 h 1 m 57,0 h 1 m 27,0 h 1 m 133,0 h 1 m 9,0 h 1 m 30,0 h 1 m 126,0 h 1 m 85,0 h 1 m -575,1 h 1 m 68,0 h 1 m 30,0 h 1 m 57,0 h 1 m 27,0 h 1 m 133,0 h 1 m 9,0 h 1 m 30,0 h 1 m 126,0 h 1 m 85,0 h 1 m -575,1 h 1 m 3,0 h 6 m 36,0 h 13 m 10,0 h 1 m 30,0 h 1 m 57,0 h 1 m 27,0 h 1 m 24,0 h 6 m 114,0 h 6 m 59,0 h 13 m 79,0 h 1 m 85,0 h 1 m 41,0 h 6 m 8,0 h 6 m -636,1 h 1 m 44,0 h 1 m 23,0 h 1 m 30,0 h 1 m 57,0 h 1 m 27,0 h 1 m 23,0 h 1 m 277,0 h 1 m 85,0 h 1 m 47,0 h 1 m 30,0 h 1 m -654,1 h 1 m 44,0 h 1 m 23,0 h 1 m 30,0 h 1 m 57,0 h 1 m 27,0 h 1 m 23,0 h 1 m 277,0 h 1 m 85,0 h 1 m 47,0 h 1 m 30,0 h 1 m -654,1 h 1 m 44,0 h 1 m 23,0 h 1 m 30,0 h 1 m 57,0 h 1 m 27,0 h 1 m 23,0 h 1 m 277,0 h 1 m 85,0 h 1 m 47,0 h 1 m 30,0 h 1 m -654,1 h 1 m 44,0 h 1 m 23,0 h 1 m 26,0 h 1 m 3,0 h 1 m 57,0 h 1 m 27,0 h 1 m 23,0 h 1 m 277,0 h 1 m 85,0 h 1 m 47,0 h 1 m 30,0 h 1 m 13,0 h 1 m -668,1 h 1 m 44,0 h 1 m 23,0 h 1 m 26,0 h 1 m 3,0 h 1 m 57,0 h 1 m 27,0 h 1 m 23,0 h 1 m 277,0 h 1 m 85,0 h 1 m 47,0 h 1 m 30,0 h 1 m 13,0 h 1 m -668,1 h 1 m 44,0 h 1 m 23,0 h 1 m 26,0 h 1 m 3,0 h 1 m 57,0 h 1 m 27,0 h 1 m 23,0 h 1 m 277,0 h 1 m 85,0 h 1 m 47,0 h 1 m 30,0 h 1 m 13,0 h 1 m -668,1 h 1 m 95,0 h 1 m 3,0 h 1 m 64,0 h 1 m 322,0 h 1 m 85,0 h 1 m 109,0 h 1 m -685,1 h 1 m 95,0 h 1 m 3,0 h 1 m 64,0 h 1 m 92,0 h 1 m 30,0 h 1 m 40,0 h 1 m 109,0 h 1 m 47,0 h 1 m 85,0 h 1 m 23,0 h 1 m 30,0 h 1 m 54,0 h 1 m -685,1 h 1 m 95,0 h 1 m 3,0 h 1 m 64,0 h 1 m 92,0 h 1 m 30,0 h 1 m 40,0 h 1 m 109,0 h 1 m 47,0 h 1 m 85,0 h 1 m 23,0 h 1 m 30,0 h 1 m 54,0 h 1 m -685,1 h 1 m 95,0 h 1 m 3,0 h 1 m 64,0 h 1 m 92,0 h 1 m 30,0 h 1 m 40,0 h 1 m 109,0 h 1 m 47,0 h 1 m 85,0 h 1 m 23,0 h 1 m 30,0 h 1 m 54,0 h 1 m -685,1 h 1 m 95,0 h 1 m 3,0 h 1 m 64,0 h 1 m 92,0 h 1 m 30,0 h 1 m 40,0 h 1 m 109,0 h 1 m 47,0 h 1 m 85,0 h 1 m 23,0 h 1 m 30,0 h 1 m 54,0 h 1 m -685,1 h 1 m 95,0 h 1 m 3,0 h 1 m 64,0 h 1 m 92,0 h 1 m 30,0 h 1 m 40,0 h 1 m 109,0 h 1 m 47,0 h 1 m 85,0 h 1 m 23,0 h 1 m 30,0 h 1 m 54,0 h 1 m -685,1 h 1 m 95,0 h 1 m 3,0 h 1 m 64,0 h 1 m 92,0 h 1 m 30,0 h 1 m 40,0 h 1 m 109,0 h 1 m 47,0 h 1 m 85,0 h 1 m 23,0 h 1 m 30,0 h 1 m 54,0 h 1 m -276,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1"
+       id="path176-0" />
+    <path
+       stroke="#bd9683"
+       d="m 119,186 h 1 m 167,0 h 1 m -45,7 h 1 m 43,0 h 1 m 168,0 h 1 m -214,7 h 1 m 119,7 h 1 m 181,7 h 1 m 243,0 h 1"
+       id="path178-3" />
+    <path
+       stroke="#d5b7a7"
+       d="m 456,186 h 1 m -87,7 h 1 m 270,0 h 1 m -4,7 h 1 m 2,0 h 1 m -138,3 h 1 m -39,4 h 1 m 6,0 h 1 m 291,0 h 1"
+       id="path180-37" />
+    <path
+       stroke="#a47560"
+       d="m 624,193 h 1 m -262,7 h 1 m 133,0 h 1 m 126,0 h 1 m 178,3 h 1 m -259,4 h 1"
+       id="path182-8" />
+    <path
+       stroke="#aa7d69"
+       d="m 212,200 h 1 m 12,0 h 1 m 151,0 h 1 m -232,7 h 1 m 642,0 h 1 m -396,7 h 1 m 30,0 h 1 m 40,0 h 1 m 109,0 h 1 m 157,0 h 1 m 30,0 h 1"
+       id="path184-1" />
+    <path
+       stroke="#c39e8c"
+       d="m 370,200 h 1 m 95,0 h 1 m -235,3 h 1 m 113,0 h 1 m -1,4 h 1 m 411,0 h 1"
+       id="path186-0" />
+    <path
+       stroke="#9e6c57"
+       d="m 789,200 h 1 m 13,0 h 1 m -307,3 h 1"
+       id="path188-0" />
+    <path
+       stroke="#b68e7b"
+       d="m 181,207 h 1"
+       id="path190-58" />
+    <path
+       stroke="#cfaf9e"
+       d="m 212,207 h 1 m 318,0 h 1 m 219,0 h 1 m -606,7 h 1 m 199,0 h 1 m 61,0 h 1 m 30,0 h 1 m 43,0 h 1 m 78,0 h 1 m 30,0 h 1 m 126,0 h 1 m 37,0 h 1"
+       id="path192-9" />
+    <path
+       stroke="#fcecdf"
+       d="m 933,243 h 1 m -13,12 h 1"
+       id="path194-6" />
+    <path
+       stroke="#fff0e2"
+       d="m 934,243 h 3"
+       id="path196-7" />
+    <path
+       stroke="#eedfd1"
+       d="m 938,243 h 1"
+       id="path198-2" />
+    <path
+       stroke="#cbbeb3"
+       d="m 933,244 h 1"
+       id="path200-62" />
+    <path
+       stroke="#837a74"
+       d="m 934,244 h 1"
+       id="path202-0" />
+    <path
+       stroke="#877e77"
+       d="m 935,244 h 2"
+       id="path204-5" />
+    <path
+       stroke="#8a8079"
+       d="m 937,244 h 1"
+       id="path206-6" />
+    <path
+       stroke="#7d756f"
+       d="m 938,244 h 1"
+       id="path208-2" />
+    <path
+       stroke="#8c837b"
+       d="m 933,245 h 1"
+       id="path210-7" />
+    <path
+       stroke="#010101"
+       d="m 939,245 h 1 m -18,24 h 1"
+       id="path212-5" />
+    <path
+       stroke="#cbbdb3"
+       d="m 42,248 h 1"
+       id="path214-4" />
+    <path
+       stroke="#fff1e3"
+       d="m 43,248 h 4 m 882,0 h 4"
+       id="path216-7" />
+    <path
+       stroke="#fdede0"
+       d="m 47,248 h 1 m 0,6 h 1 m 872,2 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1"
+       id="path218-5" />
+    <path
+       stroke="#f8e8dc"
+       d="m 48,248 h 1"
+       id="path220-0" />
+    <path
+       stroke="#ffefe1"
+       d="m 928,248 h 1 m -2,2 h 1 m -1,3 h 1"
+       id="path222-0" />
+    <path
+       stroke="#9a9087"
+       d="m 933,248 h 1"
+       id="path224-3" />
+    <path
+       stroke="#090909"
+       d="m 37,249 h 1 m 900,2 h 1 m -1,1 h 1 m -1,1 h 1 m -896,1 h 3 m 888,0 h 3 m -333,16 h 1 m 84,0 h 1 m 84,0 h 1"
+       id="path226-4" />
+    <path
+       stroke="#111111"
+       d="m 38,249 h 2 m 899,0 h 3 m -4,5 h 1"
+       id="path228-8" />
+    <path
+       stroke="#101010"
+       d="m 40,249 h 1 m 901,0 h 1"
+       id="path230-7" />
+    <path
+       stroke="#131313"
+       d="m 41,249 h 1"
+       id="path232-5" />
+    <path
+       stroke="#aea39a"
+       d="m 42,249 h 1"
+       id="path234-9" />
+    <path
+       stroke="#d8c9be"
+       d="m 43,249 h 4 m 882,0 h 4"
+       id="path236-45" />
+    <path
+       stroke="#e8d9cd"
+       d="m 47,249 h 1"
+       id="path238-7" />
+    <path
+       stroke="#faeadc"
+       d="m 927,249 h 1"
+       id="path240-4" />
+    <path
+       stroke="#e1d3c7"
+       d="m 928,249 h 1"
+       id="path242-9" />
+    <path
+       stroke="#817872"
+       d="m 933,249 h 1"
+       id="path244-5" />
+    <path
+       stroke="#0b0b0b"
+       d="m 943,249 h 1 M 59,270 h 36 m 86,0 h 84 m 85,0 h 85 m 85,0 h 84 m 86,0 h 84 m 86,0 h 61"
+       id="path246-8" />
+    <path
+       stroke="#101111"
+       d="m 42,250 h 1"
+       id="path248-1" />
+    <path
+       stroke="#736b65"
+       d="m 47,250 h 1"
+       id="path250-2" />
+    <path
+       stroke="#fffaec"
+       d="m 48,250 h 1"
+       id="path252-4" />
+    <path
+       stroke="#403b37"
+       d="m 928,250 h 1"
+       id="path254-3" />
+    <path
+       stroke="#010100"
+       d="m 934,250 h 1"
+       id="path256-5" />
+    <path
+       stroke="#0a0a0a"
+       d="m 938,250 h 1 m -759,20 h 1 m 678,0 h 1"
+       id="path258-2" />
+    <path
+       stroke="#1b1b1b"
+       d="m 42,251 h 1 m -1,1 h 1"
+       id="path260-6" />
+    <path
+       stroke="#1a1a1a"
+       d="m 42,253 h 1"
+       id="path262-6" />
+    <path
+       stroke="#faeadd"
+       d="m 926,253 h 1 m -874,1 h 1"
+       id="path264-0" />
+    <path
+       stroke="#080808"
+       d="m 46,254 h 1 m 48,16 h 1 m 423,0 h 1 m 401,0 h 1"
+       id="path266-52" />
+    <path
+       stroke="#7a726c"
+       d="m 47,254 h 1"
+       id="path268-0" />
+    <path
+       stroke="#edded2"
+       d="m 49,254 h 3 m 871,0 h 3"
+       id="path270-2" />
+    <path
+       stroke="#efdfd3"
+       d="m 52,254 h 1"
+       id="path272-7" />
+    <path
+       stroke="#eeded2"
+       d="m 926,254 h 1"
+       id="path274-8" />
+    <path
+       stroke="#f3e3d7"
+       d="m 927,254 h 1"
+       id="path276-48" />
+    <path
+       stroke="#47423e"
+       d="m 928,254 h 1"
+       id="path278-7" />
+    <path
+       stroke="#060606"
+       d="m 937,254 h 1"
+       id="path280-3" />
+    <path
+       stroke="#272421"
+       d="m 48,255 h 1"
+       id="path282-7" />
+    <path
+       stroke="#2e2b29"
+       d="m 49,255 h 2 m 874,0 h 2"
+       id="path284-4" />
+    <path
+       stroke="#282624"
+       d="m 51,255 h 1"
+       id="path286-7" />
+    <path
+       stroke="#4a4541"
+       d="m 52,255 h 1"
+       id="path288-16" />
+    <path
+       stroke="#fffdef"
+       d="m 53,255 h 1"
+       id="path290-68" />
+    <path
+       stroke="#f6e6d9"
+       d="m 922,255 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1"
+       id="path292-7" />
+    <path
+       stroke="#2d2a27"
+       d="m 923,255 h 1"
+       id="path294-6" />
+    <path
+       stroke="#2c2927"
+       d="m 924,255 h 1"
+       id="path296-0" />
+    <path
+       stroke="#2f2c2a"
+       d="m 927,255 h 1"
+       id="path298-6" />
+    <path
+       stroke="#0e0d0c"
+       d="m 928,255 h 1"
+       id="path300-4" />
+    <path
+       stroke="#3e3e3e"
+       d="m 933,255 h 1"
+       id="path302-8" />
+    <path
+       stroke="#4c4c4c"
+       d="m 933,259 h 1"
+       id="path304-6" />
+    <path
+       stroke="#6f6660"
+       d="m 53,260 h 1"
+       id="path306-7" />
+    <path
+       stroke="#6e6761"
+       d="M 54,260 H 489"
+       id="path308-2" />
+    <path
+       stroke="#6e6862"
+       d="M 489,260 H 921"
+       id="path310-8" />
+    <path
+       stroke="#706964"
+       d="m 921,260 h 1"
+       id="path312-2" />
+    <path
+       stroke="#6d6660"
+       d="m 922,260 h 1"
+       id="path314-2" />
+    <path
+       stroke="#191919"
+       d="m 53,265 h 1 m 4,2 h 1 m -1,1 h 1"
+       id="path316-65" />
+    <path
+       stroke="#292929"
+       d="m 54,265 h 4"
+       id="path318-0" />
+    <path
+       stroke="#050505"
+       d="m 58,265 h 1"
+       id="path320-2" />
+    <path
+       stroke="#1c1c1c"
+       d="m 58,266 h 1"
+       id="path322-4" />
+    <path
+       stroke="#181818"
+       d="m 58,269 h 1"
+       id="path324-3" />
+    <path
+       stroke="#232323"
+       d="m 58,270 h 1"
+       id="path326-6" />
+    <path
+       stroke="#070707"
+       d="m 96,270 h 84 m 85,0 h 85 m 85,0 h 84 m 86,0 h 84 m 86,0 h 84"
+       id="path328-1" />
+    <path
+       stroke="#adadad"
+       d="m 59,271 h 35 m 87,0 h 82 m 1,0 h 1 m 87,0 h 81 m 89,0 h 81 m 88,0 h 83 m 86,0 h 62"
+       id="path330-3" />
+    <path
+       stroke="#acacac"
+       d="m 94,271 h 1"
+       id="path332-0" />
+    <path
+       stroke="#737373"
+       d="m 96,271 h 83 m 87,0 h 82 m 88,0 h 82 m 88,0 h 82 m 87,0 h 84"
+       id="path334-5" />
+    <path
+       stroke="#747474"
+       d="m 179,271 h 1 m 508,0 h 1"
+       id="path336-8" />
+    <path
+       stroke="#a3a3a3"
+       d="m 180,271 h 1"
+       id="path338-25" />
+    <path
+       stroke="#aeaeae"
+       d="m 263,271 h 1 m 87,0 h 1 m 169,0 h 1 m 81,0 h 1 m 318,0 h 1"
+       id="path340-81" />
+    <path
+       stroke="#777777"
+       d="m 265,271 h 1"
+       id="path342-4" />
+    <path
+       stroke="#727272"
+       d="m 348,271 h 1 m 169,0 h 1"
+       id="path344-4" />
+    <path
+       stroke="#767676"
+       d="m 349,271 h 1"
+       id="path346-54" />
+    <path
+       stroke="#afafaf"
+       d="m 350,271 h 1 m 82,0 h 1 m 256,0 h 1"
+       id="path348-1" />
+    <path
+       stroke="#a6a6a6"
+       d="m 434,271 h 1"
+       id="path350-9" />
+    <path
+       stroke="#6f6f6f"
+       d="m 435,271 h 1"
+       id="path352-8" />
+    <path
+       stroke="#828282"
+       d="m 519,271 h 1"
+       id="path354-67" />
+    <path
+       stroke="#b2b2b2"
+       d="m 520,271 h 1"
+       id="path356-1" />
+    <path
+       stroke="#989898"
+       d="m 604,271 h 1"
+       id="path358-7" />
+    <path
+       stroke="#8f8f8f"
+       d="m 689,271 h 1"
+       id="path360-11" />
+    <path
+       stroke="#8c8c8c"
+       d="m 774,271 h 1"
+       id="path362-5" />
+    <path
+       stroke="#9b9b9b"
+       d="m 859,271 h 1"
+       id="path364-0" />
+  </g>
+  <g
+     id="player_2_0"
+     transform="matrix(0.74972437,0,0,0.54687788,-13.806047,1636.867)"
+     inkscape:label="player_2_0">
+    <title
+       id="title85774">player_2_0</title>
+    <path
+       stroke="#000000"
+       d="m 53,144 h 875 m -875,1 h 875 m -875,1 h 875 m -875,1 h 875 m -875,1 h 1 m -6,2 h 4 m 877,0 h 4 m -885,1 h 4 m 877,0 h 4 m -885,1 h 4 m 877,0 h 4 m -885,1 h 1 m 2,0 h 1 m -9,2 h 4 m 887,0 h 4 m -895,1 h 4 m 887,0 h 4 m -895,1 h 4 m 887,0 h 4 m -895,1 h 4 m 887,0 h 4 m -901,2 h 5 m 897,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 898,0 h 5 m -907,1 h 4 m 893,0 h 5 m 1,0 h 4 m -907,1 h 4 m 893,0 h 10 m -907,1 h 4 m 893,0 h 10 m -907,1 h 5 m 892,0 h 10 m -10,1 h 5 m -896,1 h 4 m 882,0 h 5 m 1,0 h 3 m -895,1 h 4 m 882,0 h 9 m -895,1 h 4 m 882,0 h 9 m -895,1 h 4 m 882,0 h 9 m -9,1 h 4 m -4,1 h 4 m -885,1 h 4 m 871,0 h 10 m -885,1 h 4 m 871,0 h 10 m -885,1 h 4 m 871,0 h 10 m -885,1 h 4 m 871,0 h 10 m -10,1 h 5 m -875,1 h 875 m -875,1 h 875 m -875,1 h 875 m -875,1 h 875 m -869,1 h 864 m -864,1 h 863 m -863,1 h 863 m -863,1 h 863 m -863,1 h 863"
+       id="path661-9" />
+    <path
+       stroke="#868686"
+       d="m 928,144 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1"
+       id="path663-3" />
+    <path
+       stroke="#0b0a0a"
+       d="M 54,148 H 926"
+       id="path665-5" />
+    <path
+       stroke="#0b0a09"
+       d="m 926,148 h 1"
+       id="path667-7" />
+    <path
+       stroke="#070605"
+       d="m 927,148 h 1"
+       id="path669-5" />
+    <path
+       stroke="#838383"
+       d="m 928,148 h 1 M 95,271 h 1"
+       id="path671" />
+    <path
+       stroke="#707070"
+       d="m 47,149 h 1 m 557,122 h 1"
+       id="path673" />
+    <path
+       stroke="#141414"
+       d="m 48,149 h 1"
+       id="path675" />
+    <path
+       stroke="#1f1f1f"
+       d="m 49,149 h 2 m 879,0 h 3"
+       id="path677" />
+    <path
+       stroke="#19191a"
+       d="m 51,149 h 1"
+       id="path679" />
+    <path
+       stroke="#373534"
+       d="m 52,149 h 1"
+       id="path681" />
+    <path
+       stroke="#e4d5c9"
+       d="m 53,149 h 1"
+       id="path683" />
+    <path
+       stroke="#d1c4b9"
+       d="M 54,149 H 927"
+       id="path685" />
+    <path
+       stroke="#d5c7bc"
+       d="m 927,149 h 1 M 42,160 h 1"
+       id="path687" />
+    <path
+       stroke="#54504c"
+       d="m 928,149 h 1"
+       id="path689" />
+    <path
+       stroke="#1e1e1e"
+       d="m 929,149 h 1"
+       id="path691" />
+    <path
+       stroke="#5f5f5f"
+       d="m 933,149 h 1"
+       id="path693" />
+    <path
+       stroke="#616161"
+       d="m 47,150 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1"
+       id="path695" />
+    <path
+       stroke="#22201e"
+       d="m 52,150 h 1 m -1,1 h 1 m -1,1 h 1 m -1,104 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1"
+       id="path697" />
+    <path
+       stroke="#fffff3"
+       d="m 53,150 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -11,7 h 4 m 888,0 h 2 M 53,256 h 1 m -1,1 h 1 m -1,1 h 1"
+       id="path699" />
+    <path
+       stroke="#f9e9dc"
+       d="m 54,150 h 873 m -873,1 h 873 m -873,1 h 873 m -873,1 h 873 m -873,1 h 873 m -873,1 h 874 m -879,1 h 884 m -884,1 h 884 m -884,1 h 884 m -884,1 h 884 m -884,1 h 884 m -890,1 h 894 m -894,1 h 894 m -894,1 h 894 m -894,1 h 894 m -894,1 h 894 m -894,1 h 894 m -894,1 h 894 m -894,1 h 894 m -894,1 h 894 m -894,1 h 894 m -894,1 h 894 m -894,1 h 894 m -894,1 h 894 m -894,1 h 894 m -894,1 h 894 m -894,1 h 894 m -894,1 h 894 m -894,1 h 894 m -894,1 h 49 m 28,0 h 9 m 8,0 h 150 m 15,0 h 61 m 8,0 h 566 m -894,1 h 49 m 28,0 h 9 m 8,0 h 150 m 15,0 h 61 m 8,0 h 566 m -894,1 h 49 m 28,0 h 9 m 8,0 h 150 m 15,0 h 61 m 8,0 h 566 m -894,1 h 49 m 28,0 h 9 m 8,0 h 150 m 15,0 h 61 m 8,0 h 566 m -894,1 h 49 m 28,0 h 9 m 8,0 h 150 m 15,0 h 61 m 8,0 h 566 m -894,1 h 49 m 28,0 h 9 m 8,0 h 150 m 15,0 h 61 m 8,0 h 566 m -894,1 h 49 m 28,0 h 9 m 8,0 h 150 m 15,0 h 61 m 8,0 h 566 m -894,1 h 49 m 35,0 h 2 m 8,0 h 144 m 28,0 h 54 m 8,0 h 92 m 18,0 h 456 m -894,1 h 49 m 7,0 h 20 m 8,0 h 2 m 8,0 h 144 m 7,0 h 13 m 8,0 h 54 m 8,0 h 92 m 18,0 h 456 m -894,1 h 49 m 7,0 h 20 m 8,0 h 2 m 8,0 h 144 m 7,0 h 13 m 8,0 h 54 m 8,0 h 92 m 18,0 h 456 m -894,1 h 49 m 7,0 h 20 m 8,0 h 2 m 8,0 h 144 m 7,0 h 13 m 8,0 h 54 m 8,0 h 92 m 18,0 h 456 m -894,1 h 49 m 7,0 h 20 m 8,0 h 2 m 8,0 h 3 m 24,0 h 10 m 8,0 h 13 m 7,0 h 10 m 21,0 h 3 m 8,0 h 2 m 11,0 h 24 m 7,0 h 13 m 8,0 h 26 m 18,0 h 10 m 8,0 h 30 m 15,0 h 16 m 14,0 h 17 m 18,0 h 9 m 22,0 h 20 m 7,0 h 13 m 8,0 h 9 m 15,0 h 9 m 8,0 h 13 m 8,0 h 2 m 8,0 h 3 m 11,0 h 23 m 22,0 h 6 m 14,0 h 16 m 15,0 h 54 m 22,0 h 119 m -894,1 h 49 m 7,0 h 20 m 8,0 h 2 m 8,0 h 3 m 24,0 h 10 m 8,0 h 13 m 7,0 h 10 m 21,0 h 3 m 8,0 h 2 m 11,0 h 24 m 7,0 h 13 m 8,0 h 26 m 18,0 h 10 m 8,0 h 30 m 15,0 h 16 m 14,0 h 17 m 18,0 h 9 m 22,0 h 20 m 7,0 h 13 m 8,0 h 9 m 15,0 h 9 m 8,0 h 13 m 8,0 h 2 m 8,0 h 3 m 11,0 h 23 m 22,0 h 6 m 14,0 h 16 m 15,0 h 54 m 22,0 h 119 m -894,1 h 49 m 7,0 h 20 m 8,0 h 2 m 8,0 h 3 m 24,0 h 10 m 8,0 h 13 m 7,0 h 10 m 21,0 h 3 m 8,0 h 2 m 11,0 h 24 m 7,0 h 13 m 8,0 h 26 m 18,0 h 10 m 8,0 h 30 m 15,0 h 16 m 14,0 h 17 m 18,0 h 9 m 22,0 h 20 m 7,0 h 13 m 8,0 h 9 m 15,0 h 9 m 8,0 h 13 m 8,0 h 2 m 8,0 h 3 m 11,0 h 23 m 22,0 h 6 m 14,0 h 16 m 15,0 h 54 m 22,0 h 119 m -894,1 h 49 m 35,0 h 2 m 8,0 h 3 m 24,0 h 10 m 8,0 h 13 m 7,0 h 10 m 21,0 h 3 m 25,0 h 20 m 7,0 h 6 m 15,0 h 26 m 18,0 h 10 m 8,0 h 6 m 8,0 h 16 m 15,0 h 16 m 14,0 h 10 m 25,0 h 9 m 22,0 h 20 m 7,0 h 13 m 8,0 h 9 m 15,0 h 9 m 8,0 h 13 m 8,0 h 2 m 25,0 h 20 m 22,0 h 6 m 14,0 h 16 m 15,0 h 54 m 22,0 h 119 m -894,1 h 49 m 28,0 h 9 m 8,0 h 3 m 24,0 h 10 m 8,0 h 13 m 7,0 h 10 m 21,0 h 3 m 25,0 h 33 m 8,0 h 33 m 18,0 h 10 m 8,0 h 6 m 8,0 h 16 m 15,0 h 16 m 14,0 h 10 m 8,0 h 26 m 22,0 h 20 m 7,0 h 13 m 8,0 h 9 m 15,0 h 9 m 8,0 h 13 m 8,0 h 2 m 25,0 h 20 m 22,0 h 6 m 14,0 h 16 m 15,0 h 54 m 22,0 h 119 m -894,1 h 49 m 28,0 h 9 m 8,0 h 3 m 24,0 h 10 m 8,0 h 13 m 7,0 h 10 m 21,0 h 3 m 25,0 h 33 m 8,0 h 33 m 18,0 h 10 m 8,0 h 6 m 8,0 h 16 m 15,0 h 16 m 14,0 h 10 m 8,0 h 26 m 22,0 h 20 m 7,0 h 13 m 8,0 h 9 m 15,0 h 9 m 8,0 h 13 m 8,0 h 2 m 25,0 h 20 m 22,0 h 6 m 14,0 h 16 m 15,0 h 54 m 22,0 h 119 m -894,1 h 49 m 28,0 h 9 m 8,0 h 3 m 24,0 h 10 m 8,0 h 13 m 7,0 h 10 m 21,0 h 3 m 25,0 h 33 m 8,0 h 33 m 18,0 h 10 m 8,0 h 6 m 8,0 h 16 m 15,0 h 16 m 14,0 h 10 m 8,0 h 26 m 22,0 h 20 m 7,0 h 13 m 8,0 h 9 m 15,0 h 9 m 8,0 h 13 m 8,0 h 2 m 25,0 h 20 m 22,0 h 6 m 14,0 h 16 m 15,0 h 54 m 22,0 h 119 m -894,1 h 49 m 28,0 h 9 m 8,0 h 27 m 7,0 h 3 m 8,0 h 13 m 7,0 h 3 m 8,0 h 12 m 8,0 h 3 m 11,0 h 9 m 5,0 h 33 m 8,0 h 27 m 7,0 h 17 m 7,0 h 3 m 8,0 h 6 m 8,0 h 9 m 8,0 h 13 m 7,0 h 3 m 8,0 h 12 m 8,0 h 3 m 8,0 h 19 m 8,0 h 13 m 8,0 h 20 m 7,0 h 13 m 8,0 h 2 m 8,0 h 13 m 8,0 h 2 m 8,0 h 13 m 8,0 h 2 m 11,0 h 10 m 4,0 h 20 m 8,0 h 13 m 7,0 h 13 m 8,0 h 3 m 7,0 h 13 m 8,0 h 3 m 7,0 h 20 m 8,0 h 2 m 8,0 h 13 m 8,0 h 119 m -894,1 h 49 m 28,0 h 9 m 8,0 h 27 m 7,0 h 3 m 8,0 h 13 m 7,0 h 3 m 8,0 h 12 m 8,0 h 3 m 11,0 h 9 m 5,0 h 33 m 8,0 h 27 m 7,0 h 17 m 7,0 h 3 m 8,0 h 6 m 8,0 h 9 m 8,0 h 13 m 7,0 h 3 m 8,0 h 12 m 8,0 h 3 m 8,0 h 19 m 8,0 h 13 m 8,0 h 20 m 7,0 h 13 m 8,0 h 2 m 8,0 h 13 m 8,0 h 2 m 8,0 h 13 m 8,0 h 2 m 11,0 h 10 m 4,0 h 20 m 8,0 h 13 m 7,0 h 13 m 8,0 h 3 m 7,0 h 13 m 8,0 h 3 m 7,0 h 20 m 8,0 h 2 m 8,0 h 13 m 8,0 h 119 m -894,1 h 49 m 28,0 h 9 m 8,0 h 27 m 7,0 h 3 m 8,0 h 13 m 7,0 h 3 m 8,0 h 12 m 8,0 h 3 m 11,0 h 9 m 5,0 h 33 m 8,0 h 27 m 7,0 h 17 m 7,0 h 3 m 8,0 h 6 m 8,0 h 9 m 8,0 h 13 m 7,0 h 3 m 8,0 h 12 m 8,0 h 3 m 8,0 h 19 m 8,0 h 13 m 8,0 h 20 m 7,0 h 13 m 8,0 h 2 m 8,0 h 13 m 8,0 h 2 m 8,0 h 13 m 8,0 h 2 m 11,0 h 10 m 4,0 h 20 m 8,0 h 13 m 7,0 h 13 m 8,0 h 3 m 7,0 h 13 m 8,0 h 3 m 7,0 h 20 m 8,0 h 2 m 8,0 h 13 m 8,0 h 119 m -894,1 h 49 m 28,0 h 9 m 8,0 h 9 m 25,0 h 3 m 8,0 h 13 m 7,0 h 3 m 28,0 h 3 m 11,0 h 9 m 5,0 h 26 m 15,0 h 27 m 7,0 h 17 m 7,0 h 3 m 28,0 h 3 m 8,0 h 13 m 7,0 h 3 m 8,0 h 12 m 8,0 h 3 m 18,0 h 9 m 29,0 h 20 m 7,0 h 13 m 8,0 h 2 m 8,0 h 13 m 8,0 h 2 m 8,0 h 13 m 8,0 h 2 m 11,0 h 10 m 4,0 h 20 m 8,0 h 13 m 7,0 h 13 m 8,0 h 3 m 7,0 h 13 m 8,0 h 3 m 7,0 h 20 m 8,0 h 2 m 29,0 h 119 m -894,1 h 49 m 7,0 h 30 m 8,0 h 9 m 25,0 h 3 m 8,0 h 13 m 7,0 h 3 m 28,0 h 3 m 8,0 h 43 m 8,0 h 34 m 7,0 h 17 m 7,0 h 3 m 15,0 h 6 m 7,0 h 3 m 8,0 h 13 m 7,0 h 3 m 8,0 h 12 m 8,0 h 10 m 11,0 h 9 m 29,0 h 20 m 7,0 h 13 m 8,0 h 2 m 8,0 h 13 m 8,0 h 2 m 8,0 h 13 m 8,0 h 2 m 8,0 h 37 m 8,0 h 13 m 7,0 h 13 m 8,0 h 3 m 7,0 h 13 m 8,0 h 3 m 7,0 h 20 m 8,0 h 2 m 29,0 h 119 m -894,1 h 49 m 7,0 h 30 m 8,0 h 9 m 25,0 h 3 m 8,0 h 13 m 7,0 h 3 m 28,0 h 3 m 8,0 h 43 m 8,0 h 34 m 7,0 h 17 m 7,0 h 3 m 15,0 h 6 m 7,0 h 3 m 8,0 h 13 m 7,0 h 3 m 8,0 h 12 m 8,0 h 10 m 11,0 h 9 m 29,0 h 20 m 7,0 h 13 m 8,0 h 2 m 8,0 h 13 m 8,0 h 2 m 8,0 h 13 m 8,0 h 2 m 8,0 h 37 m 8,0 h 13 m 7,0 h 13 m 8,0 h 3 m 7,0 h 13 m 8,0 h 3 m 7,0 h 20 m 8,0 h 2 m 29,0 h 119 m -894,1 h 49 m 7,0 h 30 m 8,0 h 9 m 25,0 h 3 m 8,0 h 13 m 7,0 h 3 m 28,0 h 3 m 8,0 h 43 m 8,0 h 34 m 7,0 h 17 m 7,0 h 3 m 15,0 h 6 m 7,0 h 3 m 8,0 h 13 m 7,0 h 3 m 8,0 h 12 m 8,0 h 10 m 11,0 h 9 m 29,0 h 20 m 7,0 h 13 m 8,0 h 2 m 8,0 h 13 m 8,0 h 2 m 8,0 h 13 m 8,0 h 2 m 8,0 h 37 m 8,0 h 13 m 7,0 h 13 m 8,0 h 3 m 7,0 h 13 m 8,0 h 3 m 7,0 h 20 m 8,0 h 2 m 29,0 h 119 m -894,1 h 49 m 7,0 h 30 m 8,0 h 9 m 25,0 h 3 m 8,0 h 13 m 7,0 h 3 m 21,0 h 10 m 8,0 h 43 m 8,0 h 34 m 7,0 h 27 m 15,0 h 6 m 7,0 h 3 m 8,0 h 13 m 7,0 h 3 m 8,0 h 12 m 8,0 h 10 m 11,0 h 9 m 22,0 h 27 m 7,0 h 13 m 8,0 h 2 m 8,0 h 13 m 8,0 h 2 m 8,0 h 13 m 8,0 h 2 m 8,0 h 37 m 8,0 h 13 m 7,0 h 13 m 8,0 h 3 m 7,0 h 13 m 8,0 h 3 m 7,0 h 20 m 8,0 h 2 m 22,0 h 126 m -894,1 h 49 m 7,0 h 30 m 8,0 h 9 m 25,0 h 3 m 8,0 h 13 m 7,0 h 3 m 21,0 h 10 m 8,0 h 43 m 8,0 h 34 m 7,0 h 27 m 15,0 h 6 m 7,0 h 3 m 8,0 h 13 m 7,0 h 3 m 8,0 h 12 m 8,0 h 10 m 11,0 h 9 m 22,0 h 27 m 7,0 h 13 m 8,0 h 2 m 8,0 h 13 m 8,0 h 2 m 8,0 h 13 m 8,0 h 2 m 8,0 h 37 m 8,0 h 13 m 7,0 h 13 m 8,0 h 3 m 7,0 h 13 m 8,0 h 3 m 7,0 h 20 m 8,0 h 2 m 22,0 h 126 m -894,1 h 49 m 7,0 h 30 m 8,0 h 9 m 25,0 h 3 m 8,0 h 13 m 7,0 h 3 m 21,0 h 10 m 8,0 h 43 m 8,0 h 34 m 7,0 h 27 m 15,0 h 6 m 7,0 h 3 m 8,0 h 13 m 7,0 h 3 m 8,0 h 12 m 8,0 h 10 m 11,0 h 9 m 22,0 h 27 m 7,0 h 13 m 8,0 h 2 m 8,0 h 13 m 8,0 h 2 m 8,0 h 13 m 8,0 h 2 m 8,0 h 37 m 8,0 h 13 m 7,0 h 13 m 8,0 h 3 m 7,0 h 13 m 8,0 h 3 m 7,0 h 20 m 8,0 h 2 m 22,0 h 126 m -894,1 h 49 m 7,0 h 30 m 8,0 h 3 m 31,0 h 3 m 28,0 h 3 m 21,0 h 10 m 8,0 h 37 m 14,0 h 34 m 7,0 h 17 m 7,0 h 3 m 15,0 h 6 m 7,0 h 3 m 8,0 h 13 m 7,0 h 3 m 8,0 h 12 m 8,0 h 10 m 18,0 h 2 m 22,0 h 27 m 28,0 h 2 m 8,0 h 13 m 8,0 h 2 m 8,0 h 13 m 8,0 h 2 m 8,0 h 37 m 8,0 h 13 m 7,0 h 13 m 8,0 h 3 m 7,0 h 13 m 8,0 h 3 m 14,0 h 6 m 15,0 h 2 m 22,0 h 126 m -894,1 h 49 m 7,0 h 30 m 8,0 h 3 m 7,0 h 17 m 7,0 h 10 m 21,0 h 3 m 8,0 h 23 m 8,0 h 37 m 7,0 h 41 m 7,0 h 17 m 7,0 h 3 m 8,0 h 13 m 7,0 h 3 m 8,0 h 13 m 7,0 h 3 m 8,0 h 12 m 8,0 h 20 m 8,0 h 2 m 8,0 h 47 m 22,0 h 2 m 8,0 h 13 m 8,0 h 2 m 8,0 h 13 m 8,0 h 2 m 8,0 h 37 m 8,0 h 13 m 7,0 h 13 m 8,0 h 3 m 7,0 h 13 m 8,0 h 9 m 8,0 h 6 m 8,0 h 9 m 8,0 h 140 m -894,1 h 49 m 7,0 h 30 m 8,0 h 3 m 7,0 h 17 m 7,0 h 10 m 21,0 h 3 m 8,0 h 23 m 8,0 h 37 m 7,0 h 41 m 7,0 h 17 m 7,0 h 3 m 8,0 h 13 m 7,0 h 3 m 8,0 h 13 m 7,0 h 3 m 8,0 h 12 m 8,0 h 20 m 8,0 h 2 m 8,0 h 47 m 22,0 h 2 m 8,0 h 13 m 8,0 h 2 m 8,0 h 13 m 8,0 h 2 m 8,0 h 37 m 8,0 h 13 m 7,0 h 13 m 8,0 h 3 m 7,0 h 13 m 8,0 h 9 m 8,0 h 6 m 8,0 h 9 m 8,0 h 140 m -894,1 h 49 m 7,0 h 30 m 8,0 h 3 m 7,0 h 17 m 7,0 h 10 m 21,0 h 3 m 8,0 h 12 m 8,0 h 3 m 8,0 h 37 m 7,0 h 41 m 7,0 h 17 m 7,0 h 3 m 8,0 h 13 m 7,0 h 3 m 8,0 h 13 m 7,0 h 3 m 8,0 h 12 m 8,0 h 20 m 8,0 h 2 m 8,0 h 13 m 8,0 h 26 m 22,0 h 2 m 8,0 h 13 m 8,0 h 2 m 8,0 h 13 m 8,0 h 2 m 8,0 h 37 m 8,0 h 13 m 7,0 h 13 m 8,0 h 3 m 7,0 h 13 m 8,0 h 9 m 8,0 h 6 m 8,0 h 9 m 8,0 h 13 m 8,0 h 119 m -894,1 h 49 m 7,0 h 30 m 8,0 h 3 m 7,0 h 17 m 7,0 h 10 m 21,0 h 3 m 8,0 h 12 m 8,0 h 3 m 8,0 h 37 m 7,0 h 41 m 7,0 h 17 m 7,0 h 3 m 8,0 h 13 m 7,0 h 3 m 8,0 h 13 m 7,0 h 3 m 8,0 h 12 m 8,0 h 20 m 8,0 h 2 m 8,0 h 13 m 8,0 h 26 m 22,0 h 2 m 8,0 h 13 m 8,0 h 2 m 8,0 h 13 m 8,0 h 2 m 8,0 h 37 m 8,0 h 13 m 7,0 h 13 m 8,0 h 3 m 7,0 h 13 m 8,0 h 9 m 8,0 h 6 m 8,0 h 9 m 8,0 h 13 m 8,0 h 119 m -894,1 h 49 m 7,0 h 30 m 8,0 h 3 m 7,0 h 17 m 7,0 h 10 m 21,0 h 3 m 8,0 h 12 m 8,0 h 3 m 8,0 h 37 m 7,0 h 41 m 7,0 h 17 m 7,0 h 3 m 8,0 h 13 m 7,0 h 3 m 8,0 h 13 m 7,0 h 3 m 8,0 h 12 m 8,0 h 20 m 8,0 h 2 m 8,0 h 13 m 8,0 h 26 m 22,0 h 2 m 8,0 h 13 m 8,0 h 2 m 8,0 h 13 m 8,0 h 2 m 8,0 h 37 m 8,0 h 13 m 7,0 h 13 m 8,0 h 3 m 7,0 h 13 m 8,0 h 9 m 8,0 h 6 m 8,0 h 9 m 8,0 h 13 m 8,0 h 119 m -894,1 h 49 m 7,0 h 30 m 8,0 h 3 m 7,0 h 17 m 7,0 h 10 m 21,0 h 3 m 8,0 h 12 m 8,0 h 3 m 8,0 h 37 m 7,0 h 41 m 7,0 h 17 m 7,0 h 3 m 8,0 h 13 m 7,0 h 3 m 8,0 h 13 m 7,0 h 3 m 8,0 h 12 m 8,0 h 20 m 8,0 h 2 m 8,0 h 13 m 8,0 h 26 m 22,0 h 2 m 8,0 h 13 m 8,0 h 2 m 8,0 h 13 m 8,0 h 2 m 8,0 h 37 m 8,0 h 13 m 7,0 h 13 m 8,0 h 3 m 7,0 h 13 m 8,0 h 9 m 8,0 h 6 m 8,0 h 9 m 8,0 h 13 m 8,0 h 119 m -894,1 h 49 m 7,0 h 30 m 8,0 h 3 m 31,0 h 10 m 21,0 h 3 m 28,0 h 3 m 8,0 h 37 m 28,0 h 20 m 31,0 h 3 m 8,0 h 13 m 7,0 h 3 m 28,0 h 3 m 28,0 h 3 m 25,0 h 2 m 29,0 h 26 m 22,0 h 2 m 29,0 h 2 m 29,0 h 2 m 8,0 h 37 m 8,0 h 13 m 7,0 h 13 m 8,0 h 3 m 28,0 h 9 m 22,0 h 9 m 29,0 h 2 m 8,0 h 3 m 7,0 h 3 m 8,0 h 88 m -894,1 h 49 m 7,0 h 30 m 8,0 h 9 m 25,0 h 24 m 7,0 h 10 m 21,0 h 3 m 8,0 h 37 m 28,0 h 26 m 18,0 h 10 m 8,0 h 13 m 7,0 h 10 m 15,0 h 16 m 14,0 h 10 m 18,0 h 16 m 22,0 h 40 m 8,0 h 9 m 15,0 h 16 m 22,0 h 2 m 8,0 h 37 m 8,0 h 13 m 7,0 h 13 m 8,0 h 9 m 15,0 h 23 m 8,0 h 23 m 22,0 h 2 m 8,0 h 3 m 7,0 h 3 m 8,0 h 88 m -894,1 h 49 m 7,0 h 30 m 8,0 h 9 m 25,0 h 24 m 7,0 h 10 m 21,0 h 3 m 8,0 h 37 m 28,0 h 26 m 18,0 h 10 m 8,0 h 13 m 7,0 h 10 m 15,0 h 16 m 14,0 h 10 m 18,0 h 16 m 22,0 h 40 m 8,0 h 9 m 15,0 h 16 m 22,0 h 2 m 8,0 h 37 m 8,0 h 13 m 7,0 h 13 m 8,0 h 9 m 15,0 h 23 m 8,0 h 23 m 22,0 h 2 m 8,0 h 3 m 7,0 h 3 m 8,0 h 88 m -894,1 h 49 m 7,0 h 30 m 8,0 h 9 m 25,0 h 24 m 7,0 h 10 m 21,0 h 3 m 8,0 h 37 m 28,0 h 26 m 18,0 h 10 m 8,0 h 13 m 7,0 h 10 m 15,0 h 16 m 14,0 h 10 m 18,0 h 16 m 22,0 h 40 m 8,0 h 9 m 15,0 h 16 m 22,0 h 2 m 8,0 h 37 m 8,0 h 13 m 7,0 h 13 m 8,0 h 9 m 15,0 h 23 m 8,0 h 23 m 22,0 h 2 m 8,0 h 3 m 7,0 h 3 m 8,0 h 88 m -894,1 h 49 m 7,0 h 30 m 8,0 h 9 m 25,0 h 24 m 7,0 h 10 m 21,0 h 3 m 8,0 h 37 m 28,0 h 26 m 18,0 h 10 m 8,0 h 13 m 7,0 h 10 m 15,0 h 16 m 14,0 h 10 m 18,0 h 16 m 22,0 h 40 m 8,0 h 9 m 15,0 h 16 m 22,0 h 2 m 8,0 h 37 m 8,0 h 13 m 7,0 h 13 m 8,0 h 9 m 15,0 h 23 m 8,0 h 23 m 22,0 h 2 m 8,0 h 3 m 7,0 h 3 m 8,0 h 88 m -894,1 h 49 m 7,0 h 30 m 8,0 h 9 m 25,0 h 24 m 7,0 h 10 m 21,0 h 3 m 8,0 h 37 m 28,0 h 26 m 18,0 h 10 m 8,0 h 13 m 7,0 h 10 m 15,0 h 16 m 14,0 h 10 m 18,0 h 16 m 22,0 h 40 m 8,0 h 9 m 15,0 h 16 m 22,0 h 2 m 8,0 h 37 m 8,0 h 13 m 7,0 h 13 m 8,0 h 9 m 15,0 h 23 m 8,0 h 23 m 22,0 h 2 m 8,0 h 3 m 7,0 h 3 m 8,0 h 88 m -894,1 h 49 m 7,0 h 30 m 8,0 h 9 m 25,0 h 24 m 7,0 h 10 m 21,0 h 3 m 8,0 h 37 m 28,0 h 26 m 18,0 h 10 m 8,0 h 13 m 7,0 h 10 m 15,0 h 16 m 14,0 h 10 m 18,0 h 16 m 22,0 h 40 m 8,0 h 9 m 15,0 h 16 m 22,0 h 2 m 8,0 h 37 m 8,0 h 13 m 7,0 h 13 m 8,0 h 9 m 15,0 h 23 m 8,0 h 23 m 22,0 h 2 m 8,0 h 3 m 7,0 h 3 m 8,0 h 88 m -894,1 h 131 m 22,0 h 336 m 21,0 h 384 m -894,1 h 131 m 22,0 h 336 m 21,0 h 384 m -894,1 h 131 m 22,0 h 336 m 21,0 h 384 m -894,1 h 131 m 22,0 h 336 m 21,0 h 384 m -894,1 h 131 m 22,0 h 336 m 21,0 h 384 m -894,1 h 131 m 22,0 h 336 m 21,0 h 384 m -894,1 h 131 m 22,0 h 336 m 21,0 h 384 m -894,1 h 894 m -894,1 h 894 m -894,1 h 894 m -894,1 h 894 m -894,1 h 894 m -894,1 h 894 m -894,1 h 894 m -894,1 h 894 m -894,1 h 894 m -894,1 h 894 m -894,1 h 894 m -894,1 h 894 m -894,1 h 894 m -894,1 h 894 m -894,1 h 894 m -894,1 h 890 m -890,1 h 890 m -890,1 h 890 m -890,1 h 890 m -890,1 h 890 m -884,1 h 879 m -879,1 h 878 m -878,1 h 878 m -878,1 h 878 m -878,1 h 878 m -878,1 h 877 m -872,1 h 869 m -869,1 h 867 m -867,1 h 867 m -867,1 h 867 m -867,1 h 867 m -867,1 h 867"
+       id="path701" />
+    <path
+       stroke="#ffeee1"
+       d="m 927,150 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,98 h 1 m -1,1 h 1"
+       id="path703" />
+    <path
+       stroke="#4b4541"
+       d="m 928,150 h 1 m -1,1 h 1 m -1,1 h 1 m -1,99 h 1 m -1,1 h 1 m -1,1 h 1"
+       id="path705" />
+    <path
+       stroke="#4d4d4d"
+       d="m 933,150 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,103 h 1 m -1,1 h 1 m -1,1 h 1"
+       id="path707" />
+    <path
+       stroke="#030202"
+       d="m 49,153 h 2 m 879,0 h 2"
+       id="path709" />
+    <path
+       stroke="#242220"
+       d="m 52,153 h 1"
+       id="path711" />
+    <path
+       stroke="#4d4743"
+       d="m 928,153 h 1"
+       id="path713" />
+    <path
+       stroke="#020202"
+       d="m 929,153 h 1"
+       id="path715" />
+    <path
+       stroke="#030302"
+       d="m 932,153 h 1"
+       id="path717" />
+    <path
+       stroke="#676767"
+       d="m 42,154 h 1"
+       id="path719" />
+    <path
+       stroke="#505050"
+       d="m 43,154 h 4 m 888,0 h 2"
+       id="path721" />
+    <path
+       stroke="#706b67"
+       d="m 47,154 h 1"
+       id="path723" />
+    <path
+       stroke="#958b83"
+       d="m 48,154 h 1 m 884,2 h 1 m -1,1 h 1 m -1,89 h 1 m -1,1 h 1"
+       id="path725" />
+    <path
+       stroke="#918780"
+       d="m 49,154 h 2 m 879,0 h 3"
+       id="path727" />
+    <path
+       stroke="#8d847d"
+       d="m 51,154 h 1"
+       id="path729" />
+    <path
+       stroke="#9f948c"
+       d="m 52,154 h 1"
+       id="path731" />
+    <path
+       stroke="#fff3e6"
+       d="m 53,154 h 1"
+       id="path733" />
+    <path
+       stroke="#fbebde"
+       d="m 927,154 h 1 M 48,249 h 1"
+       id="path735" />
+    <path
+       stroke="#b0a59b"
+       d="m 928,154 h 1"
+       id="path737" />
+    <path
+       stroke="#90867f"
+       d="m 929,154 h 1"
+       id="path739" />
+    <path
+       stroke="#76716c"
+       d="m 933,154 h 1"
+       id="path741" />
+    <path
+       stroke="#4d4e4e"
+       d="m 934,154 h 1"
+       id="path743" />
+    <path
+       stroke="#4e4e4e"
+       d="m 937,154 h 1"
+       id="path745" />
+    <path
+       stroke="#585858"
+       d="m 938,154 h 1"
+       id="path747" />
+    <path
+       stroke="#202020"
+       d="m 42,155 h 1"
+       id="path749" />
+    <path
+       stroke="#7c746d"
+       d="m 47,155 h 1"
+       id="path751-8" />
+    <path
+       stroke="#fffff7"
+       d="m 48,155 h 1"
+       id="path753-9" />
+    <path
+       stroke="#fff5e7"
+       d="m 49,155 h 3 m 877,0 h 3 m -884,4 h 1"
+       id="path755-3" />
+    <path
+       stroke="#fff3e5"
+       d="m 52,155 h 1 m 880,5 h 1"
+       id="path757-8" />
+    <path
+       stroke="#f8e8db"
+       d="m 53,155 h 1"
+       id="path759-0" />
+    <path
+       stroke="#fff1e4"
+       d="m 928,155 h 1"
+       id="path761-4" />
+    <path
+       stroke="#fff4e7"
+       d="m 932,155 h 1 m 4,88 h 1"
+       id="path763-8" />
+    <path
+       stroke="#998f86"
+       d="m 933,155 h 1"
+       id="path765-6" />
+    <path
+       stroke="#040404"
+       d="m 938,155 h 1"
+       id="path767" />
+    <path
+       stroke="#282828"
+       d="m 42,156 h 1 m -1,1 h 1"
+       id="path769" />
+    <path
+       stroke="#7b736c"
+       d="m 47,156 h 1 m -1,1 h 1 m -1,94 h 1 m -1,1 h 1 m -1,1 h 1"
+       id="path771" />
+    <path
+       stroke="#fff9eb"
+       d="m 48,156 h 1 m -1,1 h 1 m -1,94 h 1 m -1,1 h 1 m -1,1 h 1"
+       id="path773" />
+    <path
+       stroke="#0d0d0d"
+       d="m 938,156 h 1 m -1,1 h 1 m -17,113 h 1"
+       id="path775" />
+    <path
+       stroke="#222222"
+       d="m 42,158 h 1 m -1,96 h 1"
+       id="path777" />
+    <path
+       stroke="#766e68"
+       d="m 47,158 h 1"
+       id="path779" />
+    <path
+       stroke="#fff9ec"
+       d="m 48,158 h 1"
+       id="path781" />
+    <path
+       stroke="#91887f"
+       d="m 933,158 h 1"
+       id="path783" />
+    <path
+       stroke="#040505"
+       d="m 938,158 h 1"
+       id="path785" />
+    <path
+       stroke="#4e4b49"
+       d="m 42,159 h 1"
+       id="path787" />
+    <path
+       stroke="#3d3836"
+       d="m 43,159 h 3 m 889,0 h 2"
+       id="path789" />
+    <path
+       stroke="#3c3835"
+       d="m 46,159 h 1"
+       id="path791" />
+    <path
+       stroke="#998f88"
+       d="m 47,159 h 1"
+       id="path793" />
+    <path
+       stroke="#ada298"
+       d="m 933,159 h 1"
+       id="path795" />
+    <path
+       stroke="#363230"
+       d="m 934,159 h 1"
+       id="path797" />
+    <path
+       stroke="#3b3734"
+       d="m 937,159 h 1"
+       id="path799" />
+    <path
+       stroke="#423f3c"
+       d="m 938,159 h 1"
+       id="path801" />
+    <path
+       stroke="#fff6e8"
+       d="m 47,160 h 1"
+       id="path803" />
+    <path
+       stroke="#f7e7da"
+       d="m 48,160 h 1"
+       id="path805" />
+    <path
+       stroke="#fffff4"
+       d="m 934,160 h 1 M 53,259 h 1"
+       id="path807" />
+    <path
+       stroke="#fffff8"
+       d="m 937,160 h 1"
+       id="path809" />
+    <path
+       stroke="#ffeee0"
+       d="m 938,160 h 1"
+       id="path811" />
+    <path
+       stroke="#030303"
+       d="m 41,161 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m 891,7 h 1 m -12,12 h 1 m -1,1 h 1 m -1,1 h 1"
+       id="path813" />
+    <path
+       stroke="#c5b8ae"
+       d="m 42,161 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1"
+       id="path815" />
+    <path
+       stroke="#feede0"
+       d="m 937,161 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1"
+       id="path817" />
+    <path
+       stroke="#e8d9cc"
+       d="m 938,161 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1"
+       id="path819" />
+    <path
+       stroke="#e1c8b9"
+       d="m 92,179 h 27 m 11,0 h 6 m 152,0 h 13 m 63,0 h 6 m -241,1 h 1 m 157,0 h 1 m -159,1 h 1 m 157,0 h 1 m -159,1 h 1 m 157,0 h 1 m -159,1 h 1 m 157,0 h 1 m -159,1 h 1 m 157,0 h 1 m -159,1 h 1 m 157,0 h 1 m -162,1 h 1 m 2,0 h 1 m 178,0 h 1 m -180,1 h 1 m 350,0 h 1 m -352,1 h 1 m 350,0 h 1 m -352,1 h 1 m 350,0 h 1 m -352,1 h 1 m 113,0 h 1 m 91,0 h 1 m 79,0 h 1 m 64,0 h 1 m 30,0 h 1 m 81,0 h 1 m 27,0 h 1 m 2,0 h 1 m 65,0 h 1 m 36,0 h 1 m 89,0 h 1 m -689,1 h 1 m 113,0 h 1 m 91,0 h 1 m 79,0 h 1 m 64,0 h 1 m 30,0 h 1 m 81,0 h 1 m 27,0 h 1 m 2,0 h 1 m 65,0 h 1 m 36,0 h 1 m 89,0 h 1 m -689,1 h 1 m 113,0 h 1 m 91,0 h 1 m 79,0 h 1 m 64,0 h 1 m 30,0 h 1 m 81,0 h 1 m 27,0 h 1 m 2,0 h 1 m 65,0 h 1 m 36,0 h 1 m 89,0 h 1 m -692,1 h 1 m 2,0 h 1 m 178,0 h 1 m 26,0 h 1 m 79,0 h 1 m 95,0 h 1 m 81,0 h 1 m 27,0 h 1 m 2,0 h 1 m 65,0 h 1 m 36,0 h 1 m 89,0 h 1 m -689,1 h 1 m 130,0 h 1 m 33,0 h 1 m 40,0 h 1 m 48,0 h 1 m 30,0 h 1 m 47,0 h 1 m 47,0 h 1 m 81,0 h 1 m 27,0 h 1 m 2,0 h 1 m 65,0 h 1 m 36,0 h 1 m 89,0 h 1 m -689,1 h 1 m 130,0 h 1 m 33,0 h 1 m 40,0 h 1 m 48,0 h 1 m 30,0 h 1 m 47,0 h 1 m 47,0 h 1 m 81,0 h 1 m 27,0 h 1 m 2,0 h 1 m 65,0 h 1 m 36,0 h 1 m 89,0 h 1 m -689,1 h 1 m 130,0 h 1 m 33,0 h 1 m 40,0 h 1 m 48,0 h 1 m 30,0 h 1 m 47,0 h 1 m 47,0 h 1 m 81,0 h 1 m 27,0 h 1 m 2,0 h 1 m 65,0 h 1 m 36,0 h 1 m 89,0 h 1 m -689,1 h 1 m 82,0 h 1 m 12,0 h 1 m 30,0 h 1 m 3,0 h 1 m 33,0 h 1 m 89,0 h 1 m 47,0 h 1 m 12,0 h 1 m 17,0 h 1 m 19,0 h 1 m 27,0 h 1 m 50,0 h 1 m 27,0 h 1 m 2,0 h 1 m 27,0 h 1 m 2,0 h 1 m 85,0 h 1 m 78,0 h 1 m 27,0 h 1 m -689,1 h 1 m 82,0 h 1 m 12,0 h 1 m 30,0 h 1 m 3,0 h 1 m 33,0 h 1 m 89,0 h 1 m 47,0 h 1 m 12,0 h 1 m 17,0 h 1 m 19,0 h 1 m 27,0 h 1 m 50,0 h 1 m 27,0 h 1 m 2,0 h 1 m 27,0 h 1 m 2,0 h 1 m 85,0 h 1 m 78,0 h 1 m 27,0 h 1 m -689,1 h 1 m 82,0 h 1 m 12,0 h 1 m 30,0 h 1 m 3,0 h 1 m 33,0 h 1 m 89,0 h 1 m 47,0 h 1 m 12,0 h 1 m 17,0 h 1 m 19,0 h 1 m 27,0 h 1 m 50,0 h 1 m 27,0 h 1 m 2,0 h 1 m 27,0 h 1 m 2,0 h 1 m 85,0 h 1 m 78,0 h 1 m 27,0 h 1 m -699,1 h 1 m 9,0 h 1 m 116,0 h 1 m 185,0 h 1 m 12,0 h 1 m 37,0 h 1 m 27,0 h 1 m 50,0 h 1 m 27,0 h 1 m 2,0 h 1 m 27,0 h 1 m 2,0 h 1 m 85,0 h 1 m 78,0 h 1 m 27,0 h 1 m -689,1 h 1 m 16,0 h 1 m 96,0 h 1 m 43,0 h 1 m 89,0 h 1 m 54,0 h 1 m 12,0 h 1 m 37,0 h 1 m 27,0 h 1 m 50,0 h 1 m 27,0 h 1 m 2,0 h 1 m 27,0 h 1 m 2,0 h 1 m 85,0 h 1 m 78,0 h 1 m 27,0 h 1 m -689,1 h 1 m 16,0 h 1 m 96,0 h 1 m 43,0 h 1 m 89,0 h 1 m 54,0 h 1 m 12,0 h 1 m 37,0 h 1 m 27,0 h 1 m 50,0 h 1 m 27,0 h 1 m 2,0 h 1 m 27,0 h 1 m 2,0 h 1 m 85,0 h 1 m 78,0 h 1 m 27,0 h 1 m -689,1 h 1 m 16,0 h 1 m 96,0 h 1 m 43,0 h 1 m 89,0 h 1 m 54,0 h 1 m 12,0 h 1 m 37,0 h 1 m 78,0 h 1 m 27,0 h 1 m 2,0 h 1 m 27,0 h 1 m 2,0 h 1 m 85,0 h 1 m 78,0 h 1 m -661,1 h 1 m 16,0 h 1 m 96,0 h 1 m 43,0 h 1 m 89,0 h 1 m 54,0 h 1 m 12,0 h 1 m 37,0 h 1 m 78,0 h 1 m 27,0 h 1 m 2,0 h 1 m 27,0 h 1 m 2,0 h 1 m 85,0 h 1 m 78,0 h 1 m -661,1 h 1 m 16,0 h 1 m 96,0 h 1 m 43,0 h 1 m 89,0 h 1 m 54,0 h 1 m 12,0 h 1 m 37,0 h 1 m 78,0 h 1 m 27,0 h 1 m 2,0 h 1 m 27,0 h 1 m 2,0 h 1 m 85,0 h 1 m 78,0 h 1 m -661,1 h 1 m 16,0 h 1 m 96,0 h 1 m 43,0 h 1 m 89,0 h 1 m 54,0 h 1 m 12,0 h 1 m 37,0 h 1 m 78,0 h 1 m 27,0 h 1 m 2,0 h 1 m 27,0 h 1 m 2,0 h 1 m 85,0 h 1 m 78,0 h 1 m -661,1 h 1 m 17,0 h 17 m 11,0 h 6 m 32,0 h 13 m 17,0 h 1 m 44,0 h 6 m 77,0 h 6 m 55,0 h 1 m 12,0 h 1 m 17,0 h 10 m 10,0 h 1 m 7,0 h 13 m 28,0 h 6 m 24,0 h 1 m 27,0 h 1 m 2,0 h 1 m 27,0 h 1 m 2,0 h 1 m 85,0 h 1 m 41,0 h 6 m 22,0 h 6 m 3,0 h 1 m 7,0 h 13 m -681,1 h 1 m 82,0 h 1 m 30,0 h 1 m 188,0 h 1 m 12,0 h 1 m 34,0 h 1 m 2,0 h 1 m 54,0 h 1 m 23,0 h 1 m 27,0 h 1 m 2,0 h 1 m 27,0 h 1 m 2,0 h 1 m 85,0 h 1 m 47,0 h 1 m 30,0 h 1 m -661,1 h 1 m 82,0 h 1 m 30,0 h 1 m 188,0 h 1 m 12,0 h 1 m 34,0 h 1 m 2,0 h 1 m 54,0 h 1 m 23,0 h 1 m 27,0 h 1 m 2,0 h 1 m 27,0 h 1 m 2,0 h 1 m 85,0 h 1 m 47,0 h 1 m 30,0 h 1 m -661,1 h 1 m 82,0 h 1 m 13,0 h 6 m 11,0 h 1 m 188,0 h 1 m 12,0 h 1 m 34,0 h 1 m 2,0 h 1 m 21,0 h 6 m 27,0 h 1 m 23,0 h 1 m 27,0 h 1 m 2,0 h 1 m 27,0 h 1 m 2,0 h 1 m 85,0 h 1 m 47,0 h 1 m 30,0 h 1 m 21,0 h 6 m -688,1 h 1 m 82,0 h 1 m 12,0 h 1 m 17,0 h 1 m 188,0 h 1 m 12,0 h 1 m 34,0 h 1 m 2,0 h 1 m 27,0 h 1 m 26,0 h 1 m 23,0 h 1 m 27,0 h 1 m 2,0 h 1 m 27,0 h 1 m 2,0 h 1 m 85,0 h 1 m 47,0 h 1 m 30,0 h 1 m 27,0 h 1 m -689,1 h 1 m 82,0 h 1 m 12,0 h 1 m 17,0 h 1 m 188,0 h 1 m 12,0 h 1 m 34,0 h 1 m 2,0 h 1 m 27,0 h 1 m 26,0 h 1 m 23,0 h 1 m 27,0 h 1 m 2,0 h 1 m 27,0 h 1 m 2,0 h 1 m 85,0 h 1 m 47,0 h 1 m 30,0 h 1 m 27,0 h 1 m -689,1 h 1 m 82,0 h 1 m 12,0 h 1 m 17,0 h 1 m 188,0 h 1 m 12,0 h 1 m 34,0 h 1 m 2,0 h 1 m 27,0 h 1 m 26,0 h 1 m 23,0 h 1 m 27,0 h 1 m 2,0 h 1 m 27,0 h 1 m 2,0 h 1 m 85,0 h 1 m 47,0 h 1 m 30,0 h 1 m 27,0 h 1 m -689,1 h 1 m 10,0 h 6 m 36,0 h 13 m 11,0 h 6 m 31,0 h 1 m 85,0 h 6 m 18,0 h 7 m 35,0 h 6 m 15,0 h 6 m 4,0 h 6 m 14,0 h 6 m 22,0 h 6 m 4,0 h 6 m 21,0 h 1 m 27,0 h 13 m 11,0 h 6 m 15,0 h 6 m 4,0 h 6 m 21,0 h 1 m 2,0 h 1 m 85,0 h 1 m 10,0 h 6 m 15,0 h 6 m 11,0 h 6 m 8,0 h 6 m 11,0 h 6 m 21,0 h 1 m 2,0 h 1 m 27,0 h 1 m -720,1 h 1 m 16,0 h 1 m 96,0 h 1 m 91,0 h 1 m 79,0 h 1 m 95,0 h 1 m 109,0 h 1 m 2,0 h 1 m 85,0 h 1 m 16,0 h 1 m 37,0 h 1 m 51,0 h 1 m 2,0 h 1 m 27,0 h 1 m -720,1 h 1 m 16,0 h 1 m 96,0 h 1 m 91,0 h 1 m 79,0 h 1 m 95,0 h 1 m 109,0 h 1 m 2,0 h 1 m 85,0 h 1 m 16,0 h 1 m 37,0 h 1 m 51,0 h 1 m 2,0 h 1 m 27,0 h 1 m -720,1 h 1 m 16,0 h 1 m 96,0 h 1 m 91,0 h 1 m 79,0 h 1 m 95,0 h 1 m 109,0 h 1 m 2,0 h 1 m 85,0 h 1 m 16,0 h 1 m 37,0 h 1 m 51,0 h 1 m 2,0 h 1 m 27,0 h 1 m -720,1 h 1 m 16,0 h 1 m 96,0 h 1 m 91,0 h 1 m 79,0 h 1 m 95,0 h 1 m 109,0 h 1 m 2,0 h 1 m 85,0 h 1 m 16,0 h 1 m 37,0 h 1 m 51,0 h 1 m 2,0 h 1 m 27,0 h 1 m -720,1 h 1 m 16,0 h 1 m 96,0 h 1 m 91,0 h 1 m 79,0 h 1 m 95,0 h 1 m 109,0 h 1 m 2,0 h 1 m 85,0 h 1 m 16,0 h 1 m 37,0 h 1 m 51,0 h 1 m 2,0 h 1 m 27,0 h 1 m -720,1 h 1 m 16,0 h 1 m 96,0 h 1 m 91,0 h 1 m 79,0 h 1 m 95,0 h 1 m 109,0 h 1 m 2,0 h 1 m 85,0 h 1 m 16,0 h 1 m 37,0 h 1 m 51,0 h 1 m 2,0 h 1 m 27,0 h 1 m -654,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1"
+       id="path821" />
+    <path
+       stroke="#edd9cb"
+       d="m 119,179 h 1 m 243,0 h 1 m 6,0 h 1 m 109,7 h 1 m -221,7 h 1 m 33,0 h 1 m 89,0 h 1 m 95,0 h 1 m -225,7 h 1 m 3,0 h 1 m -87,7 h 1 m 329,0 h 1 m 281,0 h 1 m 23,0 h 1 m -417,7 h 1 m 353,0 h 1 m 30,0 h 1"
+       id="path823" />
+    <path
+       stroke="#f3e1d4"
+       d="m 129,179 h 1 m 157,0 h 1 m 89,28 h 1 m -153,3 h 1 m 285,0 h 1 m 305,0 h 1 m -338,4 h 1 m 2,0 h 1 m 54,0 h 1 m 23,0 h 1 m 27,0 h 1 m 2,0 h 1 m 164,0 h 1 m 30,0 h 1"
+       id="path825" />
+    <path
+       stroke="#e7d0c2"
+       d="m 136,179 h 1 m 164,0 h 1 m -156,21 h 1 m 140,0 h 1 m 223,3 h 1 m 305,0 h 1 m -524,4 h 1 m 185,0 h 1 m -249,3 h 1 m 271,0 h 1 m 305,0 h 1 m -630,4 h 1 m 23,0 h 1 m 219,0 h 1 m 26,0 h 1"
+       id="path827" />
+    <path
+       stroke="#98644e"
+       d="m 92,180 h 27 m 11,0 h 6 m 152,0 h 13 m 63,0 h 6 m -278,1 h 27 m 11,0 h 6 m 152,0 h 13 m 63,0 h 6 m -278,1 h 27 m 11,0 h 6 m 152,0 h 13 m 63,0 h 6 m -278,1 h 27 m 11,0 h 6 m 152,0 h 13 m 63,0 h 6 m -278,1 h 27 m 11,0 h 6 m 152,0 h 13 m 63,0 h 6 m -278,1 h 27 m 11,0 h 6 m 152,0 h 13 m 63,0 h 6 m -278,1 h 7 m 31,0 h 6 m 228,0 h 6 m -278,1 h 7 m 21,0 h 6 m 4,0 h 6 m 145,0 h 7 m 14,0 h 6 m 56,0 h 6 m 93,0 h 17 m -388,1 h 7 m 21,0 h 6 m 4,0 h 6 m 145,0 h 7 m 14,0 h 6 m 56,0 h 6 m 93,0 h 17 m -388,1 h 7 m 21,0 h 6 m 4,0 h 6 m 145,0 h 7 m 14,0 h 6 m 56,0 h 6 m 93,0 h 17 m -388,1 h 7 m 21,0 h 6 m 4,0 h 6 m 4,0 h 24 m 11,0 h 6 m 14,0 h 7 m 10,0 h 20 m 5,0 h 6 m 4,0 h 10 m 24,0 h 7 m 14,0 h 6 m 28,0 h 17 m 11,0 h 6 m 32,0 h 13 m 17,0 h 14 m 17,0 h 17 m 11,0 h 20 m 21,0 h 7 m 14,0 h 6 m 11,0 h 13 m 11,0 h 6 m 15,0 h 6 m 4,0 h 6 m 4,0 h 10 m 25,0 h 20 m 7,0 h 13 m 18,0 h 13 m 56,0 h 20 m -725,1 h 7 m 21,0 h 6 m 4,0 h 6 m 4,0 h 24 m 11,0 h 6 m 14,0 h 7 m 10,0 h 20 m 5,0 h 6 m 4,0 h 10 m 24,0 h 7 m 14,0 h 6 m 28,0 h 17 m 11,0 h 6 m 32,0 h 13 m 17,0 h 14 m 17,0 h 17 m 11,0 h 20 m 21,0 h 7 m 14,0 h 6 m 11,0 h 13 m 11,0 h 6 m 15,0 h 6 m 4,0 h 6 m 4,0 h 10 m 25,0 h 20 m 7,0 h 13 m 18,0 h 13 m 56,0 h 20 m -725,1 h 7 m 21,0 h 6 m 4,0 h 6 m 4,0 h 24 m 11,0 h 6 m 14,0 h 7 m 10,0 h 20 m 5,0 h 6 m 4,0 h 10 m 24,0 h 7 m 14,0 h 6 m 28,0 h 17 m 11,0 h 6 m 32,0 h 13 m 17,0 h 14 m 17,0 h 17 m 11,0 h 20 m 21,0 h 7 m 14,0 h 6 m 11,0 h 13 m 11,0 h 6 m 15,0 h 6 m 4,0 h 6 m 4,0 h 10 m 25,0 h 20 m 7,0 h 13 m 18,0 h 13 m 56,0 h 20 m -725,1 h 7 m 31,0 h 6 m 4,0 h 24 m 11,0 h 6 m 14,0 h 7 m 10,0 h 20 m 5,0 h 6 m 4,0 h 10 m 79,0 h 17 m 11,0 h 6 m 32,0 h 13 m 17,0 h 14 m 45,0 h 20 m 21,0 h 7 m 14,0 h 6 m 11,0 h 13 m 11,0 h 6 m 15,0 h 6 m 4,0 h 6 m 4,0 h 10 m 25,0 h 20 m 7,0 h 13 m 18,0 h 13 m 56,0 h 20 m -725,1 h 27 m 11,0 h 6 m 4,0 h 24 m 11,0 h 6 m 14,0 h 7 m 10,0 h 20 m 5,0 h 23 m 35,0 h 6 m 35,0 h 17 m 11,0 h 6 m 8,0 h 6 m 18,0 h 13 m 17,0 h 14 m 11,0 h 6 m 28,0 h 20 m 21,0 h 7 m 14,0 h 6 m 11,0 h 13 m 11,0 h 6 m 15,0 h 6 m 4,0 h 23 m 22,0 h 20 m 7,0 h 13 m 18,0 h 13 m 56,0 h 20 m -725,1 h 27 m 11,0 h 6 m 4,0 h 24 m 11,0 h 6 m 14,0 h 7 m 10,0 h 20 m 5,0 h 23 m 35,0 h 6 m 35,0 h 17 m 11,0 h 6 m 8,0 h 6 m 18,0 h 13 m 17,0 h 14 m 11,0 h 6 m 28,0 h 20 m 21,0 h 7 m 14,0 h 6 m 11,0 h 13 m 11,0 h 6 m 15,0 h 6 m 4,0 h 23 m 22,0 h 20 m 7,0 h 13 m 18,0 h 13 m 56,0 h 20 m -725,1 h 27 m 11,0 h 6 m 4,0 h 24 m 11,0 h 6 m 14,0 h 7 m 10,0 h 20 m 5,0 h 23 m 35,0 h 6 m 35,0 h 17 m 11,0 h 6 m 8,0 h 6 m 18,0 h 13 m 17,0 h 14 m 11,0 h 6 m 28,0 h 20 m 21,0 h 7 m 14,0 h 6 m 11,0 h 13 m 11,0 h 6 m 15,0 h 6 m 4,0 h 23 m 22,0 h 20 m 7,0 h 13 m 18,0 h 13 m 56,0 h 20 m -725,1 h 27 m 11,0 h 6 m 28,0 h 7 m 4,0 h 6 m 14,0 h 7 m 4,0 h 6 m 14,0 h 6 m 5,0 h 9 m 11,0 h 3 m 35,0 h 6 m 28,0 h 7 m 17,0 h 7 m 4,0 h 6 m 8,0 h 6 m 11,0 h 6 m 14,0 h 7 m 4,0 h 6 m 14,0 h 6 m 5,0 h 6 m 21,0 h 6 m 15,0 h 6 m 21,0 h 7 m 14,0 h 6 m 4,0 h 6 m 15,0 h 6 m 4,0 h 6 m 15,0 h 6 m 4,0 h 10 m 11,0 h 2 m 22,0 h 6 m 14,0 h 7 m 14,0 h 6 m 4,0 h 7 m 14,0 h 6 m 4,0 h 7 m 21,0 h 6 m 4,0 h 6 m 15,0 h 6 m -725,1 h 27 m 11,0 h 6 m 28,0 h 7 m 4,0 h 6 m 14,0 h 7 m 4,0 h 6 m 14,0 h 6 m 5,0 h 9 m 11,0 h 3 m 35,0 h 6 m 28,0 h 7 m 17,0 h 7 m 4,0 h 6 m 8,0 h 6 m 11,0 h 6 m 14,0 h 7 m 4,0 h 6 m 14,0 h 6 m 5,0 h 6 m 21,0 h 6 m 15,0 h 6 m 21,0 h 7 m 14,0 h 6 m 4,0 h 6 m 15,0 h 6 m 4,0 h 6 m 15,0 h 6 m 4,0 h 10 m 11,0 h 2 m 22,0 h 6 m 14,0 h 7 m 14,0 h 6 m 4,0 h 7 m 14,0 h 6 m 4,0 h 7 m 21,0 h 6 m 4,0 h 6 m 15,0 h 6 m -725,1 h 27 m 11,0 h 6 m 28,0 h 7 m 4,0 h 6 m 14,0 h 7 m 4,0 h 6 m 14,0 h 6 m 5,0 h 9 m 11,0 h 3 m 35,0 h 6 m 28,0 h 7 m 17,0 h 7 m 4,0 h 6 m 8,0 h 6 m 11,0 h 6 m 14,0 h 7 m 4,0 h 6 m 14,0 h 6 m 5,0 h 6 m 21,0 h 6 m 15,0 h 6 m 21,0 h 7 m 14,0 h 6 m 4,0 h 6 m 15,0 h 6 m 4,0 h 6 m 15,0 h 6 m 4,0 h 10 m 11,0 h 2 m 22,0 h 6 m 14,0 h 7 m 14,0 h 6 m 4,0 h 7 m 14,0 h 6 m 4,0 h 7 m 21,0 h 6 m 4,0 h 6 m 15,0 h 6 m -725,1 h 7 m 31,0 h 6 m 28,0 h 7 m 4,0 h 6 m 14,0 h 7 m 4,0 h 6 m 14,0 h 6 m 5,0 h 6 m 86,0 h 7 m 17,0 h 7 m 4,0 h 6 m 25,0 h 6 m 14,0 h 7 m 4,0 h 6 m 14,0 h 6 m 32,0 h 6 m 15,0 h 6 m 21,0 h 7 m 14,0 h 6 m 4,0 h 6 m 15,0 h 6 m 4,0 h 6 m 15,0 h 6 m 4,0 h 6 m 39,0 h 6 m 14,0 h 7 m 14,0 h 6 m 4,0 h 7 m 14,0 h 6 m 4,0 h 7 m 21,0 h 6 m 4,0 h 6 m 15,0 h 6 m -725,1 h 7 m 31,0 h 6 m 11,0 h 24 m 4,0 h 6 m 14,0 h 7 m 4,0 h 26 m 5,0 h 6 m 45,0 h 6 m 35,0 h 7 m 17,0 h 7 m 4,0 h 13 m 7,0 h 7 m 4,0 h 6 m 14,0 h 7 m 4,0 h 6 m 14,0 h 6 m 11,0 h 10 m 11,0 h 27 m 21,0 h 7 m 14,0 h 6 m 4,0 h 6 m 15,0 h 6 m 4,0 h 6 m 15,0 h 6 m 4,0 h 6 m 39,0 h 6 m 14,0 h 7 m 14,0 h 6 m 4,0 h 7 m 14,0 h 6 m 4,0 h 7 m 21,0 h 6 m 4,0 h 27 m -725,1 h 7 m 31,0 h 6 m 11,0 h 24 m 4,0 h 6 m 14,0 h 7 m 4,0 h 26 m 5,0 h 6 m 45,0 h 6 m 35,0 h 7 m 17,0 h 7 m 4,0 h 13 m 7,0 h 7 m 4,0 h 6 m 14,0 h 7 m 4,0 h 6 m 14,0 h 6 m 11,0 h 10 m 11,0 h 27 m 21,0 h 7 m 14,0 h 6 m 4,0 h 6 m 15,0 h 6 m 4,0 h 6 m 15,0 h 6 m 4,0 h 6 m 39,0 h 6 m 14,0 h 7 m 14,0 h 6 m 4,0 h 7 m 14,0 h 6 m 4,0 h 7 m 21,0 h 6 m 4,0 h 27 m -725,1 h 7 m 31,0 h 6 m 11,0 h 24 m 4,0 h 6 m 14,0 h 7 m 4,0 h 20 m 11,0 h 6 m 45,0 h 6 m 35,0 h 7 m 28,0 h 13 m 7,0 h 7 m 4,0 h 6 m 14,0 h 7 m 4,0 h 6 m 14,0 h 6 m 11,0 h 10 m 11,0 h 20 m 28,0 h 7 m 14,0 h 6 m 4,0 h 6 m 15,0 h 6 m 4,0 h 6 m 15,0 h 6 m 4,0 h 6 m 39,0 h 6 m 14,0 h 7 m 14,0 h 6 m 4,0 h 7 m 14,0 h 6 m 4,0 h 7 m 21,0 h 6 m 4,0 h 20 m -718,1 h 7 m 31,0 h 6 m 11,0 h 24 m 4,0 h 6 m 14,0 h 7 m 4,0 h 20 m 11,0 h 6 m 45,0 h 6 m 35,0 h 7 m 28,0 h 13 m 7,0 h 7 m 4,0 h 6 m 14,0 h 7 m 4,0 h 6 m 14,0 h 6 m 11,0 h 10 m 11,0 h 20 m 28,0 h 7 m 14,0 h 6 m 4,0 h 6 m 15,0 h 6 m 4,0 h 6 m 15,0 h 6 m 4,0 h 6 m 39,0 h 6 m 14,0 h 7 m 14,0 h 6 m 4,0 h 7 m 14,0 h 6 m 4,0 h 7 m 21,0 h 6 m 4,0 h 20 m -718,1 h 7 m 31,0 h 6 m 11,0 h 24 m 4,0 h 6 m 14,0 h 7 m 4,0 h 20 m 11,0 h 6 m 45,0 h 6 m 35,0 h 7 m 28,0 h 13 m 7,0 h 7 m 4,0 h 6 m 14,0 h 7 m 4,0 h 6 m 14,0 h 6 m 11,0 h 10 m 11,0 h 20 m 28,0 h 7 m 14,0 h 6 m 4,0 h 6 m 15,0 h 6 m 4,0 h 6 m 15,0 h 6 m 4,0 h 6 m 39,0 h 6 m 14,0 h 7 m 14,0 h 6 m 4,0 h 7 m 14,0 h 6 m 4,0 h 7 m 21,0 h 6 m 4,0 h 20 m -718,1 h 7 m 31,0 h 6 m 11,0 h 24 m 4,0 h 6 m 14,0 h 7 m 4,0 h 20 m 11,0 h 6 m 45,0 h 6 m 35,0 h 7 m 28,0 h 13 m 7,0 h 7 m 4,0 h 6 m 14,0 h 7 m 4,0 h 6 m 14,0 h 6 m 11,0 h 10 m 11,0 h 20 m 28,0 h 7 m 14,0 h 6 m 4,0 h 6 m 15,0 h 6 m 4,0 h 6 m 15,0 h 6 m 4,0 h 6 m 39,0 h 6 m 14,0 h 7 m 14,0 h 6 m 4,0 h 7 m 14,0 h 6 m 4,0 h 7 m 21,0 h 6 m 4,0 h 20 m -718,1 h 7 m 31,0 h 6 m 28,0 h 7 m 24,0 h 7 m 4,0 h 6 m 25,0 h 6 m 86,0 h 7 m 28,0 h 6 m 14,0 h 7 m 4,0 h 6 m 14,0 h 7 m 4,0 h 6 m 14,0 h 6 m 32,0 h 6 m 63,0 h 6 m 4,0 h 6 m 15,0 h 6 m 4,0 h 6 m 15,0 h 6 m 4,0 h 6 m 39,0 h 6 m 14,0 h 7 m 14,0 h 6 m 4,0 h 7 m 14,0 h 6 m 42,0 h 6 m -704,1 h 7 m 31,0 h 6 m 4,0 h 7 m 17,0 h 7 m 11,0 h 20 m 4,0 h 6 m 25,0 h 6 m 38,0 h 7 m 41,0 h 7 m 17,0 h 7 m 4,0 h 6 m 14,0 h 7 m 4,0 h 6 m 14,0 h 7 m 4,0 h 6 m 14,0 h 6 m 22,0 h 6 m 4,0 h 6 m 49,0 h 20 m 4,0 h 6 m 15,0 h 6 m 4,0 h 6 m 15,0 h 6 m 4,0 h 6 m 39,0 h 6 m 14,0 h 7 m 14,0 h 6 m 4,0 h 7 m 14,0 h 6 m 11,0 h 6 m 8,0 h 6 m 11,0 h 6 m -704,1 h 7 m 31,0 h 6 m 4,0 h 7 m 17,0 h 7 m 11,0 h 20 m 4,0 h 6 m 25,0 h 6 m 38,0 h 7 m 41,0 h 7 m 17,0 h 7 m 4,0 h 6 m 14,0 h 7 m 4,0 h 6 m 14,0 h 7 m 4,0 h 6 m 14,0 h 6 m 22,0 h 6 m 4,0 h 6 m 49,0 h 20 m 4,0 h 6 m 15,0 h 6 m 4,0 h 6 m 15,0 h 6 m 4,0 h 6 m 39,0 h 6 m 14,0 h 7 m 14,0 h 6 m 4,0 h 7 m 14,0 h 6 m 11,0 h 6 m 8,0 h 6 m 11,0 h 6 m -704,1 h 7 m 31,0 h 6 m 4,0 h 7 m 17,0 h 7 m 11,0 h 20 m 4,0 h 6 m 25,0 h 6 m 38,0 h 7 m 41,0 h 7 m 17,0 h 7 m 4,0 h 6 m 14,0 h 7 m 4,0 h 6 m 14,0 h 7 m 4,0 h 6 m 14,0 h 6 m 22,0 h 6 m 4,0 h 6 m 49,0 h 20 m 4,0 h 6 m 15,0 h 6 m 4,0 h 6 m 15,0 h 6 m 4,0 h 6 m 39,0 h 6 m 14,0 h 7 m 14,0 h 6 m 4,0 h 7 m 14,0 h 6 m 11,0 h 6 m 8,0 h 6 m 11,0 h 6 m -704,1 h 7 m 31,0 h 6 m 4,0 h 7 m 17,0 h 7 m 11,0 h 20 m 4,0 h 6 m 14,0 h 6 m 5,0 h 6 m 38,0 h 7 m 41,0 h 7 m 17,0 h 7 m 4,0 h 6 m 14,0 h 7 m 4,0 h 6 m 14,0 h 7 m 4,0 h 6 m 14,0 h 6 m 22,0 h 6 m 4,0 h 6 m 15,0 h 6 m 28,0 h 20 m 4,0 h 6 m 15,0 h 6 m 4,0 h 6 m 15,0 h 6 m 4,0 h 6 m 39,0 h 6 m 14,0 h 7 m 14,0 h 6 m 4,0 h 7 m 14,0 h 6 m 11,0 h 6 m 8,0 h 6 m 11,0 h 6 m 15,0 h 6 m -725,1 h 7 m 31,0 h 6 m 4,0 h 7 m 17,0 h 7 m 11,0 h 20 m 4,0 h 6 m 14,0 h 6 m 5,0 h 6 m 38,0 h 7 m 41,0 h 7 m 17,0 h 7 m 4,0 h 6 m 14,0 h 7 m 4,0 h 6 m 14,0 h 7 m 4,0 h 6 m 14,0 h 6 m 22,0 h 6 m 4,0 h 6 m 15,0 h 6 m 28,0 h 20 m 4,0 h 6 m 15,0 h 6 m 4,0 h 6 m 15,0 h 6 m 4,0 h 6 m 39,0 h 6 m 14,0 h 7 m 14,0 h 6 m 4,0 h 7 m 14,0 h 6 m 11,0 h 6 m 8,0 h 6 m 11,0 h 6 m 15,0 h 6 m -725,1 h 7 m 31,0 h 6 m 4,0 h 7 m 17,0 h 7 m 11,0 h 20 m 4,0 h 6 m 14,0 h 6 m 5,0 h 6 m 38,0 h 7 m 41,0 h 7 m 17,0 h 7 m 4,0 h 6 m 14,0 h 7 m 4,0 h 6 m 14,0 h 7 m 4,0 h 6 m 14,0 h 6 m 22,0 h 6 m 4,0 h 6 m 15,0 h 6 m 28,0 h 20 m 4,0 h 6 m 15,0 h 6 m 4,0 h 6 m 15,0 h 6 m 4,0 h 6 m 39,0 h 6 m 14,0 h 7 m 14,0 h 6 m 4,0 h 7 m 14,0 h 6 m 11,0 h 6 m 8,0 h 6 m 11,0 h 6 m 15,0 h 6 m -725,1 h 7 m 31,0 h 6 m 11,0 h 24 m 24,0 h 7 m 10,0 h 20 m 5,0 h 6 m 38,0 h 27 m 28,0 h 17 m 11,0 h 6 m 14,0 h 7 m 11,0 h 13 m 17,0 h 14 m 11,0 h 16 m 18,0 h 20 m 42,0 h 6 m 11,0 h 13 m 18,0 h 20 m 4,0 h 6 m 39,0 h 6 m 14,0 h 7 m 14,0 h 6 m 11,0 h 13 m 25,0 h 6 m 25,0 h 20 m 4,0 h 6 m 4,0 h 7 m 4,0 h 6 m -756,1 h 7 m 31,0 h 6 m 11,0 h 24 m 24,0 h 7 m 10,0 h 20 m 5,0 h 6 m 38,0 h 27 m 28,0 h 17 m 11,0 h 6 m 14,0 h 7 m 11,0 h 13 m 17,0 h 14 m 11,0 h 16 m 18,0 h 20 m 42,0 h 6 m 11,0 h 13 m 18,0 h 20 m 4,0 h 6 m 39,0 h 6 m 14,0 h 7 m 14,0 h 6 m 11,0 h 13 m 25,0 h 6 m 25,0 h 20 m 4,0 h 6 m 4,0 h 7 m 4,0 h 6 m -756,1 h 7 m 31,0 h 6 m 11,0 h 24 m 24,0 h 7 m 10,0 h 20 m 5,0 h 6 m 38,0 h 27 m 28,0 h 17 m 11,0 h 6 m 14,0 h 7 m 11,0 h 13 m 17,0 h 14 m 11,0 h 16 m 18,0 h 20 m 42,0 h 6 m 11,0 h 13 m 18,0 h 20 m 4,0 h 6 m 39,0 h 6 m 14,0 h 7 m 14,0 h 6 m 11,0 h 13 m 25,0 h 6 m 25,0 h 20 m 4,0 h 6 m 4,0 h 7 m 4,0 h 6 m -756,1 h 7 m 31,0 h 6 m 11,0 h 24 m 24,0 h 7 m 10,0 h 20 m 5,0 h 6 m 38,0 h 27 m 28,0 h 17 m 11,0 h 6 m 14,0 h 7 m 11,0 h 13 m 17,0 h 14 m 11,0 h 16 m 18,0 h 20 m 42,0 h 6 m 11,0 h 13 m 18,0 h 20 m 4,0 h 6 m 39,0 h 6 m 14,0 h 7 m 14,0 h 6 m 11,0 h 13 m 25,0 h 6 m 25,0 h 20 m 4,0 h 6 m 4,0 h 7 m 4,0 h 6 m -756,1 h 7 m 31,0 h 6 m 11,0 h 24 m 24,0 h 7 m 10,0 h 20 m 5,0 h 6 m 38,0 h 27 m 28,0 h 17 m 11,0 h 6 m 14,0 h 7 m 11,0 h 13 m 17,0 h 14 m 11,0 h 16 m 18,0 h 20 m 42,0 h 6 m 11,0 h 13 m 18,0 h 20 m 4,0 h 6 m 39,0 h 6 m 14,0 h 7 m 14,0 h 6 m 11,0 h 13 m 25,0 h 6 m 25,0 h 20 m 4,0 h 6 m 4,0 h 7 m 4,0 h 6 m -756,1 h 7 m 31,0 h 6 m 11,0 h 24 m 24,0 h 7 m 10,0 h 20 m 5,0 h 6 m 38,0 h 27 m 28,0 h 17 m 11,0 h 6 m 14,0 h 7 m 11,0 h 13 m 17,0 h 14 m 11,0 h 16 m 18,0 h 20 m 42,0 h 6 m 11,0 h 13 m 18,0 h 20 m 4,0 h 6 m 39,0 h 6 m 14,0 h 7 m 14,0 h 6 m 11,0 h 13 m 25,0 h 6 m 25,0 h 20 m 4,0 h 6 m 4,0 h 7 m 4,0 h 6 m -756,1 h 7 m 31,0 h 6 m 11,0 h 24 m 24,0 h 7 m 10,0 h 20 m 5,0 h 6 m 38,0 h 27 m 28,0 h 17 m 11,0 h 6 m 14,0 h 7 m 11,0 h 13 m 17,0 h 14 m 11,0 h 16 m 18,0 h 20 m 42,0 h 6 m 11,0 h 13 m 18,0 h 20 m 4,0 h 6 m 39,0 h 6 m 14,0 h 7 m 14,0 h 6 m 11,0 h 13 m 25,0 h 6 m 25,0 h 20 m 4,0 h 6 m 4,0 h 7 m 4,0 h 6 m -673,1 h 20 m 337,0 h 20 m -377,1 h 20 m 337,0 h 20 m -377,1 h 20 m 337,0 h 20 m -377,1 h 20 m 337,0 h 20 m -377,1 h 20 m 337,0 h 20 m -377,1 h 20 m 337,0 h 20 m -377,1 h 20 m 337,0 h 20"
+       id="path829" />
+    <path
+       stroke="#c9a795"
+       d="m 119,180 h 1 m 243,0 h 1 m 6,0 h 1 m -252,1 h 1 m 243,0 h 1 m 6,0 h 1 m -252,1 h 1 m 243,0 h 1 m 6,0 h 1 m -252,1 h 1 m 243,0 h 1 m 6,0 h 1 m -252,1 h 1 m 243,0 h 1 m 6,0 h 1 m -252,1 h 1 m 243,0 h 1 m 6,0 h 1 m -251,1 h 6 m 155,0 h 6 m 15,0 h 6 m 55,0 h 1 m 6,0 h 1 m 92,0 h 17 m -361,1 h 1 m 6,0 h 1 m 174,0 h 1 m 6,0 h 1 m 54,0 h 1 m 6,0 h 1 m -252,1 h 1 m 6,0 h 1 m 174,0 h 1 m 6,0 h 1 m 54,0 h 1 m 6,0 h 1 m -252,1 h 1 m 6,0 h 1 m 174,0 h 1 m 6,0 h 1 m 54,0 h 1 m 6,0 h 1 m -252,1 h 1 m 6,0 h 1 m 47,0 h 1 m 6,0 h 1 m 64,0 h 1 m 54,0 h 1 m 6,0 h 1 m 54,0 h 1 m 6,0 h 1 m 119,0 h 1 m 61,0 h 1 m 6,0 h 1 m 9,0 h 1 m 13,0 h 1 m 61,0 h 1 m 23,0 h 1 m 126,0 h 1 m -678,1 h 1 m 6,0 h 1 m 47,0 h 1 m 6,0 h 1 m 64,0 h 1 m 54,0 h 1 m 6,0 h 1 m 54,0 h 1 m 6,0 h 1 m 119,0 h 1 m 61,0 h 1 m 6,0 h 1 m 9,0 h 1 m 13,0 h 1 m 61,0 h 1 m 23,0 h 1 m 126,0 h 1 m -678,1 h 1 m 6,0 h 1 m 47,0 h 1 m 6,0 h 1 m 64,0 h 1 m 54,0 h 1 m 6,0 h 1 m 54,0 h 1 m 6,0 h 1 m 119,0 h 1 m 61,0 h 1 m 6,0 h 1 m 9,0 h 1 m 13,0 h 1 m 61,0 h 1 m 23,0 h 1 m 126,0 h 1 m -698,1 h 27 m 48,0 h 1 m 6,0 h 1 m 62,0 h 2 m 11,0 h 3 m 21,0 h 7 m 7,0 h 6 m 1,0 h 6 m 55,0 h 1 m 6,0 h 1 m 7,0 h 6 m 73,0 h 6 m 1,0 h 16 m 10,0 h 1 m 61,0 h 1 m 6,0 h 1 m 9,0 h 1 m 13,0 h 1 m 48,0 h 3 m 11,0 h 2 m 21,0 h 1 m 126,0 h 1 m -678,1 h 1 m 54,0 h 1 m 6,0 h 1 m 181,0 h 1 m 6,0 h 1 m 119,0 h 1 m 61,0 h 1 m 6,0 h 1 m 9,0 h 1 m 13,0 h 1 m 85,0 h 1 m 126,0 h 1 m -678,1 h 1 m 54,0 h 1 m 6,0 h 1 m 181,0 h 1 m 6,0 h 1 m 119,0 h 1 m 61,0 h 1 m 6,0 h 1 m 9,0 h 1 m 13,0 h 1 m 85,0 h 1 m 126,0 h 1 m -678,1 h 1 m 54,0 h 1 m 6,0 h 1 m 181,0 h 1 m 6,0 h 1 m 119,0 h 1 m 61,0 h 1 m 6,0 h 1 m 9,0 h 1 m 13,0 h 1 m 85,0 h 1 m 126,0 h 1 m -678,1 h 1 m 54,0 h 1 m 6,0 h 1 m 64,0 h 1 m 116,0 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m 150,0 h 1 m 6,0 h 1 m 109,0 h 1 m 6,0 h 1 m 64,0 h 1 m 6,0 h 1 m 30,0 h 1 m 6,0 h 1 m -668,1 h 1 m 54,0 h 1 m 6,0 h 1 m 64,0 h 1 m 116,0 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m 150,0 h 1 m 6,0 h 1 m 109,0 h 1 m 6,0 h 1 m 64,0 h 1 m 6,0 h 1 m 30,0 h 1 m 6,0 h 1 m -668,1 h 1 m 54,0 h 1 m 6,0 h 1 m 64,0 h 1 m 116,0 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m 150,0 h 1 m 6,0 h 1 m 109,0 h 1 m 6,0 h 1 m 64,0 h 1 m 6,0 h 1 m 30,0 h 1 m 6,0 h 1 m -688,1 h 20 m 55,0 h 1 m 6,0 h 1 m 62,0 h 2 m 11,0 h 3 m 35,0 h 6 m 62,0 h 1 m 14,0 h 6 m 10,0 h 1 m 6,0 h 1 m 55,0 h 6 m 89,0 h 1 m 6,0 h 1 m 72,0 h 3 m 11,0 h 2 m 21,0 h 1 m 6,0 h 1 m 64,0 h 1 m 6,0 h 1 m 30,0 h 1 m 6,0 h 1 m -613,1 h 1 m 6,0 h 1 m 181,0 h 1 m 30,0 h 1 m 6,0 h 1 m 71,0 h 1 m 78,0 h 1 m 6,0 h 1 m 109,0 h 1 m 6,0 h 1 m 64,0 h 1 m 6,0 h 1 m 30,0 h 1 m 6,0 h 1 m -613,1 h 1 m 6,0 h 1 m 181,0 h 1 m 30,0 h 1 m 6,0 h 1 m 71,0 h 1 m 78,0 h 1 m 6,0 h 1 m 109,0 h 1 m 6,0 h 1 m 64,0 h 1 m 6,0 h 1 m 30,0 h 1 m 6,0 h 1 m -613,1 h 1 m 6,0 h 1 m 181,0 h 1 m 30,0 h 1 m 6,0 h 1 m 71,0 h 1 m 78,0 h 1 m 6,0 h 1 m 109,0 h 1 m 6,0 h 1 m 64,0 h 1 m 6,0 h 1 m 30,0 h 1 m 6,0 h 1 m -613,1 h 1 m 6,0 h 1 m 181,0 h 1 m 30,0 h 1 m 6,0 h 1 m 71,0 h 1 m 30,0 h 1 m 47,0 h 1 m 6,0 h 1 m 109,0 h 1 m 6,0 h 1 m 64,0 h 1 m 6,0 h 1 m 30,0 h 1 m 6,0 h 1 m 23,0 h 1 m -637,1 h 1 m 6,0 h 1 m 181,0 h 1 m 30,0 h 1 m 6,0 h 1 m 71,0 h 1 m 30,0 h 1 m 47,0 h 1 m 6,0 h 1 m 109,0 h 1 m 6,0 h 1 m 64,0 h 1 m 6,0 h 1 m 30,0 h 1 m 6,0 h 1 m 23,0 h 1 m -637,1 h 1 m 6,0 h 1 m 181,0 h 1 m 30,0 h 1 m 6,0 h 1 m 71,0 h 1 m 30,0 h 1 m 47,0 h 1 m 6,0 h 1 m 109,0 h 1 m 6,0 h 1 m 64,0 h 1 m 6,0 h 1 m 30,0 h 1 m 6,0 h 1 m 23,0 h 1 m -448,1 h 1 m 30,0 h 1 m 6,0 h 1 m 71,0 h 1 m 85,0 h 1 m 109,0 h 1 m 6,0 h 1 m 64,0 h 1 m 6,0 h 1 m 30,0 h 1 m -417,1 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m 71,0 h 1 m 85,0 h 1 m 109,0 h 1 m 6,0 h 1 m 64,0 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m -417,1 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m 71,0 h 1 m 85,0 h 1 m 109,0 h 1 m 6,0 h 1 m 64,0 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m -417,1 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m 71,0 h 1 m 85,0 h 1 m 109,0 h 1 m 6,0 h 1 m 64,0 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m -417,1 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m 71,0 h 1 m 85,0 h 1 m 109,0 h 1 m 6,0 h 1 m 64,0 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m -417,1 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m 71,0 h 1 m 85,0 h 1 m 109,0 h 1 m 6,0 h 1 m 64,0 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m -417,1 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m 71,0 h 1 m 85,0 h 1 m 109,0 h 1 m 6,0 h 1 m 64,0 h 1 m 6,0 h 1 m 23,0 h 1 m 6,0 h 1 m -472,1 h 1 m 54,0 h 1 m 6,0 h 1 m 188,0 h 1 m 109,0 h 1 m 6,0 h 1 m -369,1 h 1 m 54,0 h 1 m 6,0 h 1 m 102,0 h 1 m 16,0 h 1 m 61,0 h 1 m 6,0 h 1 m 9,0 h 1 m 13,0 h 1 m 16,0 h 1 m 68,0 h 1 m 6,0 h 1 m 119,0 h 1 m -489,1 h 1 m 54,0 h 1 m 6,0 h 1 m 102,0 h 1 m 16,0 h 1 m 61,0 h 1 m 6,0 h 1 m 9,0 h 1 m 13,0 h 1 m 16,0 h 1 m 68,0 h 1 m 6,0 h 1 m 119,0 h 1 m -489,1 h 1 m 54,0 h 1 m 6,0 h 1 m 102,0 h 1 m 16,0 h 1 m 61,0 h 1 m 6,0 h 1 m 9,0 h 1 m 13,0 h 1 m 16,0 h 1 m 68,0 h 1 m 6,0 h 1 m 119,0 h 1 m -489,1 h 1 m 54,0 h 1 m 6,0 h 1 m 102,0 h 1 m 16,0 h 1 m 61,0 h 1 m 6,0 h 1 m 9,0 h 1 m 13,0 h 1 m 16,0 h 1 m 68,0 h 1 m 6,0 h 1 m 119,0 h 1 m -489,1 h 1 m 54,0 h 1 m 6,0 h 1 m 102,0 h 1 m 16,0 h 1 m 61,0 h 1 m 6,0 h 1 m 9,0 h 1 m 13,0 h 1 m 16,0 h 1 m 68,0 h 1 m 6,0 h 1 m 119,0 h 1 m -489,1 h 1 m 54,0 h 1 m 6,0 h 1 m 102,0 h 1 m 16,0 h 1 m 61,0 h 1 m 6,0 h 1 m 9,0 h 1 m 13,0 h 1 m 16,0 h 1 m 68,0 h 1 m 6,0 h 1 m 119,0 h 1 m -623,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1"
+       id="path831" />
+    <path
+       stroke="#b08572"
+       d="m 136,180 h 1 m 164,0 h 1 m -166,1 h 1 m 164,0 h 1 m -166,1 h 1 m 164,0 h 1 m -166,1 h 1 m 164,0 h 1 m -166,1 h 1 m 164,0 h 1 m -166,1 h 1 m 164,0 h 1 m -203,1 h 20 m 17,0 h 1 m 151,0 h 14 m -166,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m 95,0 h 1 m 3,0 h 1 m 164,0 h 1 m 198,0 h 1 m 13,0 h 1 m 16,0 h 1 m 78,0 h 1 m 30,0 h 1 m -606,1 h 1 m 95,0 h 1 m 3,0 h 1 m 164,0 h 1 m 198,0 h 1 m 13,0 h 1 m 16,0 h 1 m 78,0 h 1 m 30,0 h 1 m -606,1 h 1 m 95,0 h 1 m 3,0 h 1 m 164,0 h 1 m 198,0 h 1 m 13,0 h 1 m 16,0 h 1 m 78,0 h 1 m 30,0 h 1 m -606,1 h 1 m 95,0 h 1 m 3,0 h 1 m 9,0 h 1 m 154,0 h 1 m 198,0 h 1 m 13,0 h 1 m 30,0 h 1 m 64,0 h 1 m 30,0 h 1 m -606,1 h 1 m 95,0 h 1 m 3,0 h 1 m 64,0 h 1 m 75,0 h 1 m 23,0 h 1 m 54,0 h 1 m 143,0 h 1 m 13,0 h 1 m 33,0 h 1 m 61,0 h 1 m 30,0 h 1 m -606,1 h 1 m 95,0 h 1 m 3,0 h 1 m 64,0 h 1 m 75,0 h 1 m 23,0 h 1 m 54,0 h 1 m 143,0 h 1 m 13,0 h 1 m 33,0 h 1 m 61,0 h 1 m 30,0 h 1 m -606,1 h 1 m 95,0 h 1 m 3,0 h 1 m 64,0 h 1 m 75,0 h 1 m 23,0 h 1 m 54,0 h 1 m 143,0 h 1 m 13,0 h 1 m 33,0 h 1 m 61,0 h 1 m 30,0 h 1 m -606,1 h 1 m 68,0 h 1 m 26,0 h 1 m 3,0 h 1 m 64,0 h 1 m 75,0 h 1 m 47,0 h 1 m 26,0 h 1 m 3,0 h 1 m 33,0 h 1 m 13,0 h 1 m 64,0 h 1 m 13,0 h 1 m 16,0 h 1 m 13,0 h 1 m 30,0 h 1 m 2,0 h 1 m 68,0 h 1 m 78,0 h 1 m 13,0 h 1 m -675,1 h 1 m 68,0 h 1 m 26,0 h 1 m 3,0 h 1 m 64,0 h 1 m 75,0 h 1 m 47,0 h 1 m 26,0 h 1 m 3,0 h 1 m 33,0 h 1 m 13,0 h 1 m 64,0 h 1 m 13,0 h 1 m 16,0 h 1 m 13,0 h 1 m 30,0 h 1 m 2,0 h 1 m 68,0 h 1 m 78,0 h 1 m 13,0 h 1 m -675,1 h 1 m 68,0 h 1 m 26,0 h 1 m 3,0 h 1 m 64,0 h 1 m 75,0 h 1 m 47,0 h 1 m 26,0 h 1 m 3,0 h 1 m 33,0 h 1 m 13,0 h 1 m 64,0 h 1 m 13,0 h 1 m 16,0 h 1 m 13,0 h 1 m 30,0 h 1 m 2,0 h 1 m 68,0 h 1 m 78,0 h 1 m 13,0 h 1 m -675,1 h 1 m 10,0 h 17 m 41,0 h 1 m 7,0 h 12 m 7,0 h 1 m 3,0 h 1 m 51,0 h 6 m 77,0 h 6 m 8,0 h 6 m 34,0 h 1 m 26,0 h 1 m 11,0 h 9 m 18,0 h 13 m 65,0 h 1 m 13,0 h 1 m 16,0 h 1 m 13,0 h 1 m 102,0 h 1 m 79,0 h 13 m -674,1 h 1 m 68,0 h 1 m 26,0 h 1 m 3,0 h 1 m 57,0 h 1 m 130,0 h 1 m 26,0 h 1 m 116,0 h 1 m 13,0 h 1 m 16,0 h 1 m 13,0 h 1 m 16,0 h 1 m 85,0 h 1 m -582,1 h 1 m 68,0 h 1 m 26,0 h 1 m 3,0 h 1 m 57,0 h 1 m 130,0 h 1 m 26,0 h 1 m 116,0 h 1 m 13,0 h 1 m 16,0 h 1 m 13,0 h 1 m 16,0 h 1 m 85,0 h 1 m -582,1 h 1 m 68,0 h 1 m 20,0 h 6 m 4,0 h 1 m 57,0 h 1 m 58,0 h 7 m 65,0 h 1 m 26,0 h 1 m 52,0 h 6 m 58,0 h 1 m 13,0 h 1 m 16,0 h 1 m 13,0 h 1 m 16,0 h 1 m 85,0 h 1 m 93,0 h 6 m -681,1 h 1 m 68,0 h 1 m 30,0 h 1 m 57,0 h 1 m 130,0 h 1 m 26,0 h 1 m 116,0 h 1 m 13,0 h 1 m 16,0 h 1 m 13,0 h 1 m 16,0 h 1 m 85,0 h 1 m -582,1 h 1 m 68,0 h 1 m 30,0 h 1 m 57,0 h 1 m 130,0 h 1 m 26,0 h 1 m 116,0 h 1 m 13,0 h 1 m 16,0 h 1 m 13,0 h 1 m 16,0 h 1 m 85,0 h 1 m -582,1 h 1 m 68,0 h 1 m 30,0 h 1 m 57,0 h 1 m 130,0 h 1 m 26,0 h 1 m 116,0 h 1 m 13,0 h 1 m 16,0 h 1 m 13,0 h 1 m 16,0 h 1 m 85,0 h 1 m -582,1 h 1 m 3,0 h 6 m 36,0 h 13 m 10,0 h 1 m 30,0 h 1 m 44,0 h 6 m 66,0 h 7 m 65,0 h 1 m 26,0 h 1 m 21,0 h 6 m 59,0 h 13 m 17,0 h 1 m 13,0 h 1 m 16,0 h 1 m 13,0 h 1 m 16,0 h 1 m 85,0 h 1 m 41,0 h 6 m 8,0 h 6 m -643,1 h 1 m 44,0 h 1 m 23,0 h 1 m 30,0 h 1 m 188,0 h 1 m 26,0 h 1 m 37,0 h 1 m 78,0 h 1 m 13,0 h 1 m 16,0 h 1 m 13,0 h 1 m 16,0 h 1 m 85,0 h 1 m 47,0 h 1 m 30,0 h 1 m -661,1 h 1 m 44,0 h 1 m 23,0 h 1 m 30,0 h 1 m 188,0 h 1 m 26,0 h 1 m 37,0 h 1 m 78,0 h 1 m 13,0 h 1 m 16,0 h 1 m 13,0 h 1 m 16,0 h 1 m 85,0 h 1 m 47,0 h 1 m 30,0 h 1 m -661,1 h 1 m 44,0 h 1 m 23,0 h 1 m 30,0 h 1 m 188,0 h 1 m 26,0 h 1 m 37,0 h 1 m 78,0 h 1 m 13,0 h 1 m 16,0 h 1 m 13,0 h 1 m 16,0 h 1 m 85,0 h 1 m 47,0 h 1 m 30,0 h 1 m -661,1 h 1 m 44,0 h 1 m 23,0 h 1 m 26,0 h 1 m 3,0 h 1 m 188,0 h 1 m 26,0 h 1 m 37,0 h 1 m 13,0 h 1 m 64,0 h 1 m 13,0 h 1 m 16,0 h 1 m 13,0 h 1 m 16,0 h 1 m 85,0 h 1 m 47,0 h 1 m 30,0 h 1 m 13,0 h 1 m -675,1 h 1 m 44,0 h 1 m 23,0 h 1 m 26,0 h 1 m 3,0 h 1 m 188,0 h 1 m 26,0 h 1 m 37,0 h 1 m 13,0 h 1 m 64,0 h 1 m 13,0 h 1 m 16,0 h 1 m 13,0 h 1 m 16,0 h 1 m 85,0 h 1 m 47,0 h 1 m 30,0 h 1 m 13,0 h 1 m -675,1 h 1 m 44,0 h 1 m 23,0 h 1 m 26,0 h 1 m 3,0 h 1 m 188,0 h 1 m 26,0 h 1 m 37,0 h 1 m 13,0 h 1 m 64,0 h 1 m 13,0 h 1 m 16,0 h 1 m 13,0 h 1 m 16,0 h 1 m 85,0 h 1 m 47,0 h 1 m 30,0 h 1 m 13,0 h 1 m -675,1 h 1 m 95,0 h 1 m 3,0 h 1 m 219,0 h 1 m 174,0 h 1 m 85,0 h 1 m 109,0 h 1 m 13,0 h 1 m -706,1 h 1 m 95,0 h 1 m 3,0 h 1 m 164,0 h 1 m 54,0 h 1 m 174,0 h 1 m 85,0 h 1 m 23,0 h 1 m 30,0 h 1 m 54,0 h 1 m 13,0 h 1 m -706,1 h 1 m 95,0 h 1 m 3,0 h 1 m 164,0 h 1 m 54,0 h 1 m 174,0 h 1 m 85,0 h 1 m 23,0 h 1 m 30,0 h 1 m 54,0 h 1 m 13,0 h 1 m -706,1 h 1 m 95,0 h 1 m 3,0 h 1 m 164,0 h 1 m 54,0 h 1 m 174,0 h 1 m 85,0 h 1 m 23,0 h 1 m 30,0 h 1 m 54,0 h 1 m 13,0 h 1 m -706,1 h 1 m 95,0 h 1 m 3,0 h 1 m 164,0 h 1 m 54,0 h 1 m 174,0 h 1 m 85,0 h 1 m 23,0 h 1 m 30,0 h 1 m 54,0 h 1 m 13,0 h 1 m -706,1 h 1 m 95,0 h 1 m 3,0 h 1 m 164,0 h 1 m 54,0 h 1 m 174,0 h 1 m 85,0 h 1 m 23,0 h 1 m 30,0 h 1 m 54,0 h 1 m 13,0 h 1 m -706,1 h 1 m 95,0 h 1 m 3,0 h 1 m 164,0 h 1 m 54,0 h 1 m 174,0 h 1 m 85,0 h 1 m 23,0 h 1 m 30,0 h 1 m 54,0 h 1 m 13,0 h 1 m -290,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1"
+       id="path833" />
+    <path
+       stroke="#bd9683"
+       d="m 119,186 h 1 m 167,0 h 1 m -45,7 h 1 m 57,0 h 1 m 161,0 h 1 m -221,7 h 1 m 126,7 h 1 m 102,7 h 1 m 16,0 h 1 m 61,0 h 1 m 16,0 h 1 m 13,0 h 1 m 16,0 h 1 m 195,0 h 1"
+       id="path835" />
+    <path
+       stroke="#d5b7a7"
+       d="m 377,193 h 1 m 78,0 h 1 m 191,0 h 1 m -348,7 h 1 m 154,0 h 1 m 16,0 h 1 m 171,0 h 1 m 2,0 h 1 m 123,7 h 1"
+       id="path837" />
+    <path
+       stroke="#a47560"
+       d="m 631,193 h 1 m -262,7 h 1 m 260,0 h 1 m -128,3 h 1 m 305,0 h 1 m -259,4 h 1"
+       id="path839" />
+    <path
+       stroke="#aa7d69"
+       d="m 212,200 h 1 m 12,0 h 1 m 158,0 h 1 m 78,0 h 1 m -318,7 h 1 m 140,0 h 1 m 202,0 h 1 m 305,0 h 1 m -396,7 h 1 m 339,0 h 1 m 30,0 h 1"
+       id="path841" />
+    <path
+       stroke="#b68e7b"
+       d="m 294,200 h 1 m -114,7 h 1"
+       id="path843" />
+    <path
+       stroke="#c39e8c"
+       d="m 377,200 h 1 m -146,3 h 1 m 532,4 h 1"
+       id="path845" />
+    <path
+       stroke="#9e6c57"
+       d="m 490,200 h 1 m 13,0 h 1 m 291,0 h 1 m 13,0 h 1"
+       id="path847-1" />
+    <path
+       stroke="#cfaf9e"
+       d="m 212,207 h 1 m 325,0 h 1 m 219,0 h 1 m -613,7 h 1 m 188,0 h 1 m 79,0 h 1 m 311,0 h 1 m 37,0 h 1"
+       id="path849-2" />
+    <path
+       stroke="#fcecdf"
+       d="m 933,243 h 1 m -13,12 h 1"
+       id="path851-6" />
+    <path
+       stroke="#fff0e2"
+       d="m 934,243 h 3"
+       id="path853-3" />
+    <path
+       stroke="#eedfd1"
+       d="m 938,243 h 1"
+       id="path855-7" />
+    <path
+       stroke="#cbbeb3"
+       d="m 933,244 h 1"
+       id="path857-1" />
+    <path
+       stroke="#837a74"
+       d="m 934,244 h 1"
+       id="path859-0" />
+    <path
+       stroke="#877e77"
+       d="m 935,244 h 2"
+       id="path861-3" />
+    <path
+       stroke="#8a8079"
+       d="m 937,244 h 1"
+       id="path863" />
+    <path
+       stroke="#7d756f"
+       d="m 938,244 h 1"
+       id="path865" />
+    <path
+       stroke="#8c837b"
+       d="m 933,245 h 1"
+       id="path867" />
+    <path
+       stroke="#010101"
+       d="m 939,245 h 1 m -18,24 h 1"
+       id="path869" />
+    <path
+       stroke="#cbbdb3"
+       d="m 42,248 h 1"
+       id="path871" />
+    <path
+       stroke="#fff1e3"
+       d="m 43,248 h 4 m 882,0 h 4"
+       id="path873" />
+    <path
+       stroke="#fdede0"
+       d="m 47,248 h 1 m 0,6 h 1 m 872,2 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1"
+       id="path875" />
+    <path
+       stroke="#f8e8dc"
+       d="m 48,248 h 1"
+       id="path877" />
+    <path
+       stroke="#ffefe1"
+       d="m 928,248 h 1 m -2,2 h 1 m -1,3 h 1"
+       id="path879" />
+    <path
+       stroke="#9a9087"
+       d="m 933,248 h 1"
+       id="path881" />
+    <path
+       stroke="#090909"
+       d="m 37,249 h 1 m 900,2 h 1 m -1,1 h 1 m -1,1 h 1 m -896,1 h 3 m 888,0 h 3 m -333,16 h 1 m 84,0 h 1 m 84,0 h 1"
+       id="path883" />
+    <path
+       stroke="#111111"
+       d="m 38,249 h 2 m 899,0 h 3 m -4,5 h 1"
+       id="path885" />
+    <path
+       stroke="#101010"
+       d="m 40,249 h 1 m 901,0 h 1"
+       id="path887" />
+    <path
+       stroke="#131313"
+       d="m 41,249 h 1"
+       id="path889" />
+    <path
+       stroke="#aea39a"
+       d="m 42,249 h 1"
+       id="path891" />
+    <path
+       stroke="#d8c9be"
+       d="m 43,249 h 4 m 882,0 h 4"
+       id="path893" />
+    <path
+       stroke="#e8d9cd"
+       d="m 47,249 h 1"
+       id="path895" />
+    <path
+       stroke="#faeadc"
+       d="m 927,249 h 1"
+       id="path897" />
+    <path
+       stroke="#e1d3c7"
+       d="m 928,249 h 1"
+       id="path899" />
+    <path
+       stroke="#817872"
+       d="m 933,249 h 1"
+       id="path901" />
+    <path
+       stroke="#0b0b0b"
+       d="m 943,249 h 1 M 59,270 h 36 m 86,0 h 84 m 85,0 h 85 m 85,0 h 84 m 86,0 h 84 m 86,0 h 61"
+       id="path903" />
+    <path
+       stroke="#101111"
+       d="m 42,250 h 1"
+       id="path905" />
+    <path
+       stroke="#736b65"
+       d="m 47,250 h 1"
+       id="path907" />
+    <path
+       stroke="#fffaec"
+       d="m 48,250 h 1"
+       id="path909" />
+    <path
+       stroke="#403b37"
+       d="m 928,250 h 1"
+       id="path911" />
+    <path
+       stroke="#010100"
+       d="m 934,250 h 1"
+       id="path913" />
+    <path
+       stroke="#0a0a0a"
+       d="m 938,250 h 1 m -759,20 h 1 m 678,0 h 1"
+       id="path915" />
+    <path
+       stroke="#1b1b1b"
+       d="m 42,251 h 1 m -1,1 h 1"
+       id="path917" />
+    <path
+       stroke="#1a1a1a"
+       d="m 42,253 h 1"
+       id="path919" />
+    <path
+       stroke="#faeadd"
+       d="m 926,253 h 1 m -874,1 h 1"
+       id="path921" />
+    <path
+       stroke="#080808"
+       d="m 46,254 h 1 m 48,16 h 1 m 423,0 h 1 m 401,0 h 1"
+       id="path923" />
+    <path
+       stroke="#7a726c"
+       d="m 47,254 h 1"
+       id="path925" />
+    <path
+       stroke="#edded2"
+       d="m 49,254 h 3 m 871,0 h 3"
+       id="path927" />
+    <path
+       stroke="#efdfd3"
+       d="m 52,254 h 1"
+       id="path929" />
+    <path
+       stroke="#eeded2"
+       d="m 926,254 h 1"
+       id="path931" />
+    <path
+       stroke="#f3e3d7"
+       d="m 927,254 h 1"
+       id="path933" />
+    <path
+       stroke="#47423e"
+       d="m 928,254 h 1"
+       id="path935" />
+    <path
+       stroke="#060606"
+       d="m 937,254 h 1"
+       id="path937" />
+    <path
+       stroke="#272421"
+       d="m 48,255 h 1"
+       id="path939" />
+    <path
+       stroke="#2e2b29"
+       d="m 49,255 h 2 m 874,0 h 2"
+       id="path941" />
+    <path
+       stroke="#282624"
+       d="m 51,255 h 1"
+       id="path943-3" />
+    <path
+       stroke="#4a4541"
+       d="m 52,255 h 1"
+       id="path945-2" />
+    <path
+       stroke="#fffdef"
+       d="m 53,255 h 1"
+       id="path947-2" />
+    <path
+       stroke="#f6e6d9"
+       d="m 922,255 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1 m -1,1 h 1"
+       id="path949-8" />
+    <path
+       stroke="#2d2a27"
+       d="m 923,255 h 1"
+       id="path951-5" />
+    <path
+       stroke="#2c2927"
+       d="m 924,255 h 1"
+       id="path953-1" />
+    <path
+       stroke="#2f2c2a"
+       d="m 927,255 h 1"
+       id="path955-6" />
+    <path
+       stroke="#0e0d0c"
+       d="m 928,255 h 1"
+       id="path957-5" />
+    <path
+       stroke="#3e3e3e"
+       d="m 933,255 h 1"
+       id="path959" />
+    <path
+       stroke="#4c4c4c"
+       d="m 933,259 h 1"
+       id="path961" />
+    <path
+       stroke="#6f6660"
+       d="m 53,260 h 1"
+       id="path963" />
+    <path
+       stroke="#6e6761"
+       d="M 54,260 H 489"
+       id="path965" />
+    <path
+       stroke="#6e6862"
+       d="M 489,260 H 921"
+       id="path967" />
+    <path
+       stroke="#706964"
+       d="m 921,260 h 1"
+       id="path969" />
+    <path
+       stroke="#6d6660"
+       d="m 922,260 h 1"
+       id="path971" />
+    <path
+       stroke="#191919"
+       d="m 53,265 h 1 m 4,2 h 1 m -1,1 h 1"
+       id="path973" />
+    <path
+       stroke="#292929"
+       d="m 54,265 h 4"
+       id="path975" />
+    <path
+       stroke="#050505"
+       d="m 58,265 h 1"
+       id="path977" />
+    <path
+       stroke="#1c1c1c"
+       d="m 58,266 h 1"
+       id="path979" />
+    <path
+       stroke="#181818"
+       d="m 58,269 h 1"
+       id="path981" />
+    <path
+       stroke="#232323"
+       d="m 58,270 h 1"
+       id="path983" />
+    <path
+       stroke="#070707"
+       d="m 96,270 h 84 m 85,0 h 85 m 85,0 h 84 m 86,0 h 84 m 86,0 h 84"
+       id="path985" />
+    <path
+       stroke="#adadad"
+       d="m 59,271 h 35 m 87,0 h 82 m 1,0 h 1 m 87,0 h 81 m 89,0 h 81 m 88,0 h 83 m 86,0 h 62"
+       id="path987" />
+    <path
+       stroke="#acacac"
+       d="m 94,271 h 1"
+       id="path989" />
+    <path
+       stroke="#737373"
+       d="m 96,271 h 83 m 87,0 h 82 m 88,0 h 82 m 88,0 h 82 m 87,0 h 84"
+       id="path991" />
+    <path
+       stroke="#747474"
+       d="m 179,271 h 1 m 508,0 h 1"
+       id="path993" />
+    <path
+       stroke="#a3a3a3"
+       d="m 180,271 h 1"
+       id="path995" />
+    <path
+       stroke="#aeaeae"
+       d="m 263,271 h 1 m 87,0 h 1 m 169,0 h 1 m 81,0 h 1 m 318,0 h 1"
+       id="path997" />
+    <path
+       stroke="#777777"
+       d="m 265,271 h 1"
+       id="path999" />
+    <path
+       stroke="#727272"
+       d="m 348,271 h 1 m 169,0 h 1"
+       id="path1001" />
+    <path
+       stroke="#767676"
+       d="m 349,271 h 1"
+       id="path1003" />
+    <path
+       stroke="#afafaf"
+       d="m 350,271 h 1 m 82,0 h 1 m 256,0 h 1"
+       id="path1005" />
+    <path
+       stroke="#a6a6a6"
+       d="m 434,271 h 1"
+       id="path1007" />
+    <path
+       stroke="#6f6f6f"
+       d="m 435,271 h 1"
+       id="path1009" />
+    <path
+       stroke="#828282"
+       d="m 519,271 h 1"
+       id="path1011" />
+    <path
+       stroke="#b2b2b2"
+       d="m 520,271 h 1"
+       id="path1013" />
+    <path
+       stroke="#989898"
+       d="m 604,271 h 1"
+       id="path1015" />
+    <path
+       stroke="#8f8f8f"
+       d="m 689,271 h 1"
+       id="path1017" />
+    <path
+       stroke="#8c8c8c"
+       d="m 774,271 h 1"
+       id="path1019" />
+    <path
+       stroke="#9b9b9b"
+       d="m 859,271 h 1"
+       id="path1021" />
   </g>
 </svg>

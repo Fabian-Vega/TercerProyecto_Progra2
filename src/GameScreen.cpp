@@ -15,7 +15,9 @@
 
 GameScreen::GameScreen(QWidget *parent)
   : QGraphicsView(parent),
-    renderer(new QSvgRenderer(QString(":/assets/assets.svg"), this)),
+    renderer(new QSvgRenderer(QString(":/images/assets.svg"), this)),
+    mainSong(menuSong, this),
+    fightSong(battleSong, this),
     menu(new MenuScene(this->renderer)),
     instructions(new InstructionsScene(this->renderer)),
     selection(new SelectionScene(this->renderer)),
@@ -59,7 +61,9 @@ void GameScreen::showInstructions() {
 }
 
 void GameScreen::showMenu() {
+  this->fightSong.stop();
   Q_ASSERT(this->menu);
+  this->mainSong.play(true);
   this->setScene(this->menu);
   #if !defined(Q_OS_ANDROID) && !defined(Q_OS_IOS)
    this->setFixedSize(this->menu->width(), this->menu->height());
@@ -77,6 +81,7 @@ void GameScreen::startGame() {
 }
 
 void GameScreen::startFight() {
+  this->mainSong.stop();
   Monster* player1 = this->monsterFactory(
                        this->selection->getPlayerChoice(1, 1),
                        this->selection->getPlayerChoice(1, 2));
@@ -87,6 +92,7 @@ void GameScreen::startFight() {
                                player1,
                                player2);
   Q_ASSERT(this->fight);
+  this->fightSong.play(true);
   this->setScene(this->fight);
   this->connect(this->fight, &FightScene::playerWon,
                 this, &GameScreen::showEndScreen);

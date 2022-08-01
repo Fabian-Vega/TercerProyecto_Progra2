@@ -12,12 +12,16 @@ void Sound::setSound(QUrl url) {
 }
 
 void Sound::play(bool loop) {
-  if (loop) {
-    this->setLoopCount(QSoundEffect::Infinite);
+  if(!this->isPlaying()) {
+    if (loop) {
+      this->setLoopCount(QSoundEffect::Infinite);
+    }
+    QSoundEffect::play();
   }
-  QSoundEffect::play();
 }
 
 void Sound::pause() {
-  this->stop();
+  if (this->isPlaying()) {
+    this->stop();
+  }
 }
