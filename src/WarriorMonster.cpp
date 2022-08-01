@@ -20,9 +20,9 @@ void WarriorMonster::loadMonster() {
 void WarriorMonster::setStats() {
   this->health.maxHealth = 90;
   this->health.currentHealth = 90;
-  this->attack = 30;
-  this->defense = 10;
-  this->speed = 10;
+  this->attack = 110;
+  this->defense = 80;
+  this->speed = 95;
 }
 
 void WarriorMonster::changeOrientation(bool orientation) {

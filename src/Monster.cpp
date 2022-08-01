@@ -38,7 +38,7 @@ void Monster::initializeMonster() {
 /// Move initializer method
 /// Acts as a pseudo factory
 void Monster::setMoveset() {
-  this->moveset[0] = new DamageMove(20);
+  this->moveset[0] = new DamageMove(80);
   this->moveset[1] = new DefenseMove();
 
   this->buffStat = random(1, 4);
