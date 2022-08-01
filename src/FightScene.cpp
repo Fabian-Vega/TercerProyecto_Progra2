@@ -30,7 +30,7 @@ FightScene::~FightScene() {
   delete this->player2Moveset;
 }
 
-void FightScene::swapFight(short move) {
+void FightScene::swapFight(size_t move) {
   this->movesChosen[0] = move;
   this->player1->flip(false);
   this->player1HealthBar->flip(false);
@@ -42,7 +42,7 @@ void FightScene::swapFight(short move) {
   this->player2Moveset->setLayoutPos(20, 280);
 }
 
-void FightScene::fight(short move) {
+void FightScene::fight(size_t move) {
   this->movesChosen[1] = move;
 
   if (this->player1->getSpeed() >= this->player2->getSpeed()) {
@@ -139,8 +139,8 @@ void FightScene::addHealthBar(HealthBar* healthbar) {
 
 void FightScene::resolveAttack(Monster* attacker,
                               Monster* receiver,
-                              short attackerNum){
-  short receiverNum = 2-(attackerNum--);
+                              size_t attackerNum){
+  size_t receiverNum = 2-(attackerNum--);
   if (this->movesChosen[receiverNum] == 2) {
     this->showMessage(receiverNum+1, 2);
     if (receiver->useMove(2, receiver) &&
@@ -163,8 +163,8 @@ void FightScene::resolveAttack(Monster* attacker,
   }
 }
 
-void FightScene::showMessage(const short player,
-                             const short action) {
+void FightScene::showMessage(const size_t player,
+                             const size_t action) {
   if (action == 5) {
     this->message->setElementId(QString("failed"));
   } else {

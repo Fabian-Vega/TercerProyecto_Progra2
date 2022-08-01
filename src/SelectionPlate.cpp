@@ -17,7 +17,7 @@ SelectionPlate::SelectionPlate(QSvgRenderer* renderer,
     swordButton(nullptr) {
 }
 
-void SelectionPlate::selectElement(short buttonNumber) {
+void SelectionPlate::selectElement(size_t buttonNumber) {
   switch(buttonNumber) {
     case 1:
       this->fireButton->setElementId(QString("fireButtonOn"));
@@ -43,7 +43,7 @@ void SelectionPlate::selectElement(short buttonNumber) {
   }
 }
 
-void SelectionPlate::selectType(short buttonNumber) {
+void SelectionPlate::selectType(size_t buttonNumber) {
   switch(buttonNumber) {
     case 1:
       this->shieldButton->setElementId(QString("shieldButtonOn"));
@@ -123,9 +123,9 @@ QGraphicsSvgItem* SelectionPlate::setItem(
 
 GameButton* SelectionPlate::setButton(
                             GameButton* button,
-                            short buttonNumber,
+                            size_t buttonNumber,
                             QString identifier,
-                            short category) {
+                            size_t category) {
   Q_ASSERT(button == nullptr);
   button = new GameButton(buttonNumber);
   Q_ASSERT(button);

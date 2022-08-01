@@ -1,7 +1,7 @@
 #ifndef BUFFMOVE_HPP
 #define BUFFMOVE_HPP
 
-#include <string>
+#include <cstddef>
 
 #include "Common.hpp"
 #include "Move.hpp"

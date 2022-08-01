@@ -30,7 +30,7 @@ class SelectionScene : public GameScene {
   void finishSecondSelection();
 
  public:
-  short getPlayerChoice (short player, short category);
+  size_t getPlayerChoice (size_t player, size_t category);
 
  protected:
   void setSelection();

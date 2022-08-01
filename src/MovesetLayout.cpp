@@ -23,7 +23,7 @@ MovesetLayout::~MovesetLayout() {
   delete this->debuffMove;
 }
 
-void MovesetLayout::selectMove(short buttonNumber) {
+void MovesetLayout::selectMove(size_t buttonNumber) {
   emit this->moveSelected(buttonNumber);
 }
 
@@ -39,7 +39,7 @@ void MovesetLayout::setLayoutPos(
 
 GameButton* MovesetLayout::setButton(
     GameButton* button,
-    short buttonNumber,
+    size_t buttonNumber,
     QString identifier) {
   Q_ASSERT(button == nullptr);
   button = new GameButton(buttonNumber);

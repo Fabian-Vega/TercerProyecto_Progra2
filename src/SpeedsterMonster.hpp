@@ -11,7 +11,7 @@ class SpeedsterMonster : public Monster {
 
   public: // Constructor and destructor
    explicit SpeedsterMonster(QSvgRenderer* renderer,
-                    short type = 0,
+                    size_t type = 0,
                     QGraphicsSvgItem* parent = nullptr);
    ~SpeedsterMonster() = default;
 

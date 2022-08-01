@@ -8,6 +8,7 @@ SOURCES += \
   src/Common.cpp \
   src/DamageMove.cpp \
   src/DefenseMove.cpp \
+  src/EndScreen.cpp \
   src/FightScene.cpp \
   src/Game.cpp \
   src/GameButton.cpp \
@@ -31,6 +32,7 @@ HEADERS += \
   src/Common.hpp \
   src/DamageMove.hpp \
   src/DefenseMove.hpp \
+  src/EndScreen.hpp \
   src/FightScene.hpp \
   src/Game.hpp \
   src/GameButton.hpp \

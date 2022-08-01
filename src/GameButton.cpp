@@ -2,7 +2,7 @@
 
 #include "GameButton.hpp"
 
-GameButton::GameButton(short buttonIdentifier,
+GameButton::GameButton(size_t buttonIdentifier,
                        QGraphicsItem* parentItem)
   : QGraphicsSvgItem(parentItem),
     buttonIdentifier(buttonIdentifier) {

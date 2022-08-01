@@ -26,15 +26,15 @@ class Monster : public QGraphicsSvgItem {
   int attack;
   int defense;
   int speed;
-  short elementalType;
+  size_t elementalType;
   std::vector<Move*> moveset;
 
-  short buffStat = 0;
-  short debuffStat = 0;
+  size_t buffStat = 0;
+  size_t debuffStat = 0;
 
  public: // Constructor and destructor
   explicit Monster(QSvgRenderer* renderer,
-                   short element = 0,
+                   size_t element = 0,
                    QGraphicsSvgItem *parent = nullptr);
   ~Monster();
 
@@ -53,13 +53,13 @@ class Monster : public QGraphicsSvgItem {
 
   /// Returns the number of the stat choose for the buff
   /// move
-  inline short getBuffStat() const {
+  inline size_t getBuffStat() const {
     return this->buffStat;
   }
 
   /// Returns the number of the stat choose for the
   /// debuff move
-  inline short getDebuffStat() const {
+  inline size_t getDebuffStat() const {
     return this->debuffStat;
   }
 
@@ -137,14 +137,14 @@ class Monster : public QGraphicsSvgItem {
   /// @remark behavior with an index > 3 is
   /// undefined
   inline bool useMove(
-    const short move, Monster* target) {
+    const size_t move, Monster* target) {
     return this->moveset[move-1]->use(this, target);
   }
 
  public: // General functions
   void flip(bool orientation);
-  static double typeRelation(const short firstType,
-  const short secondType);
+  static double typeRelation(const int firstType,
+  const int secondType);
 };
 
 #endif // MONSTER_HPP

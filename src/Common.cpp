@@ -11,7 +11,6 @@ void wait(int seconds) {
     }
 }
 
-
 int random(int min, int max) {
   return QRandomGenerator::global()->bounded(min, max+1);
 }

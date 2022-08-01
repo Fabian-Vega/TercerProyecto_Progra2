@@ -36,8 +36,8 @@ void SelectionScene::finishSecondSelection() {
   }
 }
 
-short SelectionScene::getPlayerChoice(
-    short player, short category) {
+size_t SelectionScene::getPlayerChoice(
+    size_t player, size_t category) {
   if (player == 1) {
     return (category == 1?
             this->firstPlayerPlate->getElementSelected():

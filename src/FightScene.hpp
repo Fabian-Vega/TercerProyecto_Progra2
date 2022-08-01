@@ -20,7 +20,7 @@ class FightScene : public GameScene {
    MovesetLayout* player1Moveset;
    MovesetLayout* player2Moveset;
    QGraphicsSvgItem* message;
-   short movesChosen[2] = {0, 0};
+   size_t movesChosen[2] = {0, 0};
 
  public:
   FightScene(QSvgRenderer* renderer,
@@ -30,11 +30,11 @@ class FightScene : public GameScene {
   ~FightScene();
 
  signals:
-  void playerWon(short player);
+  void playerWon(size_t player);
 
  protected slots:
-  void swapFight(short move);
-  void fight(short move);
+  void swapFight(size_t move);
+  void fight(size_t move);
   void player1Won();
   void player2Won();
 
@@ -46,9 +46,9 @@ class FightScene : public GameScene {
  protected:
   void resolveAttack(Monster* attacker,
                      Monster* receiver,
-                     short attackerNum);
-  void showMessage(const short player,
-                   const short action);
+                     size_t attackerNum);
+  void showMessage(const size_t player,
+                   const size_t action);
 };
 
 #endif // FIGHTSCENE_HPP

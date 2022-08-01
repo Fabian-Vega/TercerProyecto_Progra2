@@ -8,7 +8,7 @@
 #include "Move.hpp"
 
 Monster::Monster(QSvgRenderer* renderer,
-                 short element,
+                 size_t element,
                  QGraphicsSvgItem *parent)
   : QGraphicsSvgItem(parent),
     renderer(renderer),
@@ -60,11 +60,11 @@ void Monster::flip(bool orientation) {
 /// second
 /// @remark Behavior using numbers higher than 3 or lower
 /// than 1 is undefined
-double Monster::typeRelation(const short firstType,
-  const short secondType) {
-  if (firstType == secondType) { return 1.0;
-  } else if (abs(firstType - secondType) >= 2 &&
-    firstType > secondType) { return 1.5;
-  } else if (secondType == 2) { return 0.5;
-  } else { return firstType == 1? 1.5:0.5;}
+double Monster::typeRelation(const int firstType,
+  const int secondType) {
+  if (firstType == secondType) {return 1.0;
+  } else if (abs(firstType - secondType) < 2 &&
+    firstType > secondType) {return 1.5;
+  } else if (secondType == 2) {return 0.5;
+  } else {return firstType == 1? 1.5:0.5; }
 }

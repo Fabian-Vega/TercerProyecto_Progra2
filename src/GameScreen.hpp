@@ -4,6 +4,7 @@
 #include <QGraphicsView>
 
 // Forward declarations
+class EndScreen;
 class FightScene;
 class InstructionsScene;
 class MenuScene;
@@ -20,6 +21,7 @@ class GameScreen : public QGraphicsView {
   InstructionsScene* instructions;
   SelectionScene* selection;
   FightScene* fight = nullptr;
+  EndScreen* end;
 
  public:
   explicit GameScreen(QWidget* parent = nullptr);
@@ -30,9 +32,10 @@ class GameScreen : public QGraphicsView {
   void showMenu();
   void startGame();
   void startFight();
+  void showEndScreen(size_t winner);
 
  protected:
-  Monster* monsterFactory(short element, short type) const;
+  Monster* monsterFactory(size_t element, size_t type) const;
   void wheelEvent(QWheelEvent *event) override;
 };
 

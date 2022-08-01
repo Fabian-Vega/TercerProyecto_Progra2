@@ -5,7 +5,7 @@
 
 SpeedsterMonster::SpeedsterMonster(
     QSvgRenderer* renderer,
-    short type,
+    size_t type,
     QGraphicsSvgItem* parent)
   : Monster(renderer, type, parent) {
   this->initializeMonster();

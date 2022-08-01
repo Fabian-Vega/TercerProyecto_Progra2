@@ -81,13 +81,19 @@ void GameScreen::startFight() {
                                player2);
   Q_ASSERT(this->fight);
   this->setScene(this->fight);
+  this->connect(this->fight, &FightScene::playerWon,
+                this, &GameScreen::showEndScreen);
   #if !defined(Q_OS_ANDROID) && !defined(Q_OS_IOS)
    this->setFixedSize(this->fight->width(), this->fight->height());
-  #endif
+#endif
+}
+
+void GameScreen::showEndScreen(size_t winner) {
+
 }
 
 Monster* GameScreen::monsterFactory(
-    short element, short type) const {
+    size_t element, size_t type) const {
   switch(type) {
     case 1:
       return new TankMonster(this->renderer, element);

@@ -2,7 +2,7 @@
 
 MenuScene::MenuScene(QSvgRenderer* renderer, QObject *parent)
   : GameScene(renderer, parent),
-    tittle(nullptr),
+    title(nullptr),
     playButton(nullptr),
     instrucctionsButton(nullptr) {
   this->setMenu();
@@ -17,8 +17,8 @@ void MenuScene::setMenu() {
   this->background = this->setObject(
                      this->background, QString("menuBackground"),
                      0, 0);
-  this->tittle = this->setObject(
-                 this->tittle, QString("menuTittle"),
+  this->title = this->setObject(
+                 this->title, QString("menuTittle"),
                  73.75, 20);
   this->playButton = this->setObject(
                      this->playButton,

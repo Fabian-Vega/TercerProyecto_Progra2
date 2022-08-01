@@ -8,7 +8,7 @@ class MenuScene : public GameScene {
   Q_DISABLE_COPY_MOVE(MenuScene)
 
  protected:
-  QGraphicsSvgItem* tittle;
+  QGraphicsSvgItem* title;
   GameButton* playButton;
   GameButton* instrucctionsButton;
 

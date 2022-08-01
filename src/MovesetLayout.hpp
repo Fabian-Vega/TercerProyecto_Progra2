@@ -24,10 +24,10 @@ class MovesetLayout : public QGraphicsSvgItem {
                 QGraphicsItem* parentItem = nullptr);
   ~MovesetLayout();
  signals:
-  void moveSelected(short move);
+  void moveSelected(size_t move);
 
  protected slots:
-  void selectMove(short buttonNumber);
+  void selectMove(size_t buttonNumber);
 
  public:
   inline QGraphicsSvgItem* getBase() {
@@ -56,7 +56,7 @@ class MovesetLayout : public QGraphicsSvgItem {
 
  protected:
   GameButton* setButton(GameButton* button,
-                        short buttonNumber,
+                        size_t buttonNumber,
                         QString identifier);
   void setMovesetLayout(Monster* monster);
 };

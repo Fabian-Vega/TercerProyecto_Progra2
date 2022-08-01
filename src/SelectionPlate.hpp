@@ -22,8 +22,8 @@ class SelectionPlate : public QGraphicsSvgItem {
   GameButton* bootButton;
   GameButton* swordButton;
 
-  short elementSelected = 0;
-  short typeSelected = 0;
+  size_t elementSelected = 0;
+  size_t typeSelected = 0;
 
  public:
   SelectionPlate(QSvgRenderer* renderer,
@@ -33,8 +33,8 @@ class SelectionPlate : public QGraphicsSvgItem {
   void selectionDone();
 
  protected slots:
-  void selectElement(short buttonNumber);
-  void selectType(short buttonNumber);
+  void selectElement(size_t buttonNumber);
+  void selectType(size_t buttonNumber);
 
  public:
   inline QGraphicsSvgItem* getBase() {
@@ -73,11 +73,11 @@ class SelectionPlate : public QGraphicsSvgItem {
     return this->swordButton;
   }
 
-  inline short getElementSelected() {
+  inline size_t getElementSelected() {
     return this->elementSelected;
   }
 
-  inline short getTypeSelected() {
+  inline size_t getTypeSelected() {
     return this->typeSelected;
   }
 
@@ -91,9 +91,9 @@ class SelectionPlate : public QGraphicsSvgItem {
                               QString identifier);
 
   GameButton* setButton(GameButton* button,
-                        short buttonNumber,
+                        size_t buttonNumber,
                         QString identifier,
-                        short category);
+                        size_t category);
 };
 
 #endif // SELECTIONPLATE_HPP
