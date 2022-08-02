@@ -123,18 +123,14 @@ void GameScreen::startFight() {
 }
 
 void GameScreen::showWin(size_t winner) {
-  if (win == nullptr) {
-    this->fightSong.pause();
-    this->win = new WinScene(this->renderer, winner);
-    Q_ASSERT(this->win);
-    this->disconnect(this->fight, &FightScene::playerWon,
-                  this, &GameScreen::showWin);
-    this->fight = nullptr;
-    this->winningSong.play(true);
-    this->setScene(this->win);
-    this->connect(this->win, &WinScene::backToMenu,
-                  this, &GameScreen::showMenu);
-  }
+  this->fightSong.pause();
+  this->win = new WinScene(this->renderer, winner);
+  Q_ASSERT(this->win);
+  this->fight = nullptr;
+  this->winningSong.play(true);
+  this->setScene(this->win);
+  this->connect(this->win, &WinScene::backToMenu,
+                this, &GameScreen::showMenu);
 }
 
 Monster* GameScreen::monsterFactory(
