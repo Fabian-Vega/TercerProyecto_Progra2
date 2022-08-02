@@ -9,6 +9,7 @@
 
 // Forward declaration
 class QSvgRenderer;
+class QPropertyAnimation;
 
 static const std::string types[3] = {"Fire", "Water", "Plant"};
 
@@ -22,6 +23,8 @@ class Monster : public QGraphicsSvgItem {
   };
 
   QSvgRenderer* renderer;
+  QPropertyAnimation* animation;
+
   HealthType health;
   int attack;
   int defense;
@@ -135,16 +138,8 @@ class Monster : public QGraphicsSvgItem {
     return types[this->elementalType-1];
   }
 
-  /// General methods
-  /// The monster uses the choosen move on the target
-  /// Returns true if i used the move correctly or
-  /// false if the monster failed
-  /// @remark behavior with an index > 3 is
-  /// undefined
-  inline bool useMove(
-    const size_t move, Monster* target) {
-    return this->moveset[move-1]->use(this, target);
-  }
+  /// Uses the chosen move
+  bool useMove(const size_t move, Monster* target);
 
  public: // General functions
   void flip(bool orientation);

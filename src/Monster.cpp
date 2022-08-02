@@ -1,3 +1,4 @@
+#include <QPropertyAnimation>
 #include <QSvgRenderer>
 
 #include "Common.hpp"
@@ -12,6 +13,7 @@ Monster::Monster(QSvgRenderer* renderer,
                  QGraphicsSvgItem *parent)
   : QGraphicsSvgItem(parent),
     renderer(renderer),
+    animation(nullptr),
     attack(0),
     defense(0),
     speed(0),
@@ -25,6 +27,7 @@ Monster::~Monster() {
     delete this->moveset[move];
     this->moveset[move] = nullptr;
   }
+  delete this->animation;
 }
 
 // Monster Initializer method
@@ -46,6 +49,24 @@ void Monster::setMoveset() {
 
   this->debuffStat = random(2, 4);
   this->moveset[3] = new BuffMove(this->debuffStat, 0.7);
+}
+
+/// General methods
+/// The monster uses the choosen move on the target
+/// Returns true if i used the move correctly or
+/// false if the monster failed
+/// @remark behavior with an index > 3 is
+/// undefined
+bool Monster::useMove(const size_t move,
+                      Monster* target) {
+  delete this->animation;
+  this->animation =
+      new QPropertyAnimation(this, "rotation");
+  this->animation->setDuration(500);
+  this->animation->setStartValue(0);
+  this->animation->setEndValue(360);
+  this->animation->start();
+  return this->moveset[move-1]->use(this, target);
 }
 
 void Monster::flip(bool orientation) {
