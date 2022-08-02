@@ -16,7 +16,7 @@
 
 GameScreen::GameScreen(QWidget *parent)
   : QGraphicsView(parent),
-    renderer(new QSvgRenderer(QString(":/images/assets.svg"), this)),
+    renderer(new QSvgRenderer(assets, this)),
     mainSong(menuSong, this),
     fightSong(battleSong, this),
     winningSong(winSong, this),
@@ -25,9 +25,9 @@ GameScreen::GameScreen(QWidget *parent)
     instructions(new InstructionsScene(this->renderer)),
     selection(new SelectionScene(this->renderer)),
     fight(nullptr),
-    win(nullptr),
+    win(new WinScene(this->renderer)),
     credits(new CreditsScene(this->renderer)) {
-  this->showMenu();
+
   this->connect(this->menu, &MenuScene::creditsPressed,
                 this, &GameScreen::showCredits);
   this->connect(this->menu, &MenuScene::playPressed,
@@ -40,12 +40,14 @@ GameScreen::GameScreen(QWidget *parent)
                 this, &GameScreen::showMenu);
   this->connect(this->selection, &SelectionScene::continuePressed,
                 this, &GameScreen::startFight);
+  this->connect(this->win, &WinScene::backToMenu,
+                this, &GameScreen::showMenu);
 
+  this->showMenu();
   #if !defined(Q_OS_ANDROID) && !defined(Q_OS_IOS)
     this->setWindowFlags(
         Qt::CustomizeWindowHint | Qt::WindowCloseButtonHint);
   #endif
-
   this->setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
   this->setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
 }
@@ -124,13 +126,11 @@ void GameScreen::startFight() {
 
 void GameScreen::showWin(size_t winner) {
   this->fightSong.pause();
-  this->win = new WinScene(this->renderer, winner);
   Q_ASSERT(this->win);
+  this->win->setWinner(winner);
   this->fight = nullptr;
   this->winningSong.play(true);
   this->setScene(this->win);
-  this->connect(this->win, &WinScene::backToMenu,
-                this, &GameScreen::showMenu);
 }
 
 Monster* GameScreen::monsterFactory(

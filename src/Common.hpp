@@ -14,6 +14,8 @@ static const std::string types[3] = {"Fire", "Water", "Plant"};
 static const double outOfScreenX = 1690;
 static const double outOfScreenY = 1690;
 
+static const QString assets(":/images/assets.svg");
+
 static const QUrl clickSound("qrc:/sounds/ClickSound.wav");
 static const QUrl hoverSound("qrc:/sounds/HoverSound.wav");
 static const QUrl attackSound("qrc:/sounds/AttackSound.wav");

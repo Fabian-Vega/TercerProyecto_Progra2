@@ -1,28 +1,31 @@
 #include "WinScene.hpp"
 
 WinScene::WinScene(QSvgRenderer* renderer,
-                   size_t winner,
                    QObject *parent)
   : GameScene(renderer, parent),
     message(nullptr),
-    back() {
-  this->setWinScene(winner);
+    goBackButton() {
+  this->setWinScene();
 }
 
 WinScene::~WinScene() {
-  delete this->back;
+  delete this->goBackButton;
 }
 
-void WinScene::setWinScene(size_t winner) {
+void WinScene::setWinScene() {
   this->background = this->setObject(
                      this->background, QString("endBackground"),
                      0, 0);
   this->message = this->setObject(
-                  this->message, QString("player%1win").arg(winner),
+                  this->message, QString("player1win"),
                   82, 15);
-  this->back = this->setObject(
-               this->back, QString("backButton"),
+  this->goBackButton = this->setObject(
+               this->goBackButton, QString("backButton"),
                319, 280);
-  this->connect(this->back, &GameButton::pressed,
+  this->connect(this->goBackButton, &GameButton::pressed,
                 this, &WinScene::backToMenu);
+}
+
+void WinScene::setWinner(size_t winner) {
+  this->message->setElementId(QString("player%1win").arg(winner));
 }

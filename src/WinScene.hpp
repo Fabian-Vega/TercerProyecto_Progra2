@@ -8,11 +8,10 @@ class WinScene : public GameScene {
 
  protected: // Attributes
   QGraphicsSvgItem* message;
-  GameButton* back;
+  GameButton* goBackButton;
 
  public: // Constructor and Destructor
   explicit WinScene(QSvgRenderer* renderer,
-                    size_t winner,
                     QObject *parent = nullptr);
   ~WinScene();
 
@@ -20,7 +19,10 @@ class WinScene : public GameScene {
   void backToMenu();
 
  public slots: // Initializer
-  void setWinScene(size_t winner);
+  void setWinScene();
+
+ public:
+  void setWinner(size_t winner);
 };
 
 #endif // WINSCENE_H
