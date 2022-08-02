@@ -2,14 +2,14 @@
 #define SELECTIONSCENE_H
 
 #include "GameScene.hpp"
-
+// Forward Declarations
 class SelectionPlate;
 
 class SelectionScene : public GameScene {
   Q_OBJECT
   Q_DISABLE_COPY_MOVE(SelectionScene)
 
- protected:
+ protected: // Attributes
   SelectionPlate* firstPlayerPlate;
   SelectionPlate* secondPlayerPlate;
   GameButton* continueButton;
@@ -17,19 +17,19 @@ class SelectionScene : public GameScene {
   bool firstSelectionDone;
   bool secondSelectionDone;
 
- public:
+ public: // Constructor and Destructor
   explicit SelectionScene(QSvgRenderer* renderer,
                            QObject *parent = nullptr);
   ~SelectionScene();
 
- signals:
+ signals: // Signals
   void continuePressed();
 
- protected slots:
+ protected slots: // General Methods
   void finishFirstSelection();
   void finishSecondSelection();
 
- public:
+ public: // Accesor(sets and gets)
   size_t getPlayerChoice (size_t player, size_t category);
 
  protected:
@@ -38,6 +38,7 @@ class SelectionScene : public GameScene {
                  const QString identifier,
                  const double xPos,
                  const double yPos);
+  /// addGroup Method
   void addGroup(SelectionPlate* group);
 };
 
