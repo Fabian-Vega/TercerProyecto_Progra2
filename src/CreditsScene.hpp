@@ -10,11 +10,10 @@ class CreditsScene : public GameScene {
  Q_OBJECT
 
  protected:
-  QTimer* timer;
-  QGraphicsSvgItem* creditsp1;
-  QGraphicsSvgItem* creditsp2;
-  QGraphicsSvgItem* creditsp3;
-  QGraphicsSvgItem* creditsp4;
+  QGraphicsSvgItem* developers;
+  QGraphicsSvgItem* thirdPartys;
+  QGraphicsSvgItem* musicCredits;
+  QGraphicsSvgItem* thanks;
 
   QPropertyAnimation* firstPart;
   QPropertyAnimation* secondPart;
