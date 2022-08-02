@@ -7,13 +7,13 @@ class Sound : public QSoundEffect {
  Q_OBJECT
 
 
- public:
+ public: // Constructor
   Sound(const QUrl url, QObject *parent = nullptr);
 
- protected:
+ protected: // Accesor (Sets and Gets)
   void setSound(const QUrl url);
 
- public:
+ public: // General Methods
   void play(bool loop);
   void pause();
 };
