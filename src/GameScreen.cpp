@@ -133,7 +133,7 @@ void GameScreen::showWin(size_t winner) {
   this->win->setWinner(winner);
   this->winningSong.play(true);
   this->setScene(this->win);
-  delete this->fight;
+  //delete this->fight;
   this->fight = nullptr;
 }
 
