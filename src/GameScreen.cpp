@@ -63,8 +63,8 @@ GameScreen::~GameScreen() {
 }
 
 void GameScreen::showCredits() {
-  this->mainSong.pause();
   Q_ASSERT(this->credits);
+  this->mainSong.pause();
   this->creditsSong.play(true);
   this->setScene(this->credits);
   this->credits->startCredits();
@@ -84,9 +84,9 @@ void GameScreen::showInstructions() {
 }
 
 void GameScreen::showMenu() {
+  Q_ASSERT(this->menu);
   this->creditsSong.pause();
   this->winningSong.pause();
-  Q_ASSERT(this->menu);
   this->mainSong.play(true);
   this->setScene(this->menu);
   #if !defined(Q_OS_ANDROID) && !defined(Q_OS_IOS)
@@ -104,7 +104,7 @@ void GameScreen::startGame() {
 }
 
 void GameScreen::startFight() {
-  this->mainSong.pause();
+  Q_ASSERT(this->fight == nullptr);
   Monster* player1 = this->monsterFactory(
                        this->selection->getPlayerChoice(1, 1),
                        this->selection->getPlayerChoice(1, 2));
@@ -115,6 +115,7 @@ void GameScreen::startFight() {
                                player1,
                                player2);
   Q_ASSERT(this->fight);
+  this->mainSong.pause();
   this->connect(this->fight, &FightScene::playerWon,
                 this, &GameScreen::showWin);
   this->fightSong.play(true);
@@ -125,12 +126,15 @@ void GameScreen::startFight() {
 }
 
 void GameScreen::showWin(size_t winner) {
-  this->fightSong.pause();
   Q_ASSERT(this->win);
+  this->disconnect(this->fight, &FightScene::playerWon,
+                this, &GameScreen::showWin);
+  this->fightSong.pause();
   this->win->setWinner(winner);
-  this->fight = nullptr;
   this->winningSong.play(true);
   this->setScene(this->win);
+  delete this->fight;
+  this->fight = nullptr;
 }
 
 Monster* GameScreen::monsterFactory(
