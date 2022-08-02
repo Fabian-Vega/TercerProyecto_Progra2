@@ -25,9 +25,11 @@ class HealthBar : public QGraphicsSvgItem {
   void monsterDied();
 
  public: // Accesors(General Purpose)
+  /// Gets the frame, or background of, the health bar
   inline QGraphicsSvgItem* getFrame() {
     return this;
   }
+  /// Gets the bar with their different colors
   inline QGraphicsSvgItem* getBar() {
     return this->bar;
   }

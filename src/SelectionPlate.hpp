@@ -37,56 +37,57 @@ class SelectionPlate : public QGraphicsSvgItem {
   void selectType(size_t buttonNumber);
 
  public: // Accesors (Sets and Gets)
+  /// Gets the base plate where the options will be displayed
   inline QGraphicsSvgItem* getBase() {
     return this;
   }
-
+  /// Gets the header for the elements
   inline QGraphicsSvgItem* getElementHeader() {
     return this->elementHeader;
   }
-
+  /// Gets the header for the types
   inline QGraphicsSvgItem* getTypeHeader() {
     return this->typeHeader;
   }
-
+  /// Gets the button corresponding to the fire element
   inline GameButton* getFireButton() {
     return this->fireButton;
   }
-
+  /// Gets the button corresponding to the water element
   inline GameButton* getWaterButton() {
     return this->waterButton;
   }
-
+  /// Gets the button corresponding to the plant element
   inline GameButton* getPlantButton() {
     return this->plantButton;
   }
-
+  /// Gets the button corresponding to the defender class
   inline GameButton* getShieldButton() {
     return this->shieldButton;
   }
-
+  /// Gets the button corresponding to the speedster class
   inline GameButton* getBootButton() {
     return this->bootButton;
   }
-
+  /// Gets the button corresponding to the attacker class
   inline GameButton* getSwordButton() {
     return this->swordButton;
   }
-
+  /// Gets the button corresponding to the action of selecting an element
   inline size_t getElementSelected() {
     return this->elementSelected;
   }
-
+  /// Gets the button corresponding to the action of selecting a type
   inline size_t getTypeSelected() {
     return this->typeSelected;
   }
 
- public:
+ public: // Initializers
   void setGroup(QString baseIdentifier);
   void setGroupPos(const double xPos,
                    const double yPos);
 
- protected:
+ protected: // Accesors(General methods)
   QGraphicsSvgItem* setItem(QGraphicsSvgItem* item,
                               QString identifier);
 
