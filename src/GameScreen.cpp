@@ -104,7 +104,7 @@ void GameScreen::startGame() {
 }
 
 void GameScreen::startFight() {
-  Q_ASSERT(this->fight == nullptr);
+  //Q_ASSERT(this->fight == nullptr);
   Monster* player1 = this->monsterFactory(
                        this->selection->getPlayerChoice(1, 1),
                        this->selection->getPlayerChoice(1, 2));
@@ -134,7 +134,7 @@ void GameScreen::showWin(size_t winner) {
   this->winningSong.play(true);
   this->setScene(this->win);
   //delete this->fight;
-  this->fight = nullptr;
+  //this->fight = nullptr;
 }
 
 Monster* GameScreen::monsterFactory(
