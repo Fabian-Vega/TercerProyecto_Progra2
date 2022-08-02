@@ -9,7 +9,7 @@ class QPropertyAnimation;
 class CreditsScene : public GameScene {
  Q_OBJECT
 
- protected:
+ protected: // Attributes
   QGraphicsSvgItem* developers;
   QGraphicsSvgItem* thirdPartys;
   QGraphicsSvgItem* musicCredits;
@@ -20,20 +20,20 @@ class CreditsScene : public GameScene {
   QPropertyAnimation* thirdPart;
   QPropertyAnimation* fourthPart;
 
- public:
+ public: // Constructors
   CreditsScene(QSvgRenderer* renderer,
                QObject *parent = nullptr);
 
- signals:
+ signals: // Signals
   void creditsEnded();
 
- protected slots:
+ protected slots: // General Methods
   void finishCredits();
 
- public:
+ public: // Initializer
   void startCredits();
 
- protected:
+ protected: // Accesors(Sets and Gets)
   void setCredits();
   QPropertyAnimation* setAnimation(
       QPropertyAnimation* animation,

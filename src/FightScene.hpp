@@ -61,7 +61,7 @@ class FightScene : public GameScene {
                  const double xPos,
                  const double yPos);
 
- protected: // General
+ protected: // General Methods
   void resolveAttack(Monster* attacker,
                      Monster* receiver,
                      size_t attackerNum);

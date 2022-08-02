@@ -40,9 +40,13 @@ class Monster : public QGraphicsSvgItem {
 
  protected: // Initializers
   void initializeMonster();
+  /// Loads an object from the Monster class
   virtual void loadMonster() = 0;
+  /// Sets the stats for the monster
   virtual void setStats() = 0;
+  /// Sets the Moves each Monster wil be using
   virtual void setMoveset();
+  /// Changes the orientation of where the monster is looking
   virtual void changeOrientation(bool orientation) = 0;
 
  public: // Accesors (general purpose)

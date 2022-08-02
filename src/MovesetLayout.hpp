@@ -30,31 +30,32 @@ class MovesetLayout : public QGraphicsSvgItem {
   void selectMove(size_t buttonNumber);
 
  public: // Accesors(Sets and Gets)
+  /// Gets the background for the moves
   inline QGraphicsSvgItem* getBase() {
     return this;
   }
-
+  /// Gets the button corresponding to the attack move
   inline GameButton* getDamageButton() {
     return this->damageMove;
   }
-
+  /// Gets the button corresponding to the defense move
   inline GameButton* getDefenseButton() {
     return this->defenseMove;
   }
-
+  /// Gets the button corresponding to the buff move
   inline GameButton* getBuffButton() {
     return this->buffMove;
   }
-
+  /// Gets the button corresponding to the debuff move
   inline GameButton* getDebuffButton() {
     return this->debuffMove;
   }
 
- public:
+ public: // General Methods
   void setLayoutPos(const double xPos,
                     const double yPos);
 
- protected:
+ protected: // Initializers
   GameButton* setButton(GameButton* button,
                         size_t buttonNumber,
                         QString identifier);
