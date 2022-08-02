@@ -43,7 +43,7 @@ class FightScene : public GameScene {
   void player1Won();
   void player2Won();
 
- protected: //
+ protected: // Initializers
   void setFight();
   void addMoves(MovesetLayout* moves);
   void addHealthBar(HealthBar* healthbar);
@@ -61,7 +61,7 @@ class FightScene : public GameScene {
                  const double xPos,
                  const double yPos);
 
- protected:
+ protected: // General
   void resolveAttack(Monster* attacker,
                      Monster* receiver,
                      size_t attackerNum);
