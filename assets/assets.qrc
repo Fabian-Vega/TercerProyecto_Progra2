@@ -6,12 +6,14 @@
         <file>ClickSound.wav</file>
         <file>DefenseSound.wav</file>
         <file>MessageSound.wav</file>
+        <file>DebuffSound.wav</file>
         <file>AttackSound.wav</file>
         <file>BuffSound.wav</file>
-        <file>DebuffSound.wav</file>
     </qresource>
     <qresource prefix="/songs">
         <file>BattleSong.wav</file>
         <file>MenuSong.wav</file>
+        <file>CreditsSong.wav</file>
+        <file>winningSong.wav</file>
     </qresource>
 </RCC>

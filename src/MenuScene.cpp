@@ -1,16 +1,18 @@
 #include "MenuScene.hpp"
 
-MenuScene::MenuScene(QSvgRenderer* renderer, QObject *parent)
+MenuScene::MenuScene(QSvgRenderer* renderer, QObject* parent)
   : GameScene(renderer, parent),
     title(nullptr),
     playButton(nullptr),
-    instrucctionsButton(nullptr) {
+    instrucctionsButton(nullptr),
+    creditsButton(nullptr) {
   this->setMenu();
 }
 
 MenuScene::~MenuScene() {
   delete this->playButton;
   delete this->instrucctionsButton;
+  delete this->creditsButton;
 }
 
 void MenuScene::setMenu() {
@@ -32,4 +34,10 @@ void MenuScene::setMenu() {
                      430, 250);
   this->connect(this->instrucctionsButton, &GameButton::pressed,
                 this, &MenuScene::instructionsPressed);
+  this->creditsButton = this->setObject(
+                     this->creditsButton,
+                     QString("creditsButton"),
+                     670, 10);
+  this->connect(this->creditsButton, &GameButton::pressed,
+                this, &MenuScene::creditsPressed);
 }

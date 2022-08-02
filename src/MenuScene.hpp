@@ -11,15 +11,17 @@ class MenuScene : public GameScene {
   QGraphicsSvgItem* title;
   GameButton* playButton;
   GameButton* instrucctionsButton;
+  GameButton* creditsButton;
 
  public:
   explicit MenuScene(QSvgRenderer* renderer,
-                     QObject *parent = nullptr);
+                     QObject* parent = nullptr);
   ~MenuScene();
 
  signals:
   void playPressed();
   void instructionsPressed();
+  void creditsPressed();
 
  protected:
   void setMenu();

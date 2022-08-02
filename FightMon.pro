@@ -6,9 +6,9 @@ CONFIG += c++17
 SOURCES += \
   src/BuffMove.cpp \
   src/Common.cpp \
+  src/CreditsScene.cpp \
   src/DamageMove.cpp \
   src/DefenseMove.cpp \
-  src/EndScene.cpp \
   src/FightScene.cpp \
   src/Game.cpp \
   src/GameButton.cpp \
@@ -26,14 +26,15 @@ SOURCES += \
   src/SpeedsterMonster.cpp \
   src/TankMonster.cpp \
   src/WarriorMonster.cpp \
+  src/WinScene.cpp \
   src/main.cpp \
 
 HEADERS += \
   src/BuffMove.hpp \
   src/Common.hpp \
+  src/CreditsScene.hpp \
   src/DamageMove.hpp \
   src/DefenseMove.hpp \
-  src/EndScene.hpp \
   src/FightScene.hpp \
   src/Game.hpp \
   src/GameButton.hpp \
@@ -50,7 +51,8 @@ HEADERS += \
   src/Sound.hpp \
   src/SpeedsterMonster.hpp \
   src/TankMonster.hpp \
-  src/WarriorMonster.hpp
+  src/WarriorMonster.hpp \
+  src/WinScene.hpp
 
 RESOURCES += \
   assets/assets.qrc
