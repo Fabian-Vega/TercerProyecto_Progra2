@@ -20,7 +20,7 @@ void GameButton::mousePressEvent(QGraphicsSceneMouseEvent* event) {
   emit this->pressed(this->buttonIdentifier);
 }
 
-void GameButton::hoverMoveEvent(QGraphicsSceneHoverEvent* event) {
+void GameButton::hoverEnterEvent(QGraphicsSceneHoverEvent* event) {
   Q_UNUSED(event);
   hover.play(false);
 }

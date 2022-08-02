@@ -22,7 +22,7 @@ class GameButton : public QGraphicsSvgItem {
 
  protected: // Event
   void mousePressEvent(QGraphicsSceneMouseEvent* event) override;
-  void hoverMoveEvent(QGraphicsSceneHoverEvent *event) override;
+  void hoverEnterEvent(QGraphicsSceneHoverEvent *event) override;
 };
 
 #endif  // GAMEBUTTON_HPP
