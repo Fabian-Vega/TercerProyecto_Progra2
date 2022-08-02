@@ -10,6 +10,8 @@ class CreditsScene : public GameScene {
  protected:
   QGraphicsSvgItem* creditsp1;
   QGraphicsSvgItem* creditsp2;
+  QGraphicsSvgItem* creditsp3;
+  QGraphicsSvgItem* creditsp4;
 
  public:
   CreditsScene(QSvgRenderer* renderer,
