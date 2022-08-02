@@ -13,10 +13,6 @@ class FightScene : public GameScene {
   Q_DISABLE_COPY_MOVE(FightScene)
 
   protected: // Attributes
-   Sound attack;
-   Sound defend;
-   Sound buff;
-   Sound debuff;
    Sound message;
    Monster* player1;
    Monster* player2;

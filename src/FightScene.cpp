@@ -11,10 +11,6 @@ FightScene::FightScene(QSvgRenderer* renderer,
                        Monster* player2,
                        QObject *parent)
   : GameScene(renderer, parent),
-    attack(attackSound, this),
-    defend(defendSound, this),
-    buff(buffSound, this),
-    debuff(debuffSound, this),
     message(messageSound, this),
     player1(player1),
     player2(player2),
@@ -137,11 +133,9 @@ void FightScene::resolveAttack(Monster* attacker,
                               size_t attackerNum){
   size_t receiverNum = 2-(attackerNum--);
   if (this->movesChosen[receiverNum] == 2) {
-    this->defend.play(false);
     this->showMessage(receiverNum+1, 2);
     if (receiver->useMove(2, receiver) &&
         this->movesChosen[attackerNum] == 1) {
-      this->attack.play(false);
       this->showMessage(attackerNum+1, 1);
       this->showMessage(attackerNum+1, 5);
       return;
@@ -160,7 +154,6 @@ void FightScene::resolveAttack(Monster* attacker,
       showMessage(attackerNum+1,
                   this->movesChosen[attackerNum]);
     }
-    this->chooseSound(movesChosen[attackerNum]);
   }
 }
 
@@ -222,20 +215,4 @@ void FightScene::setMoves(MovesetLayout* moves,
                 this, (player == 1?
                   &FightScene::changeTurn :
                   &FightScene::fight));
-}
-
-void FightScene::chooseSound(size_t action) {
-  switch(action) {
-    case 1:
-      this->attack.play(false);
-    break;
-    case 3:
-      this->buff.play(false);
-    break;
-    case 4:
-      this->debuff.play(false);
-    break;
-    default:
-    break;
-  }
 }

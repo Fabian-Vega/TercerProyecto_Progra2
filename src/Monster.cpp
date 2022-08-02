@@ -7,6 +7,7 @@
 #include "DefenseMove.hpp"
 #include "Monster.hpp"
 #include "Move.hpp"
+#include "Sound.hpp"
 
 Monster::Monster(QSvgRenderer* renderer,
                  size_t element,
@@ -14,6 +15,7 @@ Monster::Monster(QSvgRenderer* renderer,
   : QGraphicsSvgItem(parent),
     renderer(renderer),
     animation(nullptr),
+    moveSound(nullptr),
     attack(0),
     defense(0),
     speed(0),
@@ -28,6 +30,7 @@ Monster::~Monster() {
     this->moveset[move] = nullptr;
   }
   delete this->animation;
+  delete this->moveSound;
 }
 
 // Monster Initializer method
@@ -60,12 +63,11 @@ void Monster::setMoveset() {
 bool Monster::useMove(const size_t move,
                       Monster* target) {
   delete this->animation;
-  this->animation =
-      new QPropertyAnimation(this, "rotation");
-  this->animation->setDuration(500);
-  this->animation->setStartValue(0);
-  this->animation->setEndValue(360);
+  delete this->moveSound;
+  this->animation = createMoveAnimation(this, move);
   this->animation->start();
+  this->moveSound = chooseSound(move);
+  this->moveSound->play(false);
   return this->moveset[move-1]->use(this, target);
 }
 

@@ -1,7 +1,12 @@
 #ifndef COMMON_HPP
 #define COMMON_HPP
 
+#include <QPropertyAnimation>
 #include <QUrl>
+
+// Forward declarations
+class Monster;
+class Sound;
 
 static const double outOfScreenX = 1690;
 static const double outOfScreenY = 1690;
@@ -34,5 +39,9 @@ void wait(double seconds);
 
 /// Function adapted from Jeisson Hidalgo-Cespedes 2022
 int random(int min, int max);
+
+QPropertyAnimation* createMoveAnimation(Monster* monster,
+                                        size_t move);
+Sound* chooseSound(size_t move);
 
 #endif  // COMMON_HPP

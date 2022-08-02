@@ -10,6 +10,7 @@
 // Forward declaration
 class QSvgRenderer;
 class QPropertyAnimation;
+class Sound;
 
 static const std::string types[3] = {"Fire", "Water", "Plant"};
 
@@ -24,6 +25,7 @@ class Monster : public QGraphicsSvgItem {
 
   QSvgRenderer* renderer;
   QPropertyAnimation* animation;
+  Sound* moveSound;
 
   HealthType health;
   int attack;
