@@ -13,7 +13,7 @@ bool BuffMove::use(Monster* user,
   (void)user;
   switch (this->buffingStat) {
     case healthStat:
-      target->setHealth(target->getCurrentHealth()*this->buffFactor);
+      target->setHealth(target->getMaxHealth()*this->buffFactor);
     break;
 
     case attackStat:
