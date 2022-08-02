@@ -50,16 +50,20 @@ void FightScene::fight(size_t move) {
       this->resolveAttack(this->player1, this->player2, 1);
       this->player2HealthBar->updateHealthBar(
             this->player2->getCurrentHealth());
-      this->resolveAttack(this->player2, this->player1, 2);
-      this->player1HealthBar->updateHealthBar(
-            this->player1->getCurrentHealth());
+      if (player2->isAlive()) {
+        this->resolveAttack(this->player2, this->player1, 2);
+        this->player1HealthBar->updateHealthBar(
+              this->player1->getCurrentHealth());
+      }
     } else {
       this->resolveAttack(this->player2, this->player1, 2);
       this->player1HealthBar->updateHealthBar(
             this->player1->getCurrentHealth());
-      this->resolveAttack(this->player1, this->player2, 1);
-      this->player2HealthBar->updateHealthBar(
-            this->player2->getCurrentHealth());
+      if (player1->isAlive()) {
+        this->resolveAttack(this->player1, this->player2, 1);
+        this->player2HealthBar->updateHealthBar(
+              this->player2->getCurrentHealth());
+      }
     }
     std::cerr << "Player 1 stats: " << std::endl
     << "Health: " << player1->getCurrentHealth() << "/" << player1->getMaxHealth() << std::endl
