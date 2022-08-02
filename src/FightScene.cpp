@@ -88,12 +88,10 @@ void FightScene::fight(size_t move) {
 }
 
 void FightScene::player1Won() {
-  std::cerr << "\nPLAYER 1 HAS WON" << std::endl;
   emit this->playerWon(1);
 }
 
 void FightScene::player2Won() {
-  std::cerr << "\nPLAYER 2 HAS WON" << std::endl;
   emit this->playerWon(2);
 }
 
