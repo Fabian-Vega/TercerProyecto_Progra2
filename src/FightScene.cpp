@@ -175,7 +175,7 @@ void FightScene::showMessage(const size_t player,
   }
   this->message.play(false);
   this->messageBox->setPos(20, 280);
-  wait(1);
+  wait(2);
   this->messageBox->setPos(outOfScreenX, outOfScreenY);
 }
 

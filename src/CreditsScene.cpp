@@ -12,7 +12,11 @@ CreditsScene::CreditsScene(
     creditsp3(nullptr),
     creditsp4(nullptr) {
   this->setCredits();
-  this->startCredits();
+}
+
+void CreditsScene::finishCredits() {
+  wait(3);
+  emit this->creditsEnded();
 }
 
 void CreditsScene::setCredits() {
@@ -36,28 +40,33 @@ void CreditsScene::setCredits() {
 void CreditsScene::startCredits() {
   QPropertyAnimation* firstPart =
       new QPropertyAnimation(this->creditsp1, "y");
-  firstPart->setDuration(100000);
+  firstPart->setDuration(10000);
+  firstPart->setStartValue(540);
   firstPart->setEndValue(-1860);
   firstPart->start();
 
   QPropertyAnimation* secondPart =
       new QPropertyAnimation(this->creditsp2, "y");
-  secondPart->setDuration(100000);
+  secondPart->setDuration(10000);
+  secondPart->setStartValue(1340);
   secondPart->setEndValue(-1060);
   secondPart->start();
 
   QPropertyAnimation* thirdPart =
       new QPropertyAnimation(this->creditsp3, "y");
-  thirdPart->setDuration(100000);
+  thirdPart->setDuration(10000);
+  thirdPart->setStartValue(1710);
   thirdPart->setEndValue(-690);
   thirdPart->start();
 
   QPropertyAnimation* fourthPart =
       new QPropertyAnimation(this->creditsp4, "y");
-  fourthPart->setDuration(100000);
+  fourthPart->setDuration(10000);
+  fourthPart->setStartValue(2301);
   fourthPart->setEndValue(-99);
   fourthPart->start();
 
-  emit this->creditsEnded();
+  this->connect(fourthPart, &QPropertyAnimation::finished,
+               this, &CreditsScene::finishCredits);
 }
 

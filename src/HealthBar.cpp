@@ -19,6 +19,8 @@ void HealthBar::updateHealthBar(const double newHealth){
     this->currentHealth = newHealth;
     double porcentage = round(
     (this->currentHealth*10)/this->maxHealth)*10;
+    porcentage = porcentage <= 0? 10 : porcentage;
+
     this->bar->setElementId(QString("bar_%1").arg(porcentage));
 
     if (this->currentHealth <= 0) {

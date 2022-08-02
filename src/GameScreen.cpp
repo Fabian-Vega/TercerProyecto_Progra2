@@ -28,12 +28,12 @@ GameScreen::GameScreen(QWidget *parent)
     win(nullptr),
     credits(new CreditsScene(this->renderer)) {
   this->showMenu();
+  this->connect(this->menu, &MenuScene::creditsPressed,
+                this, &GameScreen::showCredits);
   this->connect(this->menu, &MenuScene::playPressed,
                 this, &GameScreen::startGame);
   this->connect(this->menu, &MenuScene::instructionsPressed,
                 this, &GameScreen::showInstructions);
-  this->connect(this->menu, &MenuScene::creditsPressed,
-                this, &GameScreen::showCredits);
   this->connect(this->instructions, &InstructionsScene::goBackPressed,
                 this, &GameScreen::showMenu);
   this->connect(this->credits, &CreditsScene::creditsEnded,
@@ -57,6 +57,7 @@ GameScreen::~GameScreen() {
   delete this->selection;
   delete this->fight;
   delete this->win;
+  delete this->credits;
 }
 
 void GameScreen::showCredits() {
@@ -64,6 +65,7 @@ void GameScreen::showCredits() {
   Q_ASSERT(this->credits);
   this->creditsSong.play(true);
   this->setScene(this->credits);
+  this->credits->startCredits();
   #if !defined(Q_OS_ANDROID) && !defined(Q_OS_IOS)
     this->setFixedSize(this->credits->width(),
                  this->credits->height());
@@ -85,6 +87,7 @@ void GameScreen::showMenu() {
   Q_ASSERT(this->menu);
   this->mainSong.play(true);
   this->setScene(this->menu);
+  this->resetCachedContent();
   #if !defined(Q_OS_ANDROID) && !defined(Q_OS_IOS)
     this->setFixedSize(this->menu->width(), this->menu->height());
   #endif

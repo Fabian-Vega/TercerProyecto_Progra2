@@ -20,9 +20,14 @@ class CreditsScene : public GameScene {
  signals:
   void creditsEnded();
 
+ protected slots:
+  void finishCredits();
+
+ public:
+  void startCredits();
+
  protected:
   void setCredits();
-  void startCredits();
 };
 
 #endif // CREDITSSCENE_HPP
