@@ -1,7 +1,7 @@
 #include "BuffMove.hpp"
 #include "Monster.hpp"
 
-BuffMove::BuffMove(const int stat,
+BuffMove::BuffMove(const size_t stat,
    const double buffFactor)
   : Move(),
     buffingStat(stat),

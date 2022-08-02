@@ -21,13 +21,13 @@ QPropertyAnimation* createMoveAnimation(Monster* monster,
                                         size_t move) {
   QPropertyAnimation* animation;
   switch (move) {
-    case 1:
+    case attackMove:
       animation =
           new QPropertyAnimation(monster, "rotation");
       animation->setStartValue(0);
       animation->setEndValue(360);
     break;
-    case 2:
+    case defenseMove:
       animation =
           new QPropertyAnimation(monster, "x");
       animation->setStartValue(monster->x());
@@ -42,14 +42,14 @@ QPropertyAnimation* createMoveAnimation(Monster* monster,
       animation->setKeyValueAt(0.9, monster->x()+4);
       animation->setEndValue(monster->x());
     break;
-    case 3:
+    case buffMove:
       animation =
           new QPropertyAnimation(monster, "scale");
       animation->setStartValue(1);
       animation->setKeyValueAt(0.5, 2);
       animation->setEndValue(1);
     break;
-    default:
+    default: // debuffMove
       animation =
           new QPropertyAnimation(monster, "scale");
       animation->setStartValue(1);
@@ -64,17 +64,34 @@ QPropertyAnimation* createMoveAnimation(Monster* monster,
 
 Sound* chooseSound(size_t move) {
   switch(move) {
-    case 1:
+    case attackMove:
       return new Sound(attackSound);
     break;
-    case 2:
+    case defenseMove:
       return new Sound(defendSound);
     break;
-    case 3:
+    case buffMove:
       return new Sound(buffSound);
     break;
-    default:
+    default: // debuffMove
       return new Sound(debuffSound);
     break;
   }
+}
+
+/// General functions
+/// Returns 0.5 if the firstType is weak to the
+/// second
+/// Returns 1.0 if the firstType is equal to the second
+/// Returns a number 1.5 if the firstType is strong to the
+/// second
+/// @remark Behavior using numbers higher than 3 or lower
+/// than 1 is undefined
+double typeRelation(const int firstType,
+  const int secondType) {
+  if (firstType == secondType) {return 1.0;
+  } else if (abs(firstType - secondType) < 2 &&
+    firstType > secondType) {return 1.5;
+  } else if (secondType == 2) {return 0.5;
+  } else {return firstType == 1? 1.5:0.5; }
 }

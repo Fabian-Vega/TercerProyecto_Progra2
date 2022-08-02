@@ -1,7 +1,6 @@
 #ifndef DEFENSEMOVE_HPP
 #define DEFENSEMOVE_HPP
 
-#include "Common.hpp"
 #include "Move.hpp"
 
 class DefenseMove : public Move {

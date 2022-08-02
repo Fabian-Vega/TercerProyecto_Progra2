@@ -1,7 +1,6 @@
 #ifndef DAMAGEMOVE_HPP
 #define DAMAGEMOVE_HPP
 
-#include "Common.hpp"
 #include "Move.hpp"
 
 class DamageMove : public Move {

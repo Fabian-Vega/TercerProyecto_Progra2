@@ -5,14 +5,13 @@
 #include <string>
 #include <vector>
 
+#include "Common.hpp"
 #include "Move.hpp"
 
 // Forward declaration
 class QSvgRenderer;
 class QPropertyAnimation;
 class Sound;
-
-static const std::string types[3] = {"Fire", "Water", "Plant"};
 
 class Monster : public QGraphicsSvgItem {
   Q_OBJECT
@@ -145,8 +144,6 @@ class Monster : public QGraphicsSvgItem {
 
  public: // General functions
   void flip(bool orientation);
-  static double typeRelation(const int firstType,
-  const int secondType);
 };
 
 #endif // MONSTER_HPP

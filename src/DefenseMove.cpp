@@ -1,6 +1,3 @@
-#include <ctime>
-#include <qglobal.h>
-
 #include "DefenseMove.hpp"
 
 DefenseMove::DefenseMove()

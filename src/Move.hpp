@@ -8,13 +8,6 @@ class Monster;
 
 class Move {
  protected:
-  // Enumeration for the different stats
-  enum Stat {
-    healthStat = 1,
-    attackStat = 2,
-    defenseStat = 3,
-    speedStat = 4
-  };
 
  public: // Rule of 4
   DECLARE_RULE4(Move, default);

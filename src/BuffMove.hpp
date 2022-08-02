@@ -1,9 +1,6 @@
 #ifndef BUFFMOVE_HPP
 #define BUFFMOVE_HPP
 
-#include <cstddef>
-
-#include "Common.hpp"
 #include "Move.hpp"
 
 class BuffMove : public Move {
@@ -18,7 +15,7 @@ class BuffMove : public Move {
   DECLARE_RULE4(BuffMove, default);
 
  public: // Constructor and destructor
-   explicit BuffMove(const int stat,
+   explicit BuffMove(const size_t stat,
    const double buffFactor = 1.5);
    ~BuffMove() = default;
 

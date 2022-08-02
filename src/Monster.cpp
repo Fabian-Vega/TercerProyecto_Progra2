@@ -74,20 +74,3 @@ bool Monster::useMove(const size_t move,
 void Monster::flip(bool orientation) {
   this->changeOrientation(orientation);
 }
-
-/// General functions
-/// Returns 0.5 if the firstType is weak to the
-/// second
-/// Returns 1.0 if the firstType is equal to the second
-/// Returns a number 1.5 if the firstType is strong to the
-/// second
-/// @remark Behavior using numbers higher than 3 or lower
-/// than 1 is undefined
-double Monster::typeRelation(const int firstType,
-  const int secondType) {
-  if (firstType == secondType) {return 1.0;
-  } else if (abs(firstType - secondType) < 2 &&
-    firstType > secondType) {return 1.5;
-  } else if (secondType == 2) {return 0.5;
-  } else {return firstType == 1? 1.5:0.5; }
-}
