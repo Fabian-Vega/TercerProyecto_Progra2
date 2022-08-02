@@ -1,5 +1,7 @@
 #include <QPropertyAnimation>
 
+#include <iostream>
+
 #include "Monster.hpp"
 #include "HealthBar.hpp"
 

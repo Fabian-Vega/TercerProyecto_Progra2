@@ -113,10 +113,10 @@ void GameScreen::startFight() {
                                player1,
                                player2);
   Q_ASSERT(this->fight);
-  this->fightSong.play(true);
-  this->setScene(this->fight);
   this->connect(this->fight, &FightScene::playerWon,
                 this, &GameScreen::showWin);
+  this->fightSong.play(true);
+  this->setScene(this->fight);
   #if !defined(Q_OS_ANDROID) && !defined(Q_OS_IOS)
     this->setFixedSize(this->fight->width(), this->fight->height());
   #endif
@@ -127,6 +127,9 @@ void GameScreen::showWin(size_t winner) {
     this->fightSong.pause();
     this->win = new WinScene(this->renderer, winner);
     Q_ASSERT(this->win);
+    this->disconnect(this->fight, &FightScene::playerWon,
+                  this, &GameScreen::showWin);
+    this->fight = nullptr;
     this->winningSong.play(true);
     this->setScene(this->win);
     this->connect(this->win, &WinScene::backToMenu,
@@ -155,8 +158,3 @@ Monster* GameScreen::monsterFactory(
 void GameScreen::wheelEvent(QWheelEvent* event) {
   Q_UNUSED(event);
 }
-
-
-
-
-

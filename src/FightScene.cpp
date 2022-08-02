@@ -27,12 +27,7 @@ FightScene::FightScene(QSvgRenderer* renderer,
 }
 
 FightScene::~FightScene() {
-  delete this->player1;
-  delete this->player2;
-  delete this->player1HealthBar;
-  delete this->player2HealthBar;
-  delete this->player1Moveset;
-  delete this->player2Moveset;
+
 }
 
 void FightScene::changeTurn(size_t move) {
@@ -93,10 +88,12 @@ void FightScene::fight(size_t move) {
 }
 
 void FightScene::player1Won() {
+  std::cerr << "\nPLAYER 1 HAS WON" << std::endl;
   emit this->playerWon(1);
 }
 
 void FightScene::player2Won() {
+  std::cerr << "\nPLAYER 2 HAS WON" << std::endl;
   emit this->playerWon(2);
 }
 

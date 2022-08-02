@@ -70,7 +70,7 @@ QPropertyAnimation* CreditsScene::setAnimation(
     const double endValue) {
   animation =
       new QPropertyAnimation(animatedObject, "y");
-  animation->setDuration(5000);
+  animation->setDuration(160000);
   animation->setStartValue(startValue);
   animation->setEndValue(endValue);
   return animation;
