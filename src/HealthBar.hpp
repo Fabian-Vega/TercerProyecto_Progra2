@@ -10,21 +10,21 @@ class Monster;
 class HealthBar : public QGraphicsSvgItem {
   Q_OBJECT
 
- protected:
+ protected: // Attributes
   QSvgRenderer* renderer;
   QGraphicsSvgItem* bar;
   double maxHealth;
   double currentHealth;
 
- public:
+ public: // Constructor
   explicit HealthBar(QSvgRenderer* renderer,
                      Monster* monster,
                      QGraphicsSvgItem *parentItem = nullptr);
 
- signals:
+ signals: // Signals
   void monsterDied();
 
- public:
+ public: // Accesors(General Purpose)
   inline QGraphicsSvgItem* getFrame() {
     return this;
   }
@@ -32,12 +32,12 @@ class HealthBar : public QGraphicsSvgItem {
     return this->bar;
   }
 
- public:
+ public: // General methods
   void updateHealthBar(const double newHealth);
   void setHealthPos(const double xPos, const double yPos);
   void flip(bool orientation);
 
- protected:
+ protected: // Accesor (Health Bar Setter)
   void setHealthBar();
 };
 

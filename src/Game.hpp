@@ -10,10 +10,10 @@ class Game : public QApplication {
   Q_OBJECT
   Q_DISABLE_COPY_MOVE(Game)
 
- protected:
+ protected: // Attributes
   GameScreen* screen;
 
- public:
+ public: // Constructor and Destructor
   explicit Game(int& argc, char** argv);
   ~Game();
   int run();

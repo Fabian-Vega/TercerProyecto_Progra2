@@ -7,23 +7,23 @@ class MenuScene : public GameScene {
   Q_OBJECT
   Q_DISABLE_COPY_MOVE(MenuScene)
 
- protected:
+ protected: // Attributes
   QGraphicsSvgItem* title;
   GameButton* playButton;
   GameButton* instrucctionsButton;
   GameButton* creditsButton;
 
- public:
+ public: // Constructor and Destructor
   explicit MenuScene(QSvgRenderer* renderer,
                      QObject* parent = nullptr);
   ~MenuScene();
 
- signals:
+ signals: // Signals
   void playPressed();
   void instructionsPressed();
   void creditsPressed();
 
- protected:
+ protected: // Initializer
   void setMenu();
 };
 

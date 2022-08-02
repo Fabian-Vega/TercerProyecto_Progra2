@@ -11,25 +11,25 @@ class QSvgRenderer;
 class MovesetLayout : public QGraphicsSvgItem {
   Q_OBJECT
 
- protected:
+ protected: // Attributes
   QSvgRenderer* renderer;
   GameButton* damageMove;
   GameButton* defenseMove;
   GameButton* buffMove;
   GameButton* debuffMove;
 
- public:
+ public: // Constructor and Destructor
   MovesetLayout(QSvgRenderer* renderer,
                 Monster* monster,
                 QGraphicsItem* parentItem = nullptr);
   ~MovesetLayout();
- signals:
+ signals: // Signals
   void moveSelected(size_t move);
 
- protected slots:
+ protected slots: // selectMove Method
   void selectMove(size_t buttonNumber);
 
- public:
+ public: // Accesors(Sets and Gets)
   inline QGraphicsSvgItem* getBase() {
     return this;
   }

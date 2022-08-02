@@ -8,18 +8,18 @@
 class GameButton : public QGraphicsSvgItem {
  Q_OBJECT
 
- private:
+ private: // Attributes
   size_t buttonIdentifier;
   Sound click;
 
- public:
+ public: // Constructor
   explicit GameButton(size_t buttonIdentifier = 0,
                       QGraphicsItem* parentItem = nullptr);
 
- signals:
+ signals: // Signals
   void pressed(size_t buttonIdentifier);
 
- protected:
+ protected: // Event
   void mousePressEvent(QGraphicsSceneMouseEvent* event) override;
 };
 

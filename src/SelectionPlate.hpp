@@ -11,7 +11,7 @@ class QSvgRenderer;
 class SelectionPlate : public QGraphicsSvgItem {
   Q_OBJECT
 
- private:
+ private: // Attributes
   QSvgRenderer* renderer;
   QGraphicsSvgItem* elementHeader;
   QGraphicsSvgItem* typeHeader;
@@ -25,18 +25,18 @@ class SelectionPlate : public QGraphicsSvgItem {
   size_t elementSelected = 0;
   size_t typeSelected = 0;
 
- public:
+ public: // Constructor
   SelectionPlate(QSvgRenderer* renderer,
                  QGraphicsItem* parentItem = nullptr);
 
- signals:
+ signals: // Signals
   void selectionDone();
 
- protected slots:
+ protected slots: // General Methods
   void selectElement(size_t buttonNumber);
   void selectType(size_t buttonNumber);
 
- public:
+ public: // Accesors (Sets and Gets)
   inline QGraphicsSvgItem* getBase() {
     return this;
   }

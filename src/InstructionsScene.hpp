@@ -7,18 +7,18 @@ class InstructionsScene : public GameScene {
   Q_OBJECT
   Q_DISABLE_COPY_MOVE(InstructionsScene)
 
- protected:
+ protected: // Attributes
   GameButton* goBackButton;
 
- public:
+ public: // Constructor and Destructor
   explicit InstructionsScene(QSvgRenderer* renderer,
                              QObject *parent = nullptr);
   ~InstructionsScene();
 
- signals:
+ signals: // Signals
   void goBackPressed();
 
- protected:
+ protected: // Initializer
   void setInstructions();
 };
 

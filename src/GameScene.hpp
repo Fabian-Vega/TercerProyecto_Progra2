@@ -15,15 +15,15 @@ class GameScene : public QGraphicsScene {
   Q_OBJECT
   Q_DISABLE_COPY_MOVE(GameScene)
 
- protected:
+ protected: // Attributes
   QSvgRenderer* renderer;
   QGraphicsSvgItem* background;
 
- public:
+ public: // Constructor
   explicit GameScene(QSvgRenderer* renderer,
                      QObject* parent = nullptr);
 
- public:
+ public: // Accesors
   inline qreal height() const {
     return this->getBackground()->boundingRect().height();
   }
@@ -37,7 +37,7 @@ class GameScene : public QGraphicsScene {
     return this->background;
   }
 
- protected:
+ protected: // Initializers
   QGraphicsSvgItem* setObject(QGraphicsSvgItem* object,
                  const QString identifier,
                  const double xPos,
