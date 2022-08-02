@@ -36,54 +36,60 @@ FightScene::~FightScene() {
 }
 
 void FightScene::changeTurn(size_t move) {
-  this->movesChosen[0] = move;
-  this->showMessage(2, 0);
-  this->swapPositions(this->player1, this->player2,
-                      this->player1HealthBar,
-                      this->player2HealthBar,
-                      this->player1Moveset,
-                      this->player2Moveset);
+  if (this->movesChosen[0] == 0) {
+    this->movesChosen[0] = move;
+    this->showMessage(2, 0);
+    this->swapPositions(this->player1, this->player2,
+                        this->player1HealthBar,
+                        this->player2HealthBar,
+                        this->player1Moveset,
+                        this->player2Moveset);
+  }
 }
 
 void FightScene::fight(size_t move) {
-  this->movesChosen[1] = move;
+  if (this->movesChosen[1] == 0) {
+    this->movesChosen[1] = move;
 
-  if (this->player1->getSpeed() >= this->player2->getSpeed()) {
-    this->resolveAttack(this->player1, this->player2, 1);
-    this->player2HealthBar->updateHealthBar(
-          this->player2->getCurrentHealth());
-    this->resolveAttack(this->player2, this->player1, 2);
-    this->player1HealthBar->updateHealthBar(
-          this->player1->getCurrentHealth());
-  } else {
-    this->resolveAttack(this->player2, this->player1, 2);
-    this->player1HealthBar->updateHealthBar(
-          this->player1->getCurrentHealth());
-    this->resolveAttack(this->player1, this->player2, 1);
-    this->player2HealthBar->updateHealthBar(
-          this->player2->getCurrentHealth());
+    if (this->player1->getSpeed() >= this->player2->getSpeed()) {
+      this->resolveAttack(this->player1, this->player2, 1);
+      this->player2HealthBar->updateHealthBar(
+            this->player2->getCurrentHealth());
+      this->resolveAttack(this->player2, this->player1, 2);
+      this->player1HealthBar->updateHealthBar(
+            this->player1->getCurrentHealth());
+    } else {
+      this->resolveAttack(this->player2, this->player1, 2);
+      this->player1HealthBar->updateHealthBar(
+            this->player1->getCurrentHealth());
+      this->resolveAttack(this->player1, this->player2, 1);
+      this->player2HealthBar->updateHealthBar(
+            this->player2->getCurrentHealth());
+    }
+    std::cerr << "Player 1 stats: " << std::endl
+    << "Health: " << player1->getCurrentHealth() << "/" << player1->getMaxHealth() << std::endl
+    << "Attack: " << player1->getAttack() << std::endl
+    << "Defense: " << player1->getDefense() << std::endl
+    << "Speed: " << player1->getSpeed() << std::endl
+    << "Type: " << player1->getTypeName() << std::endl << std::endl;
+
+    std::cerr << "Player 2 stats: " << std::endl
+    << "Health: " << player2->getCurrentHealth() << "/" << player2->getMaxHealth() << std::endl
+    << "Attack: " << player2->getAttack() << std::endl
+    << "Defense: " << player2->getDefense() << std::endl
+    << "Speed: " << player2->getSpeed() << std::endl
+    << "Type: " << player2->getTypeName() << std::endl << std::endl;
+
+    wait(0.5);
+    this->showMessage(1, 0);
+    this->swapPositions(this->player2, this->player1,
+                        this->player2HealthBar,
+                        this->player1HealthBar,
+                        this->player2Moveset,
+                        this->player1Moveset);
+    this->movesChosen[0] = 0;
+    this->movesChosen[1] = 0;
   }
-  std::cerr << "Player 1 stats: " << std::endl
-  << "Health: " << player1->getCurrentHealth() << "/" << player1->getMaxHealth() << std::endl
-  << "Attack: " << player1->getAttack() << std::endl
-  << "Defense: " << player1->getDefense() << std::endl
-  << "Speed: " << player1->getSpeed() << std::endl
-  << "Type: " << player1->getTypeName() << std::endl << std::endl;
-
-  std::cerr << "Player 2 stats: " << std::endl
-  << "Health: " << player2->getCurrentHealth() << "/" << player2->getMaxHealth() << std::endl
-  << "Attack: " << player2->getAttack() << std::endl
-  << "Defense: " << player2->getDefense() << std::endl
-  << "Speed: " << player2->getSpeed() << std::endl
-  << "Type: " << player2->getTypeName() << std::endl << std::endl;
-
-  wait(0.5);
-  this->showMessage(1, 0);
-  this->swapPositions(this->player2, this->player1,
-                      this->player2HealthBar,
-                      this->player1HealthBar,
-                      this->player2Moveset,
-                      this->player1Moveset);
 }
 
 void FightScene::player1Won() {

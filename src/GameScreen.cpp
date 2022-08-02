@@ -2,7 +2,8 @@
 #include <QGraphicsSvgItem>
 #include <QSvgRenderer>
 
-#include "EndScene.hpp"
+#include "CreditsScene.hpp"
+#include "WinScene.hpp"
 #include "FightScene.hpp"
 #include "GameScreen.hpp"
 #include "InstructionsScene.hpp"
@@ -18,18 +19,24 @@ GameScreen::GameScreen(QWidget *parent)
     renderer(new QSvgRenderer(QString(":/images/assets.svg"), this)),
     mainSong(menuSong, this),
     fightSong(battleSong, this),
-    endingSong(endSong, this),
+    winningSong(winSong, this),
+    creditsSong(finalSong, this),
     menu(new MenuScene(this->renderer)),
     instructions(new InstructionsScene(this->renderer)),
     selection(new SelectionScene(this->renderer)),
     fight(nullptr),
-    end(nullptr) {
+    win(nullptr),
+    credits(new CreditsScene(this->renderer)) {
   this->showMenu();
   this->connect(this->menu, &MenuScene::playPressed,
                 this, &GameScreen::startGame);
   this->connect(this->menu, &MenuScene::instructionsPressed,
                 this, &GameScreen::showInstructions);
+  this->connect(this->menu, &MenuScene::creditsPressed,
+                this, &GameScreen::showCredits);
   this->connect(this->instructions, &InstructionsScene::goBackPressed,
+                this, &GameScreen::showMenu);
+  this->connect(this->credits, &CreditsScene::creditsEnded,
                 this, &GameScreen::showMenu);
   this->connect(this->selection, &SelectionScene::continuePressed,
                 this, &GameScreen::startFight);
@@ -49,7 +56,18 @@ GameScreen::~GameScreen() {
   delete this->instructions;
   delete this->selection;
   delete this->fight;
-  delete this->end;
+  delete this->win;
+}
+
+void GameScreen::showCredits() {
+  this->mainSong.pause();
+  Q_ASSERT(this->credits);
+  this->creditsSong.play(true);
+  this->setScene(this->credits);
+  #if !defined(Q_OS_ANDROID) && !defined(Q_OS_IOS)
+    this->setFixedSize(this->credits->width(),
+                 this->credits->height());
+  #endif
 }
 
 void GameScreen::showInstructions() {
@@ -62,7 +80,8 @@ void GameScreen::showInstructions() {
 }
 
 void GameScreen::showMenu() {
-  this->endingSong.pause();
+  this->creditsSong.pause();
+  this->winningSong.pause();
   Q_ASSERT(this->menu);
   this->mainSong.play(true);
   this->setScene(this->menu);
@@ -95,20 +114,20 @@ void GameScreen::startFight() {
   this->fightSong.play(true);
   this->setScene(this->fight);
   this->connect(this->fight, &FightScene::playerWon,
-                this, &GameScreen::showEndScreen);
+                this, &GameScreen::showWin);
   #if !defined(Q_OS_ANDROID) && !defined(Q_OS_IOS)
     this->setFixedSize(this->fight->width(), this->fight->height());
   #endif
 }
 
-void GameScreen::showEndScreen(size_t winner) {
-  if (end == nullptr) {
+void GameScreen::showWin(size_t winner) {
+  if (win == nullptr) {
     this->fightSong.pause();
-    this->end = new EndScene(this->renderer, winner);
-    Q_ASSERT(this->end);
-    this->endingSong.play(true);
-    this->setScene(this->end);
-    this->connect(this->end, &EndScene::backToMenu,
+    this->win = new WinScene(this->renderer, winner);
+    Q_ASSERT(this->win);
+    this->winningSong.play(true);
+    this->setScene(this->win);
+    this->connect(this->win, &WinScene::backToMenu,
                   this, &GameScreen::showMenu);
   }
 }

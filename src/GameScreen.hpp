@@ -6,7 +6,8 @@
 #include "Sound.hpp"
 
 // Forward declarations
-class EndScene;
+class CreditsScene;
+class WinScene;
 class FightScene;
 class InstructionsScene;
 class MenuScene;
@@ -22,23 +23,27 @@ class GameScreen : public QGraphicsView {
   QSvgRenderer* renderer;
   Sound mainSong;
   Sound fightSong;
-  Sound endingSong;
+  Sound winningSong;
+  Sound creditsSong;
+
   MenuScene* menu;
   InstructionsScene* instructions;
   SelectionScene* selection;
   FightScene* fight;
-  EndScene* end;
+  WinScene* win;
+  CreditsScene* credits;
 
  public:
   explicit GameScreen(QWidget* parent = nullptr);
   ~GameScreen();
 
  protected slots:
+  void showCredits();
   void showInstructions();
   void showMenu();
   void startGame();
   void startFight();
-  void showEndScreen(size_t winner);
+  void showWin(size_t winner);
 
  protected:
   Monster* monsterFactory(size_t element, size_t type) const;

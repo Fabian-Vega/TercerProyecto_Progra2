@@ -15,7 +15,8 @@ static const QUrl messageSound("qrc:/sounds/MessageSound.wav");
 
 static const QUrl menuSong("qrc:/songs/MenuSong.wav");
 static const QUrl battleSong("qrc:/songs/BattleSong.wav");
-static const QUrl endSong("qrc:/songs/BattleSong.wav");
+static const QUrl winSong("qrc:/songs/winningSong.wav");
+static const QUrl finalSong("qrc:/songs/CreditsSong.wav");
 
 static const float generalVolume = 0.50f;
 
