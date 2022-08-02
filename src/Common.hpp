@@ -7,6 +7,7 @@ static const double outOfScreenX = 1690;
 static const double outOfScreenY = 1690;
 
 static const QUrl clickSound("qrc:/sounds/ClickSound.wav");
+static const QUrl hoverSound("qrc:/sounds/HoverSound.wav");
 static const QUrl attackSound("qrc:/sounds/AttackSound.wav");
 static const QUrl defendSound("qrc:/sounds/DefenseSound.wav");
 static const QUrl buffSound("qrc:/sounds/BuffSound.wav");

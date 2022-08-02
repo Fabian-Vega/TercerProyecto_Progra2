@@ -87,7 +87,6 @@ void GameScreen::showMenu() {
   Q_ASSERT(this->menu);
   this->mainSong.play(true);
   this->setScene(this->menu);
-  this->resetCachedContent();
   #if !defined(Q_OS_ANDROID) && !defined(Q_OS_IOS)
     this->setFixedSize(this->menu->width(), this->menu->height());
   #endif

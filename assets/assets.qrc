@@ -9,6 +9,7 @@
         <file>DebuffSound.wav</file>
         <file>AttackSound.wav</file>
         <file>BuffSound.wav</file>
+        <file>HoverSound.wav</file>
     </qresource>
     <qresource prefix="/songs">
         <file>BattleSong.wav</file>
