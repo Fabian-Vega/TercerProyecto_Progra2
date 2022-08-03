@@ -41,7 +41,7 @@ void HealthBar::setHealthPos(const double xPos,
                              const bool orientation) {
   this->setPos(xPos, yPos);
   this->bar->setPos(xPos+10.5, yPos+(orientation?
-                       this->upPos():10.5));
+                       this->upPos():18.5));
 }
 
 void HealthBar::flip(bool orientation) {
