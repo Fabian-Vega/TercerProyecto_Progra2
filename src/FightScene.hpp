@@ -1,3 +1,5 @@
+// Copyright [2022] <Alejandro B, Fabian V, Kenneth V>
+
 #ifndef FIGHTSCENE_HPP
 #define FIGHTSCENE_HPP
 
@@ -34,7 +36,7 @@ class FightScene : public GameScene {
  signals: // Signals
   void playerWon(size_t player);
 
- protected slots: // General Functions
+ protected slots: // Slots
   void changeTurn(size_t move);
   void fight(size_t move);
   void player1Won();
@@ -72,7 +74,6 @@ class FightScene : public GameScene {
                      HealthBar* secondHealthBar,
                      MovesetLayout* firstMoveset,
                      MovesetLayout* secondMoveset);
-  void chooseSound(size_t action);
 };
 
 #endif // FIGHTSCENE_HPP

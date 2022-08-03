@@ -1,3 +1,5 @@
+// Copyright [2022] <Alejandro B, Fabian V, Kenneth V>
+
 #ifndef HEALTHBAR_HPP
 #define HEALTHBAR_HPP
 
@@ -24,7 +26,7 @@ class HealthBar : public QGraphicsSvgItem {
  signals: // Signals
   void monsterDied();
 
- public: // Accesors(General Purpose)
+ public: // Accesors (General Purpose)
   /// Gets the frame, or background of, the health bar
   inline QGraphicsSvgItem* getFrame() {
     return this;
@@ -41,7 +43,7 @@ class HealthBar : public QGraphicsSvgItem {
                     const bool orientation = true);
   void flip(bool orientation);
 
- protected: // Accesor (Health Bar Setter)
+ protected: // Initializer
   void setHealthBar();
 
  protected: // Handy math functions

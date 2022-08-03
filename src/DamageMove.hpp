@@ -1,3 +1,5 @@
+// Copyright [2022] <Alejandro B, Fabian V, Kenneth V>
+
 #ifndef DAMAGEMOVE_HPP
 #define DAMAGEMOVE_HPP
 

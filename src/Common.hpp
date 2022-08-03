@@ -1,3 +1,5 @@
+// Copyright [2022] <Alejandro B, Fabian V, Kenneth V>
+
 #ifndef COMMON_HPP
 #define COMMON_HPP
 
@@ -56,15 +58,21 @@ enum MoveNum {
   debuffMove = 4
 };
 
+/// Holds the systme for a number of seconds
 void wait(double seconds);
 
 /// Function adapted from Jeisson Hidalgo-Cespedes 2022
+/// returns a random number between min and max
 int random(int min, int max);
 
+/// Creates the proper animation based on the move
 QPropertyAnimation* createMoveAnimation(Monster* monster,
                                         size_t move);
+
+/// Creates the proper sound based on the move
 Sound* chooseSound(size_t move);
 
+/// Returns the elemetal type modifier
 double typeRelation(const int firstType,
 const int secondType);
 

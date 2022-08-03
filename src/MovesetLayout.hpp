@@ -1,3 +1,5 @@
+// Copyright [2022] <Alejandro B, Fabian V, Kenneth V>
+
 #ifndef MOVESETLAYOUT_H
 #define MOVESETLAYOUT_H
 
@@ -26,10 +28,11 @@ class MovesetLayout : public QGraphicsSvgItem {
  signals: // Signals
   void moveSelected(size_t move);
 
- protected slots: // selectMove Method
+ protected slots: // Slots
+  /// selectMove Method
   void selectMove(size_t buttonNumber);
 
- public: // Accesors(Sets and Gets)
+ public: // Accesors
   /// Gets the background for the moves
   inline QGraphicsSvgItem* getBase() {
     return this;

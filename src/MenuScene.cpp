@@ -1,3 +1,5 @@
+// Copyright [2022] <Alejandro B, Fabian V, Kenneth V>
+
 #include "MenuScene.hpp"
 
 MenuScene::MenuScene(QSvgRenderer* renderer, QObject* parent)

@@ -1,3 +1,5 @@
+// Copyright [2022] <Alejandro B, Fabian V, Kenneth V>
+
 #ifndef INSTRUCTIONSSCENE_HPP
 #define INSTRUCTIONSSCENE_HPP
 

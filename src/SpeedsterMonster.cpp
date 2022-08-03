@@ -1,3 +1,5 @@
+// Copyright [2022] <Alejandro B, Fabian V, Kenneth V>
+
 #include <QGraphicsSvgItem>
 #include <QSvgRenderer>
 
@@ -12,7 +14,6 @@ SpeedsterMonster::SpeedsterMonster(
 }
 
 void SpeedsterMonster::loadMonster() {
-  this->setSharedRenderer(this->renderer);
   this->setElementId(
         QString("MonsterRight_%1_2").arg(this->elementalType));
 }

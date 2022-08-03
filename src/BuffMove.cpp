@@ -1,3 +1,5 @@
+// Copyright [2022] <Alejandro B, Fabian V, Kenneth V>
+
 #include "BuffMove.hpp"
 #include "Monster.hpp"
 
@@ -13,7 +15,7 @@ bool BuffMove::use(Monster* user,
   (void)user;
   switch (this->buffingStat) {
     case healthStat:
-      target->setHealth(target->getMaxHealth()*this->buffFactor);
+      target->setHealth(target->getMaxHealth()*0.30);
     break;
 
     case attackStat:

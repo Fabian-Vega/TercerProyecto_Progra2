@@ -1,3 +1,5 @@
+// Copyright [2022] <Alejandro B, Fabian V, Kenneth V>
+
 #include <QPropertyAnimation>
 
 #include <iostream>
@@ -20,7 +22,7 @@ void HealthBar::updateHealthBar(const double newHealth,
                                 const bool orientation){
   if (newHealth != this->currentHealth) {
     this->currentHealth = newHealth;
-    double porcentage = this->getHealthPorcentage();
+    int porcentage = this->getHealthPorcentage();
     porcentage = porcentage <= 0? 10 : porcentage;
 
     this->bar->setElementId(QString("bar_%1").arg(porcentage));
@@ -39,7 +41,7 @@ void HealthBar::setHealthPos(const double xPos,
                              const bool orientation) {
   this->setPos(xPos, yPos);
   this->bar->setPos(xPos+10.5, yPos+(orientation?
-                       this->upPos():18.5));
+                       this->upPos():10.5));
 }
 
 void HealthBar::flip(bool orientation) {

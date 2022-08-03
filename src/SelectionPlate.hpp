@@ -1,3 +1,5 @@
+// Copyright [2022] <Alejandro B, Fabian V, Kenneth V>
+
 #ifndef SELECTIONPLATE_HPP
 #define SELECTIONPLATE_HPP
 
@@ -32,11 +34,11 @@ class SelectionPlate : public QGraphicsSvgItem {
  signals: // Signals
   void selectionDone();
 
- protected slots: // General Methods
+ protected slots: // Slots
   void selectElement(size_t buttonNumber);
   void selectType(size_t buttonNumber);
 
- public: // Accesors (Sets and Gets)
+ public: // Accesors
   /// Gets the base plate where the options will be displayed
   inline QGraphicsSvgItem* getBase() {
     return this;

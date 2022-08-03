@@ -1,3 +1,5 @@
+// Copyright [2022] <Alejandro B, Fabian V, Kenneth V>
+
 #include "GameScene.hpp"
 
 GameScene::GameScene(QSvgRenderer* renderer, QObject* parent)

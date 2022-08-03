@@ -1,3 +1,5 @@
+// Copyright [2022] <Alejandro B, Fabian V, Kenneth V>
+
 #include <QSoundEffect>
 #include <QGraphicsSvgItem>
 #include <QSvgRenderer>
@@ -14,7 +16,7 @@
 #include "TankMonster.hpp"
 #include "WarriorMonster.hpp"
 
-GameScreen::GameScreen(QWidget *parent)
+GameScreen::GameScreen(QWidget* parent)
   : QGraphicsView(parent),
     renderer(new QSvgRenderer(assets, this)),
     mainSong(menuSong, this),

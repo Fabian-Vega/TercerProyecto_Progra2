@@ -1,3 +1,5 @@
+// Copyright [2022] <Alejandro B, Fabian V, Kenneth V>
+
 #ifndef MOVE_HPP
 #define MOVE_HPP
 
@@ -7,8 +9,6 @@
 class Monster;
 
 class Move {
- protected:
-
  public: // Rule of 4
   DECLARE_RULE4(Move, default);
 

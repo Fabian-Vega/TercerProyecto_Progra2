@@ -1,3 +1,5 @@
+// Copyright [2022] <Alejandro B, Fabian V, Kenneth V>
+
 #ifndef WARRIORMONSTER_HPP
 #define WARRIORMONSTER_HPP
 
@@ -11,7 +13,7 @@ class WarriorMonster : public Monster {
 
   public: // Constructor and destructor
    explicit WarriorMonster(QSvgRenderer* renderer,
-                    size_t type = 0,
+                    size_t type = 1,
                     QGraphicsSvgItem* parent = nullptr);
    ~WarriorMonster() = default;
 

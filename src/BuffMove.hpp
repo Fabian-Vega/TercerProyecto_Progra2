@@ -1,3 +1,5 @@
+// Copyright [2022] <Alejandro B, Fabian V, Kenneth V>
+
 #ifndef BUFFMOVE_HPP
 #define BUFFMOVE_HPP
 

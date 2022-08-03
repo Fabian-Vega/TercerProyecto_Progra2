@@ -1,3 +1,5 @@
+// Copyright [2022] <Alejandro B, Fabian V, Kenneth V>
+
 #ifndef MENUSCENE_HPP
 #define MENUSCENE_HPP
 

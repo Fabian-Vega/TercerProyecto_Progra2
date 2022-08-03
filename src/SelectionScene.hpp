@@ -25,11 +25,11 @@ class SelectionScene : public GameScene {
  signals: // Signals
   void continuePressed();
 
- protected slots: // General Methods
+ protected slots: // Slots
   void finishFirstSelection();
   void finishSecondSelection();
 
- public: // Accesor(sets and gets)
+ public: // Accesor
   size_t getPlayerChoice (size_t player, size_t category);
 
  protected:
