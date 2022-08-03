@@ -1,10 +1,15 @@
+// Copyright [2022] <Alejandro B, Fabian V, Kenneth V>
+
 #include <QCoreApplication>
 #include <QTime>
 #include <QRandomGenerator>
 
 #include "Common.hpp"
 #include "Monster.hpp"
+#include "SpeedsterMonster.hpp"
+#include "TankMonster.hpp"
 #include "Sound.hpp"
+#include "WarriorMonster.hpp"
 
 void wait(double seconds) {
     QTime stoppingTime = QTime::currentTime().addSecs(seconds);
@@ -49,12 +54,15 @@ QPropertyAnimation* createMoveAnimation(Monster* monster,
       animation->setKeyValueAt(0.5, 2);
       animation->setEndValue(1);
     break;
-    default: // debuffMove
+    case debuffMove: // debuffMove
       animation =
           new QPropertyAnimation(monster, "scale");
       animation->setStartValue(1);
       animation->setKeyValueAt(0.5, 0.5);
       animation->setEndValue(1);
+    break;
+    default:
+      return nullptr;
     break;
   }
   animation->setDuration(500);
@@ -73,8 +81,29 @@ Sound* chooseSound(size_t move) {
     case buffMove:
       return new Sound(buffSound);
     break;
-    default: // debuffMove
+    case debuffMove:
       return new Sound(debuffSound);
+    break;
+    default:
+      return nullptr;
+    break;
+  }
+}
+
+Monster* monsterFactory(QSvgRenderer* renderer,
+    size_t element, size_t type) {
+  switch(type) {
+    case tank:
+      return new TankMonster(renderer, element);
+    break;
+    case speedster:
+      return new SpeedsterMonster(renderer, element);
+    break;
+    case warrior:
+      return new WarriorMonster(renderer, element);
+    break;
+    default:
+      return nullptr;
     break;
   }
 }

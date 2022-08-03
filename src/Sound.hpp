@@ -1,3 +1,5 @@
+// Copyright [2022] <Alejandro B, Fabian V, Kenneth V>
+
 #ifndef SOUND_HPP
 #define SOUND_HPP
 
@@ -8,7 +10,7 @@ class Sound : public QSoundEffect {
 
 
  public: // Constructor
-  Sound(const QUrl url, QObject *parent = nullptr);
+  Sound(const QUrl url, QObject* parent = nullptr);
 
  protected: // Accesor (Sets and Gets)
   void setSound(const QUrl url);

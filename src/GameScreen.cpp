@@ -1,3 +1,5 @@
+// Copyright [2022] <Alejandro B, Fabian V, Kenneth V>
+
 #include <QSoundEffect>
 #include <QGraphicsSvgItem>
 #include <QSvgRenderer>
@@ -10,11 +12,8 @@
 #include "MenuScene.hpp"
 #include "Monster.hpp"
 #include "SelectionScene.hpp"
-#include "SpeedsterMonster.hpp"
-#include "TankMonster.hpp"
-#include "WarriorMonster.hpp"
 
-GameScreen::GameScreen(QWidget *parent)
+GameScreen::GameScreen(QWidget* parent)
   : QGraphicsView(parent),
     renderer(new QSvgRenderer(assets, this)),
     mainSong(menuSong, this),
@@ -112,10 +111,10 @@ void GameScreen::startGame() {
 }
 
 void GameScreen::startFight() {
-  Monster* player1 = this->monsterFactory(
+  Monster* player1 = monsterFactory(this->renderer,
                        this->selection->getPlayerChoice(1, 1),
                        this->selection->getPlayerChoice(1, 2));
-  Monster* player2 = this->monsterFactory(
+  Monster* player2 = monsterFactory(this->renderer,
                        this->selection->getPlayerChoice(2, 1),
                        this->selection->getPlayerChoice(2, 2));
   this->fight = new FightScene(this->renderer,
@@ -141,24 +140,6 @@ void GameScreen::showWin(size_t winner) {
   this->winningSong.play(true);
   this->setScene(this->win);
   this->oldFights.push_back(this->fight);
-}
-
-Monster* GameScreen::monsterFactory(
-    size_t element, size_t type) const {
-  switch(type) {
-    case 1:
-      return new TankMonster(this->renderer, element);
-    break;
-    case 2:
-      return new SpeedsterMonster(this->renderer, element);
-    break;
-    case 3:
-      return new WarriorMonster(this->renderer, element);
-    break;
-    default:
-      return nullptr;
-    break;
-  }
 }
 
 void GameScreen::wheelEvent(QWheelEvent* event) {

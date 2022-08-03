@@ -1,7 +1,9 @@
+// Copyright [2022] <Alejandro B, Fabian V, Kenneth V>
+
 #include "Common.hpp"
 #include "Sound.hpp"
 
-Sound::Sound(const QUrl url, QObject *parent)
+Sound::Sound(const QUrl url, QObject* parent)
   : QSoundEffect(parent) {
   this->setSound(url);
 }

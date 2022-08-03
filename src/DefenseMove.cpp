@@ -1,3 +1,5 @@
+// Copyright [2022] <Alejandro B, Fabian V, Kenneth V>
+
 #include "DefenseMove.hpp"
 
 DefenseMove::DefenseMove()
@@ -9,5 +11,5 @@ bool DefenseMove::use(Monster* user,
   Q_UNUSED(user);
   Q_UNUSED(target);
 
-  return random(1, 100) % 2 == 0? true:false;
+  return random(1, 100) <= 70? true:false;
 }

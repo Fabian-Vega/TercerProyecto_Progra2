@@ -1,3 +1,5 @@
+// Copyright [2022] <Alejandro B, Fabian V, Kenneth V>
+
 #ifndef GAMESCREEN_HPP
 #define GAMESCREEN_HPP
 
@@ -20,23 +22,24 @@ class SelectionScene;
 class GameScreen : public QGraphicsView {
   Q_OBJECT
 
- protected:
+ protected: // Attributes
   QSvgRenderer* renderer;
+  /// Songs
   Sound mainSong;
   Sound fightSong;
   Sound winningSong;
   Sound creditsSong;
-
+  /// Scenes
   MenuScene* menu;
   InstructionsScene* instructions;
   SelectionScene* selection;
   FightScene* fight;
   WinScene* win;
   CreditsScene* credits;
-
+  /// Fights history
   std::vector<FightScene*> oldFights;
 
- public:
+ public: // C
   explicit GameScreen(QWidget* parent = nullptr);
   ~GameScreen();
 
@@ -49,7 +52,6 @@ class GameScreen : public QGraphicsView {
   void showWin(size_t winner);
 
  protected:
-  Monster* monsterFactory(size_t element, size_t type) const;
   void wheelEvent(QWheelEvent *event) override;
 };
 

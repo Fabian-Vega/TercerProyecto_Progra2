@@ -1,3 +1,5 @@
+// Copyright [2022] <Alejandro B, Fabian V, Kenneth V>
+
 #include <QGraphicsScene>
 #include <QSoundEffect>
 
@@ -11,7 +13,7 @@ GameButton::GameButton(size_t buttonIdentifier,
     click(clickSound),
     hover(hoverSound) {
   this->setAcceptHoverEvents(true),
-      this->setFocus();
+  this->setFocus();
 }
 
 void GameButton::mousePressEvent(QGraphicsSceneMouseEvent* event) {

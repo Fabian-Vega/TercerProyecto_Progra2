@@ -1,3 +1,5 @@
+// Copyright [2022] <Alejandro B, Fabian V, Kenneth V>
+
 #ifndef MONSTER_HPP
 #define MONSTER_HPP
 
@@ -14,7 +16,7 @@ class QPropertyAnimation;
 class Sound;
 
 class Monster : public QGraphicsSvgItem {
-  Q_OBJECT
+ Q_OBJECT
 
  protected: // Attributes
   struct HealthType {
@@ -38,9 +40,9 @@ class Monster : public QGraphicsSvgItem {
 
  public: // Constructor and destructor
   explicit Monster(QSvgRenderer* renderer,
-                   size_t element = 0,
-                   QGraphicsSvgItem *parent = nullptr);
-  ~Monster();
+                   size_t element = 1,
+                   QGraphicsSvgItem* parent = nullptr);
+  virtual ~Monster();
 
  protected: // Initializers
   void initializeMonster();

@@ -1,3 +1,5 @@
+// Copyright [2022] <Alejandro B, Fabian V, Kenneth V>
+
 #ifndef GAMESCENE_HPP
 #define GAMESCENE_HPP
 
@@ -33,7 +35,7 @@ class GameScene : public QGraphicsScene {
     return this->getBackground()->boundingRect().width();
   }
 
- protected:
+ protected: // Accesors
   inline QGraphicsSvgItem* getBackground() const {
     return this->background;
   }

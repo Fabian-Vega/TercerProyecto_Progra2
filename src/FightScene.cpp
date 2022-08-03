@@ -1,4 +1,4 @@
-#include <iostream>
+// Copyright [2022] <Alejandro B, Fabian V, Kenneth V>
 
 #include "Common.hpp"
 #include "FightScene.hpp"
@@ -61,19 +61,6 @@ void FightScene::fight(size_t move) {
               this->player2->getCurrentHealth(), true);
       }
     }
-    std::cerr << "Player 1 stats: " << std::endl
-    << "Health: " << player1->getCurrentHealth() << "/" << player1->getMaxHealth() << std::endl
-    << "Attack: " << player1->getAttack() << std::endl
-    << "Defense: " << player1->getDefense() << std::endl
-    << "Speed: " << player1->getSpeed() << std::endl
-    << "Type: " << player1->getTypeName() << std::endl << std::endl;
-
-    std::cerr << "Player 2 stats: " << std::endl
-    << "Health: " << player2->getCurrentHealth() << "/" << player2->getMaxHealth() << std::endl
-    << "Attack: " << player2->getAttack() << std::endl
-    << "Defense: " << player2->getDefense() << std::endl
-    << "Speed: " << player2->getSpeed() << std::endl
-    << "Type: " << player2->getTypeName() << std::endl << std::endl;
 
     wait(0.5);
     this->showMessage(1, 0);

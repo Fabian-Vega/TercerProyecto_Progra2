@@ -1,3 +1,5 @@
+// Copyright [2022] <Alejandro B, Fabian V, Kenneth V>
+
 #ifndef SPEEDSTERMONSTER_HPP
 #define SPEEDSTERMONSTER_HPP
 
@@ -11,7 +13,7 @@ class SpeedsterMonster : public Monster {
 
   public: // Constructor and destructor
    explicit SpeedsterMonster(QSvgRenderer* renderer,
-                    size_t type = 0,
+                    size_t type = 1,
                     QGraphicsSvgItem* parent = nullptr);
    ~SpeedsterMonster() = default;
 

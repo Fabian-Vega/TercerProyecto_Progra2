@@ -1,3 +1,5 @@
+// Copyright [2022] <Alejandro B, Fabian V, Kenneth V>
+
 #ifndef CREDITSSCENE_HPP
 #define CREDITSSCENE_HPP
 
@@ -28,13 +30,13 @@ class CreditsScene : public GameScene {
  signals: // Signals
   void creditsEnded();
 
- protected slots: // General Methods
+ protected slots: // Slots
   void finishCredits();
 
- public: // Initializer
+ public: // General functions
   void startCredits();
 
- protected: // Accesors(Sets and Gets)
+ protected: // Initializer
   void setCredits();
   QPropertyAnimation* setAnimation(
       QPropertyAnimation* animation,

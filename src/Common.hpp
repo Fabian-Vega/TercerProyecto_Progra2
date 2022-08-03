@@ -1,3 +1,5 @@
+// Copyright [2022] <Alejandro B, Fabian V, Kenneth V>
+
 #ifndef COMMON_HPP
 #define COMMON_HPP
 
@@ -7,6 +9,7 @@
 
 // Forward declarations
 class Monster;
+class QSvgRenderer;
 class Sound;
 
 static const std::string types[3] = {"Fire", "Water", "Plant"};
@@ -40,6 +43,20 @@ static const float generalVolume = 0.50f;
 #define DISABLE_COPY(Class) \
   DECLARE_RULE4(Class, delete)
 
+// Enumeration for the different monster elements
+enum elementEnum {
+  fire = 1,
+  water = 2,
+  plant = 3
+};
+
+// Enumeration for the different monster tyoes
+enum typeEnum {
+  tank = 1,
+  speedster = 2,
+  warrior = 3
+};
+
 // Enumeration for the different stats
 enum StatNum {
   healthStat = 1,
@@ -56,15 +73,26 @@ enum MoveNum {
   debuffMove = 4
 };
 
+/// Holds the systme for a number of seconds
 void wait(double seconds);
 
 /// Function adapted from Jeisson Hidalgo-Cespedes 2022
+/// returns a random number between min and max
 int random(int min, int max);
 
+/// Creates the proper animation based on the move
 QPropertyAnimation* createMoveAnimation(Monster* monster,
                                         size_t move);
+
+/// Creates the proper sound based on the move
 Sound* chooseSound(size_t move);
 
+/// Creates the proper monster based on the element
+/// and type
+Monster* monsterFactory(QSvgRenderer* renderer,
+                        size_t element, size_t type);
+
+/// Returns the elemetal type modifier
 double typeRelation(const int firstType,
 const int secondType);
 
