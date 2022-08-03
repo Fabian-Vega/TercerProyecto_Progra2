@@ -45,20 +45,20 @@ void FightScene::fight(size_t move) {
     if (this->player1->getSpeed() >= this->player2->getSpeed()) {
       this->resolveAttack(this->player1, this->player2, 1);
       this->player2HealthBar->updateHealthBar(
-            this->player2->getCurrentHealth());
+            this->player2->getCurrentHealth(), true);
       if (player2->isAlive()) {
         this->resolveAttack(this->player2, this->player1, 2);
         this->player1HealthBar->updateHealthBar(
-              this->player1->getCurrentHealth());
+              this->player1->getCurrentHealth(), false);
       }
     } else {
       this->resolveAttack(this->player2, this->player1, 2);
       this->player1HealthBar->updateHealthBar(
-            this->player1->getCurrentHealth());
+            this->player1->getCurrentHealth(), false);
       if (player1->isAlive()) {
         this->resolveAttack(this->player1, this->player2, 1);
         this->player2HealthBar->updateHealthBar(
-              this->player2->getCurrentHealth());
+              this->player2->getCurrentHealth(), true);
       }
     }
     std::cerr << "Player 1 stats: " << std::endl
@@ -103,9 +103,9 @@ void FightScene::setFight() {
   this->player2->flip(false);
   this->setMonster(this->player2, 470, 26);
 
-  this->setHealthBar(this->player1HealthBar, 1, 20, 20);
+  this->setHealthBar(this->player1HealthBar, 1, 20, 20, true);
   this->player2HealthBar->flip(false);
-  this->setHealthBar(this->player2HealthBar, 2, 670, 20);
+  this->setHealthBar(this->player2HealthBar, 2, 670, 20, false);
 
   this->setMoves(this->player1Moveset, 1, 20, 280);
   this->setMoves(this->player2Moveset, 2, outOfScreenX, outOfScreenY);
@@ -182,8 +182,8 @@ void FightScene::swapPositions(Monster* first, Monster* second,
   secondHealthBar->flip(true);
   first->setPos(470, 26);
   second->setPos(140, 120);
-  firstHealthBar->setHealthPos(670, 20);
-  secondHealthBar->setHealthPos(20, 20);
+  firstHealthBar->setHealthPos(670, 20, false);
+  secondHealthBar->setHealthPos(20, 20, true);
   firstMoveset->setLayoutPos(outOfScreenX, outOfScreenX);
   secondMoveset->setLayoutPos(20, 280);
 }
@@ -198,8 +198,9 @@ void FightScene::setMonster(Monster* monster,
 void FightScene::setHealthBar(HealthBar* healthBar,
                            const size_t player,
                            const double xPos,
-                           const double yPos) {
-  healthBar->setHealthPos(xPos, yPos);
+                           const double yPos,
+                           const bool orientation) {
+  healthBar->setHealthPos(xPos, yPos, orientation);
   this->addHealthBar(healthBar);
   this->connect(healthBar, &HealthBar::monsterDied,
                 this, (player == 1?

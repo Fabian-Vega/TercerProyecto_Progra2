@@ -35,12 +35,28 @@ class HealthBar : public QGraphicsSvgItem {
   }
 
  public: // General methods
-  void updateHealthBar(const double newHealth);
-  void setHealthPos(const double xPos, const double yPos);
+  void updateHealthBar(const double newHealth,
+                       const bool orientation = true);
+  void setHealthPos(const double xPos, const double yPos,
+                    const bool orientation = true);
   void flip(bool orientation);
 
  protected: // Accesor (Health Bar Setter)
   void setHealthBar();
+
+ protected: // Handy math functions
+  /// Returns the current porcentage of health
+  /// reamining
+  inline int getHealthPorcentage() const {
+    return round(
+          (this->currentHealth*10)/this->maxHealth)*10;
+  }
+
+  /// Calclulates the position in the y axis
+  /// when the bar is nor inverted
+  inline int upPos() const {
+    return (11 - this->getHealthPorcentage()/10)*20 + 6;
+  }
 };
 
 #endif // HEALTHBAR_HPP

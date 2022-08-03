@@ -14,6 +14,7 @@ class FightScene : public GameScene {
 
   protected: // Attributes
    Sound message;
+   ///Monsters
    Monster* player1;
    Monster* player2;
    HealthBar* player1HealthBar;
@@ -50,7 +51,8 @@ class FightScene : public GameScene {
   void setHealthBar(HealthBar* healthBar,
                  const size_t player,
                  const double xPos,
-                 const double yPos);
+                 const double yPos,
+                 const bool orientation);
 
   void setMoves(MovesetLayout* moves,
                  const size_t player,
