@@ -18,11 +18,11 @@ void SpeedsterMonster::loadMonster() {
 }
 
 void SpeedsterMonster::setStats() {
-  this->health.maxHealth = 60;
-  this->health.currentHealth = 60;
-  this->attack = 90;
-  this->defense = 60;
-  this->speed = 90;
+  this->health.maxHealth = 90;
+  this->health.currentHealth = 90;
+  this->attack = 120;
+  this->defense = 80;
+  this->speed = 100;
 }
 
 void SpeedsterMonster::changeOrientation(bool orientation) {
