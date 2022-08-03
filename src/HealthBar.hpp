@@ -55,7 +55,7 @@ class HealthBar : public QGraphicsSvgItem {
   /// Calclulates the position in the y axis
   /// when the bar is nor inverted
   inline int upPos() const {
-    return (11 - this->getHealthPorcentage()/10)*20 + 6;
+    return (11 - this->getHealthPorcentage()/10)*20-2;
   }
 };
 
