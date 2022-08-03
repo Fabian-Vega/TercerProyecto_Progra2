@@ -52,7 +52,6 @@ class GameScreen : public QGraphicsView {
   void showWin(size_t winner);
 
  protected:
-  Monster* monsterFactory(size_t element, size_t type) const;
   void wheelEvent(QWheelEvent *event) override;
 };
 

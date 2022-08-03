@@ -9,6 +9,7 @@
 
 // Forward declarations
 class Monster;
+class QSvgRenderer;
 class Sound;
 
 static const std::string types[3] = {"Fire", "Water", "Plant"};
@@ -85,6 +86,11 @@ QPropertyAnimation* createMoveAnimation(Monster* monster,
 
 /// Creates the proper sound based on the move
 Sound* chooseSound(size_t move);
+
+/// Creates the proper monster based on the element
+/// and type
+Monster* monsterFactory(QSvgRenderer* renderer,
+                        size_t element, size_t type);
 
 /// Returns the elemetal type modifier
 double typeRelation(const int firstType,

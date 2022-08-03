@@ -6,7 +6,10 @@
 
 #include "Common.hpp"
 #include "Monster.hpp"
+#include "SpeedsterMonster.hpp"
+#include "TankMonster.hpp"
 #include "Sound.hpp"
+#include "WarriorMonster.hpp"
 
 void wait(double seconds) {
     QTime stoppingTime = QTime::currentTime().addSecs(seconds);
@@ -80,6 +83,24 @@ Sound* chooseSound(size_t move) {
     break;
     case debuffMove:
       return new Sound(debuffSound);
+    break;
+    default:
+      return nullptr;
+    break;
+  }
+}
+
+Monster* monsterFactory(QSvgRenderer* renderer,
+    size_t element, size_t type) {
+  switch(type) {
+    case tank:
+      return new TankMonster(renderer, element);
+    break;
+    case speedster:
+      return new SpeedsterMonster(renderer, element);
+    break;
+    case warrior:
+      return new WarriorMonster(renderer, element);
     break;
     default:
       return nullptr;
