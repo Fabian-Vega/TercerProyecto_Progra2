@@ -182,6 +182,8 @@ void FightScene::swapPositions(Monster* first, Monster* second,
   secondHealthBar->flip(true);
   first->setPos(470, 26);
   second->setPos(140, 120);
+  firstHealthBar->setHealthPos(670, 20);
+  secondHealthBar->setHealthPos(20, 20);
   firstMoveset->setLayoutPos(outOfScreenX, outOfScreenX);
   secondMoveset->setLayoutPos(20, 280);
 }
