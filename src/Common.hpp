@@ -42,6 +42,20 @@ static const float generalVolume = 0.50f;
 #define DISABLE_COPY(Class) \
   DECLARE_RULE4(Class, delete)
 
+// Enumeration for the different monster elements
+enum elementEnum {
+  fire = 1,
+  water = 2,
+  plant = 3
+};
+
+// Enumeration for the different monster tyoes
+enum typeEnum {
+  tank = 1,
+  speedster = 2,
+  warrior = 3
+};
+
 // Enumeration for the different stats
 enum StatNum {
   healthStat = 1,

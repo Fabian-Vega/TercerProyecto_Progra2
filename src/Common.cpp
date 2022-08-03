@@ -51,12 +51,15 @@ QPropertyAnimation* createMoveAnimation(Monster* monster,
       animation->setKeyValueAt(0.5, 2);
       animation->setEndValue(1);
     break;
-    default: // debuffMove
+    case debuffMove: // debuffMove
       animation =
           new QPropertyAnimation(monster, "scale");
       animation->setStartValue(1);
       animation->setKeyValueAt(0.5, 0.5);
       animation->setEndValue(1);
+    break;
+    default:
+      return nullptr;
     break;
   }
   animation->setDuration(500);
@@ -75,8 +78,11 @@ Sound* chooseSound(size_t move) {
     case buffMove:
       return new Sound(buffSound);
     break;
-    default: // debuffMove
+    case debuffMove:
       return new Sound(debuffSound);
+    break;
+    default:
+      return nullptr;
     break;
   }
 }

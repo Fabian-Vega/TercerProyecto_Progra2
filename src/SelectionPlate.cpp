@@ -2,8 +2,9 @@
 
 #include <QSvgRenderer>
 
-#include "SelectionPlate.hpp"
+#include "Common.hpp"
 #include "GameButton.hpp"
+#include "SelectionPlate.hpp"
 
 SelectionPlate::SelectionPlate(QSvgRenderer* renderer,
                                QGraphicsItem* parentItem)
@@ -21,19 +22,19 @@ SelectionPlate::SelectionPlate(QSvgRenderer* renderer,
 
 void SelectionPlate::selectElement(size_t buttonNumber) {
   switch(buttonNumber) {
-    case 1:
+    case fire:
       this->fireButton->setElementId(QString("fireButtonOn"));
       this->waterButton->setElementId(QString("waterButtonOff"));
       this->plantButton->setElementId(QString("plantButtonOff"));
     break;
 
-    case 2:
+    case water:
       this->fireButton->setElementId(QString("fireButtonOff"));
       this->waterButton->setElementId(QString("waterButtonOn"));
       this->plantButton->setElementId(QString("plantButtonOff"));
     break;
 
-    case 3:
+    case plant:
       this->fireButton->setElementId(QString("fireButtonOff"));
       this->waterButton->setElementId(QString("waterButtonOff"));
       this->plantButton->setElementId(QString("plantButtonOn"));
@@ -47,19 +48,19 @@ void SelectionPlate::selectElement(size_t buttonNumber) {
 
 void SelectionPlate::selectType(size_t buttonNumber) {
   switch(buttonNumber) {
-    case 1:
+    case tank:
       this->shieldButton->setElementId(QString("shieldButtonOn"));
       this->bootButton->setElementId(QString("bootButtonOff"));
       this->swordButton->setElementId(QString("swordButtonOff"));
     break;
 
-    case 2:
+    case speedster:
       this->shieldButton->setElementId(QString("shieldButtonOff"));
       this->bootButton->setElementId(QString("bootButtonOn"));
       this->swordButton->setElementId(QString("swordButtonOff"));
     break;
 
-    case 3:
+    case warrior:
       this->shieldButton->setElementId(QString("shieldButtonOff"));
       this->bootButton->setElementId(QString("bootButtonOff"));
       this->swordButton->setElementId(QString("swordButtonOn"));
