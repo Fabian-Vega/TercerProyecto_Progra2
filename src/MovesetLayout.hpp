@@ -22,7 +22,7 @@ class MovesetLayout : public QGraphicsSvgItem {
   MovesetLayout(QSvgRenderer* renderer,
                 Monster* monster,
                 QGraphicsItem* parentItem = nullptr);
-  ~MovesetLayout();
+
  signals: // Signals
   void moveSelected(size_t move);
 

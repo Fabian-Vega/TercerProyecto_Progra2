@@ -10,9 +10,7 @@ MenuScene::MenuScene(QSvgRenderer* renderer, QObject* parent)
 }
 
 MenuScene::~MenuScene() {
-  delete this->playButton;
-  delete this->instrucctionsButton;
-  delete this->creditsButton;
+  this->clear();
 }
 
 void MenuScene::setMenu() {

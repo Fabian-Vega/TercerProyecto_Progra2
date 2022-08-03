@@ -8,7 +8,7 @@ InstructionsScene::InstructionsScene(QSvgRenderer* renderer,
 }
 
 InstructionsScene::~InstructionsScene() {
-  delete goBackButton;
+  this->clear();
 }
 
 void InstructionsScene::setInstructions() {

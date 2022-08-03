@@ -23,7 +23,7 @@ FightScene::FightScene(QSvgRenderer* renderer,
 }
 
 FightScene::~FightScene() {
-
+  this->clear();
 }
 
 void FightScene::changeTurn(size_t move) {

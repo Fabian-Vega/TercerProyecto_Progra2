@@ -9,7 +9,7 @@ WinScene::WinScene(QSvgRenderer* renderer,
 }
 
 WinScene::~WinScene() {
-  delete this->goBackButton;
+  this->clear();
 }
 
 void WinScene::setWinScene() {

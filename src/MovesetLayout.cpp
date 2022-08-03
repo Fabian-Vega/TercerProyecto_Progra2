@@ -16,13 +16,6 @@ MovesetLayout::MovesetLayout(QSvgRenderer* renderer,
   this->setMovesetLayout(monster);
 }
 
-MovesetLayout::~MovesetLayout() {
-  delete this->damageMove;
-  delete this->defenseMove;
-  delete this->buffMove;
-  delete this->debuffMove;
-}
-
 void MovesetLayout::selectMove(size_t buttonNumber) {
   emit this->moveSelected(buttonNumber);
 }

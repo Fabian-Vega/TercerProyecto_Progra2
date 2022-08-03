@@ -18,6 +18,10 @@ CreditsScene::CreditsScene(
   this->setCredits();
 }
 
+CreditsScene::~CreditsScene() {
+  this->clear();
+}
+
 void CreditsScene::finishCredits() {
   this->firstPart->stop();
   this->secondPart->stop();

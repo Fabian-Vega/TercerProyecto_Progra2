@@ -2,6 +2,7 @@
 #define GAMESCREEN_HPP
 
 #include <QGraphicsView>
+#include <vector>
 
 #include "Sound.hpp"
 
@@ -32,6 +33,8 @@ class GameScreen : public QGraphicsView {
   FightScene* fight;
   WinScene* win;
   CreditsScene* credits;
+
+  std::vector<FightScene*> oldFights;
 
  public:
   explicit GameScreen(QWidget* parent = nullptr);

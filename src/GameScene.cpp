@@ -6,6 +6,10 @@ GameScene::GameScene(QSvgRenderer* renderer, QObject* parent)
   background(nullptr) {
 }
 
+GameScene::~GameScene() {
+  this->clear();
+}
+
 QGraphicsSvgItem* GameScene::setObject(
     QGraphicsSvgItem* object,
     const QString identifier,

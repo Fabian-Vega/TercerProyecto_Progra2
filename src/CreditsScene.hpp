@@ -20,9 +20,10 @@ class CreditsScene : public GameScene {
   QPropertyAnimation* thirdPart;
   QPropertyAnimation* fourthPart;
 
- public: // Constructors
+ public: // Constructor and destructor
   CreditsScene(QSvgRenderer* renderer,
                QObject *parent = nullptr);
+  ~CreditsScene();
 
  signals: // Signals
   void creditsEnded();

@@ -26,7 +26,8 @@ GameScreen::GameScreen(QWidget *parent)
     selection(new SelectionScene(this->renderer)),
     fight(nullptr),
     win(new WinScene(this->renderer)),
-    credits(new CreditsScene(this->renderer)) {
+    credits(new CreditsScene(this->renderer)),
+    oldFights() {
 
   this->connect(this->menu, &MenuScene::creditsPressed,
                 this, &GameScreen::showCredits);
@@ -60,6 +61,13 @@ GameScreen::~GameScreen() {
   delete this->fight;
   delete this->win;
   delete this->credits;
+
+  for (size_t oldFight = 0;
+       oldFight < this->oldFights.size();
+       ++oldFight) {
+    delete this->oldFights[oldFight];
+  }
+  this->oldFights.clear();
 }
 
 void GameScreen::showCredits() {
@@ -104,7 +112,6 @@ void GameScreen::startGame() {
 }
 
 void GameScreen::startFight() {
-  //Q_ASSERT(this->fight == nullptr);
   Monster* player1 = this->monsterFactory(
                        this->selection->getPlayerChoice(1, 1),
                        this->selection->getPlayerChoice(1, 2));
@@ -133,8 +140,7 @@ void GameScreen::showWin(size_t winner) {
   this->win->setWinner(winner);
   this->winningSong.play(true);
   this->setScene(this->win);
-  //delete this->fight;
-  //this->fight = nullptr;
+  this->oldFights.push_back(this->fight);
 }
 
 Monster* GameScreen::monsterFactory(

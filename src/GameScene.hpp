@@ -22,6 +22,7 @@ class GameScene : public QGraphicsScene {
  public: // Constructor
   explicit GameScene(QSvgRenderer* renderer,
                      QObject* parent = nullptr);
+  virtual ~GameScene();
 
  public: // Accesors
   inline qreal height() const {
